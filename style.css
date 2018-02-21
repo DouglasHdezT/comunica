@@ -722,6 +722,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .section-containers{
         display: none;
     }
+    .section-container-scrolling{
+        background: #bdc3c7;
+    }
+    .view{
+        border-left: 2px #7f8c8d solid;
+    }
     .principal-banner{
         width: 100%;
     }
