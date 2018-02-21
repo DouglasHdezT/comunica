@@ -491,12 +491,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     
 }
 /*MEDIA QUERIES SCREENS*/
-@media all  and (min-width: 769px) and (max-width: 992px){
+@media screen  and (min-width: 769px) and (max-width: 992px){
     .post{
         height: 200px !important;
     }
 }
-@media all and (min-width: 577px) and (max-width: 768px){
+@media screen and (min-width: 577px) and (max-width: 768px){
     body{
         margin-top: 90px !important;
     }
@@ -520,7 +520,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     }
     
 }
-@media all and (max-width: 576px){
+@media screen and (max-width: 576px){
     .post{
         height: auto !important;
     }
