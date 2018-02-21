@@ -772,6 +772,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .no-slide{
         display: none;
     }
+    .ScrollUp{
+        left: 70%;
+    }
 
 }
 /*--------------------------------------*/
