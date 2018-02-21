@@ -162,7 +162,7 @@ if ( have_posts() ) {
             </div>
             
             <div class="slide-movil">
-            <section id="slideshow">
+            <section id="slideshow-movil">
                 <?php
                 if ( have_posts() ) {
                     while ( have_posts() ) {
