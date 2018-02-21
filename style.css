@@ -683,7 +683,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 }
 .slidesjs-pagination{
     position: absolute;
-    height: 500px
+    top: 500px
 }
 
 /*MEDIA QUERIES SCREENS*/
