@@ -111,7 +111,7 @@ if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();?>
                         <?php if($contador%3 != 0 ){?>
-                           <div class="col-md-4">
+                           <div class="col-sm-4">
                             
                             
                             <div class="card mb-3  slider-container">
@@ -132,7 +132,7 @@ if ( have_posts() ) {
                             </div>
                             </div>
                         <?php }else{ ?>
-                               <div class="col-md-4">
+                               <div class="col-sm-4">
                                 <div class="card mb-3  slider-container">
                                   <h3 class="card-header"><?php the_category(',');?></h3>
                                   <?php
@@ -172,7 +172,7 @@ if ( have_posts() ) {
                 if(in_category('Multimedia')){
                     if($posCount<3){
             ?>
-                   <div class="col-sm-6">
+                   <div class="col-md-6">
                         <div class="card text-white bg-primary mb-3">
                           <div class="card-body">
                             <?php
