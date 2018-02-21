@@ -733,7 +733,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .secondary-post{
         max-width: 100% !important;
     }
-    
+    .slide-movil{
+        display: block;
+    }
+    .no-slide{
+        display: none;
+    }
 }
 @media screen and (max-width: 576px){
     .post{
