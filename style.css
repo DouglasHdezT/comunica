@@ -743,7 +743,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .no-slide{
         display: none;
     }
-    #slideshow , .slidesjs-container{
+    #slideshow-movil , .slidesjs-container{
         height: 500px !important;
     }
     .slidesjs-pagination{
