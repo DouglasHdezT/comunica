@@ -229,7 +229,7 @@ ul.drak-ul-footer > li:hover{
     /*background: #072844;*/
     background: #bdc3c7;
     color: #fff;
-    padding: 35px;
+    padding: 25px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -724,6 +724,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     }
     .section-container-scrolling{
         background: #bdc3c7;
+        top: 95px;
+        height: calc(100vh - 95px);
     }
     .view{
         border-left: 1px #7f8c8d solid;
