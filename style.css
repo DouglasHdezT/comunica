@@ -522,7 +522,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
         height: auto !important;
     }
     .logo-container{
-        background-position: 15% 15%;
+        background-position: 15% 25%;
     }
     .secondary-post{
         max-width: 100% !important;
@@ -532,6 +532,10 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 @media screen and (max-width: 576px){
     .post{
         height: auto !important;
+    }
+    .logo-container{
+        background-position: 15% 22%;
+        background-size: 100%;
     }
     .secondary-post{
         max-width: 100% !important;
