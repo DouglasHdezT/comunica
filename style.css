@@ -736,6 +736,6 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 .result_content p{
     color: black;
 }
-#slideshow{
-    height: 550px;
+#slideshow , .slidesjs-container{
+    height: 550px !important;
 }
