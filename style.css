@@ -526,7 +526,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
         height: 150px;
     }
     .secondary-post{
-        max-width: 100%;
+        max-width: 100% !important;
     }
     
 }
@@ -534,7 +534,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .post{
         height: auto !important;
     }
-
+    .secondary-post{
+        max-width: 100% !important;
+    }
 
 }
 /*--------------------------------------*/
