@@ -86,7 +86,7 @@
         <div class="reset"></div>
     </nav>
     <nav class="dark-blue-nav-movil">
-       <div id="menu-movil" class="buttom">
+       <div id="menu-movil" class="buttom" style="width:37%;margin-top:10px">
            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
