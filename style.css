@@ -226,7 +226,8 @@ ul.drak-ul-footer > li:hover{
 }
 .dark-blue-nav-movil{
     display: none;
-    background: #072844;
+    /*background: #072844;*/
+    background: #7f8c8d;
     color: #fff;
     padding: 25px;
     position: fixed;
