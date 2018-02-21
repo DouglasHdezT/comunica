@@ -172,7 +172,7 @@ if ( have_posts() ) {
                 if(in_category('Multimedia')){
                     if($posCount<3){
             ?>
-                   <div class="col-xs-6">
+                   <div class="col-sm-6">
                         <div class="card text-white bg-primary mb-3">
                           <div class="card-body">
                             <?php
