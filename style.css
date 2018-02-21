@@ -493,12 +493,15 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
     .post{
-        height: 200px !important;
+        height: auto !important;
+    }
+    .space{
+        display: block;
     }
 }
 @media screen and (max-width: 768px){
     body{
-        margin-top: 90px !important;
+        margin-top: 80px !important;
     }
     .dark-blue-nav{
         display: none;
@@ -518,11 +521,17 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .post{
         height: auto !important;
     }
+    .logo-container{
+        background-position: 2% 50%;
+    }
     
 }
 @media screen and (max-width: 576px){
     .post{
         height: auto !important;
+    }
+    .logo-container{
+        width: 80%;
     }
 }
 /*--------------------------------------*/

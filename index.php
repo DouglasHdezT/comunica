@@ -52,6 +52,7 @@ if ( have_posts() ) {
                 } // end if
                 ?>
             </div>
+            <br class="space">
             <div class="col-lg-6">
                 <?php 
                 $counter = 0;
@@ -98,6 +99,7 @@ if ( have_posts() ) {
 
         </div>
         <br>
+        
         <div class="row">
           <div class="col-md-12">
            <div class="no-slide">
@@ -170,7 +172,7 @@ if ( have_posts() ) {
                 if(in_category('Multimedia')){
                     if($posCount<3){
             ?>
-                   <div class="col-lg-6">
+                   <div class="col-md-6">
                         <div class="card text-white bg-primary mb-3">
                           <div class="card-body">
                             <?php
