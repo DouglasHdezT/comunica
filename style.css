@@ -685,6 +685,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     position: absolute;
     top: 500px
 }
+.slide-movil{
+    display: none;
+}
 
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
