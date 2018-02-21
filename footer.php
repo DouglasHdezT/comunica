@@ -59,8 +59,9 @@ if(is_front_page()){ ?>
 
 <script>
 $(function(){
+    
   $("#slideshow").slidesjs({
-    height: 370,
+    height: $('#slideshow').height(),
     navegation: false,
     effect: {
       slide: {
