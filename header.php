@@ -87,7 +87,7 @@
     </nav>
     <nav class="dark-blue-nav-movil">
        <div id="menu-movil" class="buttom" style="width:37%;margin-top:10px">
-           <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+           <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
        </div>
        <div class="logo-nav">
            <img src="<?php bloginfo('template_url') ?>/assets/images/navScroll.png">
