@@ -227,7 +227,7 @@ ul.drak-ul-footer > li:hover{
 .dark-blue-nav-movil{
     display: none;
     /*background: #072844;*/
-    background: #7f8c8d;
+    background: #bdc3c7;
     color: #fff;
     padding: 25px;
     position: fixed;
@@ -708,7 +708,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 }
 @media screen and (max-width: 768px){
     body{
-        margin-top: 80px !important;
+        margin-top: 100px !important;
     }
     .dark-blue-nav{
         display: none;
