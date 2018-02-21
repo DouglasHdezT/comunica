@@ -52,7 +52,6 @@ if ( have_posts() ) {
                 } // end if
                 ?>
             </div>
-            <br class="space">
             <div class="col-lg-6">
                 <?php 
                 $counter = 0;
@@ -62,7 +61,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post_views != $total_views[0] ){
                                 if($counter < 2){?>
-                               <div class=" col-sm-6">
+                               <div class=" col-sm-6 col-md-6">
                                 <div class="card bg-secondary mb-3">
                                    <div class="container-post">
                                         <?php
