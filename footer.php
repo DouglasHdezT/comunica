@@ -24,7 +24,7 @@
             ));
         ?>
         <!--FORMULARIO DE BUSQUEDA-->
-        <div class="ft-search padre">
+        <div class="ft-search padre" style="width:100%">
         
            <?php get_search_form(); ?>
             
