@@ -735,6 +735,10 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     }
     .slide-movil{
         display: block;
+        overflow: hidden;
+    }
+    .slider-hght{
+        height: auto;
     }
     .no-slide{
         display: none;

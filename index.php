@@ -163,11 +163,11 @@ if ( have_posts() ) {
             
             <div class="slide-movil">
             <section id="slideshow">
-                <div class="slide">
                 <?php
                 if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();?>
+                          <div class="slide">
                            <div class="col">
                             <div class="card mb-3  slider-container">
                               <h3 class="card-header"><?php the_category(',');?></h3>
@@ -186,11 +186,12 @@ if ( have_posts() ) {
                               </div>
                             </div>
                             </div>
+                            </div>
                            <?php 
                         }
                     } // end while
                 ?>
-                </div>
+                
             </section>
             </div>
             
