@@ -52,6 +52,7 @@ if ( have_posts() ) {
                 } // end if
                 ?>
             </div>
+            <br class="space">
             <div class="col-lg-6">
                 <?php 
                 $counter = 0;
