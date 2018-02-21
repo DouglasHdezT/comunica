@@ -694,6 +694,13 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .space{
         display: block;
     }
+    #slideshow , .slidesjs-container{
+    height: 600px !important;
+    }
+    .slidesjs-pagination{
+        position: absolute;
+        top: 500px
+    }
 }
 @media screen and (max-width: 768px){
     body{
