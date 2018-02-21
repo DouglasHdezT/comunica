@@ -522,7 +522,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
         height: auto !important;
     }
     .logo-container{
-        background-position: 2% 50%;
+        background-position: 15% 15%;
+        height: 150px;
     }
     
 }
@@ -530,9 +531,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     .post{
         height: auto !important;
     }
-    .logo-container{
-        width: 80%;
-    }
+
 }
 /*--------------------------------------*/
 .home-link {
