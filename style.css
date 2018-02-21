@@ -493,65 +493,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 .space{
     display: none;
 }
-/*MEDIA QUERIES SCREENS*/
-@media screen and (max-width: 992px){
-    .post{
-        height: auto !important;
-    }
-    .space{
-        display: block;
-    }
-}
-@media screen and (max-width: 768px){
-    body{
-        margin-top: 80px !important;
-    }
-    .dark-blue-nav{
-        display: none;
-    }
-    .dark-blue-nav-scrolling{
-        display: none !important;
-    }
-    .dark-blue-nav-movil{
-        display: block;
-    }
-    .section-containers{
-        display: none;
-    }
-    .principal-banner{
-        width: 100%;
-    }
-    .post{
-        height: auto !important;
-    }
-    .logo-container{
-        background-position: 15% 25%;
-    }
-    .secondary-post{
-        max-width: 100% !important;
-    }
-    
-}
-@media screen and (max-width: 576px){
-    .post{
-        height: auto !important;
-    }
-    .logo-container{
-        background-position: 15% 70%;
-        background-size: 100%;
-    }
-    .secondary-post{
-        max-width: 100% !important;
-    }
-    .space{
-        display: block;
-    }
-    body{
-        margin-top: 10px !important;
-    }
 
-}
-/*--------------------------------------*/
 .home-link {
     display: inline-block;
     color: white;
@@ -739,3 +681,67 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 #slideshow , .slidesjs-container{
     height: 550px !important;
 }
+.slidesjs-pagination{
+    position: absolute;
+    height: 500px
+}
+
+/*MEDIA QUERIES SCREENS*/
+@media screen and (max-width: 992px){
+    .post{
+        height: auto !important;
+    }
+    .space{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        margin-top: 80px !important;
+    }
+    .dark-blue-nav{
+        display: none;
+    }
+    .dark-blue-nav-scrolling{
+        display: none !important;
+    }
+    .dark-blue-nav-movil{
+        display: block;
+    }
+    .section-containers{
+        display: none;
+    }
+    .principal-banner{
+        width: 100%;
+    }
+    .post{
+        height: auto !important;
+    }
+    .logo-container{
+        background-position: 15% 25%;
+    }
+    .secondary-post{
+        max-width: 100% !important;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .post{
+        height: auto !important;
+    }
+    .logo-container{
+        background-position: 15% 70%;
+        background-size: 100%;
+    }
+    .secondary-post{
+        max-width: 100% !important;
+    }
+    .space{
+        display: block;
+    }
+    body{
+        margin-top: 10px !important;
+    }
+
+}
+/*--------------------------------------*/
