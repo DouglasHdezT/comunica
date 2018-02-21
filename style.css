@@ -764,6 +764,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     body{
         margin-top: 10px !important;
     }
+    .no-slide{
+        display: none;
+    }
 
 }
 /*--------------------------------------*/
