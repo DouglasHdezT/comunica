@@ -115,6 +115,7 @@ if ( have_posts() ) {
             <div class="slide-movil">
             <section id="slideshow-movil">
                 <?php
+                $query_posts('');
                 if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();?>
