@@ -155,6 +155,7 @@ if ( have_posts() ) {
         <h2>Multimedia</h2>
         <div class="row">
             <?php
+            rewind_posts();
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post(); ?>
