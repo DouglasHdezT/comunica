@@ -182,6 +182,8 @@ if ( have_posts() ) {
                     </div>
 
         <?php           }
+                    }else{
+                        echo "no hay ni mierda"
                     }
             ?>
         </div>
