@@ -148,9 +148,9 @@ if ( have_posts() ) {
             
             </div>
         </div>
-        
-        <div class="row">
+
         <h2>Multimedia</h2>
+        <div class="row">
             <?php
             $postCount = 0;
             if ( have_posts() ) {
