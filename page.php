@@ -22,6 +22,7 @@
         if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
+                    $flag=true;
                     $view_per_post =  get_post_views(get_the_ID());
                     $total_views[] =  $view_per_post; 
                     rsort($total_views);
@@ -30,7 +31,7 @@
                     $post_views = get_post_views(get_the_ID());
                     foreach($post_categories as $post_category_obj){
                         $post_category = $post_category_obj->name;
-                        if($post_category == $name_category && $post_views == $total_views[0] ){
+                        if($post_category == $name_category && $post_views == $total_views[0] && $flag ){
                             ?>
                                 <div class="col">
                                     <div class="container-post">
@@ -56,6 +57,7 @@
                                 </div>
                             
                 <?php }
+                        $flag=false;
                     }
                 }// end while
             } // end if
