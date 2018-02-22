@@ -152,6 +152,7 @@ if ( have_posts() ) {
         <div class="row">
             <?php
             $postCount = 0;
+            $query_post('');
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post();
@@ -185,6 +186,7 @@ if ( have_posts() ) {
                     $posCount++;
                 } // end while
             } // end if
+            wp_reset_query();
             ?>
         </div>
     </section>
