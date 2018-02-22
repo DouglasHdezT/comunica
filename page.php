@@ -33,7 +33,7 @@
                         $post_category = $post_category_obj->name;
                         if($post_category == $name_category && $post_views == $total_views[0] && $flag ){
                             ?>
-                                <div class="col">
+                                <div class="col-md-12">
                                     <div class="container-post">
                                         <?php
                                         if ( has_post_thumbnail() ) {
