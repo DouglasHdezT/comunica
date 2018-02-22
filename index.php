@@ -157,7 +157,6 @@ if ( have_posts() ) {
             <?php
             rewind_posts();
             $postCounter =0;
-            query_posts('posts_per_page=2');
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post();
