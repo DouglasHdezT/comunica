@@ -157,7 +157,7 @@ if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post();
                 //if(in_category('Multimedia')){
-                    if($posCount<3){
+                    if($posCount<2){
             ?>
                    <div class="col-md-6">
                         <div class="card text-white bg-primary mb-3">
@@ -181,8 +181,9 @@ if ( have_posts() ) {
                           </div>
                         </div>
                     </div>
+                    <?php $posCount++; ?>
+
             <?php      }
-                    $posCount++;
                     }
                 echo $posCount;
                 } // end while
