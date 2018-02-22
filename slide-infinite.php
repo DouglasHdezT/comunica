@@ -165,9 +165,64 @@
         */
 
         else{ //Ulitmo slide con 1 solo post
-            for($j=0; $j<($cont_slide); $j+=3){
-                echo '<div class="slide">';
-                for($i=0; $i<3; $i++){
+            if($cont_slide < 3){
+                if(have_posts()){
+                    echo '<div class="slide">';
+                    for($i=0; $i<1; $i++){
+                        the_post();?>
+                            <div class="col-sm-4">
+                                <div class="card mb-3  slider-container">
+                                  <h3 class="card-header"><?php the_category(',');?></h3>
+                                  <?php
+                                      if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                      }
+                                    ?>
+                                  <div class="card-body text-dark w-sr" id="style-7">
+                                    <h2><?php the_title() ?> </h2>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                  </div>
+                                  <div class="card-footer text-muted">
+                                    <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                  </div>
+                                </div>
+                            </div>
+                    <?php
+                    }//end first for
+                    echo '</div class="slide">';   
+                }
+            }else{
+                if(have_posts()){
+                    for($j=0; $j<$cont_slide - 1; $j+=3){
+                        echo '<div class="slide">';
+                        for($i=0; $i<3; $i++){
+                            the_post();?>
+                                <div class="col-sm-4">
+                                    <div class="card mb-3  slider-container">
+                                      <h3 class="card-header"><?php the_category(',');?></h3>
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                          }
+                                        ?>
+                                      <div class="card-body text-dark w-sr" id="style-7">
+                                        <h2><?php the_title() ?> </h2>
+                                        <p class="card-text"><?php the_excerpt(); ?></p>
+                                        <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                      </div>
+                                      <div class="card-footer text-muted">
+                                        <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                      </div>
+                                    </div>
+                                </div>
+                        <?php
+                        }//end first for
+                        echo '</div class="slide">';
+                    }//end second for
+
+                    //Slide diferente...
+                    echo '<div class="slide">';
                     the_post();?>
                         <div class="col-sm-4">
                             <div class="card mb-3  slider-container">
@@ -187,10 +242,36 @@
                               </div>
                             </div>
                         </div>
-                <?php
-                }//end first for
+                    <?php   
+                }
+                query_posts('');
+                if(have_posts()){
+                    for($i=0;$i<2;$i++){
+                        the_post();?>
+                            <div class="col-sm-4">
+                                <div class="card mb-3  slider-container">
+                                  <h3 class="card-header"><?php the_category(',');?></h3>
+                                  <?php
+                                      if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                      }
+                                    ?>
+                                  <div class="card-body text-dark w-sr" id="style-7">
+                                    <h2><?php the_title() ?> </h2>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                  </div>
+                                  <div class="card-footer text-muted">
+                                    <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                  </div>
+                                </div>
+                            </div>
+                        <?php
+                    }
+                }
+                wp_reset_query();
                 echo '</div class="slide">';
-            }//end second for
+            }
         }//end else    
     ?>
     </section>
