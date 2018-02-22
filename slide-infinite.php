@@ -127,7 +127,6 @@
                             </div>
                         <?php
                     }
-                    query_posts('';)
                     if(have_posts()){
                        the_post();?>
                             <div class="col-sm-4">
@@ -150,7 +149,6 @@
                             </div>
                         <?php 
                     }
-                    wp_reset_query();
                     echo '</div class="slide">';
                 }//end else
             }//end if else
