@@ -19,8 +19,8 @@
         <div class="row">
         <?php
         query_posts(''); //Reinicio de querys para obtener todos los post
+        $flag=true;
         if ( have_posts() ) {
-                $flag=true;
                 while ( have_posts() ) {
                     the_post();
                     $post_views = get_post_views(get_the_ID());
@@ -53,8 +53,8 @@
 
                                 </div>
                             
-                <?php }
-                        $flag=false;
+                <?php                         $flag=false;
+                        }          
                     }
                 }// end while
             } // end if
