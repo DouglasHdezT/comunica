@@ -11,7 +11,6 @@ get_header();
                 </div>
                 
                 <?php 
-                    query_posts("paged=$paged");
                     if(have_posts()){
                         $result_cont=0;
                         $pages_cont= 0;
@@ -77,16 +76,18 @@ get_header();
             </main><!-- #main -->
         </section><!-- #primary -->
    </div>
-   <div style="text-align:center">
-      <ul class="pagination">
-        <li class="page-item">
-          <p class="page-link"><?php previous_posts_link('&laquo; Página Anterior') ?></p>
-        </li>
-        <li class="page-item">
-            <p class="page-link"><?php next_posts_link('&laquo; Página Siguiente') ?></p>
-        </li>
-      </ul>
-    </div>
+   <?php
+    $listing_args = array(
+    'post_type'         => 'page',
+    'posts_per_page'    => 10,
+    'meta_key'          => 'listing_num',
+    'orderby'           => 'meta_value_num',
+    'order'             => 'DESC',
+    'offset'            => ($paged -1) * 10,
+    'paged'             => $paged // <- tell the query what page we are on.
+    );
+    echo paginate_links($listing_args);
+   ?>
         
 </div>
 

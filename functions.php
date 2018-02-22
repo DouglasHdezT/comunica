@@ -137,20 +137,6 @@ function wpdocs_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 
-add_action( 'pre_get_posts',  'set_posts_per_page'  );
-
-
-function set_posts_per_page( $query ) {
-
-  global $wp_the_query;
-
-  if ( ( ! is_admin() ) && ( $query === $wp_the_query ) && ( $query->is_search() ) ) {
-    $query->set( 'posts_per_page', 5 );
-  }
-
-  return $query;
-}
-
 ?>
 
 
