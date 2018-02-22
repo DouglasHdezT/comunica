@@ -103,12 +103,6 @@ if ( have_posts() ) {
         
         <div class="row">
           <div class="col-md-12">
-           
-           <!-- SLIDE ESCRITORIO -->
-           
-           <?php
-                //include 'slide-infinite.php';  
-            ?>
             
             <!-- SLIDE MOVIL -->
             
@@ -148,7 +142,16 @@ if ( have_posts() ) {
             
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-md-12">
+                           
+           <!-- SLIDE ESCRITORIO -->
+           
+           <?php
+                //include 'slide-infinite.php';  
+            ?>
+            </div>
+        </div>
         <h2>Multimedia</h2>
         <div class="row">
             <?php
