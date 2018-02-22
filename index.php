@@ -181,6 +181,7 @@ if ( have_posts() ) {
                                 <hr>
                                 <h4 class="card-title"><?php the_title()?></h4>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
+                                <p><?php echo $postCounter; ?></p>
                               </div>
                             </div>
                         </div>
