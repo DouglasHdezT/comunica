@@ -183,7 +183,7 @@ if ( have_posts() ) {
 
         <?php           }
                     }else{
-                        echo "no hay ni mierda"
+                        echo "no hay ni mierda";
                     }
             ?>
         </div>
