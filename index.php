@@ -149,7 +149,6 @@ if ( have_posts() ) {
            
            <?php
                 include 'slide-infinite.php';
-                wp_reset_query();
             ?>
             </div>
         </div>
