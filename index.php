@@ -155,6 +155,7 @@ if ( have_posts() ) {
         <h2>Multimedia</h2>
         <div class="row">
             <?php
+            query_posts('');
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post(); ?>
@@ -185,6 +186,7 @@ if ( have_posts() ) {
                     }else{
                         echo "no hay ni mierda";
                     }
+            wp_reset_query();
             ?>
         </div>
     </section>
