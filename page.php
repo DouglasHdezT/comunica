@@ -52,8 +52,9 @@
                                     </div>
 
                                 </div>
+                                <?php $idFirst = get_the_ID(); ?>
                             
-                <?php                         $flag=false;
+                <?php       $flag=false;
                         }          
                     }
                 }// end while
@@ -75,7 +76,7 @@
                     $post_categories= get_the_category(get_the_ID());
                     foreach($post_categories as $post_category_obj){
                         $post_category = $post_category_obj->name;
-                        if($post_category == $name_category){
+                        if($post_category == $name_category && $post->ID != $idFirst){
                             ?>
                                 <div class="col-md-4">
                                     <div class="card mb-3  slider-container">
