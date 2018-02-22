@@ -1,7 +1,6 @@
 <?php
 get_header();
 ?>
-
 <div class="search-container">
    <div class="container">
        <section id="primary" class="content-area">
@@ -78,6 +77,16 @@ get_header();
             </main><!-- #main -->
         </section><!-- #primary -->
    </div>
+   <div>
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">&laquo; Página Anterior</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">Página Siguiente &raquo; </a>
+        </li>
+      </ul>
+    </div>
         
 </div>
 
