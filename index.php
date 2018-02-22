@@ -156,37 +156,40 @@ if ( have_posts() ) {
         <div class="row">
             <?php
             rewind_posts();
+            $postCounter =0;
             if ( have_posts() ) {
                 while ( have_posts() ) {
-                the_post(); ?>
-                   <div class="col-md-6">
-                        <div class="card text-white bg-primary mb-3">
-                          <div class="card-body">
-                            <?php
-                            $youtube = getYTurl();
-                            $full = 'https://www.youtube.com/embed/'.$youtube;
-                            if(empty($youtube)){
-                                if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
-                                }
-                            }else{
-                            ?>
-                            <iframe width="100%" height="350px"
-                            src="<?php echo $full ?>">
-                            </iframe>
-                            <?php } ?>
-                            <hr>
-                            <h4 class="card-title"><?php the_title()?></h4>
-                            <p class="card-text"><?php the_excerpt(); ?></p>
-                          </div>
+                the_post();
+                    if(in_category('Multimedia') && $postCounter < 2 ){
+            ?>
+                       <div class="col-md-6">
+                            <div class="card text-white bg-primary mb-3">
+                              <div class="card-body">
+                                <?php
+                                $youtube = getYTurl();
+                                $full = 'https://www.youtube.com/embed/'.$youtube;
+                                if(empty($youtube)){
+                                    if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                                    }
+                                }else{
+                                ?>
+                                <iframe width="100%" height="350px"
+                                src="<?php echo $full ?>">
+                                </iframe>
+                                <?php } ?>
+                                <hr>
+                                <h4 class="card-title"><?php the_title()?></h4>
+                                <p class="card-text"><?php the_excerpt(); ?></p>
+                              </div>
+                            </div>
                         </div>
-                    </div>
+                        <?php $postCounter++ ?>
 
-        <?php           }
-                    }else{
-                        echo "no hay noticias";
-                    }
-        ?>
+            <?php           }
+                        }
+                }
+            ?>
         </div>
     </section>
 </div>
