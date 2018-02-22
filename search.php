@@ -44,13 +44,13 @@ get_header();
                                     if($post->post_type == 'post'){?>
                                         <div class="result_post">
                                             <div class="row">
-                                                <div class="col-4">
+                                                <div class="col-sm-4">
                                                     <?php
                                                         if ( has_post_thumbnail() ) {
                                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive result_image'));
                                                     }?>>
                                                 </div>
-                                                <div class="col-8 result_content">
+                                                <div class="col-sm-8 result_content">
                                                        <h1><?php the_title(); ?></h1>
                                                        <p><?php the_excerpt(); ?></p>
                                                        <p><span class="glyphicon glyphicon-eye-open" style="margin-right:6px" aria-hidden="true"></span>
