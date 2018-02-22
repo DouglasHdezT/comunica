@@ -148,7 +148,7 @@ if ( have_posts() ) {
            <!-- SLIDE ESCRITORIO -->
            
            <?php
-                //include 'slide-infinite.php';  
+                include 'slide-infinite.php';  
             ?>
             </div>
         </div>
