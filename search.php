@@ -44,10 +44,10 @@ get_header();
                                     if($post->post_type == 'post'){?>
                                         <div class="result_post">
                                             <div class="row">
-                                                <div class="col-md-4">
+                                                <div class="col-md-4 padre">
                                                     <?php
                                                         if ( has_post_thumbnail() ) {
-                                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive result_image'));
+                                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive result_image hijo'));
                                                     }?>>
                                                 </div>
                                                 <div class="col-md-8 result_content">
