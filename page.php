@@ -20,9 +20,9 @@
         <?php
         query_posts(''); //Reinicio de querys para obtener todos los post
         if ( have_posts() ) {
+                $flag=true;
                 while ( have_posts() ) {
                     the_post();
-                    $flag=true;
                     $view_per_post =  get_post_views(get_the_ID());
                     $total_views[] =  $view_per_post; 
                     rsort($total_views);
