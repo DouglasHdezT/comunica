@@ -44,7 +44,7 @@ get_header();
                                     if($post->post_type == 'post'){?>
                                         <div class="result_post">
                                             <div class="row">
-                                                <div class="col-md-4 padre">
+                                                <div class="col-md-4 padre" style="width:100%;">
                                                     <?php
                                                         if ( has_post_thumbnail() ) {
                                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive result_image hijo'));
