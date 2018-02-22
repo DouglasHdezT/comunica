@@ -155,6 +155,7 @@ if ( have_posts() ) {
         <h2>Multimedia</h2>
         <div class="row">
             <?php
+            wp_reset_postdata();
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post(); ?>
