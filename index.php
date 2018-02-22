@@ -155,7 +155,7 @@ if ( have_posts() ) {
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post();
-                if(in_category('Multimedia')){
+                //if(in_category('Multimedia')){
                     if($posCount<3){
             ?>
                    <div class="col-md-6">
@@ -184,7 +184,7 @@ if ( have_posts() ) {
                     }
                     $posCount++;
                 } // end while
-            } // end if
+            //} // end if
             ?>
         </div>
     </section>
