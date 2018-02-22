@@ -5,18 +5,16 @@
         if ( have_posts() ) {
             while ( have_posts() ) {
                 the_post();
-                $view_per_post =  get_post_views(get_the_ID());
-                $total_views[] =  $view_per_post; ?>
+                ?>
                     <h3><?php the_title(); ?></h3>
                     <?php the_content();
                     $name_category = get_the_title();
                     ?>
                      
             <?php }
-            rsort($total_views);// end while
+            // end while
         } // end if
         
-        print_r($total_views);
         ?>
         <div class="row">
         <?php
@@ -24,6 +22,9 @@
         if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
+                    $view_per_post =  get_post_views(get_the_ID());
+                    $total_views[] =  $view_per_post; 
+                    rsort($total_views);
                     $post_views = get_post_views(get_the_ID());
                     $post_categories= get_the_category(get_the_ID());
                     $post_views = get_post_views(get_the_ID());
