@@ -1,0 +1,120 @@
+<div class="no-slide">
+    <section id="slideshow">
+        <?php
+        $array_posts;
+        $cont_slide=0;
+        if ( have_posts() ) {
+            while ( have_posts() ) {
+                the_post();
+                $array_posts[$cont_slide]=get_post();
+                $cont_slide++;
+            } // end while
+        } // end if
+        
+        /*
+            ULTIMO SLIDE TOTALMENTE LLENO
+        */
+        
+        if(have_posts()){
+            if ( $cont_slide%3 == 0 ){ //Ultimo slide lleno 
+                for($j=0; $j<$cont_slide; $j+=3){
+                    echo '<div class="slide">';
+                    for($i=0; $i<3; $i++){
+                        the_post();?>
+                            <div class="col-sm-4">
+                                <div class="card mb-3  slider-container">
+                                  <h3 class="card-header"><?php the_category(',');?></h3>
+                                  <?php
+                                      if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                      }
+                                    ?>
+                                  <div class="card-body text-dark w-sr" id="style-7">
+                                    <h2><?php the_title() ?> </h2>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                  </div>
+                                  <div class="card-footer text-muted">
+                                    <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                  </div>
+                                </div>
+                            </div>
+                    <?php
+                    }//end first for
+                    echo '</div class="slide">';
+                }// end second for
+            }
+            
+            /*
+                ULTIMO SLIDE CON 2 POST
+            */
+            
+            else if( $cont_slide%3 == 2 ){//Ultimo slide con 2 posts
+                if($cont_slide < 3){
+                    
+                }else{
+                    for($j=0; $j<$cont_slide; $j+=3){
+                        echo '<div class="slide">';
+                        for($i=0; $i<3; $i++){
+                            the_post();?>
+                                <div class="col-sm-4">
+                                    <div class="card mb-3  slider-container">
+                                      <h3 class="card-header"><?php the_category(',');?></h3>
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                          }
+                                        ?>
+                                      <div class="card-body text-dark w-sr" id="style-7">
+                                        <h2><?php the_title() ?> </h2>
+                                        <p class="card-text"><?php the_excerpt(); ?></p>
+                                        <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                      </div>
+                                      <div class="card-footer text-muted">
+                                        <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                      </div>
+                                    </div>
+                                </div>
+                        <?php
+                        }//end first for
+                        echo '</div class="slide">';
+                    }//end second for
+                }//end else
+            }//end if else
+            
+            /*
+                ULTIMO SLIDE CON UN POST
+            */
+            
+            else{ //Ulitmo slide con 1 solo post
+                for($j=0; $j<($cont_slide); $j+=3){
+                    echo '<div class="slide">';
+                    for($i=0; $i<3; $i++){
+                        the_post();?>
+                            <div class="col-sm-4">
+                                <div class="card mb-3  slider-container">
+                                  <h3 class="card-header"><?php the_category(',');?></h3>
+                                  <?php
+                                      if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                      }
+                                    ?>
+                                  <div class="card-body text-dark w-sr" id="style-7">
+                                    <h2><?php the_title() ?> </h2>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                  </div>
+                                  <div class="card-footer text-muted">
+                                    <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
+                                  </div>
+                                </div>
+                            </div>
+                    <?php
+                    }//end first for
+                    echo '</div class="slide">';
+                }//end second for
+            }
+        }    
+        ?>
+    </section>
+</div>

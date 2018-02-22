@@ -102,64 +102,14 @@ if ( have_posts() ) {
         
         <div class="row">
           <div class="col-md-12">
-           <div class="no-slide">
-            <section id="slideshow">
-                <div class="slide">
-                <?php
-                $contador = 1;
-                if ( have_posts() ) {
-                    while ( have_posts() ) {
-                        the_post();?>
-                        <?php if($contador%3 != 0 ){?>
-                           <div class="col-sm-4">
-                            
-                            
-                            <div class="card mb-3  slider-container">
-                              <h3 class="card-header"><?php the_category(',');?></h3>
-                              <?php
-                                  if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                  }
-                                ?>
-                              <div class="card-body text-dark w-sr" id="style-7">
-                                <h2><?php the_title() ?> </h2>
-                                <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
-                              </div>
-                              <div class="card-footer text-muted">
-                                <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
-                              </div>
-                            </div>
-                            </div>
-                        <?php }else{ ?>
-                               <div class="col-sm-4">
-                                <div class="card mb-3  slider-container">
-                                  <h3 class="card-header"><?php the_category(',');?></h3>
-                                  <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                      }
-                                    ?>
-                                  <div class="card-body text-dark w-sr" id="style-7">
-                                   <h2><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer más</a>
-                                  </div>
-                                  <div class="card-footer text-muted">
-                                    <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
-                                  </div>
-                                </div>
-                                </div>
-                           <?php echo "</div class='slide'><div class='slide'>";
-                        }
-                    $contador++;
-
-                    } // end while
-                } // end if
-                ?>
-                </div>
-            </section>
-            </div>
+           
+           <!-- SLIDE ESCRITORIO -->
+           
+           <?php
+                include 'slide-infinite.php';
+            ?>
+            
+            <!-- SLIDE MOVIL -->
             
             <div class="slide-movil">
             <section id="slideshow-movil">
