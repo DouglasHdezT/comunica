@@ -155,7 +155,7 @@ if ( have_posts() ) {
         <h2>Multimedia</h2>
         <div class="row">
             <?php
-            $postCount = 0;
+            $postCount = 0; 
             if ( have_posts() ) {
                 while ( have_posts() ) {
                 the_post();
