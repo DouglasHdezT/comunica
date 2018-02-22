@@ -79,7 +79,7 @@ get_header();
    <?php
     $listing_args = array(
     'post_type'         => 'page',
-    'posts_per_page'    => 10,
+    'posts_per_page'    => 5,
     'meta_key'          => 'listing_num',
     'orderby'           => 'meta_value_num',
     'order'             => 'DESC',
