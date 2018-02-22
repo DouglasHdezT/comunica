@@ -184,9 +184,7 @@ if ( have_posts() ) {
                                   </div>
                                 </div>
                             </div>
-                    <?php $posCount++;
-                            echo $posCount;
-                    ?>
+                    <?php $posCount++; ?>
 
             <?php           }
                         }
@@ -194,6 +192,7 @@ if ( have_posts() ) {
                 } // end while
             //} // end if
             ?>
+        <?php echo $posCount; ?>
         </div>
     </section>
 </div>
