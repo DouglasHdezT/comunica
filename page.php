@@ -16,7 +16,51 @@
             rsort($total_views);// end while
         } // end if
         ?>
+        <div class="row">
+        <?php
+        query_posts(''); //Reinicio de querys para obtener todos los post
+        if ( have_posts() ) {
+                while ( have_posts() ) {
+                    the_post();
+                    $post_views = get_post_views(get_the_ID());
+                    $post_categories= get_the_category(get_the_ID());
+                    $post_views = get_post_views(get_the_ID());
+                    foreach($post_categories as $post_category_obj){
+                        $post_category = $post_category_obj->name;
+                        if($post_category == $name_category && $post_views == $total_views[0] ){
+                            ?>
+                                <div class="col">
+                                    <div class="container-post">
+                                        <?php
+                                        if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                                        }
+                                        ?>
+
+                                          <div class="top-right">
+                                              <span class="glyphicon glyphicon-eye-open" style="margin-right:5px" aria-hidden="true"></span>
+                                              <?php echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
+                                          </div>
+                                          <div class="bottom-right">
+                                            <h3 style="color:#fff"><?php the_title(); ?></h3>
+                                            <?php the_excerpt(); ?>
+                                          </div>
+                                          <div class="top-left">
+                                              <a href="<?php the_permalink(); ?>" class="box curmudgeon" >Leer Más</a>
+                                          </div>
+                                    </div>
+
+                                </div>
+                            
+                <?php }
+                    }
+                }// end while
+            } // end if
         
+        
+        wp_reset_query(); //Volver a la query original.
+        ?>
+        </div>
         
         
         
