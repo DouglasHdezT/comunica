@@ -77,13 +77,13 @@ get_header();
             </main><!-- #main -->
         </section><!-- #primary -->
    </div>
-   <div>
+   <div style="text-align:center">
       <ul class="pagination">
-        <li class="page-item disabled">
-          <a class="page-link" href="#">&laquo; Página Anterior</a>
+        <li class="page-item">
+          <p class="page-link"><?php previous_posts_link('&laquo; Página Anterior') ?></p>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">Página Siguiente &raquo; </a>
+            <p class="page-link"><?php next_posts_link('&laquo; Página Siguiente') ?></p>
         </li>
       </ul>
     </div>
