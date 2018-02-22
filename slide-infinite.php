@@ -267,7 +267,7 @@
                         <?php
                     }
                 }
-                wp_reset_query();
+                //wp_reset_query();
                 echo '</div class="slide">';
             }
         }//end else    
