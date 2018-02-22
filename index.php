@@ -184,6 +184,7 @@ if ( have_posts() ) {
             <?php      }     
                     }
                     $posCount++;
+                echo $posCount;
                 } // end while
             //} // end if
             ?>
