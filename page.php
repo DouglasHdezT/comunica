@@ -65,12 +65,8 @@
         ?>
         </div>
         
-        
-        
-        
-        
         <!-- Noticias relacionadas con la pagina -->
-        <div class="row">
+        <div class="row" style="margin-top:20px;">
         <?php
         query_posts(''); //Reinicio de querys para obtener todos los post
         if ( have_posts() ) {
