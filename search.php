@@ -7,7 +7,7 @@ get_header();
        <section id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
                 
-                <div class="search_page_div" style="width:100%">
+                <div class="search_page_div padre" style="width:100%">
                     <?php get_search_form(); ?>
                 </div>
                 
