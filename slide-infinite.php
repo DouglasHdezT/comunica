@@ -1,12 +1,10 @@
 <div class="no-slide">
     <section id="slideshow">
         <?php
-        $array_posts;
         $cont_slide=0;
         if ( have_posts() ) {
             while ( have_posts() ) {
                 the_post();
-                $array_posts[$cont_slide]=get_post();
                 $cont_slide++;
             } // end while
         } // end if
