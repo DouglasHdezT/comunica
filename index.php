@@ -158,34 +158,34 @@ if ( have_posts() ) {
                 the_post();
                 //if(in_category('Multimedia')){
                     if($posCount<2){
-            ?>
-                   <div class="col-md-6">
-                        <div class="card text-white bg-primary mb-3">
-                          <div class="card-body">
-                            <?php
-                            $youtube = getYTurl();
-                            $full = 'https://www.youtube.com/embed/'.$youtube;
-                            if(empty($youtube)){
-                                if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
-                                }
-                            }else{
-                            ?>
-                            <iframe width="100%" height="350px"
-                            src="<?php echo $full ?>">
-                            </iframe>
-                            <?php } ?>
-                            <hr>
-                            <h4 class="card-title"><?php the_title()?></h4>
-                            <p class="card-text"><?php the_excerpt(); ?></p>
-                          </div>
-                        </div>
-                    </div>
+                        if(in_category('Multimedia')) {?>        
+                           <div class="col-md-6">
+                                <div class="card text-white bg-primary mb-3">
+                                  <div class="card-body">
+                                    <?php
+                                    $youtube = getYTurl();
+                                    $full = 'https://www.youtube.com/embed/'.$youtube;
+                                    if(empty($youtube)){
+                                        if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                                        }
+                                    }else{
+                                    ?>
+                                    <iframe width="100%" height="350px"
+                                    src="<?php echo $full ?>">
+                                    </iframe>
+                                    <?php } ?>
+                                    <hr>
+                                    <h4 class="card-title"><?php the_title()?></h4>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                  </div>
+                                </div>
+                            </div>
                     <?php $posCount++; ?>
 
-            <?php      }
+            <?php           }
+                        }
                     }
-                echo $posCount;
                 } // end while
             //} // end if
             ?>
