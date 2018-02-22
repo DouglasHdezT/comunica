@@ -46,6 +46,7 @@ if ( have_posts() ) {
                                           <a href="<?php the_permalink(); ?>" class="box curmudgeon" >Leer Más</a>
                                       </div>
                                 </div>
+                                <?php $idFirst=get_the_ID(); ?>
                     <?php }
                     }
                     // end while
@@ -60,7 +61,7 @@ if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();
                          $post_views = get_post_views(get_the_ID());
-                            if($post_views != $total_views[0] ){
+                            if($post->ID != $idFirst ){
                                 if($counter < 2){?>
                                <div class=" col-sm-6 secondary-post">
                                 <div class="card bg-secondary mb-3">
