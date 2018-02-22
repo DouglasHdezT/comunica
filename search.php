@@ -85,10 +85,11 @@ get_header();
     'order'             => 'DESC',
     'offset'            => ($paged -1) * 10,
     'paged'             => $paged // <- tell the query what page we are on.
-    );
-    echo paginate_links($listing_args);
+    );    
    ?>
-        
+    <ul style="text-align:center">
+            <?php echo paginate_links($listing_args); ?>
+    </ul>    
 </div>
 
 <?php
