@@ -28,6 +28,7 @@
                     foreach($post_categories as $post_category_obj){
                         $post_category = $post_category_obj->name;
                         if($post_category == $name_category && $post_views == $total_views[0] ){
+                            print_r($total_views[]);
                             ?>
                                 <div class="col">
                                     <div class="container-post">
