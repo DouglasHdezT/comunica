@@ -23,15 +23,12 @@
                 $flag=true;
                 while ( have_posts() ) {
                     the_post();
-                    $view_per_post =  get_post_views(get_the_ID());
-                    $total_views[] =  $view_per_post; 
-                    rsort($total_views);
                     $post_views = get_post_views(get_the_ID());
                     $post_categories= get_the_category(get_the_ID());
                     $post_views = get_post_views(get_the_ID());
                     foreach($post_categories as $post_category_obj){
                         $post_category = $post_category_obj->name;
-                        if($post_category == $name_category && $post_views == $total_views[0] && $flag == true ){
+                        if($post_category == $name_category && $flag == true ){
                             ?>
                                 <div class="col-md-12">
                                     <div class="container-post">
