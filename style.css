@@ -532,10 +532,10 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 
 /*ESTILOS PARA PAGINACION*/
 
-a.page-numbers{
+ul > .page-numbers{
     padding: 7px !important;
 }
-a.current{
+ul > .current{
     background: #000 !important;
     color: #fff !important;
 }
