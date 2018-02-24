@@ -1,15 +1,4 @@
 $(document).ready(main);
-$(document).ready(myFunction);
-
-function myFunction() {
-    var myVar = setTimeout(showPage, 5000);
-}
-
-function showPage() {
-    $('.loader').css('display','none');
-    $('.preloader').fadeIn();    
-}
-
 
 function main(){
     var $screen = $(window).height();

@@ -13,8 +13,7 @@ if ( have_posts() ) {
 //print_r($attachments );
 ?>
 
-<div class="loader"></div> 
-<div class="container-fluid preloader">
+<div class="container-fluid ">
     <section class="content-main">
         <div class="row">
             <div class="col-lg-6">
