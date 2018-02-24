@@ -14,7 +14,7 @@ if ( have_posts() ) {
 ?>
 
 <div class="loader"></div> 
-<div class="container-fluid">
+<div class="container-fluid preloader">
     <section class="content-main">
         <div class="row">
             <div class="col-lg-6">

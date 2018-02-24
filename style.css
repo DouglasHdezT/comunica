@@ -717,6 +717,9 @@ ul > .current{
     100% { transform: rotate(360deg); }
 }
 
+.preloader{
+    display: none;
+}
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
     .post{

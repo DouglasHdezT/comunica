@@ -1,4 +1,15 @@
 $(document).ready(main);
+$(document).ready(myFunction);
+
+function myFunction() {
+    var myVar = setTimeout(showPage, 5000);
+}
+
+function showPage() {
+  document.getElementById(".loader").style.display = "none";
+  document.getElementById(".preloader").style.display = "block";
+}
+
 
 function main(){
     var $screen = $(window).height();
@@ -44,5 +55,7 @@ function main(){
            scrollTop:homeP 
         }, 'slow');
     });
+    
+    
     
 }
