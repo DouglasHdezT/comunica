@@ -218,9 +218,9 @@ ul.drak-ul-footer > li:hover{
     display: none;
     width: 100%;
     background: #031b2f;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 85px);
     position: fixed;
-    top: 70px;
+    top: 85px;
     color: #fff;
     z-index: 10000000000000000000000000000000;
 
