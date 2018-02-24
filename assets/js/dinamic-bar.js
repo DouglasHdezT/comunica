@@ -37,7 +37,7 @@ var $counter = true;
             $counter = false;
         }else{
            $('.section-container-scrolling').slideUp('fast');
-            $('.dark-blue-nav-scrolling').css('background','rgba(7, 40, 68,.80)');
+            $('.dark-blue-nav-scrolling').css('background','rgba(7, 40, 68,.85)');
             $counter = true; 
         }
     });
