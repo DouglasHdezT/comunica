@@ -203,14 +203,15 @@ ul.drak-ul-footer > li:hover{
 }
 .dark-blue-nav-scrolling{
     display: none;
-    background: #072844;
     color: #fff;
+    background: rgba(7, 40, 68,.80);
     padding: 22px;
     position: fixed;
     top: 0;
     width: 100%;
     box-sizing: border-box;
     z-index: 100000000;
+    transition: all 500ms ease;
     
 }
 .section-container-scrolling{
