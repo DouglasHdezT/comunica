@@ -190,6 +190,12 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
+        <?php if ( is_active_sidebar( 'radio-widgets' ) ) : ?>
+         <div class="row" id="radio-widgets">
+             <h2>Comunica Radio</h2>
+             <?php dynamic_sidebar( 'radio-widgets' ); ?>
+         </div>
+        <?php endif; ?>
     </section>
 </div>
 

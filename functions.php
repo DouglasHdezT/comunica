@@ -58,6 +58,7 @@ function get_post_views($post_ID){
 // Funcion para agregar widgets
 register_sidebar(array(
     'name'=>'Radio',
+    'id'=>'radio-widgets'
     'before_widget'=>'<div class="col-md-6">',
     'after_widget'=>'</div>',
     'before_title'=>'<h3>',
