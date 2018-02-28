@@ -58,10 +58,10 @@ function get_post_views($post_ID){
 // Funcion para agregar widgets
 register_sidebar(array(
     'name'=>'Multimedia',
-    'before_widget'=>'<div class="col-md-6">',
-    'after_widget'=>'</div>',
-    'before_title'=>'<h3>',
-    'after_title'=>'</h3>'
+    'before_widget'=>'',
+    'after_widget'=>'',
+    'before_title'=>'',
+    'after_title'=>''
 ));
 
 function getImage($num) {
