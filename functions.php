@@ -56,13 +56,17 @@ function get_post_views($post_ID){
     return $count;
 }
 // Funcion para agregar widgets
-register_sidebar(array(
-    'name'=>'Multimedia',
-    'before_widget'=>'',
-    'after_widget'=>'',
-    'before_title'=>'',
-    'after_title'=>''
-));
+function comunica_widget(){
+    register_sidebar(array(
+        'name'=>'Radio',
+        'id'=>'idRadio'
+        'before_widget'=>'<div class="col-md-6">',
+        'after_widget'=>'</div>',
+        'before_title'=>'',
+        'after_title'=>''
+    ));
+}
+add_action( 'widgets_init', 'comunica_widget' );
 
 function getImage($num) {
     global $more;
