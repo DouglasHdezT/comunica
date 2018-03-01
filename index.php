@@ -190,11 +190,7 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
-        <?php if ( is_active_sidebar( 'idRadio' ) ) : ?>
-            <div class="row">
-                <?php dynamic_sidebar( 'idRadio' ); ?>
-            </div>
-        <?php endif; ?>
+        
     </section>
 </div>
 
