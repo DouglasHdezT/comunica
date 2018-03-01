@@ -190,8 +190,8 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
+        <h2>Radio comunica</h2>
         <div class="row">
-           <h2>Radio comunica</h2>
             <?php dynamic_sidebar('sidebar-1'); ?>
         </div>
 
