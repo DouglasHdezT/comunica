@@ -190,7 +190,9 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
-        <?php dynamic_sidebar('sidebar-1'); ?>
+        <div class="row">
+            <?php dynamic_sidebar('sidebar-1'); ?>
+        </div>
 
     </section>
 </div>
