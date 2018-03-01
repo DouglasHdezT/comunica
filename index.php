@@ -15,6 +15,8 @@ if ( have_posts() ) {
 
 <div class="container-fluid ">
     <section class="content-main">
+               <?php dynamic_sidebar('sidebar-1'); ?>
+
         <div class="row">
             <div class="col-lg-6">
                 <?php 
@@ -190,7 +192,6 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
-        <?php dynamic_sidebar('sidebar-1'); ?>
     </section>
 </div>
 
