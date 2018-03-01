@@ -56,6 +56,15 @@ function get_post_views($post_ID){
     return $count;
 }
 // Funcion para agregar widgets
+register_sidebar(array(
+    'name'=>'Radio',
+    'id'=>'idRadio',
+    'before_widget'=>'<div class="col-md-6">',
+    'after_widget'=>'</div>',
+    'before_title'=>'',
+    'after_title'=>''
+));
+
 
 function getImage($num) {
     global $more;
