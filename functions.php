@@ -63,8 +63,8 @@ function add_widget_area(){
         'description'=>'Agrega aqui nuevas radios',
         'before_widget'=>'<div class="col-md-6">',
         'after_widget'=>'</div>',
-        'before_title'=>'',
-        'after_title'=>''
+        'before_title'=>'<h2>',
+        'after_title'=>'</h2>'
     ));
 }
 add_action('widgets_init','add_widget_area');
