@@ -190,7 +190,6 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
-        <?php if(!function_exist('dynamic_sidebar') || !dynamic_sidebar('Radio') ):endif; ?>
     </section>
 </div>
 
