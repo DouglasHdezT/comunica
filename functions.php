@@ -56,16 +56,19 @@ function get_post_views($post_ID){
     return $count;
 }
 // Funcion para agregar widgets
-register_sidebar(array(
-    'name'=>'Radio',
-    'id'=>'idRadio',
-    'before_widget'=>'<div class="col-md-6">',
-    'after_widget'=>'</div>',
-    'before_title'=>'',
-    'after_title'=>''
-));
-
-
+function add_widget_area(){
+    register_sidebar(array(
+        'name'=>'Radio',
+        'id'=>'idRadio',
+        'description'=>'Agrega aqui nuevas radios',
+        'before_widget'=>'<div class="col-md-6">',
+        'after_widget'=>'</div>',
+        'before_title'=>'',
+        'after_title'=>''
+    ));
+}
+add_action('widget_init','add_widget_area');
+ 
 function getImage($num) {
     global $more;
     $more = 1;
