@@ -67,7 +67,7 @@ function add_widget_area(){
         'after_title'=>''
     ));
 }
-add_action('widget_init','add_widget_area');
+add_action('widgets_init','add_widget_area');
  
 function getImage($num) {
     global $more;
