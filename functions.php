@@ -59,7 +59,7 @@ function get_post_views($post_ID){
 function add_widget_area(){
     register_sidebar(array(
         'name'=>'Radio',
-        'id'=>'idRadio',
+        'id'=>'sidebar-1',
         'description'=>'Agrega aqui nuevas radios',
         'before_widget'=>'<div class="col-md-6">',
         'after_widget'=>'</div>',
