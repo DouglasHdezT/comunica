@@ -191,7 +191,10 @@ if ( have_posts() ) {
             ?>
         </div>
         <div class="row">
-            <?php dynamic_sidebar('sidebar-1'); ?>
+           <?php if(is_active_sidebar('sidebar-1')){
+                    echo "<h2>Radio Comunica</h2>"
+                    dynamic_sidebar('sidebar-1'); 
+            } ?>
         </div>
 
     </section>
