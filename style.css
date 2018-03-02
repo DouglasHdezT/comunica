@@ -589,7 +589,7 @@ ul > .current{
     height: 30px;
 }
 
-#slideshow-medios{
+#slideshow-medios , .slidesjs-container{
     height: 150px;
 }
 
