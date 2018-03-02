@@ -592,6 +592,9 @@ ul > .current{
 #slideshow-medios , .slidesjs-container{
     height: 250px;
 }
+#slideshow-medios > .slidesjs-pagination{
+    top: 250px;
+}
 
 /*ESTILO DE LA PAGINA DE BUSQUEDA*/
 
