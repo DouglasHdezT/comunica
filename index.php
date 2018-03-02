@@ -194,11 +194,19 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
+        <h2>Radio Comunica</h2>
+        <div class="row">
+            <?php dynamic_sidebar('sidebar-1'); ?>           
+        </div>
         <h2>Medios Jesuitas en C.A.</h2>
-        <div class="slide-medios">
-            <section id="slideshow-medios">
-                 <?php dynamic_sidebar('sidebar-2'); ?>
-            </section>
+        <div class="row">
+           <div class="col-md-12">
+                <div class="slide-medios">
+                    <section id="slideshow-medios">
+                         <?php dynamic_sidebar('sidebar-2'); ?>
+                    </section>
+                </div>
+            </div>
         </div>
     </section>
 </div>
