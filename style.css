@@ -800,6 +800,12 @@ ul > .current{
     .ScrollUp{
         left: 85%;
     }
+    #slideshow-medios , .slidesjs-container{
+    height: 100px;
+    }
+    #slideshow-medios > .slidesjs-pagination{
+        top: 120px !important;
+    }
 
 }
 /*--------------------------------------*/
