@@ -71,7 +71,7 @@ function add_widget_area(){
         'name'=>'Medio Jesuitas',
         'id'=>'sidebar-2',
         'description'=>'Agrega aqui nuevos medios',
-        'before_widget'=>'<div class="col-md-4">',
+        'before_widget'=>'<div class="col-xs-4">',
         'after_widget'=>'</div>',
         'before_title'=>'<h2>',
         'after_title'=>'</h2>'
