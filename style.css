@@ -592,7 +592,7 @@ ul > .current{
 #slideshow-medios , .slidesjs-container{
     height: 250px;
 }
-#slideshow-medios > .slidesjs-container > .slidesjs-pagination{
+#slideshow-medios > .slidesjs-pagination{
     top: 140px !important;
 }
 
