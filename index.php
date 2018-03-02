@@ -197,6 +197,7 @@ if ( have_posts() ) {
         <h2>Medios Jesuitas en C.A.</h2>
         <div class="slide-medios">
             <section id="slideshow-medios">
+                <div class="slide"></div>
                  <?php dynamic_sidebar('sidebar-2'); ?>
             </section>
         </div>
