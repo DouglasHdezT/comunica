@@ -590,10 +590,10 @@ ul > .current{
 }
 
 #slideshow-medios , .slidesjs-container{
-    height: 170px;
+    height: 200px;
 }
 #slideshow-medios > .slidesjs-pagination{
-    top: 150px !important;
+    top: 160px !important;
 }
 
 /*ESTILO DE LA PAGINA DE BUSQUEDA*/
