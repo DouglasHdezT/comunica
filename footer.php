@@ -117,3 +117,35 @@ $(function(){
   });
 });
 </script>
+
+
+<script>
+$(function(){
+    
+  $("#slideshow-medios").slidesjs({
+    height: $('#slideshow-medios').height(),
+    navegation: false,
+    effect: {
+      slide: {
+        // Slide effect settings.
+        speed: 200
+          // [number] Speed in milliseconds of the slide animation.
+      },
+      fade: {
+        speed: 500,
+          // [number] Speed in milliseconds of the fade animation.
+        crossfade: true
+          // [boolean] Cross-fade the transition.
+      }
+    },
+    play:{
+        interval: 10000,
+        auto:true,
+        effect: "fade",
+        pauseOnHover: true,
+        restartDelay: 5000
+    },
+
+  });
+});
+</script>

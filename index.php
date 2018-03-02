@@ -143,7 +143,7 @@ if ( have_posts() ) {
             </section>
             </div>
             
-            </div>
+        </div>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -194,11 +194,12 @@ if ( have_posts() ) {
                 }
             ?>
         </div>
-        <h2>Radio comunica</h2>
-        <div class="row">
-            <?php dynamic_sidebar('sidebar-1'); ?>
+        <h2>Medios Jesuitas en C.A.</h2>
+        <div class="slide-medios">
+            <section id="slideshow-medios">
+                 <?php dynamic_sidebar('sidebar-2'); ?>
+            </section>
         </div>
-
     </section>
 </div>
 
