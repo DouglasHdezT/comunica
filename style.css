@@ -772,6 +772,15 @@ ul > .current{
     #slideshow-movil , .slidesjs-container{
         height: 550px !important;
     }
+    
+    a.slidesjs-previous{
+        display: block!important;
+    }
+    
+    a.slidesjs-next{
+        display: block!important;
+    }
+    
     .slide-movil .slidesjs-pagination{
         display: none!important;
         position: absolute;
