@@ -772,7 +772,8 @@ ul > .current{
     #slideshow-movil , .slidesjs-container{
         height: 550px !important;
     }
-    .slidesjs-pagination{
+    .slide-movil .slidesjs-pagination{
+        display: none!important;
         position: absolute;
         top: 500px
     }
