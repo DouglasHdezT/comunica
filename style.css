@@ -771,7 +771,7 @@ ul > .current{
     }
     #slideshow-movil , .slidesjs-container{
         height: 575px !important;
-        background: rgba(7, 40, 68, 0.51);
+        background: rgba(7, 40, 68, 0.19);
     }
     
     .slide-movil a.slidesjs-previous{
