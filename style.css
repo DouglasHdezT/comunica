@@ -775,13 +775,12 @@ ul > .current{
     
     .slide-movil a.slidesjs-previous{
         display: flex;
-        position: absolute;
-        top: 450px;
+        float: left;
     }
     
     .slide-movil a.slidesjs-next{
         display: flex;
-        float: left;
+        float: right;
     }
     
     .slide-movil .slidesjs-pagination{
