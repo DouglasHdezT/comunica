@@ -775,7 +775,8 @@ ul > .current{
     
     .slide-movil a.slidesjs-previous{
         display: flex;
-        float:left;
+        position: absolute;
+        top: 450px;
     }
     
     .slide-movil a.slidesjs-next{
