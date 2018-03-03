@@ -114,7 +114,7 @@ if ( have_posts() ) {
                         the_post();
                             if($nslide< 10){?>
                               <div class="slide">
-                               <div class="col">
+                               <div class="col" style="background: rgba(7, 40, 68, 0.19);">
                                 <div class="card mb-3  slider-container">
                                   <h3 class="card-header"><?php the_category(',');?></h3>
                                   <?php
