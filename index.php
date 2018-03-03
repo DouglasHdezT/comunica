@@ -131,11 +131,11 @@ if ( have_posts() ) {
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
                                   </div>
                                 </div>
+                                </div>
+                                </div>
                                 <hr>
                                 <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
                                 <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>
-                                </div>
-                                </div>
                                 <?php $nslide++; ?>
                            <?php
                               }
