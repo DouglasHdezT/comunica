@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
+    <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/icon.png">
     
     <?php wp_head(); ?> 
 </head>
