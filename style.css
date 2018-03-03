@@ -773,12 +773,13 @@ ul > .current{
         height: 550px !important;
     }
     
-    a.slidesjs-previous{
+    .slide-movil a.slidesjs-previous{
         display: flex;
         float:left;
     }
     
-    a.slidesjs-next{
+    .slide-movil a.slidesjs-next{
+        display: flex;
         float: left;
     }
     
