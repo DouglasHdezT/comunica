@@ -158,6 +158,7 @@ if ( have_posts() ) {
             ?>
             </div>
         </div>
+        <br>
         <h2>Multimedia</h2>
         <div class="row">
             <?php
