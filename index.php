@@ -132,7 +132,7 @@ if ( have_posts() ) {
                                   </div>
                                 </div>
                                 <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
-                                <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>
+                                <a href="#" class="slidesjs-next slidesjs-navigation">x</a>
                                 </div>
                                 </div>
                                 <?php $nslide++; ?>
