@@ -762,7 +762,6 @@ ul > .current{
     .slide-movil{
         display: block;
         overflow: hidden;
-        margin: 0;
     }
     .slider-hght{
         height: auto;
@@ -772,6 +771,7 @@ ul > .current{
     }
     #slideshow-movil , .slidesjs-container{
         height: 575px !important;
+        margin: 0!important;;
     }
     
     .slide-movil a.slidesjs-previous{
