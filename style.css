@@ -762,6 +762,7 @@ ul > .current{
     .slide-movil{
         display: block;
         overflow: hidden;
+        margin: 0;
     }
     .slider-hght{
         height: auto;
