@@ -775,7 +775,6 @@ ul > .current{
     
     a.slidesjs-previous{
         display: block!important;
-        color: black;
     }
     
     a.slidesjs-next{
