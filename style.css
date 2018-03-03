@@ -774,11 +774,12 @@ ul > .current{
     }
     
     a.slidesjs-previous{
-        display: block!important;
+        display: flex;
+        float:left;
     }
     
     a.slidesjs-next{
-        display: block!important;
+        float: left;
     }
     
     .slide-movil .slidesjs-pagination{
