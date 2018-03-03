@@ -770,7 +770,7 @@ ul > .current{
         display: none;
     }
     #slideshow-movil , .slidesjs-container{
-        height: 550px !important;
+        height: 575px !important;
     }
     
     .slide-movil a.slidesjs-previous{
