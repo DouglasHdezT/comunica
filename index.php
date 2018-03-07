@@ -10,7 +10,7 @@ if ( have_posts() ) {
 	} // end while
     rsort($total_views);
 } // end if
-//print_r($attachments );
+print_r($total_views );
 ?>
 
 <div class="container-fluid ">
