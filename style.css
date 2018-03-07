@@ -709,7 +709,7 @@ ul > .current{
 }
 .crop-image{
     width: 100%;
-    height: 25vh;
+    height: 250px;
     overflow: hidden;
 }
 /*MEDIA QUERIES SCREENS*/
