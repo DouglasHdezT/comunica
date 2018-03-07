@@ -732,6 +732,9 @@ ul > .current{
     body{
         margin-top: 100px !important;
     }
+    .crop-image{
+        height: auto;
+    }
     .dark-blue-nav{
         display: none;
     }
