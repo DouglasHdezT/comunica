@@ -65,12 +65,13 @@ if ( have_posts() ) {
                                <div class=" col-sm-6 secondary-post">
                                 <div class="card bg-secondary mb-3">
                                    <div class="container-post">
-                                        <?php
-                                        if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive '));
-                                        }
-                                        ?>
-
+                                       <div class="crop-image">
+                                            <?php
+                                            if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive '));
+                                            }
+                                            ?>
+                                        </div>
                                           <div class="top-right">
                                               <span class="glyphicon glyphicon-eye-open" style="margin-right:5px" aria-hidden="true"></span>
                                               <?php echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
