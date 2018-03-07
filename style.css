@@ -707,11 +707,7 @@ ul > .current{
 .slide-movil{
     display: none;
 }
-.crop-image{
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-}
+
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
     .post{

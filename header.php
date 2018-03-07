@@ -7,6 +7,7 @@
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
