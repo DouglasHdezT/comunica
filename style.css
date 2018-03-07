@@ -435,6 +435,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 }
 .post{
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*toggle de post descriptions*/
@@ -707,7 +709,7 @@ ul > .current{
 }
 .crop-image{
     width: 100%;
-    height: 200px;
+    height: 100px;
     overflow: hidden;
 }
 /*MEDIA QUERIES SCREENS*/
