@@ -60,7 +60,7 @@ if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();
                          $post_views = get_post_views(get_the_ID());
-                            if($post->ID != $idFirst && $post_views < $total_views[0]){
+                            if($post->ID != $idFirst && $post_views < $total_views[3]){
                                 if($counter < 2){?>
                                <div class=" col-sm-6 secondary-post">
                                 <div class="card bg-secondary mb-3">
