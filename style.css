@@ -434,7 +434,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0;
 }
 .post{
-    height: 160px !important;
+    height: 200px !important;
+    clip: rect(5px, 40px, 45px, 5px);
 }
 
 /*toggle de post descriptions*/
