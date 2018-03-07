@@ -159,10 +159,11 @@ ul.drak-ul-footer > li:hover{
     font-size: 40px;
 }
 .logo-container{
-    height: 200px;
+    height: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 2%;
+    background-position: 50% 0%;
+    background-size: 25%;
 }
 
 /*BOTON DE DESPLAZAMIENTO*/
@@ -184,7 +185,7 @@ ul.drak-ul-footer > li:hover{
 .link-darknav{
     text-decoration: none;
     color: #fff;
-    padding: 25px;
+    padding: 5px 15px;
     display: block;
 }
 .link-darknav:hover{
@@ -450,9 +451,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 
 .slider-hght{
     height: 230px !important;
-    position: relative;
-    width: 110%;
-    right: 17px;
+    width: 100%;
 }
 .btn{
     font-size: 0.8em !important;
