@@ -25,7 +25,7 @@
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                           }
                                         ?>
                                   </div>
@@ -62,7 +62,7 @@
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                           }
                                         ?>
                                   </div>
@@ -92,7 +92,7 @@
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                               }
                                             ?>
                                       </div>
@@ -121,7 +121,7 @@
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                       }
                                     ?>
                                   </div>
@@ -148,7 +148,7 @@
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                           }
                                         ?>
                                   </div>
@@ -186,7 +186,7 @@
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                           }
                                         ?>
                                   </div>
@@ -216,7 +216,7 @@
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                               }
                                             ?>
                                       </div>
@@ -244,7 +244,7 @@
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                       }
                                     ?>
                               </div>
@@ -270,7 +270,7 @@
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
                                       }
                                     ?>
                                   </div>
