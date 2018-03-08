@@ -71,3 +71,17 @@
         height: 250px !important;
     }
 }
+
+/*Breakpoints del slider*/
+
+@media screen and (min-width: 992px) and (max-width:1100px){
+    .crop-image-slider{
+        height: 205px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    .crop-image-slider{
+        height: 215px !important;
+    }
+}
