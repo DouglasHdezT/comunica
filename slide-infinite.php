@@ -22,11 +22,12 @@
                             <div class="col-sm-4">
                                 <div class="card mb-3  slider-container">
                                   <h3 class="card-header"><?php the_category(',');?></h3>
-                                  <?php
+                                  <div class="crop-image-slider">
+                                      <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                      }
-                                    ?>
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
+                                      }?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
