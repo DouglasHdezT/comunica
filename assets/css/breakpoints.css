@@ -13,6 +13,11 @@
     align-items: center;
 }
 
+.crop-image .img-media{
+    width: 100%!important;
+    height: auto !important;
+}
+
 /*
 @media screen and (min-width: 1700px) and (max-width:1800px){
     .crop-image{
@@ -97,11 +102,6 @@
     .img-media{
         width: auto!important;
         height: 100% !important;
-    }
-    
-    .crop-image .img-media{
-        width: 100%!important;
-        height: auto !important;
     }
 }
 
