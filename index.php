@@ -68,7 +68,7 @@ if ( have_posts() ) {
                                        <div class="crop-image">
                                             <?php
                                             if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive '));
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                             }
                                             ?>
                                         </div>
