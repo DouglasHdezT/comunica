@@ -159,6 +159,9 @@ if ( have_posts() ) {
             </div>
         </div>
         <br>
+        
+        <!-- AREA MULTIMEDIA -->
+        
         <h2>Multimedia</h2>
         <div class="row">
             <?php
@@ -175,19 +178,23 @@ if ( have_posts() ) {
                                 <?php
                                 $youtube = getYTurl();
                                 $full = 'https://www.youtube.com/embed/'.$youtube;
-                                if(empty($youtube)){
-                                    if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
-                                    }
-                                }else{
+                                if(empty($youtube)){?>
+                                    <div class="img-media">
+                                        <?php if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
+                                        } ?>
+                                    </div>
+                                <?php }else{
                                 ?>
                                 <iframe width="100%" height="350px"
                                 src="<?php echo $full ?>">
                                 </iframe>
                                 <?php } ?>
                                 <hr>
-                                <h4 class="card-title"><?php the_title()?></h4>
-                                <p class="card-text"><?php the_excerpt(); ?></p>
+                                <div class="media-container">
+                                    <h4 class="card-title"><?php the_title()?></h4>
+                                    <p class="card-text"><?php the_excerpt(); ?></p>    
+                                </div>
                               </div>
                             </div>
                         </div>
