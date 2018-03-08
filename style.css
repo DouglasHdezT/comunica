@@ -341,7 +341,7 @@ ul.menu-scrolling > li > a:hover{
     overflow: hidden;
 }
 
-img-media{
+.img-media{
     display: block !important;
     width: 100% !important;
     height: auto !important;
