@@ -13,6 +13,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-family: Copper-Medium;
     src: url(assets/fonts/cooper/CooperHewitt-Medium.otf);
 }
+
+@font-face{
+    font-family: Open-Sans;
+    src:url(assets/fonts/open/OpenSans-Regular.ttf)
+}
+
 html{
   font-family: sans-serif;
 }
@@ -36,7 +42,7 @@ a:hover{
 .dark-blue-nav{
     background: #072844;
     color: #fff;
-    font-family: Copper-Medium;
+    font-family: Open-Sans;
     font-size: 1.1em;
 }
 .section-containers{
