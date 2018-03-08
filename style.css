@@ -342,10 +342,11 @@ ul.menu-scrolling > li > a:hover{
 }
 
 .img-media{
-    display: flex !important;
-    justify-content: center !important;
+    display: block !important;
     width: 100% !important;
     height: auto !important;
+    margin-left: 50%!important;
+    -webkit-transform: translateX(-50%) !important;
 }
 
 
