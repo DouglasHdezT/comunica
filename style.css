@@ -342,6 +342,7 @@ ul.menu-scrolling > li > a:hover{
 }
 
 .img-media{
+    -webkit-transform: translateY(-50%) translateX(-50%);
     display: block !important;
     margin: 0 auto 0 auto !important;
     width: 100% !important;
