@@ -85,3 +85,12 @@
         height: 215px !important;
     }
 }
+
+/*Break points de multimedia*/
+
+@media screen and (max-width: 1200px){
+    .img-media{
+        width: auto!important;
+        height: 100% !important;
+    }
+}

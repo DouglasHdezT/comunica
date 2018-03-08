@@ -179,9 +179,9 @@ if ( have_posts() ) {
                                 $youtube = getYTurl();
                                 $full = 'https://www.youtube.com/embed/'.$youtube;
                                 if(empty($youtube)){?>
-                                    <div class="img-media">
+                                    <div class="img-media-container">
                                         <?php if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                         } ?>
                                     </div>
                                 <?php }else{
