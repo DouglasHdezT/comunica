@@ -342,7 +342,7 @@ ul.menu-scrolling > li > a:hover{
 }
 
 img-media{
-    display: block;
+    display: block !important;
     width: 100% !important;
     height: auto !important;
 }
