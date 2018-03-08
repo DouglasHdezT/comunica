@@ -98,6 +98,11 @@
         width: auto!important;
         height: 100% !important;
     }
+    
+    .crop-image>.img-media{
+        width: 100%!important;
+        height: auto !important;
+    }
 }
 
 @media screen and (max-width: 768px){
