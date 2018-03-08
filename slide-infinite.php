@@ -22,11 +22,13 @@
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                      }
-                                    ?>
+                                  <div class="crop-image-slider">
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                          }
+                                        ?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
@@ -57,12 +59,13 @@
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  
-                                  <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                      }
-                                    ?>
+                                  <div class="crop-image-slider">
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                          }
+                                        ?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
@@ -86,12 +89,13 @@
                                 <div class="col-sm-4">
                                     <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                     <div class="card mb-3  slider-container">
-                                      
-                                      <?php
-                                          if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                          }
-                                        ?>
+                                        <div class="crop-image-slider">
+                                          <?php
+                                              if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                              }
+                                            ?>
+                                      </div>
                                       <div class="card-body text-dark w-sr" id="style-7">
                                         <h2><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
@@ -114,13 +118,14 @@
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  
+                                  <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
                                       }
                                     ?>
-                                  <div class="card-body text-dark w-sr" id="style-7">
+                                  </div>
+                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -139,12 +144,15 @@
                         <div class="col-sm-4">
                             <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                             <div class="card mb-3  slider-container">
-                              
-                              <?php
-                                  if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                  }
-                                ?>
+                              <div class="crop-image-slider">
+                                  <div class="crop-image-slider">
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                          }
+                                        ?>
+                                  </div>
+                              </div>
                               <div class="card-body text-dark w-sr" id="style-7">
                                 <h2><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
@@ -175,12 +183,13 @@
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  
-                                  <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                      }
-                                    ?>
+                                  <div class="crop-image-slider">
+                                      <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                          }
+                                        ?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
@@ -204,12 +213,13 @@
                                 <div class="col-sm-4">
                                     <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                     <div class="card mb-3  slider-container">
-                                      
-                                      <?php
-                                          if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                          }
-                                        ?>
+                                      <div class="crop-image-slider">
+                                          <?php
+                                              if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                              }
+                                            ?>
+                                      </div>
                                       <div class="card-body text-dark w-sr" id="style-7">
                                         <h2><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
@@ -231,12 +241,13 @@
                         <div class="col-sm-4">
                             <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                             <div class="card mb-3  slider-container">
-                              
-                              <?php
-                                  if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
-                                  }
-                                ?>
+                              <div class="crop-image-slider">
+                                  <?php
+                                      if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
+                                      }
+                                    ?>
+                              </div>
                               <div class="card-body text-dark w-sr" id="style-7">
                                 <h2><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
@@ -256,12 +267,13 @@
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  
+                                  <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'post'));
                                       }
                                     ?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>

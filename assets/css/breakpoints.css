@@ -6,6 +6,12 @@
     overflow: hidden;
 }
 
+.crop-image-slider{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;        
+}
+
 @media screen and (min-width: 1700px) and (max-width:1800px){
     .crop-image{
         height: 240px !important;
