@@ -10,7 +10,7 @@ if ( have_posts() ) {
 	} // end while
     rsort($total_views);
 } // end if
-//print_r($attachments );
+//print_r($total_views );
 ?>
 
 <div class="container-fluid ">
@@ -60,17 +60,18 @@ if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();
                          $post_views = get_post_views(get_the_ID());
-                            if($post->ID != $idFirst ){
+                            if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 2){?>
                                <div class=" col-sm-6 secondary-post">
                                 <div class="card bg-secondary mb-3">
                                    <div class="container-post">
-                                        <?php
-                                        if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive '));
-                                        }
-                                        ?>
-
+                                       <div class="crop-image">
+                                            <?php
+                                            if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'post img-responsive '));
+                                            }
+                                            ?>
+                                        </div>
                                           <div class="top-right">
                                               <span class="glyphicon glyphicon-eye-open" style="margin-right:5px" aria-hidden="true"></span>
                                               <?php echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
@@ -86,10 +87,9 @@ if ( have_posts() ) {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div><?php $counter++; ?>
                         <?php }
                         }
-                        $counter++;
                     }
                     // end while
                 } // end if

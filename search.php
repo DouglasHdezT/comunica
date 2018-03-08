@@ -33,10 +33,10 @@ get_header();
                         <span>Cantidad de resultados: <?php echo $result_cont; ?> </span>
                         <div class="result_panel_posts">
                             <?php
-                        $post_views = get_post_views(get_the_ID());
                             while(have_posts()){
                                 the_post();
                                 $post=get_post();
+                                $post_views = get_post_views(get_the_ID());
                                 ?>
                                 <?php 
                                     if($post->post_type == 'post'){?>

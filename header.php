@@ -3,9 +3,11 @@
 <head>
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, user-scalable=no, initial-scale=1.0">
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
