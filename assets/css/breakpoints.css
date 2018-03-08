@@ -14,8 +14,8 @@
 }
 
 .crop-image .img-media{
-    width: 100%!important;
-    height: auto !important;
+    width: auto!important;
+    height: 100% !important;
 }
 
 /*
