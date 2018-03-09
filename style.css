@@ -63,6 +63,10 @@ a:hover{
     border-color: #8d8d8d!important;
 }
 
+.card-body{
+    background: #072844!important;
+}
+
 .menu-scrolling{
     width: 50%;
     float: left;
