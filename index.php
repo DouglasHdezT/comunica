@@ -117,11 +117,13 @@ if ( have_posts() ) {
                                <div class="col" style="background: rgba(7, 40, 68, 0.19); padding-top:5px; padding-bottom:5px;">
                                 <div class="card mb-3  slider-container">
                                   <h3 class="card-header"><?php the_category(',');?></h3>
-                                  <?php
+                                  <div class="crop-image-slider">
+                                    <?php
                                       if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                       }
                                     ?>
+                                  </div>
                                   <div class="card-body text-dark w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
