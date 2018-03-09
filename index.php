@@ -165,6 +165,7 @@ if ( have_posts() ) {
         <!-- AREA MULTIMEDIA -->
         
         <h2>Multimedia</h2>
+        <br>
         <div class="row">
             <?php
             rewind_posts();
