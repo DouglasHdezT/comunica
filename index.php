@@ -102,7 +102,7 @@ if ( have_posts() ) {
         
         <div class="row">
           <div class="col-md-12">
-            
+            <h2>ÚLTIMAS ENTRADAS</h2>
             <!-- SLIDE MOVIL -->
             
             <div class="slide-movil">
