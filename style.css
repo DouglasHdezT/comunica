@@ -60,7 +60,7 @@ a:hover{
 }
 
 .boton-leer{
-    border-color: #8d8d8d;
+    border-color: #8d8d8d!important;
 }
 
 .menu-scrolling{
