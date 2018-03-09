@@ -106,9 +106,14 @@
 }
 
 @media screen and (max-width: 768px){
-    .img-media{
+    .crop-image .img-media{
         width: 100%!important;
         height: auto !important;
+    }
+    
+    .img-media{
+        width: auto !important;
+        height: 100% !important;
     }
 }
 
