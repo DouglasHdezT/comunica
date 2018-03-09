@@ -114,9 +114,9 @@ if ( have_posts() ) {
                         the_post();
                             if($nslide< 10){?>
                               <div class="slide">
-                               <div class="col" style="background: rgba(7, 40, 68, 0.19); padding-top:5px; padding-bottom:5px;">
+                               <div class="col">
+                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container">
-                                  <h3 class="card-header"><?php the_category(',');?></h3>
                                   <div class="crop-image-slider">
                                     <?php
                                       if ( has_post_thumbnail() ) {
