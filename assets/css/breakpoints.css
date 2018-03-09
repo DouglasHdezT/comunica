@@ -124,12 +124,16 @@
     }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 500px){
     .crop-image .img-media{
         width: auto!important;
         height: 100% !important;
     }
     
+}
+
+
+@media screen and (max-width: 570px){
     .img-media{
         width: auto!important;
         height: 100% !important;
