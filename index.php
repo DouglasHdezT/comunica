@@ -177,7 +177,7 @@ if ( have_posts() ) {
             ?>
                        <div class="col-md-6">
                             <div class="card text-white bg-primary mb-3">
-                              <div class="card-body">
+                              <div class="card-body media-body">
                                 <?php
                                 $youtube = getYTurl();
                                 $full = 'https://www.youtube.com/embed/'.$youtube;
