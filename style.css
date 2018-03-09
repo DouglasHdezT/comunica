@@ -746,7 +746,7 @@ ul > .current{
         height: auto !important;
     }
     .space{
-        display: block;
+        display: block !important;
     }
     #slideshow , .slidesjs-container{
     height: 600px !important;
@@ -838,7 +838,7 @@ ul > .current{
         max-width: 100% !important;
     }
     .space{
-        display: block;
+        display: block !important;
     }
     body{
         margin-top: 10px !important;
