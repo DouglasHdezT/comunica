@@ -113,6 +113,11 @@
 }
 
 @media screen and (min-width: 421px) and (max-width: 768px){
+    .crop-image .img-media{
+        width: 100%!important;
+        height: auto !important;
+    }
+    
     .img-media{
         width: 100%!important;
         height: auto !important;
@@ -120,6 +125,11 @@
 }
 
 @media screen and (max-width: 421px){
+    .crop-image .img-media{
+        width: auto!important;
+        height: 100% !important;
+    }
+    
     .img-media{
         width: auto!important;
         height: 100% !important;
