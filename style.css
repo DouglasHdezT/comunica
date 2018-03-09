@@ -219,7 +219,7 @@ ul.drak-ul-footer > li:hover{
 .dark-blue-nav-scrolling{
     display: none;
     color: #fff;
-    background: #c1c1c1;
+    background: rgba(193, 193, 193, 0.55);
     padding: 22px;
     position: fixed;
     top: 0;
