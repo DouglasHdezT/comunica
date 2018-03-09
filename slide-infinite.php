@@ -156,7 +156,7 @@
                               <div class="card-body text-dark w-sr" id="style-7">
                                 <h2><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                <a href="<?php the_permalink();?>" class="btn btn-outline-primary boton-Leer">Leer Más</a>
                               </div>
                               <div class="card-footer text-muted">
                                 <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>

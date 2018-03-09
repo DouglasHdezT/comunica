@@ -59,6 +59,10 @@ a:hover{
     padding: 10px;
 }
 
+.boton-leer{
+    border-color: #8d8d8d;
+}
+
 .menu-scrolling{
     width: 50%;
     float: left;
