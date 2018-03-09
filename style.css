@@ -55,9 +55,9 @@ a:hover{
     margin: 0!important;
 }
 
-/*.home-link a {
-    padding: 25px;
-}*/
+.home-link a {
+    padding: 10px;
+}
 
 .menu-scrolling{
     width: 50%;
