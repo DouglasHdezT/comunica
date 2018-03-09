@@ -347,6 +347,8 @@ ul.menu-scrolling > li > a:hover{
     height: auto !important;
     margin-left: 50%!important;
     -webkit-transform: translateX(-50%) !important;
+    margin-top: 50% !important;
+    -webkit-transform: translateY(-50%);
 }
 
 
