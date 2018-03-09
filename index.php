@@ -119,7 +119,7 @@ if ( have_posts() ) {
                                   <h3 class="card-header"><?php the_category(',');?></h3>
                                   <?php
                                       if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                       }
                                     ?>
                                   <div class="card-body text-dark w-sr" id="style-7">
