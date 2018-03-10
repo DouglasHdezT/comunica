@@ -81,7 +81,7 @@
     </div>
     <nav class="dark-blue-nav-scrolling">
        <div id="menu" class="buttom">
-           <span style="top:10px" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+           <span id="menu-trigger" style="top:10px" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
            <img src="<?php bloginfo('template_url') ?>/assets/images/navScroll.png">
