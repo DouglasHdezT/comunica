@@ -162,7 +162,7 @@ ul.drak-ul-footer > li:hover{
 }
 
 .view{
-    border-left: 2px solid #03182a;
+    border-left: 1px #898989 solid;
     font-size: 1.2em;
 
 }
@@ -785,7 +785,7 @@ ul > .current{
         display: none;
     }
     .section-container-scrolling{
-        background: rgba(189, 195, 199,0.5);
+        background: rgba(189, 195, 199);
         top: 95px;
         height: calc(100vh - 95px);
     }
