@@ -39,8 +39,8 @@ var $counter = true;
             
             $counter = false;
         }else{
+            $('.dark-blue-nav-scrolling').css('background','rgba(193, 193, 193, 0.55)');
            $('.section-container-scrolling').slideUp('fast');
-            $('.dark-blue-nav-scrolling').css('background','rgba(193, 193, 193, 0.55);');
             $('#menu-trigger').removeClass('glyphicon-remove');
             $('#menu-trigger').addClass('glyphicon-menu-hamburger');
             $counter = true; 
