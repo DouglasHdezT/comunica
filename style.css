@@ -232,7 +232,7 @@ ul.drak-ul-footer > li:hover{
 .section-container-scrolling{
     display: none;
     width: 100%;
-    background: rgb(193, 193, 193);
+    background: #c1c1c1;
     height: calc(100vh - 85px);
     position: fixed;
     top: 85px;
@@ -790,7 +790,7 @@ ul > .current{
         height: calc(100vh - 95px);
     }
     .view{
-        border-left: 1px #7f8c8d solid;
+        border-left: 1px #898989 solid;
     }
     .principal-banner{
         width: 100%;

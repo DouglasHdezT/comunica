@@ -33,7 +33,7 @@ var $counter = true;
     $('div#menu , div#menu-movil').click(function(){
         if($counter){
             $('.section-container-scrolling').slideDown('fast');
-            $('.dark-blue-nav-scrolling').css('background','rgb(193, 193, 193);');
+            $('.dark-blue-nav-scrolling').css('background','#c1c1c1');
             $('#menu-trigger').addClass('glyphicon-remove');
             $('#menu-trigger').removeClass('glyphicon-menu-hamburger');
             
