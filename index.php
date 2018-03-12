@@ -191,9 +191,11 @@ rsort($total_views);
                                     </div>
                                 <?php }else{
                                 ?>
-                                <iframe width="100%" height="350px"
-                                src="<?php echo $full ?>">
-                                </iframe>
+                                <div class="img-media-container">
+                                    <iframe width="100%" height="350px"
+                                    src="<?php echo $full ?>">
+                                    </iframe>
+                                </div>
                                 <?php } ?>
                                 <hr>
                                 <div class="media-container">
