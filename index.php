@@ -1,13 +1,14 @@
 <?php
 get_header();
 $hoy = getdate();
-echo $hoy['hours'];
 /*Obtener el post con mayor numero de visitas*/
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
-		$view_per_post =  get_post_views(get_the_ID());
-        $total_views[] =  $view_per_post;
+        if(round(abs($hoy - get_the_date('U'))/86400)<7){
+            $view_per_post =  get_post_views(get_the_ID());
+            $total_views[] =  $view_per_post;
+        }
 	} // end while
     rsort($total_views);
 } // end if
