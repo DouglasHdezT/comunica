@@ -78,7 +78,7 @@ $(function(){
     },
     play:{
         interval: 10000,
-        auto:true,
+        auto:false,
         effect: "fade",
         pauseOnHover: true,
         restartDelay: 5000
