@@ -10,9 +10,9 @@ if ( have_posts() ) {
             $total_views[] =  $view_per_post;
         }
 	} // end while
-    rsort($total_views);
 } // end if
-//print_r($total_views );
+rsort($total_views);
+print_r($total_views );
 ?>
 
 <div class="container-fluid ">
