@@ -21,7 +21,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container">
+                                <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -29,7 +29,7 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-dark w-sr" id="style-7">
+                                  <div class="card-body text-white w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -58,7 +58,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container">
+                                <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -66,7 +66,7 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-dark w-sr" id="style-7">
+                                  <div class="card-body text-white w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -88,7 +88,7 @@
                             the_post();?>
                                 <div class="col-sm-4">
                                     <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                    <div class="card mb-3  slider-container">
+                                    <div class="card mb-3  slider-container multimedia-body">
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -96,7 +96,7 @@
                                               }
                                             ?>
                                       </div>
-                                      <div class="card-body text-dark w-sr" id="style-7">
+                                      <div class="card-body text-white w-sr" id="style-7">
                                         <h2><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -117,7 +117,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container">
+                                <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -125,7 +125,7 @@
                                       }
                                     ?>
                                   </div>
-                                   <div class="card-body text-dark w-sr" id="style-7">
+                                   <div class="card-body text-white w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -143,7 +143,7 @@
                    the_post();?>
                         <div class="col-sm-4">
                             <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                            <div class="card mb-3  slider-container">
+                            <div class="card mb-3  slider-container multimedia-body">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
                                       <?php
@@ -153,7 +153,7 @@
                                         ?>
                                   </div>
                               </div>
-                              <div class="card-body text-dark w-sr" id="style-7">
+                              <div class="card-body text-white w-sr" id="style-7">
                                 <h2><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
                                 <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -182,7 +182,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container">
+                                <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -190,7 +190,7 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-dark w-sr" id="style-7">
+                                  <div class="card-body text-white w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -212,7 +212,7 @@
                             the_post();?>
                                 <div class="col-sm-4">
                                     <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                    <div class="card mb-3  slider-container">
+                                    <div class="card mb-3  slider-container multimedia-body">
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -220,7 +220,7 @@
                                               }
                                             ?>
                                       </div>
-                                      <div class="card-body text-dark w-sr" id="style-7">
+                                      <div class="card-body text-white w-sr" id="style-7">
                                         <h2><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -240,7 +240,7 @@
                     the_post();?>
                         <div class="col-sm-4">
                             <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                            <div class="card mb-3  slider-container">
+                            <div class="card mb-3  slider-container multimedia-body">
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -248,7 +248,7 @@
                                       }
                                     ?>
                               </div>
-                              <div class="card-body text-dark w-sr" id="style-7">
+                              <div class="card-body text-white w-sr" id="style-7">
                                 <h2><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
                                 <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
@@ -266,7 +266,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container">
+                                <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -274,7 +274,7 @@
                                       }
                                     ?>
                                   </div>
-                                  <div class="card-body text-dark w-sr" id="style-7">
+                                  <div class="card-body text-white w-sr" id="style-7">
                                     <h2><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
