@@ -1,6 +1,7 @@
 <?php
 get_header();
-
+$hoy = getdate();
+print_r($hoy);
 /*Obtener el post con mayor numero de visitas*/
 if ( have_posts() ) {
 	while ( have_posts() ) {
