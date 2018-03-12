@@ -20,8 +20,8 @@
                     for($i=0; $i<3; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container multimedia-body">
+                                <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                <div class=" card mb-3  text-white  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -30,9 +30,9 @@
                                         ?>
                                   </div>
                                   <div class="card-body text-white w-sr" id="style-7">
-                                    <h2><?php the_title() ?> </h2>
+                                    <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                   </div>
                                   <div class="card-footer text-muted">
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -58,7 +58,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container multimedia-body">
+                                <div class=" card mb-3  text-white  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -67,9 +67,9 @@
                                         ?>
                                   </div>
                                   <div class="card-body text-white w-sr" id="style-7">
-                                    <h2><?php the_title() ?> </h2>
+                                    <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                   </div>
                                   <div class="card-footer text-muted">
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -87,8 +87,8 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                    <div class="card mb-3  slider-container multimedia-body">
+                                    <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                    <div class=" card mb-3  text-white  slider-container multimedia-body">
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -97,9 +97,9 @@
                                             ?>
                                       </div>
                                       <div class="card-body text-white w-sr" id="style-7">
-                                        <h2><?php the_title() ?> </h2>
+                                        <h2 class="card-title"><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                        <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                       </div>
                                       <div class="card-footer text-muted">
                                         <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -116,8 +116,8 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container multimedia-body">
+                                <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                <div class=" card mb-3  text-white  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -126,9 +126,9 @@
                                     ?>
                                   </div>
                                    <div class="card-body text-white w-sr" id="style-7">
-                                    <h2><?php the_title() ?> </h2>
+                                    <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                   </div>
                                   <div class="card-footer text-muted">
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -142,8 +142,8 @@
                 if(have_posts()){
                    the_post();?>
                         <div class="col-sm-4">
-                            <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                            <div class="card mb-3  slider-container multimedia-body">
+                            <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                            <div class=" card mb-3  text-white  slider-container multimedia-body">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
                                       <?php
@@ -154,9 +154,9 @@
                                   </div>
                               </div>
                               <div class="card-body text-white w-sr" id="style-7">
-                                <h2><?php the_title() ?> </h2>
+                                <h2 class="card-title"><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                               </div>
                               <div class="card-footer text-muted">
                                 <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -181,8 +181,8 @@
                     for($i=0; $i<1; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container multimedia-body">
+                                <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                <div class=" card mb-3  text-white  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -191,9 +191,9 @@
                                         ?>
                                   </div>
                                   <div class="card-body text-white w-sr" id="style-7">
-                                    <h2><?php the_title() ?> </h2>
+                                    <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                   </div>
                                   <div class="card-footer text-muted">
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -211,8 +211,8 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                    <div class="card mb-3  slider-container multimedia-body">
+                                    <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                    <div class=" card mb-3  text-white  slider-container multimedia-body">
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -221,9 +221,9 @@
                                             ?>
                                       </div>
                                       <div class="card-body text-white w-sr" id="style-7">
-                                        <h2><?php the_title() ?> </h2>
+                                        <h2 class="card-title"><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                        <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                       </div>
                                       <div class="card-footer text-muted">
                                         <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -239,8 +239,8 @@
                     echo '<div class="slide">';
                     the_post();?>
                         <div class="col-sm-4">
-                            <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                            <div class="card mb-3  slider-container multimedia-body">
+                            <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                            <div class=" card mb-3  text-white  slider-container multimedia-body">
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -249,9 +249,9 @@
                                     ?>
                               </div>
                               <div class="card-body text-white w-sr" id="style-7">
-                                <h2><?php the_title() ?> </h2>
+                                <h2 class="card-title"><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                               </div>
                               <div class="card-footer text-muted">
                                 <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
@@ -265,8 +265,8 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
-                                <div class="card mb-3  slider-container multimedia-body">
+                                <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
+                                <div class=" card mb-3  text-white  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -275,9 +275,9 @@
                                     ?>
                                   </div>
                                   <div class="card-body text-white w-sr" id="style-7">
-                                    <h2><?php the_title() ?> </h2>
+                                    <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más</a>
                                   </div>
                                   <div class="card-footer text-muted">
                                     <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
