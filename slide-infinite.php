@@ -57,7 +57,7 @@
                     for($i=0; $i<2; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 7px"><?php the_category(',');?></h3>
+                                <h3 style="padding: 5px 15px"><?php the_category(',');?></h3>
                                 <div class="card mb-3  slider-container multimedia-body">
                                   <div class="crop-image-slider">
                                       <?php
