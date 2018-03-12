@@ -5,7 +5,7 @@ $hoy = getdate();
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
-        if(round(abs($hoy - get_the_date('U'))/86400)<7){
+        if(round(abs($hoy[0] - get_the_date('U'))/86400)<7){
             $view_per_post =  get_post_views(get_the_ID());
             $total_views[] =  $view_per_post;
         }
