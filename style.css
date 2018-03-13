@@ -772,6 +772,7 @@ ul > .current{
 }
 .dot-1{
     background: #f1c40f;
+    animation: dot-1 4s infinite;
 }
 .dot-2{
     background: #e67e22;
@@ -779,7 +780,10 @@ ul > .current{
 .dot-3{
     background: #e74c3c;
 }
-
+@keyframes dot-1{
+    from{ top:0px; }
+    to{ top:500px; }
+}
 
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
