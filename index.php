@@ -14,6 +14,9 @@ if ( have_posts() ) {
 rsort($total_views);
 //print_r($total_views );
 ?>
+<div id="preloader">
+    <div class="loader"></div>
+</div>
 
 <div class="container-fluid ">
     <section class="content-main">
