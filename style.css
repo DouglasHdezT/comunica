@@ -772,18 +772,20 @@ ul > .current{
 }
 .dot-1{
     background: #f1c40f;
-    animation: dot-1 4s infinite;
+    animation: dot 4s alternate infinite;
 }
 .dot-2{
     background: #e67e22;
+    animation: dot 4s alternate infinite -0.5;
 }
 .dot-3{
     background: #e74c3c;
+    animation: dot 4s alternate infinite -0.7;
 }
 
-@keyframes dot-1{
-    from{ opacity: 0; }
-    to{ opacity: 1; }
+@keyframes dot{
+    from{ opacity: 1; }
+    to{ opacity: 0; }
 }
 
 /*MEDIA QUERIES SCREENS*/
