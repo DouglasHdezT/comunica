@@ -781,8 +781,8 @@ ul > .current{
     background: #e74c3c;
 }
 @keyframes dot-1{
-    from{ top:0px; }
-    to{ top:500px; }
+    from{ margin-top:0px; }
+    to{ margin-top:500px; }
 }
 
 /*MEDIA QUERIES SCREENS*/
