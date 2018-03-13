@@ -14,8 +14,10 @@ if ( have_posts() ) {
 rsort($total_views);
 //print_r($total_views );
 ?>
-<div id="preloader" class="padre">
-    <div class="loader hijo"></div>
+<div id="preloader">
+    <div class="loader dot-1"></div>
+    <div class="loader dot-2"></div>
+    <div class="loader dot-3"></div>
 </div>
 
 <div class="container-fluid ">
