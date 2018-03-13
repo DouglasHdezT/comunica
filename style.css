@@ -791,6 +791,9 @@ ul > .current{
 
 /*MEDIA QUERIES SCREENS*/
 @media screen and (max-width: 992px){
+    #preloader{
+        display: none;
+    }
     .post{
         height: auto !important;
     }
