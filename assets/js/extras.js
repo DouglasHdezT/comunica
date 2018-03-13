@@ -3,9 +3,9 @@ $(document).ready(main);
 function main(){
     var $screen = $(window).height();
     
-    $(window).on('load',function(){
+    /*$(window).on('load',function(){
        $('#preloader').fadeOut(); 
-    });
+    });*/
     
     $('.toggle-trigger').click(function(){
         if($(this).children('.toggle').is(':hidden')){

@@ -780,9 +780,10 @@ ul > .current{
 .dot-3{
     background: #e74c3c;
 }
+
 @keyframes dot-1{
     from{ margin-top:0px; }
-    to{ margin-top:500px; }
+    to{ margin-top:-300px; }
 }
 
 /*MEDIA QUERIES SCREENS*/
