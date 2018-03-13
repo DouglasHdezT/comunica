@@ -14,8 +14,8 @@ if ( have_posts() ) {
 rsort($total_views);
 //print_r($total_views );
 ?>
-<div id="preloader">
-    <div class="loader"></div>
+<div id="preloader" class="padre">
+    <div class="loader hijo"></div>
 </div>
 
 <div class="container-fluid ">
