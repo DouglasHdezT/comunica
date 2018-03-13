@@ -758,6 +758,7 @@ ul > .current{
     background: #FFF;
 }
 .dots-container{
+    width: 100%;
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 20%;
