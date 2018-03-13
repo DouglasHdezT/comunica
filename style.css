@@ -782,8 +782,8 @@ ul > .current{
 }
 
 @keyframes dot-1{
-    from{ margin-top:0px; }
-    to{ margin-top:-300px; }
+    from{ opacity: 0; }
+    to{ opacity: 1; }
 }
 
 /*MEDIA QUERIES SCREENS*/
