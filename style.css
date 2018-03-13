@@ -755,6 +755,7 @@ ul > .current{
     position: fixed;
     top: 0;
     z-index: 100000000000000000;
+    background: #FFF;
 }
 
 .loader {
