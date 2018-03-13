@@ -772,15 +772,15 @@ ul > .current{
 }
 .dot-1{
     background: #f1c40f;
-    animation: dot 4s alternate infinite;
+    animation: dot 3s alternate infinite;
 }
 .dot-2{
     background: #e67e22;
-    animation: dot 4s alternate infinite -0.5;
+    animation: dot 3s alternate infinite 0.5s;
 }
 .dot-3{
     background: #e74c3c;
-    animation: dot 4s alternate infinite -0.7;
+    animation: dot 3s alternate infinite 0.7s;
 }
 
 @keyframes dot{
