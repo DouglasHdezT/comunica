@@ -763,6 +763,7 @@ ul > .current{
     height: 50px;
     margin-right: 30px;
     border-radius: 100%;
+    display: inline-block;
 }
 .dot-1{
     background: #f1c40f;
