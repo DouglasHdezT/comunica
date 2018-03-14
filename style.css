@@ -769,8 +769,14 @@ ul > .current{
 }
 
 @keyframes logo-wide{
-    from{transform: scale(1)}
-    to{transform: scale(1.5)}
+    from{
+        transform: scale(1);
+        filter: grayscale();
+    }
+    to{
+        transform: scale(1.5);
+        filter: none;
+    }
 }
 
 .loader {
