@@ -788,15 +788,15 @@ ul > .current{
     display: inline-block;
 }
 .dot-1{
-    background: #353b48;
+    background: #333399;
     animation: dot 2s alternate infinite;
 }
 .dot-2{
-    background: #273c75;
+    background: #39c;
     animation: dot 2.5s alternate infinite 0.5s;
 }
 .dot-3{
-    background: #40739e;
+    background: #3c9;
     animation: dot 2.7s alternate infinite 0.7s;
 }
 
