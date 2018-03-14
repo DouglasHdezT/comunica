@@ -771,11 +771,11 @@ ul > .current{
 
 @keyframes logo-wide{
     from{
-        transform: scale(1);
+        transform: scale(0.7);
         filter: grayscale();
     }
     to{
-        transform: scale(1.5);
+        transform: scale(1);
         filter: none;
     }
 }
@@ -788,15 +788,15 @@ ul > .current{
     display: inline-block;
 }
 .dot-1{
-    background: #f1c40f;
+    background: #353b48;
     animation: dot 2s alternate infinite;
 }
 .dot-2{
-    background: #e67e22;
+    background: #273c75;
     animation: dot 2.5s alternate infinite 0.5s;
 }
 .dot-3{
-    background: #e74c3c;
+    background: #40739e;
     animation: dot 2.7s alternate infinite 0.7s;
 }
 
