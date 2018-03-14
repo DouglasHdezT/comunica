@@ -15,8 +15,10 @@ rsort($total_views);
 //print_r($total_views );
 ?>
 <div id="preloader" class="padre">
+    <div class="hijo">
+        <img class= "img-loader" src="<?php bloginfo('template_url')?>/assets/images/icon.png" alt="">
+    </div>  
    <div class="dots-container hijo">
-        <img class= "img-loader" src="<?php bloginfo('template_url')?>/assets/images/minimal-logo.png" alt="">
         <div class="loader dot-1"></div>
         <div class="loader dot-3"></div>
         <div class="loader dot-2"></div>
