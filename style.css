@@ -761,6 +761,18 @@ ul > .current{
     width: 100%;
 }
 
+.img-loader{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: logo-wide 1.5s alternate infinite;
+}
+
+@keyframes logo-wide{
+    from{transform: scale(1)}
+    to{transform: scale(1.5)}
+}
+
 .loader {
     width: 50px;
     height: 50px;
