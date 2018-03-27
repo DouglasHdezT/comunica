@@ -749,6 +749,10 @@ ul > .current{
     display: none;
 }
 
+.material-container{
+    box-shadow: rgba(0,0,0,.6) 5px 5px 5px;
+}
+
 #preloader{
     width: 100%;
     height: 100vh;

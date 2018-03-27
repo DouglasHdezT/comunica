@@ -43,7 +43,7 @@ if ( have_posts() ) {
                             if($post_views == $total_views[0] && $count_views == 0){
                                 $count_views++;?>
                            
-                               <div class="container-post">
+                               <div class="container-post material-container">
                                     <?php
                                     if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
@@ -94,7 +94,7 @@ if ( have_posts() ) {
                                               <?php //echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
                                           </div>
                                     </div>
-                                        <div class="card-body text-dark toggle">
+                                        <div class="card-body text-dark">
                                             <h3><?php the_title(); ?></h3>
                                             <p><?php the_excerpt(); ?></p>
                                             <p><a href="<?php the_permalink(); ?>" class="btn btn-outline-primary" role="button">Leer Más</a></p>
