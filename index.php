@@ -100,6 +100,7 @@ if ( have_posts() ) {
                                             <p><a href="<?php the_permalink(); ?>" class="btn btn-outline-primary" role="button">Leer Más</a></p>
                                             <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?> / <?php the_category(','); ?></small>
                                         </div>
+                                </div>
                             </div><?php $counter++; ?>
                         <?php }
                         }
