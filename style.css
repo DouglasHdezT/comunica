@@ -378,10 +378,11 @@ ul.menu-scrolling > li > a:hover{
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 1px;
+    left: 1px;
     widows: 100%;
-    background: #000;
+    background: #212121;
+    
 }
 
 /* Top left text */
