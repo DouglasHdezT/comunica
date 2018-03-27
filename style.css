@@ -382,7 +382,7 @@ ul.menu-scrolling > li > a:hover{
     left: 0px;
     width: 100%;
     background: #212121;
-    padding: 7px 7px 7px 0px;
+    padding: 7px 7px 0px 7px;
     text-align: left;
     
 }
