@@ -90,7 +90,6 @@ if ( have_posts() ) {
                                             <h3><?php the_title(); ?></h3>
                                             <p><?php the_excerpt(); ?></p>
                                             <p><a href="<?php the_permalink(); ?>" class="btn btn-primary material-buttom" role="button">Leer Más</a></p>
-                                            <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?> / <?php the_category(','); ?></small>
                                         </div>
                                 </div>
                             </div><?php $counter++; ?>
