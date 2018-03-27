@@ -8,11 +8,16 @@ if ( have_posts() ) {
         if(round(abs($hoy[0] - get_the_date('U'))/86400)<7){
             $view_per_post =  get_post_views(get_the_ID());
             $total_views[] =  $view_per_post;
+            rsort($total_views);
+        }
+        if(empty($total_views)){
+            $view_per_post =  get_post_views(get_the_ID());
+            $total_views[] =  $view_per_post;
         }
 	} // end while
 } // end if
-rsort($total_views);
-print_r($total_views );
+
+//print_r($total_views );
 ?>
 <div id="preloader" class="padre">
     <div class="hijo">
