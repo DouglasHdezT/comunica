@@ -50,9 +50,6 @@ if ( have_posts() ) {
                                     }
                                     ?>
                                         
-                                      <div class="top-right">
-                                          <?php// echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
-                                      </div>
                                       <div class="bottom-left">
                                         <h3 style="color:#fff"><?php the_title(); ?></h3>
                                         <?php the_excerpt(); ?>
@@ -78,7 +75,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 2){?>
-                               <div class=" col-sm-6 secondary-post">
+                               <div class=" col-sm-6 secondary-post mager material-container">
                                 <div class="card bg-secondary mb-3">
                                    <div class="container-post">
                                        <div class="crop-image">
@@ -88,9 +85,6 @@ if ( have_posts() ) {
                                             }
                                             ?>
                                         </div>
-                                          <div class="top-right">
-                                              <?php //echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
-                                          </div>
                                     </div>
                                         <div class="card-body text-dark">
                                             <h3><?php the_title(); ?></h3>
