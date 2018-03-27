@@ -51,7 +51,6 @@ if ( have_posts() ) {
                                     ?>
                                         
                                       <div class="top-right">
-                                          <span class="glyphicon glyphicon-eye-open" style="margin-right:5px; color:#fff;" aria-hidden="true"></span>
                                           <?php// echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
                                       </div>
                                       <div class="bottom-left">
@@ -90,7 +89,6 @@ if ( have_posts() ) {
                                             ?>
                                         </div>
                                           <div class="top-right">
-                                              <span class="glyphicon glyphicon-eye-open" style="margin-right:5px" aria-hidden="true"></span>
                                               <?php //echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
                                           </div>
                                     </div>
