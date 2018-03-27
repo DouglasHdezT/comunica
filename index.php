@@ -52,9 +52,9 @@ if ( have_posts() ) {
                                         
                                       <div class="top-right">
                                           <span class="glyphicon glyphicon-eye-open" style="margin-right:5px; color:#fff;" aria-hidden="true"></span>
-                                          <?php echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
+                                          <?php// echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
                                       </div>
-                                      <div class="bottom-right">
+                                      <div class="bottom-left">
                                         <h3 style="color:#fff"><?php the_title(); ?></h3>
                                         <?php the_excerpt(); ?>
                                       </div>
@@ -91,19 +91,15 @@ if ( have_posts() ) {
                                         </div>
                                           <div class="top-right">
                                               <span class="glyphicon glyphicon-eye-open" style="margin-right:5px" aria-hidden="true"></span>
-                                              <?php echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
+                                              <?php //echo sprintf( _n( '%s Visualización', '%s Visualizaciones', $post_views, 'your_textdomain' ), parseViews($post_views) );?>
                                           </div>
                                     </div>
-                                    <div class="toggle-trigger">
-                                        <span id="trigger" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
                                         <div class="card-body text-dark toggle">
-                                                <h3><?php the_title(); ?></h3>
-                                                <p><?php the_excerpt(); ?></p>
-                                                <p><a href="<?php the_permalink(); ?>" class="btn btn-outline-primary" role="button">Leer Más</a></p>
-                                                <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?> / <?php the_category(','); ?></small>
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php the_excerpt(); ?></p>
+                                            <p><a href="<?php the_permalink(); ?>" class="btn btn-outline-primary" role="button">Leer Más</a></p>
+                                            <small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?> / <?php the_category(','); ?></small>
                                         </div>
-                                    </div>
-                                </div>
                             </div><?php $counter++; ?>
                         <?php }
                         }
