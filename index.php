@@ -12,7 +12,7 @@ if ( have_posts() ) {
 	} // end while
 } // end if
 rsort($total_views);
-//print_r($total_views );
+print_r($total_views );
 ?>
 <div id="preloader" class="padre">
     <div class="hijo">
