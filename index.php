@@ -107,7 +107,7 @@ if ( have_posts() ) {
         
         <div class="row" style="background:#072844">
           <div class="col-md-12">
-            <h2 style="padding:10px">ÚLTIMAS ENTRADAS</h2><br>
+            <h2 style="padding:10px; color:#fff">ÚLTIMAS ENTRADAS</h2><br>
             <!-- SLIDE MOVIL -->
             
             <div class="slide-movil">
