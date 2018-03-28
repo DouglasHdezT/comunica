@@ -198,13 +198,13 @@ if ( have_posts() ) {
                                         ?>
                                         <div class="container-post">
                                             <div class="img-media-container">
-                                                <iframe class="filter-off" width="100%" style="border:0" height="350px"
+                                                <iframe id="<?php echo 'play-'.$postCounter ?>" class="filter-off" width="100%" style="border:0" height="350px"
                                                 src="<?php echo $full ?>">
                                                 </iframe>
                                                 <div class="center-full" style="filter:none">
                                                     <h2 style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
-                                                    <button class="circle-buttom"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+                                                    <button id="<?php echo 'play-'.$postCounter ?>" class="circle-buttom"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
                                                 </div>
                                             </div>
                                             

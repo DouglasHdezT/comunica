@@ -49,6 +49,20 @@ function main(){
         }, 'slow');
     });
     
+     $('#play-1').on('click', function(ev) {
+ 
+        $("#video-1")[0].src += "&autoplay=1";
+        ev.preventDefault();
+
+      });
+    
+    $('#play-2').on('click', function(ev) {
+ 
+        $("#video-2")[0].src += "&autoplay=1";
+        ev.preventDefault();
+
+      });
+    
     
     
 }
