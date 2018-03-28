@@ -168,13 +168,10 @@ if ( have_posts() ) {
         <br>
         
         <!-- AREA MULTIMEDIA -->
-        <div class="row" style="background:#1E88E5">
-           <div class="col-md-12">
-           <h2>Multimedia</h2>
-           </div>
-        </div>
         
         <div class="row" style="background:#1E88E5">
+           <div class="col-md-12">
+           
             <?php
             rewind_posts();
             $postCounter =0;
@@ -217,6 +214,7 @@ if ( have_posts() ) {
                         }
                 }
             ?>
+            </div>
         </div>
         <h2>Radio Comunica</h2>
         <div class="row">
