@@ -453,8 +453,8 @@ ul.menu-scrolling > li > a:hover{
 
 ul.slidesjs-pagination > .slidesjs-pagination-item{
     background: #E3F2FD;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin-right: 5px;
     margin-left: 5px;
     display: inline-block;
@@ -463,14 +463,15 @@ ul.slidesjs-pagination > .slidesjs-pagination-item{
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item .active{
     background:#1976D2;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color:#1976D2; 
     
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item a{
     display: block;
     font-size: 0px;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
 }
 a.slidesjs-previous{
