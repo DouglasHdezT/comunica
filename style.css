@@ -386,7 +386,7 @@ ul.menu-scrolling > li > a:hover{
     background: rgba(0,0,0,0.3);
     display: flex;
 }
-.center-full > p{
+.center-full > p,h2{
     align-self: flex-end;
 }
 /* Bottom left text */
