@@ -981,10 +981,14 @@ ul > .current{
 }
 .circle-buttom{
     border: 0;
-    padding: 20px;
+    padding: 16px 20px;
     border-radius: 100%;
     background: #FF8F00;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #fff;
+}
+.circle-buttom{
+    background: #f8bc6f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
