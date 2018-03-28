@@ -50,7 +50,7 @@ function main(){
     });
     
      $('#play-0').on('click', function(ev) {
- 
+        console.log('presionando');
         $("#video-0")[0].src += "&autoplay=1";
         ev.preventDefault();
 
