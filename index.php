@@ -107,7 +107,7 @@ if ( have_posts() ) {
         
         <div class="row" style="background:#072844;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
           <div class="col-md-12">
-            <h2 style="padding:10px; color:#fff">ÚLTIMAS ENTRADAS</h2><br>
+            <h2 style="padding:10px; color:#fff;padding-top:25px">ÚLTIMAS ENTRADAS</h2><br>
             <!-- SLIDE MOVIL -->
             
             <div class="slide-movil">
@@ -155,7 +155,7 @@ if ( have_posts() ) {
             
         </div>
         </div>
-        <div class="row" style="background:#072844">
+        <div class="row" style="background:#072844;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <div class="col-md-12">
                            
            <!-- SLIDE ESCRITORIO -->
@@ -169,7 +169,7 @@ if ( have_posts() ) {
         
         <div class="row" style="background:#1E88E5">
            <div class="col-md-12">
-               <h2 style="padding:10px; color:#fff">MULTIMEDIA</h2><br>
+               <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
                     <?php
                     rewind_posts();
                     $postCounter =0;
