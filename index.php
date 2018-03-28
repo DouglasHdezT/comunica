@@ -155,8 +155,8 @@ if ( have_posts() ) {
             
         </div>
         </div>
-        <div class="row material-container" style="background:#072844;">
-            <div class="col-md-12">
+        <div class="row " style="background:#072844;">
+            <div class="col-md-12 material-container">
                            
            <!-- SLIDE ESCRITORIO -->
            
