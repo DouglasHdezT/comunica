@@ -105,7 +105,7 @@ if ( have_posts() ) {
         </div>
         <br>
         
-        <div class="row" style="background:#072844">
+        <div class="row" style="background:#072844;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
           <div class="col-md-12">
             <h2 style="padding:10px; color:#fff">ÚLTIMAS ENTRADAS</h2><br>
             <!-- SLIDE MOVIL -->
@@ -167,7 +167,7 @@ if ( have_posts() ) {
         </div>        
         <!-- AREA MULTIMEDIA -->
         
-        <div class="row" style="background:#1E88E5; padding-top:30px">
+        <div class="row" style="background:#1E88E5">
            <div class="col-md-12">
                <h2 style="padding:10px; color:#fff">MULTIMEDIA</h2><br>
                     <?php
