@@ -178,7 +178,7 @@ if ( have_posts() ) {
                         the_post();
                             if(in_category('Multimedia') && $postCounter < 2 ){
                     ?>
-                               <div class="col-md-6">
+                               <div class="col-md-6" style="padding:0">
                                         <?php
                                         $youtube = getYTurl();
                                         $full = 'https://www.youtube.com/embed/'.$youtube;
