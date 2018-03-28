@@ -164,56 +164,54 @@ if ( have_posts() ) {
                 include 'slide-infinite.php';
             ?>
             </div>
-        </div>
-        <br>
-        
+        </div>        
         <!-- AREA MULTIMEDIA -->
         
-        <div class="row" style="background:#1E88E5">
+        <div class="row" style="background:#1E88E5; padding-top:30px">
            <div class="col-md-12">
-           
-            <?php
-            rewind_posts();
-            $postCounter =0;
-            if ( have_posts() ) {
-                while ( have_posts() ) {
-                the_post();
-                    if(in_category('Multimedia') && $postCounter < 2 ){
-            ?>
-                       <div class="col-md-6">
-                            <div class="card text-white bg-primary mb-3">
-                              <div class="card-body multimedia-body">
-                                <?php
-                                $youtube = getYTurl();
-                                $full = 'https://www.youtube.com/embed/'.$youtube;
-                                if(empty($youtube)){?>
-                                    <div class="img-media-container">
-                                        <?php if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                        } ?>
+               <h2 style="padding:10px; color:#fff">MULTIMEDIA</h2><br>
+                    <?php
+                    rewind_posts();
+                    $postCounter =0;
+                    if ( have_posts() ) {
+                        while ( have_posts() ) {
+                        the_post();
+                            if(in_category('Multimedia') && $postCounter < 2 ){
+                    ?>
+                               <div class="col-md-6">
+                                    <div class="card text-white bg-primary mb-3">
+                                      <div class="card-body multimedia-body">
+                                        <?php
+                                        $youtube = getYTurl();
+                                        $full = 'https://www.youtube.com/embed/'.$youtube;
+                                        if(empty($youtube)){?>
+                                            <div class="img-media-container">
+                                                <?php if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                                } ?>
+                                            </div>
+                                        <?php }else{
+                                        ?>
+                                        <div class="img-media-container">
+                                            <iframe width="100%" height="350px"
+                                            src="<?php echo $full ?>">
+                                            </iframe>
+                                        </div>
+                                        <?php } ?>
+                                        <hr>
+                                        <div class="media-container">
+                                            <h4 class="card-title"><?php the_title()?></h4>
+                                            <p class="card-text"><?php the_excerpt(); ?></p>    
+                                        </div>
+                                      </div>
                                     </div>
-                                <?php }else{
-                                ?>
-                                <div class="img-media-container">
-                                    <iframe width="100%" height="350px"
-                                    src="<?php echo $full ?>">
-                                    </iframe>
                                 </div>
-                                <?php } ?>
-                                <hr>
-                                <div class="media-container">
-                                    <h4 class="card-title"><?php the_title()?></h4>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>    
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                        <?php $postCounter++ ?>
+                                <?php $postCounter++ ?>
 
-            <?php           }
+                    <?php           }
+                                }
                         }
-                }
-            ?>
+                    ?>
             </div>
         </div>
         <h2>Radio Comunica</h2>
