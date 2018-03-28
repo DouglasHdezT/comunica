@@ -359,8 +359,9 @@ ul.menu-scrolling > li > a:hover{
     margin-left: 50%!important;
     -webkit-transform: translateX(-50%) !important;
 }
-
-
+.filter-off{
+    filter: brightness(50%);
+}
 
 
 /********************************************/
@@ -379,16 +380,13 @@ ul.menu-scrolling > li > a:hover{
 
 .center-full{
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.3);
-    display: flex;
+    text-align: left;
+    padding: 7px;
 }
-.center-full > p,h2{
-    align-self: flex-end;
-}
+
 /* Bottom left text */
 .bottom-left {
     position: absolute;

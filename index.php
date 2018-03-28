@@ -186,7 +186,7 @@ if ( have_posts() ) {
                                             <div class="container-post">
                                                 <div class="img-media-container">
                                                     <?php if ( has_post_thumbnail() ) {
-                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-media filter-off'));
                                                     } ?>
                                                 </div>
                                                 <div class="center-full">
@@ -197,7 +197,7 @@ if ( have_posts() ) {
                                         <?php }else{
                                         ?>
                                         <div class="container-post">
-                                            <div class="img-media-container">
+                                            <div class="img-media-container filter-off">
                                                 <iframe width="100%" style="border:0" height="350px"
                                                 src="<?php echo $full ?>">
                                                 </iframe>
@@ -206,6 +206,7 @@ if ( have_posts() ) {
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
                                             </div>
+                                            
                                        </div>
                                         <?php } ?>
                                 </div>
