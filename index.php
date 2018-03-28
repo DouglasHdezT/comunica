@@ -189,7 +189,7 @@ if ( have_posts() ) {
                                                     the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                                     } ?>
                                                 </div>
-                                                <div class="bottom-left">
+                                                <div class="center-full">
                                                     <h2><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
@@ -201,7 +201,7 @@ if ( have_posts() ) {
                                                 <iframe width="100%" style="border:0" height="350px"
                                                 src="<?php echo $full ?>">
                                                 </iframe>
-                                                <div class="bottom-left">
+                                                <div class="center-full">
                                                     <h2><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
