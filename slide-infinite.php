@@ -54,7 +54,7 @@
                     for($i=0; $i<2; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                <h3 class="slide-title"><?php the_category(',');?></h3>
                                 <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                   <div class="crop-image-slider">
                                       <?php
@@ -81,7 +81,7 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                    <h3 class="slide-title"><?php the_category(',');?></h3>
                                     <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                         <div class="crop-image-slider">
                                           <?php
@@ -107,7 +107,7 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                <h3 class="slide-title"><?php the_category(',');?></h3>
                                 <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                   <div class="crop-image-slider">
                                   <?php
@@ -130,7 +130,7 @@
                 if(have_posts()){
                    the_post();?>
                         <div class="col-sm-4">
-                            <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                            <h3 class="slide-title"><?php the_category(',');?></h3>
                             <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
@@ -166,7 +166,7 @@
                     for($i=0; $i<1; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                <h3 class="slide-title"><?php the_category(',');?></h3>
                                 <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                   <div class="crop-image-slider">
                                       <?php
@@ -193,7 +193,7 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                    <h3 class="slide-title"><?php the_category(',');?></h3>
                                     <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                       <div class="crop-image-slider">
                                           <?php
@@ -218,7 +218,7 @@
                     echo '<div class="slide">';
                     the_post();?>
                         <div class="col-sm-4">
-                            <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                            <h3 class="slide-title"><?php the_category(',');?></h3>
                             <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                               <div class="crop-image-slider">
                                   <?php
@@ -241,7 +241,7 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 style="padding: 5px 15px; color:#fff"><?php the_category(',');?></h3>
+                                <h3 class="slide-title"><?php the_category(',');?></h3>
                                 <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
                                   <div class="crop-image-slider">
                                   <?php
