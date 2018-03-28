@@ -384,7 +384,7 @@ ul.menu-scrolling > li > a:hover{
     left: 0px;
     width: 100%;
     text-align: left;
-    padding: 7px;
+    padding: 7px 15px;
 }
 
 /* Bottom left text */
