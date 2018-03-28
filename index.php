@@ -105,9 +105,9 @@ if ( have_posts() ) {
         </div>
         <br>
         
-        <div class="row" style="background:#64B5F6">
+        <div class="row" style="background:#072844">
           <div class="col-md-12">
-            <h2>ÚLTIMAS ENTRADAS</h2><br>
+            <h2 style="padding:10px">ÚLTIMAS ENTRADAS</h2><br>
             <!-- SLIDE MOVIL -->
             
             <div class="slide-movil">
@@ -155,7 +155,7 @@ if ( have_posts() ) {
             
         </div>
         </div>
-        <div class="row" style="background:#64B5F6">
+        <div class="row" style="background:#072844">
             <div class="col-md-12">
                            
            <!-- SLIDE ESCRITORIO -->
