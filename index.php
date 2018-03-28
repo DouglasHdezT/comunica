@@ -181,7 +181,7 @@ if ( have_posts() ) {
                                <div class="col-md-6" style="padding:0">
                                         <?php
                                         $youtube = getYTurl();
-                                        $full = 'https://www.youtube.com/embed/'.$youtube.'?version=3&controls=0&rel=0&showinfo=0&autohide=0';
+                                        $full = 'https://www.youtube.com/embed/'.$youtube.'?version=3&controls=0&rel=0&showinfo=0&autohide=1';
                                         if(empty($youtube)){?>
                                             <div class="container-post">
                                                 <div class="img-media-container">
@@ -204,6 +204,7 @@ if ( have_posts() ) {
                                                 <div class="center-full" style="filter:none">
                                                     <h2 style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
+                                                    <button class="circle-buttom"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
                                                 </div>
                                             </div>
                                             
