@@ -49,16 +49,16 @@ function main(){
         }, 'slow');
     });
     
-     $('#play-1').on('click', function(ev) {
+     $('#play-0').on('click', function(ev) {
  
-        $("#video-1")[0].src += "&autoplay=1";
+        $("#video-0")[0].src += "&autoplay=1";
         ev.preventDefault();
 
       });
     
-    $('#play-2').on('click', function(ev) {
+    $('#play-1').on('click', function(ev) {
  
-        $("#video-2")[0].src += "&autoplay=1";
+        $("#video-1")[0].src += "&autoplay=1";
         ev.preventDefault();
 
       });
