@@ -179,8 +179,6 @@ if ( have_posts() ) {
                             if(in_category('Multimedia') && $postCounter < 2 ){
                     ?>
                                <div class="col-md-6">
-                                    <div class="card text-white bg-primary mb-3">
-                                      <div class="card-body multimedia-body">
                                         <?php
                                         $youtube = getYTurl();
                                         $full = 'https://www.youtube.com/embed/'.$youtube;
@@ -198,13 +196,6 @@ if ( have_posts() ) {
                                             </iframe>
                                         </div>
                                         <?php } ?>
-                                        <hr>
-                                        <div class="media-container">
-                                            <h4 class="card-title"><?php the_title()?></h4>
-                                            <p class="card-text"><?php the_excerpt(); ?></p>    
-                                        </div>
-                                      </div>
-                                    </div>
                                 </div>
                                 <?php $postCounter++ ?>
 
