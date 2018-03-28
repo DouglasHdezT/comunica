@@ -181,7 +181,7 @@ if ( have_posts() ) {
                                <div class="col-md-6" style="padding:0">
                                         <?php
                                         $youtube = getYTurl();
-                                        $full = 'https://www.youtube.com/embed/'.$youtube.'?vresion=3&autoplay=1&loop=1&controls=0&rel=0';
+                                        $full = 'https://www.youtube.com/embed/'.$youtube.'?version=3&controls=0&rel=0';
                                         if(empty($youtube)){?>
                                             <div class="container-post">
                                                 <div class="img-media-container">
