@@ -980,6 +980,7 @@ ul > .current{
     color:#fff;
 }
 .circle-buttom{
+    position: absolute;
     border: 0;
     padding: 16px 20px;
     border-radius: 100%;
