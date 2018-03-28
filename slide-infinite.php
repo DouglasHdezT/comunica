@@ -66,7 +66,7 @@
                                   <div class="card-body text-white w-sr" id="style-7">
                                     <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                       <div class="card-body text-white w-sr" id="style-7">
                                         <h2 class="card-title"><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                        <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                       </div>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                                    <div class="card-body text-white w-sr" id="style-7">
                                     <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                               <div class="card-body text-white w-sr" id="style-7">
                                 <h2 class="card-title"><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                               </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                   <div class="card-body text-white w-sr" id="style-7">
                                     <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
                             </div>
@@ -205,7 +205,7 @@
                                       <div class="card-body text-white w-sr" id="style-7">
                                         <h2 class="card-title"><?php the_title() ?> </h2>
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                        <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                       </div>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@
                               <div class="card-body text-white w-sr" id="style-7">
                                 <h2 class="card-title"><?php the_title() ?> </h2>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                               </div>
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                                   <div class="card-body text-white w-sr" id="style-7">
                                     <h2 class="card-title"><?php the_title() ?> </h2>
                                     <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary "style="margin-bottom:10px">Leer Más</a>
+                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
                             </div>
