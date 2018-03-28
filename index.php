@@ -168,11 +168,13 @@ if ( have_posts() ) {
         <br>
         
         <!-- AREA MULTIMEDIA -->
-        <div class="row" style="#1E88E5">
-            <h2>Multimedia</h2>
+        <div class="row" style="background:#1E88E5">
+           <div class="col-md-12">
+           <h2>Multimedia</h2>
+           </div>
         </div>
         
-        <div class="row" style="#1E88E5">
+        <div class="row" style="background:#1E88E5">
             <?php
             rewind_posts();
             $postCounter =0;
