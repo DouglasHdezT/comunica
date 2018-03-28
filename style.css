@@ -986,6 +986,8 @@ ul > .current{
     border-radius: 100%;
     background: #FF8F00;
     color: #fff;
+    top: -10px;
+    right: 20px;
 }
 .circle-buttom:hover{
     background: #f8bc6f;
