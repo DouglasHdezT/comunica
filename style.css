@@ -527,7 +527,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 .slider-container{
     width: 90%;
     margin-left: 12px;
-    background: #1E88E5 !important;
+    background: #0D47A1 !important;
+    border: 0 !important;
 }
 
 .last-new{
