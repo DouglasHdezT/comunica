@@ -191,7 +191,7 @@ if ( have_posts() ) {
                                         <?php }else{
                                         ?>
                                         <div class="img-media-container">
-                                            <iframe width="100%" height="350px"
+                                            <iframe width="100%" style="border:0" height="350px"
                                             src="<?php echo $full ?>">
                                             </iframe>
                                         </div>
