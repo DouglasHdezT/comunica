@@ -183,18 +183,30 @@ if ( have_posts() ) {
                                         $youtube = getYTurl();
                                         $full = 'https://www.youtube.com/embed/'.$youtube;
                                         if(empty($youtube)){?>
-                                            <div class="img-media-container">
-                                                <?php if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                                } ?>
+                                            <div class="container-post">
+                                                <div class="img-media-container">
+                                                    <?php if ( has_post_thumbnail() ) {
+                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                                    } ?>
+                                                </div>
+                                                <div class="bottom-left">
+                                                    <h2><?php the_title(); ?></h2>
+                                                    <p><?php the_excerpt(); ?></p>
+                                                </div>
                                             </div>
                                         <?php }else{
                                         ?>
-                                        <div class="img-media-container">
-                                            <iframe width="100%" style="border:0" height="350px"
-                                            src="<?php echo $full ?>">
-                                            </iframe>
-                                        </div>
+                                        <div class="container-post">
+                                            <div class="img-media-container">
+                                                <iframe width="100%" style="border:0" height="350px"
+                                                src="<?php echo $full ?>">
+                                                </iframe>
+                                                <div class="bottom-left">
+                                                    <h2><?php the_title(); ?></h2>
+                                                    <p><?php the_excerpt(); ?></p>
+                                                </div>
+                                            </div>
+                                       </div>
                                         <?php } ?>
                                 </div>
                                 <?php $postCounter++ ?>
