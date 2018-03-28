@@ -201,7 +201,7 @@ if ( have_posts() ) {
                                                 <iframe width="100%" style="border:0" height="350px"
                                                 src="<?php echo $full ?>">
                                                 </iframe>
-                                                <div class="center-full">
+                                                <div class="center-full" style="filter:none">
                                                     <h2 style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
