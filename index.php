@@ -190,7 +190,7 @@ if ( have_posts() ) {
                                                     } ?>
                                                 </div>
                                                 <div class="center-full">
-                                                    <h2><?php the_title(); ?></h2>
+                                                    <h2 style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
                                             </div>
@@ -202,7 +202,7 @@ if ( have_posts() ) {
                                                 src="<?php echo $full ?>">
                                                 </iframe>
                                                 <div class="center-full">
-                                                    <h2><?php the_title(); ?></h2>
+                                                    <h2 style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
                                             </div>
