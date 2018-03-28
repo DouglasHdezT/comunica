@@ -168,7 +168,7 @@ if ( have_posts() ) {
         <!-- AREA MULTIMEDIA -->
         
         <div class="row material-container" style="background:#1E88E5">
-           <div class="col-md-12">
+           <div class="col-md-12" style="padding:0">
                <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
                     <?php
                     rewind_posts();
