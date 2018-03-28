@@ -21,7 +21,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                <div class=" card mb-3  text-white  slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -55,7 +55,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                <div class=" card mb-3  text-white  slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -82,7 +82,7 @@
                             the_post();?>
                                 <div class="col-sm-4">
                                     <h3 class="slide-title"><?php the_category(',');?></h3>
-                                    <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                    <div class=" card mb-3  text-white  slider-container   material-container">
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -108,7 +108,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                <div class=" card mb-3  text-white  slider-container   material-container">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -131,7 +131,7 @@
                    the_post();?>
                         <div class="col-sm-4">
                             <h3 class="slide-title"><?php the_category(',');?></h3>
-                            <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                            <div class=" card mb-3  text-white  slider-container   material-container">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
                                       <?php
@@ -167,7 +167,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                <div class=" card mb-3  text-white  slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -194,7 +194,7 @@
                             the_post();?>
                                 <div class="col-sm-4">
                                     <h3 class="slide-title"><?php the_category(',');?></h3>
-                                    <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                    <div class=" card mb-3  text-white  slider-container   material-container">
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -219,7 +219,7 @@
                     the_post();?>
                         <div class="col-sm-4">
                             <h3 class="slide-title"><?php the_category(',');?></h3>
-                            <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                            <div class=" card mb-3  text-white  slider-container   material-container">
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -242,7 +242,7 @@
                         the_post();?>
                             <div class="col-sm-4">
                                 <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container multimedia-body material-container">
+                                <div class=" card mb-3  text-white  slider-container   material-container">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
