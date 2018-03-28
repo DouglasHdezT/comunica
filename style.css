@@ -455,8 +455,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item{
     background: #E3F2FD;
     width: 10px;
     height: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
     display: inline-block;
     padding: 0;
     border-radius: 100%;
@@ -469,8 +469,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item .active{
 ul.slidesjs-pagination > .slidesjs-pagination-item a{
     display: block;
     font-size: 0px;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
 }
 a.slidesjs-previous{
     display: none;
