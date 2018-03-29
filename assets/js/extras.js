@@ -9,8 +9,9 @@ function main(){
     
     
      $('#play-0').on('click', function(ev) {
-        console.log('presionando');
         $("#video-0")[0].src += "&autoplay=1";
+        $("#video-0").removeClass("filter-off");
+        $("#text-0").fadeOut();
         ev.preventDefault();
 
       });
@@ -18,6 +19,8 @@ function main(){
     $('#play-1').on('click', function(ev) {
  
         $("#video-1")[0].src += "&autoplay=1";
+        $("#video-1").removeClass("filter-off");
+        $("#text-1").fadeOut();
         ev.preventDefault();
 
       });
