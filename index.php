@@ -167,8 +167,8 @@ if ( have_posts() ) {
         </div>        
         <!-- AREA MULTIMEDIA -->
         
-        <div class="row material-container" style="background:#1E88E5">
-           <div class="col-md-12" style="padding:0">
+        <div class="row " style="background:#1E88E5">
+           <div class="col-md-12 material-container" style="padding:0">
                <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
                     <?php
                     rewind_posts();
@@ -219,8 +219,8 @@ if ( have_posts() ) {
                     ?>
             </div>
         </div>
-        <div class="row" style="background:#1E88E5">
-            <div class="col-md-12">
+        <div class="row" style="background:#42A5F5">
+            <div class="col-md-12 material-container">
                 <h2 style="color:#fff;padding-top:25px">Radio Comunica</h2>
                 <?php dynamic_sidebar('sidebar-1'); ?>
             </div>           
