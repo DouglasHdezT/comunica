@@ -9,7 +9,7 @@ function main(){
     
     
      $('#play-0').on('click', function(ev) {
-         if(("#text-0").is(':visible')){
+         if($("#text-0").is(':visible')){
             $("#video-0")[0].src += "&autoplay=1";
             $("#video-0").removeClass("filter-off");
             $("#text-0").fadeOut(); 
