@@ -11,7 +11,11 @@ function main(){
      $('#play-0').on('click', function(ev) {
         $("#video-0")[0].src += "&autoplay=1";
         $("#video-0").removeClass("filter-off");
-        $("#text-0").fadeOut();
+        $(".text-0").fadeOut();
+        $(this).animate({
+            top: "-20%",
+            width: "50%"
+        }) 
         ev.preventDefault();
 
       });
@@ -20,7 +24,7 @@ function main(){
  
         $("#video-1")[0].src += "&autoplay=1";
         $("#video-1").removeClass("filter-off");
-        $("#text-1").fadeOut();
+        $(".text-1").fadeOut();
         ev.preventDefault();
 
       });
