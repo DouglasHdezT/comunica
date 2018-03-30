@@ -19,8 +19,8 @@ function main(){
            opacity:".5"    
         });
          
-        $('.play-0').removeClass("glyphicon-play");
-        $('.play-0').addClass("glyphicon-stop");
+        $('.play-0 > span').removeClass("glyphicon-play");
+        $('.play-0 > span').addClass("glyphicon-stop");
         
         $('.play-0').addClass("stop-0");
         $('.play-0').removeClass("play-0");
