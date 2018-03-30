@@ -33,14 +33,12 @@ var $counter = true;
     $('div#menu , div#menu-movil').click(function(){
         if($counter){
             $('.section-container-scrolling').slideDown('fast');
-            $('.dark-blue-nav-scrolling').css('background','#c1c1c1');
             $('#menu-trigger').addClass('glyphicon-remove');
             $('#menu-trigger').removeClass('glyphicon-menu-hamburger');
             
             $counter = false;
         }else{
            $('.section-container-scrolling').slideUp('fast');
-            $('.dark-blue-nav-scrolling').css('background',' rgba(193, 193, 193, 0.55)');
             $('#menu-trigger').removeClass('glyphicon-remove');
             $('#menu-trigger').addClass('glyphicon-menu-hamburger');
             $counter = true; 
