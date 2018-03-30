@@ -27,6 +27,22 @@ function main(){
         
       });
     
+    $('stop-0').on('click',function(){
+       $('#video-0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+        $("#text-0").fadeIn();
+        $("#video-0").addClass("filter-off");
+        ev.preventDefault();
+        $('.play-0').animate({
+           bottom:"-=30%",
+           opacity:"1"    
+        });
+        $('.play-0 > span').addClass("glyphicon-play");
+        $('.play-0 > span').removeClass("glyphicon-stop");
+        
+        $('.play-0').addClass("play-0");
+        $('.play-0').removeClass("stop-0");
+    });
+    
     
     
     $('.toggle-trigger').click(function(){
