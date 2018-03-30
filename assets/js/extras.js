@@ -15,7 +15,7 @@ function main(){
         ev.preventDefault();
         
         $('#play-0').animate({
-           bottom:"+=50%",
+           bottom:"+=30%",
            opacity:".5"    
         });
         
