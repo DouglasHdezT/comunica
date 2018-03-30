@@ -27,7 +27,7 @@ function main(){
         
       });
     
-    $('stop-0').on('click',function(){
+    $('stop-0').on('click',function(ev){
        $('#video-0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
         $("#text-0").fadeIn();
         $("#video-0").addClass("filter-off");
