@@ -219,9 +219,9 @@ if ( have_posts() ) {
                     ?>
             </div>
         </div>
-        <div class="row" style="padding-top:25px;background:#1E88E5">
+        <div class="row" style="background:#1E88E5">
             <div class="col-md-12">
-                <h2 style="color:#fff">Radio Comunica</h2>
+                <h2 style="color:#fff;padding-top:25px">Radio Comunica</h2>
                 <?php dynamic_sidebar('sidebar-1'); ?>
             </div>           
         </div>
