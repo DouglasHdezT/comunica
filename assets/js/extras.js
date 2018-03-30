@@ -8,27 +8,25 @@ function main(){
     });
     
     
-     $('#play-0').on('click', function(ev) {
+     $('.play-0').on('click', function(ev) {
         $("#video-0")[0].src += "&autoplay=1";
         $("#video-0").removeClass("filter-off");
         $("#text-0").fadeOut(); 
         ev.preventDefault();
         
-        $('#play-0').animate({
+        $('.play-0').animate({
            bottom:"+=30%",
            opacity:".5"    
         });
+         
+        $('.play-0').removeClass("glyphicon-play");
+        $('.play-0').addClass("glyphicon-stop");
+        
+        $('.play-0').addClass("stop-0");
+        $('.play-0').removeClass("play-0");
         
       });
     
-    $('#play-1').on('click', function(ev) {
- 
-        $("#video-1")[0].src += "&autoplay=1";
-        $("#video-1").removeClass("filter-off");
-        $(".text-1").fadeOut();
-        ev.preventDefault();
-
-      });
     
     
     $('.toggle-trigger').click(function(){

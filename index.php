@@ -205,7 +205,7 @@ if ( have_posts() ) {
                                                     <h2  style="color:#fff"><?php the_title(); ?></h2>
                                                     <p><?php the_excerpt(); ?></p>
                                                 </div>
-                                                <button id="<?php echo 'play-'.$postCounter ?>" class="circle-buttom"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+                                                <button class="circle-buttom <?php echo 'play-'.$postCounter ?>"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
                                             </div>
                                             
                                        </div>
