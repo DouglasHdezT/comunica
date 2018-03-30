@@ -23,7 +23,7 @@ function main(){
             $('#play-0 > span').removeClass("glyphicon-play");
             $('#play-0 > span').addClass("glyphicon-stop");
          }else{
-            $('#video-0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+            $('#video-0').get(0).stopVideo();
             $("#text-0").fadeIn();
             $("#video-0").addClass("filter-off");
             $('#play-0').animate({
