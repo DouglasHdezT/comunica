@@ -11,11 +11,7 @@ function main(){
      $('#play-0').on('click', function(ev) {
         $("#video-0")[0].src += "&autoplay=1";
         $("#video-0").removeClass("filter-off");
-        
-         $(".text-0 > p").each(function(i){
-            $(this).fadeOut();
-        });
-        
+        $("#text-0").fadeOut(); 
         ev.preventDefault();
         
         $('#play-0').animate({
