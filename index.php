@@ -202,7 +202,7 @@ if ( have_posts() ) {
                                                 src="<?php echo $full ?>">
                                                 </iframe>
                                                 <div class="center-full" style="filter:none">
-                                                    <h2 class="<?php echo 'text-'.$postCounter ?>" style="color:#fff"><?php the_title(); ?></h2>
+                                                    <p><h2 class="<?php echo 'text-'.$postCounter ?>" style="color:#fff"><?php the_title(); ?></h2></p>
                                                     <p class="<?php echo 'text-'.$postCounter ?>" ><?php the_excerpt(); ?></p>
                                                     <button id="<?php echo 'play-'.$postCounter ?>" class="circle-buttom"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
                                                 </div>
