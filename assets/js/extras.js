@@ -13,7 +13,7 @@ function main(){
         $("#video-0").removeClass("filter-off");
         $(".text-0").each(function(){
             $(this).fadeOut();
-        })
+        });
         
         ev.preventDefault();
         
