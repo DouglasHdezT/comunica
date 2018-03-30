@@ -8,34 +8,33 @@ function main(){
     });
     
     
-     /*$('.play-0').on('click', function(ev) {
+     $('#play-0').on('click', function(ev) {
          if("#text-0").is(":visible"){
             $("#video-0")[0].src += "&autoplay=1";
             $("#video-0").removeClass("filter-off");
             $("#text-0").fadeOut(); 
             ev.preventDefault();
 
-            $('.play-0').animate({
+            $('#play-0').animate({
                bottom:"+=30%",
                opacity:".5"    
             });
 
-            $('.play-0 > span').removeClass("glyphicon-play");
-            $('.play-0 > span').addClass("glyphicon-stop");
+            $('#play-0 > span').removeClass("glyphicon-play");
+            $('#play-0 > span').addClass("glyphicon-stop");
          }else{
             $('#video-0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
             $("#text-0").fadeIn();
             $("#video-0").addClass("filter-off");
-            ev.preventDefault();
-            $('.play-0').animate({
+            $('#play-0').animate({
                bottom:"-=30%",
                opacity:"1"    
             });
-            $('.play-0 > span').addClass("glyphicon-play");
-            $('.play-0 > span').removeClass("glyphicon-stop");
+            $('#play-0 > span').addClass("glyphicon-play");
+            $('#play-0 > span').removeClass("glyphicon-stop");
          }
         
-      });*/
+      });
     
     
     
