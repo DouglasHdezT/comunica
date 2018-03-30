@@ -3,9 +3,9 @@ $(document).ready(main);
 function main(){
     var $screen = $(window).height();
     
-    $(window).on('load',function(){
+    /*$(window).on('load',function(){
        $('#preloader').fadeOut(); 
-    });
+    });*/
     
     
      $('#play-0').on('click', function(ev) {
