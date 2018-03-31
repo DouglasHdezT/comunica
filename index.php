@@ -224,7 +224,7 @@ if ( have_posts() ) {
         </div>
         <div class="row" style="background:#E3F2FD">
           <div class="col-md-12">
-             <h2 style="padding-top:20px">Medios Jesuitas en C.A.</h2>
+             <h2 style="padding:20px 0px">Medios Jesuitas en C.A.</h2>
           </div>
            <div class="col-md-12">
                 <div class="slide-medios">
