@@ -222,8 +222,10 @@ if ( have_posts() ) {
                 <?php dynamic_sidebar('sidebar-1'); ?>
             </div>           
         </div>
-        <h2>Medios Jesuitas en C.A.</h2>
-        <div class="row">
+        <div class="row" style="background:#E3F2FD">
+          <div class="col-md-12">
+             <h2 style="padding-top:20px">Medios Jesuitas en C.A.</h2>
+          </div>
            <div class="col-md-12">
                 <div class="slide-medios">
                     <section id="slideshow-medios">
