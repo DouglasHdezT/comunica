@@ -12,7 +12,7 @@
 </nav>
 <div class="row justify-content-between" style="width:100%">
    <div class="col-lg-4 padre">
-       <a class="hijo" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" src="<?php echo get_header_image();?>"/></a>
+       <a class="hijo" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="box-shadow: none " src="<?php echo get_header_image();?>"/></a>
    </div>
    <div class="col-lg-4">
         <?php   
