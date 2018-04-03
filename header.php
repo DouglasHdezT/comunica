@@ -93,7 +93,7 @@
            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
        </div>
        <div class="logo-nav">
-           <img src="<?php bloginfo('template_url') ?>/assets/images/navScroll.png">
+           <img style="box-shadow: none" src="<?php bloginfo('template_url') ?>/assets/images/navScroll.png">
         </div>
     </nav>
     <div class="section-container-scrolling">
