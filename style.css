@@ -934,6 +934,9 @@ ul > .current{
         position: absolute;
         top: 500px
     }
+    .logo-container{
+        display: none;
+    }
 }
 @media screen and (max-width: 576px){
     .post{
