@@ -142,6 +142,7 @@ ul.sub-menu li a{
 }
 .footer-logo{
     width: 100%;
+    box-shadow: none !important;
 }
 .items-slide:hover{
     border-bottom: 0;
