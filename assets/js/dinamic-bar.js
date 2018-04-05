@@ -52,33 +52,45 @@ var $counter = true;
     
     $("#first-nav > div > ul > li > .link-darknav").click(function(event) {
       event.preventDefault();
-    }); 
+    });
+    
+    $isDown = false;
+    $claseAbierta;
     
     $("#first-nav > div > ul > li > .link-darknav").click(function(){
         $clase = $(this).text().split(" ").join("_");
-        if($('.'+$clase).is(':hidden')){
+        
+        if(!$isDown){
+            $claseAbierta = $clase;
+            $isDown = true;
+            if($('.'+$clase).is(':hidden')){
+                $('.'+$clase).slideDown('fast');
+                $(this).parent('li').css('background','rgb(28, 66, 109)');
+            }else{
+                $('.'+$clase).slideUp('fast');
+                $(this).parent('li').css('background','#072844');
+                $isDown =false;
+            }    
+           }
+        else{
+            $('.'+$claseAbierta).slideUp('fast');
+            $('.'+$claseAbierta).parent('li').css('background','#072844');
+            
             $('.'+$clase).slideDown('fast');
             $(this).parent('li').css('background','rgb(28, 66, 109)');
-        }else{
-            $('.'+$clase).slideUp('fast');
-            $(this).parent('li').css('background','#072844');
+            
+            $claseAbierta= $clase;
         }
+        
+        
+        
+        
     });
     
     $("#first-nav > div > ul > li > ul > li > .link-darknav").click(function(event) {
       event.preventDefault();
     });
     
-    $("#first-nav > div > ul > li > ul > li > .link-darknav").click(function(){
-        $clase = $(this).text().split(" ").join("_");
-        if($('.'+$clase).is(':hidden')){
-            $('.'+$clase).slideDown('fast');
-            $(this).parent('li').css('background','rgb(28, 66, 109)');
-        }else{
-            $('.'+$clase).slideUp('fast');
-            $(this).parent('li').css('background','#072844');
-        }
-    });
     
     
 }
