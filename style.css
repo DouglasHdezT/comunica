@@ -543,7 +543,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 .slider-container{
     width: 90%;
     margin-left: 12px;
-    background: #1E88E5 !important;
+    background: rgb(6,37,62) !important;
     border: 0 !important;
 }
 
