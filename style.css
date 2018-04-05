@@ -397,7 +397,7 @@ ul.menu-scrolling > li > a:hover{
     bottom: 0px;
     left: 0px;
     width: 100%;
-    background: #00366B;
+    background: #002D59;
     padding: 7px 7px 0px 7px;
     text-align: left;
     
@@ -543,7 +543,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
 .slider-container{
     width: 90%;
     margin-left: 12px;
-    background: #00366B !important;
+    background: #002D59 !important;
     border: 0 !important;
 }
 
