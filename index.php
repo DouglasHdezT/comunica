@@ -195,7 +195,7 @@ if ( have_posts() ) {
                                         ?>
                                         <div class="container-post">
                                             <div class="img-media-container">
-                                                <iframe id="<?php echo 'video-'.$postCounter ?>" class="filter-off" width="100%" style="border:0" height="350px"
+                                                <iframe id="<?php echo 'video-'.$postCounter ?>" class="filter-off" width="100%" style="border:0" height="500px"
                                                 src="<?php echo $full ?>">
                                                 </iframe>
                                                 <div id="<?php echo 'text-'.$postCounter ?>" class="center-full" style="filter:none">
