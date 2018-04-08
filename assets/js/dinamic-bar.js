@@ -82,7 +82,7 @@ var $counter = true;
                 $('.'+$claseAbierta).parent('li').css('background','#072844');
 
                 $('.'+$clase).slideDown('fast');
-                $(this).parent('li').css('background','rgb(28, 66, 109)');
+                $('.'+$clase).parent('li').css('background','rgb(28, 66, 109)');
                 
                 $claseAbierta= $clase;
                 $isDown = true;
