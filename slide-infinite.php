@@ -31,7 +31,7 @@
                                   </div>
                                   </div>
                                       <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                 </div>
@@ -65,7 +65,7 @@
                                   </div>
                                    </div>
                                    <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                   </div>
@@ -93,7 +93,7 @@
                                           </div>
                                         </div>
                                         <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                       </div>
@@ -120,7 +120,7 @@
                                   </div>
                                     </div>
                                     <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                   </div>
@@ -145,7 +145,7 @@
                                   </div>
                               </div>
                                <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                 </div>
@@ -185,7 +185,7 @@
                                    
                                     </div> 
                                      <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>
                                      
@@ -216,7 +216,7 @@
                                         </div>     
                                          
                                         <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div> 
                                       </div>
@@ -244,7 +244,7 @@
                                  
                                 </div>
                                <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div>  
                               </div>
@@ -270,7 +270,7 @@
                                      
                                     </div>
                                     <div class="center-full-slide">
-                                          <h2><?php the_title() ?></h2>
+                                          <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                       </div> 
                                   </div>
