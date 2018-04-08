@@ -351,15 +351,15 @@ ul.menu-scrolling > li > a:hover{
 }
 
 .img-media-container{
-    width: auto;
-    max-height: 100%;
+    width: 100%;
+    height: 500px;
     overflow: hidden;
 }
 
 .img-media{
     display: block !important;
-    width: 100%;
-    height: auto;
+    width: auto;
+    max-height: 100%;
     margin-left: 50%!important;
     -webkit-transform: translateX(-50%) !important;
 }
