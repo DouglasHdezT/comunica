@@ -252,8 +252,8 @@
             }
         }//end else    
     ?>
-      <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left" aria-hidden="true" style="font-size:3em"></span>
 </a>
-      <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="font-size:3em"></span></a>
     </section>
 </div>

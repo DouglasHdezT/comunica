@@ -496,6 +496,9 @@ a.slidesjs-previous{
     top: 0;
     left: 0;
     z-index: 10;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 a.slidesjs-next{
     position: absolute;
@@ -503,6 +506,9 @@ a.slidesjs-next{
     top: 0;
     right: 0;
     z-index: 10;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0;
