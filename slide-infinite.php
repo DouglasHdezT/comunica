@@ -32,7 +32,7 @@
                                   </div>
                                       <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                 </div>
                                 </div>
@@ -66,7 +66,7 @@
                                    </div>
                                    <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                   </div>
                                 </div>
@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                       </div>
                                     </div>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                   </div>
                                 </div>
@@ -146,7 +146,7 @@
                               </div>
                                <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                 </div>
                                  
@@ -186,7 +186,7 @@
                                     </div> 
                                      <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>
                                      
                                   </div>
@@ -217,7 +217,7 @@
                                          
                                         <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div> 
                                       </div>
                                     </div>
@@ -245,7 +245,7 @@
                                 </div>
                                <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div>  
                               </div>
                             </div>
@@ -271,7 +271,7 @@
                                     </div>
                                     <div class="center-full">
                                           <h2><?php the_title() ?></h2>
-                                          <?php the_excerpt ?>
+                                          <?php the_excerpt() ?>
                                       </div> 
                                   </div>
                                 </div>
