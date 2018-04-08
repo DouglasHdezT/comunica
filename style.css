@@ -19,6 +19,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
     src:url(assets/fonts/open/OpenSans-Regular.ttf)
 }
 
+.tamBurn{
+    height: 323px!important;
+}
+
 html{
   font-family: sans-serif;
 }
