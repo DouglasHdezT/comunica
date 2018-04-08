@@ -61,7 +61,7 @@
                                    
                                      
                                      
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                     
                                   </div>
                                 </div>
                     <?php
@@ -87,7 +87,7 @@
                                        
                                          
                                          
-                                        <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                         
                                       </div>
                                     </div>
                         <?php
@@ -112,7 +112,7 @@
                                     
                                      
                                      
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                     
                                   </div>
                                 </div>
                         <?php
@@ -136,7 +136,7 @@
                                
                                  
                                  
-                                <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                 
                               </div>
                             </div>
                     <?php 
@@ -169,7 +169,7 @@
                                    
                                      
                                      
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                     
                                   </div>
                                 </div>
                     <?php
@@ -195,7 +195,7 @@
                                        
                                          
                                          
-                                        <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                         
                                       </div>
                                     </div>
                         <?php
@@ -219,7 +219,7 @@
                                
                                  
                                  
-                                <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                 
                               </div>
                             </div>
                     <?php   
@@ -241,7 +241,7 @@
                                    
                                      
                                      
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
+                                     
                                   </div>
                                 </div>
                         <?php
