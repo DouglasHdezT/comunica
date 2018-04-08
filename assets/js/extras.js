@@ -7,6 +7,13 @@ function main(){
        $('#preloader').fadeOut(); 
     });
     
+    $(".slider-container").each(function(){
+       $(this).hover(function(){
+           $(this + "> .center-full-slide").fadeIn();
+       },function(){
+           $(this + "> .center-full-slide").fadeOut();
+       }); 
+    });
     
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
