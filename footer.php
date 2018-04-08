@@ -62,7 +62,11 @@ $(function(){
     
   $("#slideshow").slidesjs({
     height: $('#slideshow').height(),
-    navegation: true,
+    navigation: {
+      active: true,
+      effect: "fade"
+        // [string] Can be either "slide" or "fade".
+    },
     effect: {
       slide: {
         // Slide effect settings.
