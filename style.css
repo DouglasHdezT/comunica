@@ -495,12 +495,14 @@ a.slidesjs-previous{
     color: #212121;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 a.slidesjs-next{
     position: absolute;
     color: #212121;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0;
