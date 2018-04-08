@@ -62,7 +62,7 @@ $(function(){
     
   $("#slideshow").slidesjs({
     height: $('#slideshow').height(),
-    navegation: false,
+    navegation: true,
     effect: {
       slide: {
         // Slide effect settings.
