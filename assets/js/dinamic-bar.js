@@ -64,7 +64,7 @@ var $counter = true;
             $isDown = true;
             
             $('.'+$clase).slideDown('fast');
-            $(this).parent('li').css('background','rgb(28, 66, 109)');
+            $('.'+$clase).parent('li').css('background','rgb(28, 66, 109)');
                 
            }
         else if($isDown){
