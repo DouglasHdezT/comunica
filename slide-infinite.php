@@ -252,7 +252,8 @@
             }
         }//end else    
     ?>
-    <a class="slidesjs-previous slidesjs-navigation" href="#" title="Previous">Previous</a>
-    <a class="slidesjs-next slidesjs-navigation" href="#" title="Next">Next</a>
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
     </section>
 </div>

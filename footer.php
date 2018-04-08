@@ -62,15 +62,11 @@ $(function(){
     
   $("#slideshow").slidesjs({
     height: $('#slideshow').height(),
-    navigation: {
-      active: true,
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    },
+    navigation: false;
     effect: {
       slide: {
         // Slide effect settings.
-        speed: 200
+        speed: 500
           // [number] Speed in milliseconds of the slide animation.
       },
       fade: {
