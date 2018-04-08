@@ -80,6 +80,7 @@ var $counter = true;
             $(this).parent('li').css('background','rgb(28, 66, 109)');
             
             $claseAbierta= $clase;
+            $isDown = true;
         }
         
         
