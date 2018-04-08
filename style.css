@@ -772,6 +772,7 @@ ul > .current{
     height: 550px !important;
 }
 .slidesjs-pagination{
+    display: none;
     position: absolute;
     top: 500px
 }
@@ -915,7 +916,7 @@ ul > .current{
         display: none;
     }
     #slideshow-movil , .slidesjs-container{
-        height: 585px !important;
+        height: 340px !important;
         margin: 0!important;;
     }
     
