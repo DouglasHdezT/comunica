@@ -491,10 +491,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item a{
     border-radius: 100%;
 }
 a.slidesjs-previous{
-    display: block;
+    display: flex;
+    float: left;
 }
 a.slidesjs-next{
-    display: block;
+    display: flex;
+    float: left;
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0;
