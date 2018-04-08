@@ -227,7 +227,7 @@ ul.drak-ul-footer > li:hover{
 .dark-blue-nav-scrolling{
     display: none;
     color: #fff;
-    background: #455A64;
+    background: #c1c1c1;
     padding: 18px;
     position: fixed;
     top: 0;
@@ -242,11 +242,11 @@ ul.drak-ul-footer > li:hover{
     display: none;
     width: 100%;
     background: #c1c1c1;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 81px);
     position: fixed;
-    top: 85px;
+    top: 81px;
     color: #fff;
-    z-index: 10000000000000000000000000000000;
+    z-index: 11;
 
 }
 .dark-blue-nav-movil{
