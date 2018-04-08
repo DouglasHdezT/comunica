@@ -153,7 +153,7 @@ if ( have_posts() ) {
         </div>
         </div>
         <div class="row " style="background:#072844;">
-            <div class="col-md-12 material-container">
+            <div class="col-md-12 material-container" style="padding:0">
                            
            <!-- SLIDE ESCRITORIO -->
            
