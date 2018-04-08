@@ -500,9 +500,17 @@ a.slidesjs-previous{
     padding-top: 10%;
     padding-bottom: 10%;
 }
+a.slidesjs-previous:hover{
+    background: rgba(33, 33, 33,0.3);
+    color: #fff;
+}
+a.slidesjs-next:hover{
+    background: rgba(33, 33, 33,0.3);
+    color: #fff;
+}
 a.slidesjs-next{
     position: absolute;
-    color: #212121;
+    color: rgb(33, 33, 33);
     top: 0;
     right: 0;
     z-index: 10;
