@@ -573,6 +573,10 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     width: 100%;
     background: transparent;
     border: 0 !important;
+    transition: 500ms all ease;
+}
+.slider-container:hover{
+    background: rgba(0,0,0,0.5);
 }
 
 .last-new{

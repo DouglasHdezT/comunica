@@ -20,7 +20,7 @@
                     for($i=0; $i<3; $i++){
                         the_post();?>
                             <div class="col-sm-4" style="padding:0">
-                                 
+                               <div class="container-post">
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
@@ -30,6 +30,11 @@
                                         ?>
                                   </div>
                                   </div>
+                                      <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>
+                                </div>
                                 </div>
                     <?php
                     }//end first for
@@ -49,7 +54,7 @@
                     for($i=0; $i<2; $i++){
                         the_post();?>
                             <div class="col-sm-4" style="padding:0">
-                                 
+                               <div class="container-post">  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
@@ -58,10 +63,11 @@
                                           }
                                         ?>
                                   </div>
-                                   
-                                     
-                                     
-                                     
+                                   </div>
+                                   <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>
                                   </div>
                                 </div>
                     <?php
@@ -77,17 +83,19 @@
                                 <div class="col-sm-4" style="padding:0">
                                      
                                     <div class=" slider-container   material-container">
+                                       <div class="container-post">
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
                                                 the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                               }
                                             ?>
+                                          </div>
+                                        </div>
+                                        <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
                                       </div>
-                                       
-                                         
-                                         
-                                         
                                       </div>
                                     </div>
                         <?php
@@ -100,8 +108,9 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4" style="padding:0">
-                                 
+                                
                                 <div class=" slider-container   material-container">
+                                 <div class="container-post">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -109,10 +118,11 @@
                                       }
                                     ?>
                                   </div>
-                                    
-                                     
-                                     
-                                     
+                                    </div>
+                                    <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>
                                   </div>
                                 </div>
                         <?php
@@ -124,6 +134,7 @@
                         <div class="col-sm-4" style="padding:0">
                              
                             <div class=" slider-container   material-container">
+                             <div class="container-post">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
                                       <?php
@@ -133,7 +144,11 @@
                                         ?>
                                   </div>
                               </div>
-                               
+                               <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>
+                                </div>
                                  
                                  
                                  
@@ -159,6 +174,7 @@
                             <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
+                                 <div class="container-post">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -167,8 +183,11 @@
                                         ?>
                                   </div>
                                    
-                                     
-                                     
+                                    </div> 
+                                     <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>
                                      
                                   </div>
                                 </div>
@@ -185,6 +204,7 @@
                                 <div class="col-sm-4" style="padding:0">
                                      
                                     <div class=" slider-container   material-container">
+                                     <div class="container-post">
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -193,9 +213,12 @@
                                             ?>
                                       </div>
                                        
+                                        </div>     
                                          
-                                         
-                                         
+                                        <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div> 
                                       </div>
                                     </div>
                         <?php
@@ -209,6 +232,7 @@
                         <div class="col-sm-4" style="padding:0">
                              
                             <div class=" slider-container   material-container">
+                             <div class="container-post">
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -218,8 +242,11 @@
                               </div>
                                
                                  
-                                 
-                                 
+                                </div>
+                               <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div>  
                               </div>
                             </div>
                     <?php   
@@ -231,6 +258,7 @@
                             <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
+                                 <div class="container-post">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -240,8 +268,11 @@
                                   </div>
                                    
                                      
-                                     
-                                     
+                                    </div>
+                                    <div class="center-full">
+                                          <h2><?php the_title() ?></h2>
+                                          <?php the_excerpt ?>
+                                      </div> 
                                   </div>
                                 </div>
                         <?php
