@@ -20,8 +20,8 @@
                     for($i=0; $i<3; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container   material-container">
+                                 
+                                <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -29,13 +29,8 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-white w-sr" id="style-7">
-                                    <h2 class="card-title"><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
-                                    <a href="<?php the_permalink();?>" class="btn btn-secondary" style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
-                            </div>
                     <?php
                     }//end first for
                     echo '</div class="slide">';
@@ -54,8 +49,8 @@
                     for($i=0; $i<2; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container   material-container">
+                                 
+                                <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -63,13 +58,12 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-white w-sr" id="style-7">
-                                    <h2 class="card-title"><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                   
+                                     
+                                     
                                     <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
-                            </div>
                     <?php
                     }//end first for
                     echo '</div class="slide">';   
@@ -81,8 +75,8 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 class="slide-title"><?php the_category(',');?></h3>
-                                    <div class=" card mb-3  text-white  slider-container   material-container">
+                                     
+                                    <div class=" slider-container   material-container">
                                         <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -90,13 +84,12 @@
                                               }
                                             ?>
                                       </div>
-                                      <div class="card-body text-white w-sr" id="style-7">
-                                        <h2 class="card-title"><?php the_title() ?> </h2>
-                                        <p class="card-text"><?php the_excerpt(); ?></p>
+                                       
+                                         
+                                         
                                         <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                       </div>
                                     </div>
-                                </div>
                         <?php
                         }//end first for
                         echo '</div class="slide">';
@@ -107,8 +100,8 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container   material-container">
+                                 
+                                <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -116,13 +109,12 @@
                                       }
                                     ?>
                                   </div>
-                                   <div class="card-body text-white w-sr" id="style-7">
-                                    <h2 class="card-title"><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                    
+                                     
+                                     
                                     <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
-                            </div>
                         <?php
                     }   
                 }
@@ -130,8 +122,8 @@
                 if(have_posts()){
                    the_post();?>
                         <div class="col-sm-4">
-                            <h3 class="slide-title"><?php the_category(',');?></h3>
-                            <div class=" card mb-3  text-white  slider-container   material-container">
+                             
+                            <div class=" slider-container   material-container">
                               <div class="crop-image-slider">
                                   <div class="crop-image-slider">
                                       <?php
@@ -141,13 +133,12 @@
                                         ?>
                                   </div>
                               </div>
-                              <div class="card-body text-white w-sr" id="style-7">
-                                <h2 class="card-title"><?php the_title() ?> </h2>
-                                <p class="card-text"><?php the_excerpt(); ?></p>
+                               
+                                 
+                                 
                                 <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                               </div>
                             </div>
-                        </div>
                     <?php 
                 }
                 wp_reset_query();
@@ -166,8 +157,8 @@
                     for($i=0; $i<1; $i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container   material-container">
+                                 
+                                <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                       <?php
                                           if ( has_post_thumbnail() ) {
@@ -175,13 +166,12 @@
                                           }
                                         ?>
                                   </div>
-                                  <div class="card-body text-white w-sr" id="style-7">
-                                    <h2 class="card-title"><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                   
+                                     
+                                     
                                     <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
-                            </div>
                     <?php
                     }//end first for
                     echo '</div class="slide">';   
@@ -193,8 +183,8 @@
                         for($i=0; $i<3; $i++){
                             the_post();?>
                                 <div class="col-sm-4">
-                                    <h3 class="slide-title"><?php the_category(',');?></h3>
-                                    <div class=" card mb-3  text-white  slider-container   material-container">
+                                     
+                                    <div class=" slider-container   material-container">
                                       <div class="crop-image-slider">
                                           <?php
                                               if ( has_post_thumbnail() ) {
@@ -202,13 +192,12 @@
                                               }
                                             ?>
                                       </div>
-                                      <div class="card-body text-white w-sr" id="style-7">
-                                        <h2 class="card-title"><?php the_title() ?> </h2>
-                                        <p class="card-text"><?php the_excerpt(); ?></p>
+                                       
+                                         
+                                         
                                         <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                       </div>
                                     </div>
-                                </div>
                         <?php
                         }//end first for
                         echo '</div class="slide">';
@@ -218,8 +207,8 @@
                     echo '<div class="slide">';
                     the_post();?>
                         <div class="col-sm-4">
-                            <h3 class="slide-title"><?php the_category(',');?></h3>
-                            <div class=" card mb-3  text-white  slider-container   material-container">
+                             
+                            <div class=" slider-container   material-container">
                               <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -227,13 +216,12 @@
                                       }
                                     ?>
                               </div>
-                              <div class="card-body text-white w-sr" id="style-7">
-                                <h2 class="card-title"><?php the_title() ?> </h2>
-                                <p class="card-text"><?php the_excerpt(); ?></p>
+                               
+                                 
+                                 
                                 <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                               </div>
                             </div>
-                        </div>
                     <?php   
                 }
                 query_posts('');
@@ -241,8 +229,8 @@
                     for($i=0;$i<2;$i++){
                         the_post();?>
                             <div class="col-sm-4">
-                                <h3 class="slide-title"><?php the_category(',');?></h3>
-                                <div class=" card mb-3  text-white  slider-container   material-container">
+                                 
+                                <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
                                   <?php
                                       if ( has_post_thumbnail() ) {
@@ -250,13 +238,12 @@
                                       }
                                     ?>
                                   </div>
-                                  <div class="card-body text-white w-sr" id="style-7">
-                                    <h2 class="card-title"><?php the_title() ?> </h2>
-                                    <p class="card-text"><?php the_excerpt(); ?></p>
+                                   
+                                     
+                                     
                                     <a href="<?php the_permalink();?>" class="btn btn-secondary  material-buttom"style="margin-bottom:10px">Leer Más</a>
                                   </div>
                                 </div>
-                            </div>
                         <?php
                     }
                 }
