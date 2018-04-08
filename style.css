@@ -541,9 +541,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     transform: scale(1.1);
 }
 .slider-container{
-    width: 90%;
-    margin-left: 12px;
-    background: #002D59 !important;
+    width: 100%;
+    background: transparent;
     border: 0 !important;
 }
 
@@ -769,7 +768,7 @@ ul > .current{
     color: black;
 }
 #slideshow , .slidesjs-container{
-    height: 550px !important;
+    height: 330px !important;
 }
 .slidesjs-pagination{
     display: none;

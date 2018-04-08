@@ -19,7 +19,7 @@
                     echo '<div class="slide">';
                     for($i=0; $i<3; $i++){
                         the_post();?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
@@ -48,7 +48,7 @@
                     echo '<div class="slide">';
                     for($i=0; $i<2; $i++){
                         the_post();?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
@@ -74,7 +74,7 @@
                         echo '<div class="slide">';
                         for($i=0; $i<3; $i++){
                             the_post();?>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4" style="padding:0">
                                      
                                     <div class=" slider-container   material-container">
                                         <div class="crop-image-slider">
@@ -99,7 +99,7 @@
                     echo '<div class="slide">';
                     for($i=0;$i<2;$i++){
                         the_post();?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
@@ -121,7 +121,7 @@
                 query_posts('');
                 if(have_posts()){
                    the_post();?>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="padding:0">
                              
                             <div class=" slider-container   material-container">
                               <div class="crop-image-slider">
@@ -156,7 +156,7 @@
                     echo '<div class="slide">';
                     for($i=0; $i<1; $i++){
                         the_post();?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
@@ -182,7 +182,7 @@
                         echo '<div class="slide">';
                         for($i=0; $i<3; $i++){
                             the_post();?>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4" style="padding:0">
                                      
                                     <div class=" slider-container   material-container">
                                       <div class="crop-image-slider">
@@ -206,7 +206,7 @@
                     //Slide diferente...
                     echo '<div class="slide">';
                     the_post();?>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="padding:0">
                              
                             <div class=" slider-container   material-container">
                               <div class="crop-image-slider">
@@ -228,7 +228,7 @@
                 if(have_posts()){
                     for($i=0;$i<2;$i++){
                         the_post();?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" style="padding:0">
                                  
                                 <div class=" slider-container   material-container">
                                   <div class="crop-image-slider">
