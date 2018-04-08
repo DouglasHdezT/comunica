@@ -503,16 +503,27 @@ a.slidesjs-previous{
     height: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
+    transition: 500ms all ease;
+}
+a.slidesjs-previous:hover{
+    background: rgba(33, 33, 33,0.3);
+    color: #fff;
+    
+}
+a.slidesjs-next:hover{
+    background: rgba(33, 33, 33,0.3);
+    color: #fff;
 }
 a.slidesjs-next{
     position: absolute;
-    color: #212121;
+    color: rgb(33, 33, 33);
     top: 0;
     right: 0;
     z-index: 10;
     height: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
+    transition: 500ms all ease;
 }
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0;
