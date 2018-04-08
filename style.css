@@ -575,9 +575,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover{
     border: 0 !important;
     transition: 500ms all ease;
 }
-.slider-container:hover{
-    background: rgba(0,0,0,0.5);
-}
+
 
 .last-new{
     background: #05192a;
@@ -1042,3 +1040,13 @@ ul > .current{
 
 }
 
+
+.center-full-slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 7px 15px;
+    background: rgba(0,0,0,0.3);
+}
