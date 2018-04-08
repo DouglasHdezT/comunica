@@ -72,7 +72,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 2){?>
-                               <div class=" col-sm-6 secondary-post mager tamBurn">
+                               <div class=" col-sm-6 secondary-post mager">
                                 <div class="card bg-secondary mb-3 material-container">
                                    <div class="container-post">
                                        <div class="crop-image">
