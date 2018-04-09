@@ -33,6 +33,7 @@
                                       <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                 </div>
                                 </div>
@@ -67,6 +68,7 @@
                                    <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                   </div>
                                 </div>
@@ -95,6 +97,7 @@
                                         <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                       </div>
                                     </div>
@@ -122,6 +125,7 @@
                                     <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                   </div>
                                 </div>
@@ -147,6 +151,7 @@
                                <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                 </div>
                                  
@@ -187,6 +192,7 @@
                                      <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>
                                      
                                   </div>
@@ -218,6 +224,7 @@
                                         <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div> 
                                       </div>
                                     </div>
@@ -246,6 +253,7 @@
                                <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
                                       </div>  
                               </div>
                             </div>
@@ -272,6 +280,8 @@
                                     <div class="center-full-slide">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold">Leer Más</a>
+                                          
                                       </div> 
                                   </div>
                                 </div>
