@@ -904,6 +904,9 @@ ul > .current{
     .crop-image{
         height: auto;
     }
+    .crop-image:hover{
+        transform: scale(1.3);
+    }
     .dark-blue-nav{
         display: none;
     }

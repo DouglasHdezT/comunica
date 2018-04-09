@@ -13,9 +13,7 @@ function main(){
          $(this).children(".center-full-slide").fadeOut();
     });
     
-    $(".crop-image").hover(function(){
-       $(this).css("transform","scale(1.3)"); 
-    });
+    
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
             $("#video-0")[0].src += "&autoplay=1";
