@@ -904,9 +904,7 @@ ul > .current{
     .crop-image{
         height: auto;
     }
-    .crop-image:hover{
-        transform: scale(1.3);
-    }
+
     .dark-blue-nav{
         display: none;
     }
@@ -1060,4 +1058,10 @@ ul > .current{
 
 #slideshow-medios > a{
     display: none;
+}
+.seconds-post {
+    padding:0;max-height:200px;overflow:hidden;position:relative;
+}
+.seconds-post:hover {
+    transform: scale(1.3);
 }
