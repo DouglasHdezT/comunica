@@ -1085,4 +1085,6 @@ ul > .current{
 .radio > a > img{
     max-height: 100% !important;
     width: auto;
+    position: absolute;
+    height: 100% !important;
 }

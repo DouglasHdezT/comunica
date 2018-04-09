@@ -218,12 +218,12 @@ if ( have_posts() ) {
         </div>
         <div class="row" style="background:#90CAF9;max-height: 550px;">
             <div class="col-md-12 material-container">
-                <h2 style="color:#fff;padding-top:25px">Radio Comunica</h2>
+                <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Radio Comunica</h2>
                 <div class="col-md-6">
                     <?php dynamic_sidebar('podcast'); ?>
                 </div>
                 <div class="col-md-6">
-                   <div class="row">
+                   <div class="row" style="position:relative">
                        <?php dynamic_sidebar('sidebar-1'); ?>
                    </div>
                 </div>
