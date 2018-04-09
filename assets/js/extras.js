@@ -14,9 +14,9 @@ function main(){
     });
     
     $(".seconds-post").hover(function(){
-        $(this).children(".center-full-slide").fadeIn();
+        $(this).children(".post-container").children(".center-full-slide").fadeIn();
     },function(){
-        $(this).children(".center-full-slide").fadeOut();
+        $(this).children(".post-container").children(".center-full-slide").fadeOut();
     });
     
      $('#play-0').on('click', function(ev) {
