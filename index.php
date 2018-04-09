@@ -73,7 +73,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 4){?>
-                                  <div class="col-md-6" style="padding:0">
+                                  <div class="col-md-6" style="padding:0;max-height:200px;overflow:hidden">
                                        <div class="crop-image">
                                             <?php
                                             if ( has_post_thumbnail() ) {
