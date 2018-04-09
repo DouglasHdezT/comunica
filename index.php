@@ -29,7 +29,7 @@ if ( have_posts() ) {
 
 <div class="container-fluid ">
     <section class="content-main">
-        <div class="row">
+        <div class="row" style="max-heigth:400px;overflow:hidden">
             <div class="col-lg-6">
                 <?php 
                 $count_views=0;
@@ -40,7 +40,7 @@ if ( have_posts() ) {
                             if($post_views == $total_views[0] && $count_views == 0){
                                 $count_views++;?>
                            
-                               <div class="container-post material-container">
+                               <div class="container-post material-container" style="min-height:400px">
                                     <?php
                                     if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
