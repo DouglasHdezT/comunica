@@ -29,7 +29,7 @@ if ( have_posts() ) {
 
 <div class="container-fluid ">
     <section class="content-main">
-        <div class="row" style="max-heigth:400px;overflow:hidden">
+        <div class="row" style="max-height:400px;overflow:hidden">
             <div class="col-lg-6">
                 <?php 
                 $count_views=0;
@@ -73,7 +73,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 4){?>
-                                  <div class="col-md-6">
+                                  <div class="col-md-6" style="padding:0">
                                        <div class="crop-image">
                                             <?php
                                             if ( has_post_thumbnail() ) {

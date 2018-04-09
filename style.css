@@ -383,6 +383,7 @@ ul.menu-scrolling > li > a:hover{
     position: relative;
     text-align: center;
     color: white;
+    box-sizing:border-box;
 }
 
 
