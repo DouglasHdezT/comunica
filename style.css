@@ -1081,3 +1081,8 @@ ul > .current{
     color: #fff;
     overflow-y: scroll;
 }
+
+.radio > .crop-image > a > img{
+    max-height: 100% !important;
+    width: auto;
+}
