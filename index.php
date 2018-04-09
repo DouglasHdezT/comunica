@@ -64,7 +64,7 @@ if ( have_posts() ) {
             </div>
             <hr class="space">
             <div class="col-lg-6">
-               <div class="row">
+               <div class="row" style="position:relative">
                 <?php 
                 $counter = 0;
                 if ( have_posts() ) {
@@ -73,7 +73,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 4){?>
-                                  <div class="col-md-6" style="padding:0;max-height:200px;overflow:hidden">
+                                  <div class="col-md-6" style="padding:0;max-height:200px;overflow:hidden;position:absolute">
                                        <div class="crop-image">
                                             <?php
                                             if ( has_post_thumbnail() ) {
