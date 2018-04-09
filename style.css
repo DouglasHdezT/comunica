@@ -1088,3 +1088,7 @@ ul > .current{
     height: 100% !important;
     width: 100%;
 }
+
+.radio{
+    max-height: 208px;
+}

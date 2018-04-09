@@ -223,7 +223,7 @@ if ( have_posts() ) {
                     <?php dynamic_sidebar('podcast'); ?>
                 </div>
                 <div class="col-md-6">
-                   <div class="row" style="margin-bottom:15px">
+                   <div class="row" style="margin-bottom:15px;max-height:416px">
                        <?php dynamic_sidebar('sidebar-1'); ?>
                    </div>
                 </div>
