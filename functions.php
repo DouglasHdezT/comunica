@@ -61,7 +61,7 @@ function add_widget_area(){
         'name'=>'Radio',
         'id'=>'sidebar-1',
         'description'=>'Agrega aqui nuevas radios',
-        'before_widget'=>'<div class="col-md-6 radio" style="padding:0px">',
+        'before_widget'=>'<div class="col-md-6 radio" style="padding:0px;margin:0px">',
         'after_widget'=>'</div>',
         'before_title'=>'<h2>',
         'after_title'=>'</h2>'
