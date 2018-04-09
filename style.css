@@ -1054,10 +1054,6 @@ ul > .current{
     color: #fff;
 }
 
-.slideshow-medios > .slidesjs-previous{
-    display: none;
-}
-
-.slideshow-medios > .slidesjs-next{
+#slideshow-medios > a{
     display: none;
 }
