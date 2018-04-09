@@ -86,6 +86,7 @@ function add_widget_area(){
         'before_title'=>'<h2>',
         'after_title'=>'</h2>'
     ));
+    
 }
 add_action('widgets_init','add_widget_area');
  
