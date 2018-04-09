@@ -216,7 +216,7 @@ if ( have_posts() ) {
                     ?>
             </div>
         </div>
-        <div class="row" style="background:#90CAF9">
+        <div class="row" style="background:#90CAF9;max-height: 550px;">
             <div class="col-md-12 material-container">
                 <h2 style="color:#fff;padding-top:25px">Radio Comunica</h2>
                 <div class="col-md-6">

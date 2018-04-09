@@ -1082,7 +1082,7 @@ ul > .current{
     overflow-y: scroll;
 }
 
-.radio > .crop-image > a > img{
+.radio > a > img{
     max-height: 100% !important;
     width: auto;
 }
