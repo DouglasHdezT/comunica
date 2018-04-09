@@ -13,6 +13,11 @@ function main(){
          $(this).children(".center-full-slide").fadeOut();
     });
     
+    $(".seconds-post").hover(function(){
+        $(this).children(".center-full-slide").fadeIn();
+    },function(){
+        $(this).children(".center-full-slide").fadeOut();
+    });
     
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){

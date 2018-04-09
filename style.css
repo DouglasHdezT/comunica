@@ -1066,7 +1066,4 @@ ul > .current{
     position:relative;
     transition: all 500ms ease;
 }
-.seconds-post:hover {
-    transform: scale(1.1);
-    z-index: 11;
-}
+
