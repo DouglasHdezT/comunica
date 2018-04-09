@@ -1053,3 +1053,11 @@ ul > .current{
     text-align: center;
     color: #fff;
 }
+
+.slideshow-medios > .slidesjs-previous{
+    display: none;
+}
+
+.slideshow-medios > .slidesjs-next{
+    display: none;
+}
