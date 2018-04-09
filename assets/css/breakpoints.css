@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (min-width: 1350px) and (max-width:1800px){
+@media screen and (min-width: 1500px) and (max-width:1800px){
     .crop-image .img-media{
         width: 100%!important;
         height: auto !important;
