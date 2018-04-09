@@ -106,18 +106,18 @@
         height: 100% !important;
     }
 }
-@media screen and(min-width:1000px) and (max-width:1350px){
+@media screen and(min-width:1000px) and (max-width:1450px){
     .img-media{
         width: 100%;
         max-height: 100%;
     }
     .crop-image-slider .img-media{
-        width: 100% !important;
-        height: auto!important;
+        width: auto!important;
+        height: 100%  !important;
     }
 }
 
-@media screen and (min-width: 1351px) and (max-width:1800px){
+@media screen and (min-width: 1450px) and (max-width:1800px){
     .crop-image .img-media{
         width: 100%!important;
         height: auto !important;
