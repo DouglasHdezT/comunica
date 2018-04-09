@@ -76,6 +76,16 @@ function add_widget_area(){
         'before_title'=>'<h2>',
         'after_title'=>'</h2>'
     ));
+    
+    register_sidebar(array(
+        'name'=>'Medio Jesuitas',
+        'id'=>'podcast',
+        'description'=>'Agrega aqui tu Podcast',
+        'before_widget'=>'<div class="col-md-12">',
+        'after_widget'=>'</div>',
+        'before_title'=>'<h2>',
+        'after_title'=>'</h2>'
+    ));
 }
 add_action('widgets_init','add_widget_area');
  
