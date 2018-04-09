@@ -64,6 +64,7 @@ if ( have_posts() ) {
             </div>
             <hr class="space">
             <div class="col-lg-6">
+               <div class="row">
                 <?php 
                 $counter = 0;
                 if ( have_posts() ) {
@@ -71,25 +72,15 @@ if ( have_posts() ) {
                         the_post();
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
-                                if($counter < 2){?>
-                               <div class=" col-sm-6 secondary-post mager">
-                                <div class="card bg-secondary mb-3 material-container">
-                                   <div class="container-post">
-                                       <div class="crop-image">
-                                            <?php
-                                            if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                            }
-                                            ?>
-                                        </div>
+                                if($counter < 4){?>
+                                   <div class="crop-image">
+                                        <?php
+                                        if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                        }
+                                        ?>
                                     </div>
-                                        <div class="card-body text-dark">
-                                            <h3><?php the_title(); ?></h3>
-                                            <p><?php the_excerpt(); ?></p>
-                                            <p><a href="<?php the_permalink(); ?>" class="btn btn-primary material-dark-buttom" role="button">Leer Más</a></p>
-                                        </div>
-                                </div>
-                            </div><?php $counter++; ?>
+                            <?php $counter++; ?>
                         <?php }
                         }
                     }
@@ -98,7 +89,7 @@ if ( have_posts() ) {
                 ?>
 
             </div>
-
+            </div>
         </div>
         <br>
         
