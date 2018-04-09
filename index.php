@@ -74,12 +74,19 @@ if ( have_posts() ) {
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 4){?>
                                   <div class="col-md-6 seconds-post" >
-                                       <div class="crop-image">
-                                            <?php
-                                            if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                            }
-                                            ?>
+                                      <div class="post-container">
+                                           <div class="crop-image">
+                                                <?php
+                                                if ( has_post_thumbnail() ) {
+                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                                }
+                                                ?>
+                                            </div>
+                                            <div class="center-full-slide">
+                                                  <h2 style="color:#fff"><?php the_title() ?></h2>
+                                                  <?php the_excerpt() ?>
+                                                  <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                            </div>
                                         </div>
                                     </div>
                             <?php $counter++; ?>
