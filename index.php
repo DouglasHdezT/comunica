@@ -29,7 +29,7 @@ if ( have_posts() ) {
 
 <div class="container-fluid ">
     <section class="content-main">
-        <div class="row" style="max-height:450px;overflow:hidden">
+        <div class="row" style="min-height:550px;max-height:550px;overflow:hidden">
             <div class="col-lg-6">
                 <?php 
                 $count_views=0;
