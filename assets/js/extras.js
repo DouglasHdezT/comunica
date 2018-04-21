@@ -19,6 +19,11 @@ function main(){
         $(this).children(".post-container").children(".center-full-slide-second-posts").fadeOut();
     });
     
+    $(".first-post").hover(function(){
+        $(this).children(".post-container").children(".center-full-slide-second-posts").fadeIn();
+    },function(){
+        $(this).children(".post-container").children(".center-full-slide-second-posts").fadeOut();
+    });
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
             $("#video-0")[0].src += "&autoplay=1";

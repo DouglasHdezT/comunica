@@ -823,9 +823,6 @@ ul > .current{
     
 }
 
-.first-section:hover .center-full{
-    display: block;
-}
 
 #preloader{
     width: 100%;
