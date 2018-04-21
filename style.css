@@ -1067,7 +1067,7 @@ ul > .current{
 }
 .seconds-post {
     padding:0 !important;
-    max-height:50%;
+    max-height:200px;
     overflow:hidden;
     position:relative;
     transition: all 500ms ease;
