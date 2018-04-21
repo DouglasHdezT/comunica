@@ -838,6 +838,10 @@ ul > .current{
     margin-top: 15px;
 }
 
+.crop-image-first-post{
+    width: auto;
+    height: 100%;
+}
 .img-loader{
     width: 20%;
     margin-left: auto;
