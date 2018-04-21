@@ -20,9 +20,9 @@ function main(){
     });
     
     $(".first-post").hover(function(){
-        $(this).children(".post-container").children(".center-full-slide-second-posts").fadeIn();
+        $(this).children(".container-post").children(".center-full-slide-second-posts").fadeIn();
     },function(){
-        $(this).children(".post-container").children(".center-full-slide-second-posts").fadeOut();
+        $(this).children(".container-post").children(".center-full-slide-second-posts").fadeOut();
     });
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
