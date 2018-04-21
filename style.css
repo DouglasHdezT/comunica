@@ -1086,9 +1086,9 @@ ul > .current{
     height: 100%;
     padding: 10px;
     background: rgba(0,0,0,0.3);
-    text-align: center;
+    text-align: left;
     color: #fff;
-    overflow-y: scroll;
+    overflow:hidden;
 }
 
 .radio > a > img{
