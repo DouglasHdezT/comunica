@@ -39,21 +39,23 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post_views == $total_views[0] && $count_views == 0){
                                 $count_views++;?>
-                           <div class="first-post">
-                               <div class="container-post material-container first-section">
-                                    <?php
-                                    if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive crop-image-first-post'));
-                                    }
-                                    ?>
-                                        
-                                      <div class="center-full-slide-second-posts" style="display:none">
-                                        <h3 style="color:#fff"><?php the_title(); ?></h3>
-                                        <br>
-                                        <?php the_excerpt(); ?>
-                                      </div>
+                               <a href="<?php the_permalink() ?>">
+                                  <div class="first-post">
+                                   <div class="container-post material-container first-section">
+                                        <?php
+                                        if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive crop-image-first-post'));
+                                        }
+                                        ?>
+
+                                          <div class="center-full-slide-second-posts" style="display:none">
+                                            <h3 style="color:#fff"><?php the_title(); ?></h3>
+                                            <br>
+                                            <?php the_excerpt(); ?>
+                                          </div>
+                                    </div>
                                 </div>
-                            </div>
+                               </a>
                                 <?php $idFirst=get_the_ID(); ?>
                     <?php }
                     }
