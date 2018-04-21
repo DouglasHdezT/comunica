@@ -129,6 +129,9 @@
     img-media{
         width: 100%;
     }
+    .first-section{
+        min-height:400px;max-height:550px;overflow:hidden
+    }
 }
 
 @media screen and (min-width: 421px) and (max-width: 768px){
