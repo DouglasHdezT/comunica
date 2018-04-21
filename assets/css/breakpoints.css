@@ -138,6 +138,12 @@
     .seconds-post{
         max-height: 50%;
     }
+    #slideshow, .slidesjs-container{
+        height:  350px;
+    }
+    .img-media{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 421px) and (max-width: 768px){
