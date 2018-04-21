@@ -115,6 +115,9 @@
         width: auto!important;
         height: 100%  !important;
     }
+    .seconds-post{
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 1800px) and (max-width:2000px){
