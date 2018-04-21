@@ -49,10 +49,8 @@ if ( have_posts() ) {
                                         
                                       <div class="center-full-slide-second-posts" style="display:none">
                                         <h3 style="color:#fff"><?php the_title(); ?></h3>
+                                        <br>
                                         <?php the_excerpt(); ?>
-                                      </div>
-                                      <div class="top-left">
-                                          <a href="<?php the_permalink(); ?>" class="box curmudgeon" >Leer Más</a>
                                       </div>
                                 </div>
                             </div>
@@ -86,7 +84,8 @@ if ( have_posts() ) {
                                             </div>
                                             <div id="style-7" class="center-full-slide-second-posts">
                                                   <h2 style="color:#fff"><?php the_title() ?></h2>
-                                                  <?php the_excerpt() ?>
+                                                  <br>
+                                                  <?php echo substr(the_excerpt(),0,300); ?>
                                                   <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
                                             </div>
                                         </div>
