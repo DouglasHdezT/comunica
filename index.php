@@ -39,7 +39,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post_views == $total_views[0] && $count_views == 0){
                                 $count_views++;?>
-                           
+                           <div class="first-post">
                                <div class="container-post material-container first-section">
                                     <?php
                                     if ( has_post_thumbnail() ) {
@@ -55,6 +55,7 @@ if ( have_posts() ) {
                                           <a href="<?php the_permalink(); ?>" class="box curmudgeon" >Leer Más</a>
                                       </div>
                                 </div>
+                            </div>
                                 <?php $idFirst=get_the_ID(); ?>
                     <?php }
                     }
