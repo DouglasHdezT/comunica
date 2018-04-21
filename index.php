@@ -47,7 +47,7 @@ if ( have_posts() ) {
                                     }
                                     ?>
                                         
-                                      <div class="bottom-left">
+                                      <div class="center-full" style="display:none">
                                         <h3 style="color:#fff"><?php the_title(); ?></h3>
                                         <?php the_excerpt(); ?>
                                       </div>
@@ -73,7 +73,7 @@ if ( have_posts() ) {
                          $post_views = get_post_views(get_the_ID());
                             if($post->ID != $idFirst && $post_views > $total_views[3]){
                                 if($counter < 4){?>
-                                 <a href="<?php the_permalink() ?>">
+                                 <a href="<?php the_permalink() ?>" style="color:#fff">
                                   <div class="col-md-6 seconds-post" >
                                       <div class="post-container">
                                            <div class="crop-image">

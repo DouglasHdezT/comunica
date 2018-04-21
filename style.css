@@ -819,7 +819,12 @@ ul > .current{
 }
 
 .first-section{
-    min-height:400px;max-height:400px;overflow:hidden
+    min-height:400px;max-height:400px;overflow:hidden;
+    
+}
+
+.first-section:hover .center-full{
+    display: block;
 }
 
 #preloader{
