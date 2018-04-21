@@ -841,6 +841,7 @@ ul > .current{
 .crop-image-first-post{
     width: auto;
     height: 100%;
+    max-width: none !important;
 }
 .img-loader{
     width: 20%;
