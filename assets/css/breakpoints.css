@@ -144,6 +144,9 @@
     .img-media{
         width: 100%;
     }
+    .logo-container{
+        height: 120px;
+    }
 }
 
 @media screen and (min-width: 421px) and (max-width: 768px){
