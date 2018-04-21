@@ -47,7 +47,7 @@ if ( have_posts() ) {
                                     }
                                     ?>
                                         
-                                      <div class="center-full" style="display:none">
+                                      <div class="center-full-slide-second-posts" style="display:none">
                                         <h3 style="color:#fff"><?php the_title(); ?></h3>
                                         <?php the_excerpt(); ?>
                                       </div>
