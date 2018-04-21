@@ -85,7 +85,7 @@ if ( have_posts() ) {
                                             <div id="style-7" class="center-full-slide-second-posts">
                                                   <h2 style="color:#fff"><?php the_title() ?></h2>
                                                   <br>
-                                                  <?php echo substr(get_the_excerpt(),0,200); ?>
+                                                  <?php echo '<p>'.substr(get_the_excerpt($post->post),0,190).'</p>'; ?>
                                                   <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
                                             </div>
                                         </div>
