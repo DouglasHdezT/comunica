@@ -222,11 +222,13 @@ if ( have_posts() ) {
         </div>
         <div class="row" style="background:#90CAF9;">
             <div class="col-md-12 material-container">
-                <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Radio Comunica</h2>
                 <div class="col-md-6">
+                       <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Radio Comunica</h2>
+
                     <?php dynamic_sidebar('podcast'); ?>
                 </div>
                 <div class="col-md-6">
+                  <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Fotografía</h2>
                    <div class="row" style="margin-bottom:15px;max-height:416px">
                        <?php dynamic_sidebar('sidebar-1'); ?>
                    </div>
