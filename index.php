@@ -43,7 +43,7 @@ if ( have_posts() ) {
                                <div class="container-post material-container first-section">
                                     <?php
                                     if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive crop-image'));
                                     }
                                     ?>
                                         
