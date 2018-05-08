@@ -1060,13 +1060,13 @@ ul > .current{
 .center-full-slide {
     display: none;
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
     padding: 40px;
     background: rgba(0,0,0,0.3);
-    text-align: center;
+    text-align: left;
     color: #fff;
 }
 
@@ -1085,7 +1085,7 @@ ul > .current{
 .center-full-slide-second-posts {
     display: none;
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
