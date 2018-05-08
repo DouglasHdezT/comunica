@@ -1112,5 +1112,5 @@ ul > .current{
 }
 .align-buttom-slide {
     position: absolute;
-    bottom: 40%;
+    bottom: calc(450px-330px);
 }
