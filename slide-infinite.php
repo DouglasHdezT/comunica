@@ -31,9 +31,11 @@
                                   </div>
                                   </div>
                                       <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                         <div class="align-buttom">
+                                              <h2 style="color:#fff"><?php the_title() ?></h2>
+                                              <?php the_excerpt() ?>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                         </div>
                                       </div>
                                 </div>
                                 </div>
@@ -66,9 +68,11 @@
                                   </div>
                                    </div>
                                    <div class="center-full-slide">
+                                       <div class="align-buttom">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                           <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                       </div>
                                       </div>
                                   </div>
                                 </div>
@@ -95,9 +99,11 @@
                                           </div>
                                         </div>
                                         <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                          <div class="align-buttom">
+                                              <h2 style="color:#fff"><?php the_title() ?></h2>
+                                              <?php the_excerpt() ?>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                          </div>
                                       </div>
                                       </div>
                                     </div>
@@ -110,8 +116,7 @@
                     echo '<div class="slide">';
                     for($i=0;$i<2;$i++){
                         the_post();?>
-                            <div class="col-sm-4" style="padding:0">
-                                
+                            <div class="col-sm-4" style="padding:0">       
                                 <div class=" slider-container   material-container">
                                  <div class="container-post">
                                   <div class="crop-image-slider">
@@ -123,10 +128,12 @@
                                   </div>
                                     </div>
                                     <div class="center-full-slide">
+                                        <div class="align-buttom">
                                           <h2 style="color:#fff"><?php the_title() ?></h2>
                                           <?php the_excerpt() ?>
                                           <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                      </div>
+                                        </div>
+                                    </div>
                                   </div>
                                 </div>
                         <?php
@@ -149,16 +156,18 @@
                                   </div>
                               </div>
                                <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                      </div>
+                                    <div class="align-buttom">
+                                      <h2 style="color:#fff"><?php the_title() ?></h2>
+                                      <?php the_excerpt() ?>
+                                      <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                    </div>
                                 </div>
-                                 
-                                 
-                                 
-                              </div>
                             </div>
+                                 
+                                 
+                                 
+                            </div>
+                        </div>
                     <?php 
                 }
                 wp_reset_query();
@@ -190,11 +199,12 @@
                                    
                                     </div> 
                                      <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                      </div>
-                                     
+                                         <div class="align-buttom">
+                                              <h2 style="color:#fff"><?php the_title() ?></h2>
+                                              <?php the_excerpt() ?>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                          </div>
+                                     </div>
                                   </div>
                                 </div>
                     <?php
@@ -210,22 +220,23 @@
                                 <div class="col-sm-4" style="padding:0">
                                      
                                     <div class=" slider-container   material-container">
-                                     <div class="container-post">
-                                      <div class="crop-image-slider">
-                                          <?php
-                                              if ( has_post_thumbnail() ) {
-                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                              }
-                                            ?>
-                                      </div>
-                                       
-                                        </div>     
-                                         
-                                        <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                      </div> 
+                                         <div class="container-post">
+                                              <div class="crop-image-slider">
+                                                  <?php
+                                                      if ( has_post_thumbnail() ) {
+                                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                                      }
+                                                    ?>
+                                              </div>
+                                          </div>     
+
+                                          <div class="center-full-slide">
+                                             <div class="align-buttom">
+                                                  <h2 style="color:#fff"><?php the_title() ?></h2>
+                                                  <?php the_excerpt() ?>
+                                                  <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                             </div>
+                                          </div> 
                                       </div>
                                     </div>
                         <?php
@@ -236,27 +247,27 @@
                     //Slide diferente...
                     echo '<div class="slide">';
                     the_post();?>
-                        <div class="col-sm-4" style="padding:0">
-                             
-                            <div class=" slider-container   material-container">
-                             <div class="container-post">
-                              <div class="crop-image-slider">
-                                  <?php
-                                      if ( has_post_thumbnail() ) {
+                    <div class="col-sm-4" style="padding:0">
+
+                        <div class=" slider-container   material-container">
+                            <div class="container-post">
+                                <div class="crop-image-slider">
+                                    <?php
+                                    if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                      }
+                                    }
                                     ?>
-                              </div>
-                               
-                                 
                                 </div>
-                               <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                      </div>  
-                              </div>
                             </div>
+                            <div class="center-full-slide">
+                                <div class="align-buttom">
+                                    <h2 style="color:#fff"><?php the_title() ?></h2>
+                                    <?php the_excerpt() ?>
+                                    <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
                     <?php   
                 }
                 query_posts('');
@@ -278,11 +289,12 @@
                                      
                                     </div>
                                     <div class="center-full-slide">
-                                          <h2 style="color:#fff"><?php the_title() ?></h2>
-                                          <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
-                                          
-                                      </div> 
+                                        <div class="align-buttom">
+                                            <h2 style="color:#fff"><?php the_title() ?></h2>
+                                            <?php the_excerpt() ?>
+                                            <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                        </div>
+                                    </div> 
                                   </div>
                                 </div>
                         <?php
