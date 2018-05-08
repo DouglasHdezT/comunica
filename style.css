@@ -1106,3 +1106,7 @@ ul > .current{
 .radio{
     max-height: 208px;
 }
+.align-buttom {
+    position: absolute;
+    bottom: 0px;
+}
