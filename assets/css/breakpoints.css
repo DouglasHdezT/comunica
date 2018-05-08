@@ -20,11 +20,6 @@
     height: 100% !important;
 }
 
-@media screen and (min-width: 1451px) and (max-width: 1450px){
-    .crop-image-slider{
-        height: 330px;
-    }
-}
 /*Break points de multimedia*/
 
 @media screen and (min-width: 769px) and (max-width: 1200px){

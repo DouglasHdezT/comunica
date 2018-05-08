@@ -34,7 +34,7 @@
                                          <div class="align-buttom-slide">
                                               <h4 style="color:#fff"><?php the_title() ?></h4>
                                               <?php the_excerpt() ?>
-                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                          </div>
                                       </div>
                                 </div>
@@ -71,7 +71,7 @@
                                        <div class="align-buttom-slide">
                                           <h4 style="color:#fff"><?php the_title() ?></h4>
                                           <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                        </div>
                                       </div>
                                   </div>
@@ -102,7 +102,7 @@
                                           <div class="align-buttom-slide">
                                               <h4 style="color:#fff"><?php the_title() ?></h4>
                                               <?php the_excerpt() ?>
-                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                           </div>
                                       </div>
                                       </div>
@@ -131,7 +131,7 @@
                                         <div class="align-buttom-slide">
                                           <h4 style="color:#fff"><?php the_title() ?></h4>
                                           <?php the_excerpt() ?>
-                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                          <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                         </div>
                                     </div>
                                   </div>
@@ -159,7 +159,7 @@
                                     <div class="align-buttom-slide">
                                       <h4 style="color:#fff"><?php the_title() ?></h4>
                                       <?php the_excerpt() ?>
-                                      <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                      <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                                          <div class="align-buttom-slide">
                                               <h4 style="color:#fff"><?php the_title() ?></h4>
                                               <?php the_excerpt() ?>
-                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                              <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                           </div>
                                      </div>
                                   </div>
@@ -234,7 +234,7 @@
                                              <div class="align-buttom-slide">
                                                   <h4 style="color:#fff"><?php the_title() ?></h4>
                                                   <?php the_excerpt() ?>
-                                                  <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                                  <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                              </div>
                                           </div> 
                                       </div>
@@ -263,7 +263,7 @@
                                 <div class="align-buttom-slide">
                                     <h4 style="color:#fff"><?php the_title() ?></h4>
                                     <?php the_excerpt() ?>
-                                    <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                    <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                 </div>
                             </div>  
                         </div>
@@ -292,7 +292,7 @@
                                         <div class="align-buttom-slide">
                                             <h4 style="color:#fff"><?php the_title() ?></h4>
                                             <?php the_excerpt() ?>
-                                            <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1.2em">Leer Más</a>
+                                            <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                         </div>
                                     </div> 
                                   </div>
