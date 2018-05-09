@@ -7,7 +7,7 @@
         $items = wp_get_nav_menu_items($menu_name);
         query_posts('');
         for($i=0;$i<count($items);$i++){
-            print_r($items);
+            echo $items[i]->title;
         }
         wp_reset_query();
         ?>
