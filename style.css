@@ -1221,7 +1221,3 @@ ul > .current {
 #slideshow-sections{
     height: 300px;
 }
-
-#slideshow-sections>a{
-    display: none;
-}
