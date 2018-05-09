@@ -939,8 +939,8 @@ ul > .current {
 
 .loader {
     position: absolute;
-    width: 10%;
-    height: calc(10%);
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     top: 50%;
     display: inline-block;
