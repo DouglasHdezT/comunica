@@ -940,7 +940,7 @@ ul > .current {
 .loader {
     position: absolute;
     width: 10%;
-    height: 10%;
+    height: auto;
     border-radius: 100%;
     top: 50%;
     display: inline-block;
