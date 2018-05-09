@@ -9,8 +9,11 @@
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                    if(in_category($item->title)){ ?>
-                        <div class="slide">
+                    $flag = true;
+                    echo '<div class="slide">';
+                    if(in_category($item->title)){ 
+                        if($flag){
+                    ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
                                     <div class=" slider-container   material-container">
@@ -33,10 +36,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php    
+                    <?php
+                        $flag=false;
+                        }
                     }
-
+                    echo '</div>'
                 } // end while
             } // end if
 
