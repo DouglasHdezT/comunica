@@ -6,9 +6,8 @@
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
         query_posts('');
-        echo count($items);
         for($i=0;$i<count($items);$i++){
-            
+            print_r($items);
         }
         wp_reset_query();
         ?>
