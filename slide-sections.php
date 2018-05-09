@@ -6,10 +6,10 @@
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
         query_posts('');
-        for($i=0;$i<count($items);$i++){
-            echo $items[i]->title;
+        foreach( $items as $item ) {
+            echo $item->title;
         }
-        wp_reset_query();
+
         ?>
     </section>
 </div>
