@@ -18,9 +18,7 @@
                 if($cont_secc == 0){
                     echo '<div class="slide">';
                 }
-                    $flag = true;
                     if(in_category($item->title)){ 
-                        if($flag){
                     ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
@@ -45,15 +43,13 @@
                                 </div>
                             </div>
                     <?php
-                        $flag=false;
-                        }
                     }
                     if($cont_secc == 0){
                         echo '</div>';
                     }
                 } // end while
             } // end if
-            
+            echo count_secc;
             $cont_secc++;
 
         }
