@@ -8,8 +8,8 @@
         foreach( $items as $item ) {
             if ( have_posts() ) {
                 while ( have_posts() ) {
-                    the_post();
-                    if(in_category($item->title)){ ?>
+                    the_post(); 
+        ?>
                         <div class="slide">
                             <div class="col-sm-4">
                                 <div class="container-post">
@@ -35,8 +35,6 @@
                             </div>
                         </div>
                     <?php    
-                    }
-
                 } // end while
             } // end if
 
