@@ -4,13 +4,21 @@
         $theme_locations = get_nav_menu_locations();
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
+        $cont_secc = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
+            if($cont_secc == 4){
+                $cont_secc = 0;
+            }
+            
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                    $flag = true;
+                    
+                if($cont_secc == 0){
                     echo '<div class="slide">';
+                }
+                    $flag = true;
                     if(in_category($item->title)){ 
                         if($flag){
                     ?>
@@ -40,9 +48,13 @@
                         $flag=false;
                         }
                     }
-                    echo '</div>';
+                    if($cont_secc == 0){
+                        echo '</div>';
+                    }
                 } // end while
             } // end if
+            
+            $cont_secc++;
 
         }
 
