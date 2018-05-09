@@ -40,7 +40,7 @@
                         $flag=false;
                         }
                     }
-                    echo '</div>'
+                    echo '</div>';
                 } // end while
             } // end if
 
