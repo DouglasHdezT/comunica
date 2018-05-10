@@ -7,8 +7,6 @@
         $cont_secc = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-
-
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
@@ -18,8 +16,7 @@
                 if($cont_secc == 3){
                     $cont_secc = 0;
                 }
-
-                    if(in_category($item->title) && has_post_thumbnail()){
+                  if(in_category($item->title) && has_post_thumbnail()){
 
                   echo  ?>
                             <div class="col-sm-4">
@@ -44,18 +41,14 @@
                                 </div>
                             </div>
                     <?php
-
-
                     }
                     if($cont_secc == 0){
                         echo '</div>';
                     }
-                $cont_secc++;
+                    $cont_secc++;
                 } // end while
             } // end if
-
         }
-
         ?>
     </section>
 </div>
