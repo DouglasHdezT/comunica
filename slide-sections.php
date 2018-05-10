@@ -19,7 +19,7 @@
                     echo '<div class="slide">';
                 }
                     $flag = true;
-                    if(in_category($item->title)){
+                    if(in_category($item->title) && has_post_thumbnail()){
                         if($flag){
                     ?>
                             <div class="col-sm-4">
@@ -28,9 +28,7 @@
                                     <div class=" slider-container   material-container">
                                         <div class="crop-image">
                                             <?php
-                                              if ( has_post_thumbnail() ) {
                                                 the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                              }
                                             ?>
                                         </div>
                                     </div>
@@ -54,7 +52,6 @@
                     }
                 } // end while
             } // end if
-            echo $cont_secc;
             $cont_secc++;
         }
 
