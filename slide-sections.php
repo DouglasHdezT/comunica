@@ -10,19 +10,20 @@
             if($cont_secc == 4){
                 $cont_secc = 0;
             }
-            
+
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                    
+
                 if($cont_secc == 0){
                     echo '<div class="slide">';
                 }
                     $flag = true;
-                    if(in_category($item->title)){ 
+                    if(in_category($item->title)){
                         if($flag){
                     ?>
                             <div class="col-sm-4">
+                              <h1>OMEGALUL</h1>
                                 <div class="container-post">
                                     <div class=" slider-container   material-container">
                                         <div class="crop-image">
