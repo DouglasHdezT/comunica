@@ -7,7 +7,7 @@
         $cont_secc = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-            if($cont_secc == 4){
+            if($cont_secc == 3){
                 $cont_secc = 0;
             }
 
