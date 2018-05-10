@@ -18,7 +18,7 @@
                 }
                   if(in_category($item->title) && has_post_thumbnail()){
 
-                  echo  ?>
+                    ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
 
