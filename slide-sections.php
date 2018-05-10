@@ -5,17 +5,15 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $cont_secc = 0;
+        $flag = true;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                if($cont_secc == 0){
-                    echo '<div class="slide">';
-                }
-                if($cont_secc == 3){
-                    $cont_secc = 0;
-                }
+                  if($cont_secc == 0 && $flag == true){
+                      echo '<div>';
+                  }
                   if(in_category($item->title) && has_post_thumbnail()){
 
                     ?>
@@ -41,11 +39,14 @@
                                 </div>
                             </div>
                     <?php
-                    if($cont_secc == 0){
-                        echo '</div>';
+                      if($cont_secc == 2){$cont_secc = 0
+                      $flag = true;}
+                      else {$cont_secc++;}
+                      if($cont_secc == 0 && $flag == true){
+                          echo '</div class="slide">';
+                      }
                     }
-                    $cont_secc++;
-                    }
+                    $flag = false;
 
                 } // end while
             } // end if
