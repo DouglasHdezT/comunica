@@ -5,13 +5,13 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $cont_secc = 0;
-        $flag = true;
+        $flag = TRUE;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                  if($cont_secc == 0 && $flag == true){
+                  if($cont_secc == 0 && $flag == TRUE){
                       echo '<div>';
                   }
                   if(in_category($item->title) && has_post_thumbnail()){
@@ -40,13 +40,13 @@
                             </div>
                     <?php
                       if($cont_secc == 2){$cont_secc = 0
-                      $flag = true;}
+                      $flag = TRUE;}
                       else {$cont_secc++;}
-                      if($cont_secc == 0 && $flag == true){
+                      if($cont_secc == 0 && $flag == TRUE){
                           echo '</div class="slide">';
                       }
                     }
-                    $flag = false;
+                    $flag = FALSE;
 
                 } // end while
             } // end if
