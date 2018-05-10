@@ -12,7 +12,7 @@
                 while ( have_posts() ) {
                     the_post();
                   if($cont_secc == 0 && $flag == 0){
-                      echo '<div>';
+                      echo '<div class="slide">';
                       $flag = 1;
                   }
                   if(in_category($item->title) && has_post_thumbnail()){
