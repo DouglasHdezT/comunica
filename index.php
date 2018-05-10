@@ -190,7 +190,7 @@ if ( have_posts() ) {
                         while ( have_posts() ) {
                         the_post();
                             if(in_category('Multimedia') && $postCounter < 2 ){
-                    ?>
+                        ?>
                         <div class="col-md-6" style="padding:0">
                             <?php
                                         $youtube = getYTurl();
@@ -244,7 +244,7 @@ if ( have_posts() ) {
                 <div class="col-md-12 material-container">
                     <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
                     <?php
-                    //include 'slide-sections.php';
+                    include 'slide-sections.php';
                     ?>
                 </div>
             </div>
