@@ -189,7 +189,7 @@ if ( have_posts() ) {
                     if ( have_posts() ) {
                         while ( have_posts() ) {
                         the_post();
-                            if(in_category('Multimedia') && $postCounter < 2 ){
+                            if(in_category('MULTIMEDIA') && $postCounter < 2 ){
                         ?>
                         <div class="col-md-6" style="padding:0">
                             <?php
