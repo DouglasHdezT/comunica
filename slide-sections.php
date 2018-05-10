@@ -14,7 +14,6 @@
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-                    echo "<h3>".$item->title."</h3>"
                 if($cont_secc == 0){
                     echo '<div class="slide">';
                 }
