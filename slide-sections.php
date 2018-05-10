@@ -23,8 +23,8 @@
                         if($flag){
                     ?>
                             <div class="col-sm-4">
-                              <h1>OMEGALUL</h1>
                                 <div class="container-post">
+                                  <h1><?php echo $item->title ?></h1>
                                     <div class=" slider-container   material-container">
                                         <div class="crop-image">
                                             <?php
