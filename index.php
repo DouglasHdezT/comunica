@@ -239,11 +239,12 @@ if ( have_posts() ) {
                     ?>
                 </div>
             </div>
+            <!--Area Secciones-->
             <div class="row" style="background:#57a5ea">
                 <div class="col-md-12 material-container">
                     <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
                     <?php
-                    include 'slide-sections.php';
+                    //include 'slide-sections.php';
                     ?>
                 </div>
             </div>
