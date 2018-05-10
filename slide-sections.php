@@ -24,7 +24,7 @@
                     ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
-                                  <h1><?php echo $item->title ?></h1>
+
                                     <div class=" slider-container   material-container">
                                         <div class="crop-image">
                                             <?php
@@ -54,9 +54,8 @@
                     }
                 } // end while
             } // end if
-            echo count_secc;
+            echo $cont_secc;
             $cont_secc++;
-
         }
 
         ?>
