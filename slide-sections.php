@@ -41,11 +41,12 @@
                                 </div>
                             </div>
                     <?php
-                    }
                     if($cont_secc == 0){
                         echo '</div>';
                     }
                     $cont_secc++;
+                    }
+
                 } // end while
             } // end if
         }
