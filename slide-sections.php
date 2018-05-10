@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                     <?php
-                      if($cont_secc == 2){$cont_secc = 0
+                      if($cont_secc == 2){$cont_secc = 0;
                       $flag = TRUE;}
                       else {$cont_secc++;}
                       if($cont_secc == 0 && $flag == TRUE){
