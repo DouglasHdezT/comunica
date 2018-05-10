@@ -7,9 +7,7 @@
         $cont_secc = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-            if($cont_secc == 3){
-                $cont_secc = 0;
-            }
+
 
             if ( have_posts() ) {
                 while ( have_posts() ) {
@@ -17,10 +15,13 @@
                 if($cont_secc == 0){
                     echo '<div class="slide">';
                 }
+                if($cont_secc == 3){
+                    $cont_secc = 0;
+                }
 
                     if(in_category($item->title) && has_post_thumbnail()){
 
-                    ?>
+                  echo  ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
 
@@ -49,9 +50,10 @@
                     if($cont_secc == 0){
                         echo '</div>';
                     }
+                $cont_secc++;
                 } // end while
             } // end if
-            $cont_secc++;
+
         }
 
         ?>
