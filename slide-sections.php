@@ -14,13 +14,13 @@
             if ( have_posts() ) {
                 while ( have_posts() ) {
                     the_post();
-
+                    echo "<h3>".$item->title."</h3>"
                 if($cont_secc == 0){
                     echo '<div class="slide">';
                 }
-                    $flag = true;
+
                     if(in_category($item->title) && has_post_thumbnail()){
-                        if($flag){
+
                     ?>
                             <div class="col-sm-4">
                                 <div class="container-post">
@@ -44,8 +44,8 @@
                                 </div>
                             </div>
                     <?php
-                        $flag=false;
-                        }
+
+
                     }
                     if($cont_secc == 0){
                         echo '</div>';
