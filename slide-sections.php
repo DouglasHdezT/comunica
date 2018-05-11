@@ -41,10 +41,11 @@
                     </div>
                     <?php
                     $count_secc++;
+                    break;
                     }
                   }
         }
-        if($count_secc%4 == 0 && $open==1){
+        if($count_secc/4 == 0 && $open==1){
           echo '</div>';
           $open=0;
         }
