@@ -9,6 +9,7 @@
         foreach( $items as $item ) {
             if ( have_posts() ) {
               echo '<div class="slide">';
+              echo '<h3>'.$item->title.'</h3>';
                 while ( have_posts() ) {
                   the_post();
                   if(in_category($item->title) && has_post_thumbnail()){
