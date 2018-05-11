@@ -8,13 +8,13 @@
         $open = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-            if($count_secc == 1 && $open == 0){
-              echo '<div class="slide">';
-              $open=1;
-              $count_secc =0;
-            }
+
             if ( have_posts() ) {
               while ( have_posts() ) {
+                if($count_secc == 1 && $open == 0){
+                  echo '<div class="slide">';
+                  $open=1;
+                }
                 the_post();
                   if(in_category($item->title)){
                     ?>
