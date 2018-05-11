@@ -9,10 +9,10 @@
         $items = wp_get_nav_menu_items($menu_name); ?>
         <?php
         foreach( $items as $item ) {
-          if($cont_slide%4 == 1 $open == 0){
-            echo '<div class="slide">';
-            $open=1;
-          }
+            if($cont_slide%4 == 1 $open == 0){
+              echo '<div class="slide">';
+              $open=1;
+            }
             if ( have_posts() ) {
               while ( have_posts() ) {
                 the_post();
@@ -32,10 +32,10 @@
                             <div class="center-full-slide">
                                 <div class="align-buttom-slide">
                                     <h4 style="color:#fff">
-                                        <?php the_title() ?>
+                                        <?php the_title(); ?>
                                     </h4>
-                                    <?php the_excerpt() ?>
-                                    <a href="<?php the_permalink() ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
+                                    <?php the_excerpt(); ?>
+                                    <a href='<?php the_permalink(); ?>' style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
                                 </div>
                             </div>
                         </div>
@@ -45,12 +45,12 @@
                     }
                   }
         }
-        if($count_secc%4 == 0 && $open=1){
+        if($count_secc%4 == 0 && $open==1){
           echo '</div>';
           $open=0;
         }
       }
-      if($count_secc!=0){
+      if($count_secc%4 != 0){
         echo '</div>';
       }
 
