@@ -4,11 +4,11 @@
         $theme_locations = get_nav_menu_locations();
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
-        $count_secc = 4;
+        $count_secc = 1;
         $open = 0;
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-            if($count_secc%4 == 1 && $open == 0){
+            if($count_secc == 1 && $open == 0){
               echo '<div class="slide">';
               $open=1;
             }
@@ -41,16 +41,17 @@
                     </div>
                     <?php
                     $count_secc++;
-                    break;
+                    if($count_secc == 4 && $open==1){
+                      echo '</div>';
+                      $count_secc =1;
+                      $open=0;
+                    }
                     }
                   }
         }
-        if($count_secc/4 == 0 && $open==1){
-          echo '</div>';
-          $open=0;
-        }
+
       }
-      if($count_secc%4 != 0){
+      if($count_secc != 4){
         echo '</div>';
       }
 
