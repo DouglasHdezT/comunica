@@ -10,12 +10,13 @@
         <div class="slide">
         <?php
         foreach( $items as $item ) {
+          if($open==0){
+            echo '<div class="slide">';
+            $count_secc=4;
+            $open=1;
+          }
             if ( have_posts() ) {
-              if($open==0){
-                echo '<div class="slide">';
-                $count_secc=4;
-                $open=1;
-              }
+
               while ( have_posts() ) {
                 the_post();
                   if(in_category($item->title)){
@@ -47,10 +48,11 @@
                     break;
                     }
                   }
-                  if($count_secc==0){
-                    echo '</div>';
-                    $open=0;
-                  }
+
+        }
+        if($count_secc==0){
+          echo '</div>';
+          $open=0;
         }
       }
       if($open==1){
