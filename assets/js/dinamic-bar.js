@@ -1,7 +1,7 @@
 $(document).ready(main);
 
 $isDown = false;
-$claseAbierta=null;
+$claseAbierta;
 
 function main(){
 var $counter = true;
