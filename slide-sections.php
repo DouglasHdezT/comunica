@@ -1,6 +1,8 @@
 <div class="no-slide">
     <section id="slideshow-sections">
         <?php
+        $categories = get_categories();
+        foreach ( $categories as $category ) {
         $args = array(
             'cat' => $category->term_id,
             'post_type' => 'post',
@@ -34,6 +36,7 @@
                         </div>
                     </div>
                   <?php }
-                }?>
+                }
+                    }?>
     </section>
 </div>
