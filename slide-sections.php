@@ -52,7 +52,7 @@
                 }
                 }
                     }
-                    if($flagged==1)
-                      echo "</div>";?>
+                    if($flagged==1){
+                      echo "</div>";}?>
     </section>
 </div>
