@@ -11,14 +11,14 @@
         <?php
         foreach( $items as $item ) {
             if ( have_posts() ) {
-              if($count_secc==0 && $open==0){
+              if(($count_secc==0) && ($open==0)){
                 echo '<div class="slide">';
                 $count_secc=4;
                 $open=1;
               }
               while ( have_posts() ) {
                 the_post();
-                  if(in_category($item->title)){
+                  if((in_category($item->title)) && (has_post_thumbnail())){
                     ?>
                     <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
@@ -47,7 +47,7 @@
                     break;
                     }
                   }
-                  if($count_secc==0 && $open==1){
+                  if(($count_secc==0) && ($open==1)){
                     echo '</div >';
                     $open=0;
                   }
