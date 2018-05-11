@@ -48,12 +48,14 @@
                     }
                   }
                   if($count_secc==0 && $open==1){
-                    echo '</div>';
+                    echo '</div><span>SNUS1</span>';
                     $open=0;
                   }
         }
       }
-
+      if($open==1){
+        echo '</div><span>SNUS2</span>';
+      }
 
         ?>
     </section>
