@@ -1,24 +1,15 @@
 <div class="no-slide">
     <section id="slideshow-sections">
-        <?php
-        $theme_locations = get_nav_menu_locations();
-        $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
-        $menu_name = $menu_obj->name;
-        $count_secc = 4;
-        $open = 1;
-        $items = wp_get_nav_menu_items($menu_name); ?>
-        <div class="slide">
-        <?php
-        foreach( $items as $item ) {
-            if ( have_posts() ) {
-              if(($count_secc==0) and ($open==0)){
-                echo '<div class="slide">';
-                $count_secc=4;
-                $open=1;
-              }
-              while ( have_posts() ) {
-                the_post();
-                  if((in_category($item->title)) and (has_post_thumbnail())){
+    <?php  $args = array(
+  'posts_per_page' => 1, // we need only the latest post, so get that post only
+  'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
+  //'category_name' => 'SLUG OF FOO CATEGORY,
+              );
+              $q = new WP_Query( $args);
+
+              if ( $q->have_posts() ) {
+                while ( $q->have_posts() ) {
+                $q->the_post();
                     ?>
                     <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
@@ -43,18 +34,12 @@
                         </div>
                     </div>
                     <?php
-                    $count_secc--;
-                    }
-                  }
-                  if(($count_secc==0) and ($open==1)){
-                    echo '</div >';
-                    $open=0;
-                  }
-        }
-      }
-      if($open==1){
-        echo '</div>';
-      }
+                    the_title();
+                }
+                wp_reset_postdata();
+              }?>
+
+
 
         ?>
     </section>
