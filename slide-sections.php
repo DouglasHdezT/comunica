@@ -6,9 +6,9 @@
         $menu_name = $menu_obj->name;
         $cont_secc = 4;
         $open = 1;
-        $insideonce=0;
-        $items = wp_get_nav_menu_items($menu_name);
-        echo '<div class="slide">';
+        $items = wp_get_nav_menu_items($menu_name); ?>
+        <div class="slide">
+        <?php
         foreach( $items as $item ) {
             if ( have_posts() ) {
               if($count_secc==0 && $open==0){
@@ -16,8 +16,8 @@
                 $count_secc=4;
                 $open=1;
               }
-                while ( have_posts() ) {
-                  the_post();
+              while ( have_posts() ) {
+                the_post();
                   if(in_category($item->title) && has_post_thumbnail()){
                     ?>
                     <div class="col-sm-3" style="padding:0">
@@ -44,16 +44,14 @@
                     </div>
                     <?php
                     $count_secc--;
-                    $insideonce=1;
                     break;
                     }
-                    }
-                    if($count_secc==0 && $open==1 && $insideonce==1){
-                      echo '</div>';
-                      $open=0;
-                      $insideonce=0;
-                    }
-      }
+                  }
+                  if($count_secc==0 && $open==1){
+                    echo '</div>';
+                    $open=0;
+                  }
+        }
       }
       if($open==1){
         echo '</div>';
