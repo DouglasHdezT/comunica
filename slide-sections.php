@@ -7,17 +7,18 @@
         $cont_secc = 4;
         $open = 0;
         $items = wp_get_nav_menu_items($menu_name);
+        echo '<div class="slide">';
         foreach( $items as $item ) {
             if ( have_posts() ) {
-              if($open==0){
-                echo '<div class="slide">';
-                $open==1;
-              }
+                if($count_secc==0){
+                  echo '<div class="slide">';
+                  $count_secc=4;
+                }
                 while ( have_posts() ) {
                   the_post();
                   if(in_category($item->title) && has_post_thumbnail()){
                     ?>
-                    <div class="col-sm-4" style="padding:0">
+                    <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
                             <div class=" slider-container   material-container">
                                 <div class="crop-image-slider">
@@ -43,15 +44,13 @@
                     $count_secc--;
                     break;
                     }
+                    if($count_secc==0){
+                      echo '</div>';
             }
-            if($count_secc==0){
-              echo '</div>';
-              $count_secc=4;
-              $open=0;
-            }
+
         }
       }
-      if($open==1){
+      if($count_secc!=4){
         echo '</div>';
       }
         ?>
