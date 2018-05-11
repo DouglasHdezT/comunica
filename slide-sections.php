@@ -4,7 +4,7 @@
         $theme_locations = get_nav_menu_locations();
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
-        $cont_secc = 5;
+        $cont_secc = 3;
         $open = 1;
         $items = wp_get_nav_menu_items($menu_name); ?>
         <div class="slide">
@@ -13,14 +13,14 @@
             if ( have_posts() ) {
               if($count_secc==0 && $open==0){
                 echo '<div class="slide">';
-                $count_secc=5;
+                $count_secc=3;
                 $open=1;
               }
               while ( have_posts() ) {
                 the_post();
-                  if(has_post_thumbnail()){
+                  if(in_category($item->title)){
                     ?>
-                    <div class="col-sm-3" style="padding:0">
+                    <div class="col-sm-3" style="padding:0" background="#FFF">
                         <div class="container-post">
                             <div class=" slider-container   material-container">
                                 <div class="crop-image-slider">
