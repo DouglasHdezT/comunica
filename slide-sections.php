@@ -8,8 +8,8 @@
         $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
             if ( have_posts() ) {
-              echo '<div class="slide">';
-              echo '<h3>'.$item->title.'</h3>';
+              if($cont_secc==4){
+                echo '<div class="slide">';}
                 while ( have_posts() ) {
                   the_post();
                   if(in_category($item->title) && has_post_thumbnail()){
@@ -37,13 +37,16 @@
                             </div>
                     <?php
                     $count_secc--;
-                    if($count_secc==0)
-                      break;
-                }
+                    break;
+                    }
             }
-            echo '</div>';
-            $count_secc=4;
+            if($count_secc==0){
+              echo '</div>';
+              $count_secc=4;}
         }
+      }
+      if($count_secc!=4){
+        echo '</div>';
       }
         ?>
     </section>
