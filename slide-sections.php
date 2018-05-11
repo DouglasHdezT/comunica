@@ -1,6 +1,8 @@
 <div class="no-slide">
     <section id="slideshow-sections">
         <?php
+        $counter=1;
+        $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
         $args = array(
@@ -12,6 +14,10 @@
         if ( $query->have_posts() ) {
           while ( $query->have_posts() ) {
             $query->the_post();
+            if($counter==1 && $flagged==0){
+              echo "<div class='slider'>";
+              $flagged=1;
+              }
         ?>
                     <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
@@ -35,8 +41,18 @@
                             </div>
                         </div>
                     </div>
-                  <?php }
+                  <?php
+
+                  if($counter==4 && $flagged==1){
+                    echo "</div>";
+                    $counter=0;
+                    $flagged=0;
+                    }
+                  $counter++
                 }
-                    }?>
+                }
+                    }
+                    if($flagged==1)
+                      echo "</div>";?>
     </section>
 </div>
