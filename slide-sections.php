@@ -50,9 +50,11 @@
 
         }
       }
+      }
       if($count_secc!=4){
         echo '</div>';
       }
+
         ?>
     </section>
 </div>
