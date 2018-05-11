@@ -46,6 +46,7 @@
                       $count_secc =1;
                       $open=0;
                     }
+                    break;
                     }
                   }
         }
