@@ -17,7 +17,6 @@
                 $open=1;
               }
               while ( have_posts() ) {
-                the_post();
                   if(in_category($item->title) && has_post_thumbnail()){
                     ?>
                     <div class="col-sm-3" style="padding:0">
