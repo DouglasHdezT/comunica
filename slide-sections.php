@@ -6,9 +6,7 @@
         $menu_name = $menu_obj->name;
         $cont_secc = 4;
         $open = 1;
-        $items = wp_get_nav_menu_items($menu_name); ?>
-        <div class="slide">
-        <?php
+        $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
             if ( have_posts() ) {
               if($count_secc==0 && $open==0){
