@@ -48,7 +48,7 @@
                     break;
                     }
                   }
-                  if($count_secc==0){
+                  if($count_secc==0 && $open=1){
                     echo '</div>';
                     $open=0;
                   }
