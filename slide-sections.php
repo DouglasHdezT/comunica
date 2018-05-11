@@ -40,19 +40,18 @@
                         </div>
                     </div>
                     <?php
-                    $count_secc++;
                     if($count_secc == 4 && $open==1){
                       echo '</div>';
                       $count_secc =1;
                       $open=0;
                     }
-                    break;
+                    $count_secc++;
                     }
                   }
         }
 
       }
-      if($count_secc != 4){
+      if($count_secc != 0){
         echo '</div>';
       }
 
