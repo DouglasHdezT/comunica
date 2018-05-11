@@ -5,18 +5,15 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $count_secc = 4;
-        $open = 1;
+        $open = 0;
         $items = wp_get_nav_menu_items($menu_name); ?>
-        <div class="slide">
         <?php
         foreach( $items as $item ) {
-          if($open==0){
+          if($cont_slide%4 == 1 $open == 0){
             echo '<div class="slide">';
-            $count_secc=4;
             $open=1;
           }
             if ( have_posts() ) {
-
               while ( have_posts() ) {
                 the_post();
                   if(in_category($item->title)){
@@ -44,18 +41,16 @@
                         </div>
                     </div>
                     <?php
-                    $count_secc--;
-                    break;
+                    $count_secc++;
                     }
                   }
-
         }
-        if($count_secc==0){
+        if($count_secc%4 == 0 && $open=1){
           echo '</div>';
           $open=0;
         }
       }
-      if($open==1){
+      if($count_secc!=0){
         echo '</div>';
       }
 
