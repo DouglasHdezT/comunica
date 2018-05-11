@@ -10,7 +10,7 @@
         <?php
         foreach( $items as $item ) {
             if ( have_posts() ) {
-              if($count_secc==0 || $open==0){
+              if($count_secc==0 && $open==0){
                 echo '<div class="slide">';
                 $count_secc=4;
                 $open=1;
@@ -42,7 +42,6 @@
                     </div>
                     <?php
                     $count_secc--;
-                    echo $count_secc;
                     break;
                   }
                   if($count_secc==0 && $open=1){
