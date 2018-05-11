@@ -6,10 +6,9 @@
         $menu_name = $menu_obj->name;
         $count_secc = 4;
         $open = 0;
-        $items = wp_get_nav_menu_items($menu_name); ?>
-        <?php
+        $items = wp_get_nav_menu_items($menu_name);
         foreach( $items as $item ) {
-            if($cont_slide%4 == 1 $open == 0){
+            if($count_secc%4 == 1 $open == 0){
               echo '<div class="slide">';
               $open=1;
             }
