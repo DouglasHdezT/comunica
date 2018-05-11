@@ -48,7 +48,7 @@
                     $counter=0;
                     $flagged=0;
                     }
-                  $counter++
+                  $counter++;
                 }
                 }
                     }
