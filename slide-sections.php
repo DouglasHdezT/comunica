@@ -48,14 +48,12 @@
                     }
                   }
                   if($count_secc==0 && $open==1){
-                    echo '</div class="slide">';
+                    echo '</div>';
                     $open=0;
                   }
         }
       }
-      if($open==1){
-        echo '</div>';
-      }
+
 
         ?>
     </section>
