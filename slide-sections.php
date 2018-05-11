@@ -6,6 +6,7 @@
         $menu_name = $menu_obj->name;
         $cont_secc = 4;
         $open = 1;
+        $insideonce=0;
         $items = wp_get_nav_menu_items($menu_name);
         echo '<div class="slide">';
         foreach( $items as $item ) {
@@ -43,12 +44,14 @@
                     </div>
                     <?php
                     $count_secc--;
+                    $insideonce=1;
                     break;
                     }
                     }
-                    if($count_secc==0 && $open==1){
+                    if($count_secc==0 && $open==1 && $insideonce==1){
                       echo '</div>';
                       $open=0;
+                      $insideonce=0;
                     }
       }
       }
