@@ -18,7 +18,6 @@
               }
               while ( have_posts() ) {
                 the_post();
-                  if(in_category($item->title)){
                     ?>
                     <div class="col-sm-3" style="padding:0" background="#FFF">
                         <div class="container-post">
@@ -46,7 +45,6 @@
                     $count_secc--;
                     echo $count_secc;
                     break;
-                    }
                   }
                   if($count_secc==0 && $open=1){
                     echo '</div>';
