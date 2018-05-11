@@ -2,7 +2,7 @@
     <section id="slideshow-sections">
     <?php  $args = array(
   'posts_per_page' => 1, // we need only the latest post, so get that post only
-  'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
+  'category_name' => 'SLUG OF FOO CATEGORY', // Use the category id, can also replace with category_name which uses category slug
   //'category_name' => 'SLUG OF FOO CATEGORY,
               );
               $q = new WP_Query( $args);
