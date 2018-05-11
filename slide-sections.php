@@ -44,11 +44,12 @@
                     </div>
                     <?php
                     $count_secc--;
+                    echo $count_secc;
                     break;
                     }
                   }
                   if($count_secc==0 && $open==1){
-                    echo '</div><span>SNUS1</span>';
+                    echo '</div>';
                     $open=0;
                   }
         }
