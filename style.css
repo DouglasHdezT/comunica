@@ -576,6 +576,7 @@ a.slidesjs-next {
     transition: 500ms all ease;
 }
 .navegation{
+    top:50%;
     transform: translateY(-50%);
 }
 
