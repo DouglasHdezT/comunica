@@ -552,8 +552,6 @@ a.slidesjs-previous {
     left: 0;
     z-index: 10;
     height: 100%;
-    display: inline-block;
-    vertical-align: middle;
     transition: 500ms all ease;
 }
 
@@ -575,9 +573,11 @@ a.slidesjs-next {
     right: 0;
     z-index: 10;
     height: 100%;
+    transition: 500ms all ease;
+}
+.navegation{
     display: inline-block;
     vertical-align: middle;
-    transition: 500ms all ease;
 }
 
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
