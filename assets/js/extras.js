@@ -24,6 +24,11 @@ function main(){
     },function(){
         $(this).children(".container-post").children(".center-full-slide-second-posts").fadeOut();
     });
+    $(".container-post").hover(function(){
+        $(this).children(".center-full-slide").fadeIn();
+    },function(){
+        $(this).children(".center-full-slide").fadeOut();
+    });
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
             $("#video-0")[0].src += "&autoplay=1";

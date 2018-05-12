@@ -21,8 +21,8 @@
         ?>
                     <div class="col-sm-3">
                         <div class="container-post">
-                            <div class="slide-section-container  material-container">
-                                <div class="crop-image-slider">
+                            <div class="material-container">
+                                <div class="crop-image-slider-sections">
                                     <?php
                                       if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
