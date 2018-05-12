@@ -576,8 +576,7 @@ a.slidesjs-next {
     transition: 500ms all ease;
 }
 .navegation{
-    display: inline-block;
-    vertical-align: middle;
+    transform: translateY(-50%);
 }
 
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
