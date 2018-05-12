@@ -577,7 +577,6 @@ a.slidesjs-next {
 }
 .navegation{
     top:50%;
-    transform: translateY(-50%);
 }
 
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
