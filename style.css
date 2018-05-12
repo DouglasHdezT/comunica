@@ -1220,3 +1220,9 @@ ul > .current {
     position: absolute;
     top: 7%;
 }
+a[title="Next"]{
+    display: none;
+}
+a[title="Previous"]{
+    display: none;
+}
