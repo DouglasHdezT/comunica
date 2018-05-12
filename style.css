@@ -552,8 +552,8 @@ a.slidesjs-previous {
     left: 0;
     z-index: 10;
     height: 100%;
-    padding-top: 8%;
-    padding-bottom: 5%;
+    display: inline-block;
+    vertical-align: middle;
     transition: 500ms all ease;
 }
 
@@ -575,8 +575,8 @@ a.slidesjs-next {
     right: 0;
     z-index: 10;
     height: 100%;
-    padding-top: 8%;
-    padding-bottom: 5%;
+    display: inline-block;
+    vertical-align: middle;
     transition: 500ms all ease;
 }
 
