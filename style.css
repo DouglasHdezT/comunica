@@ -1053,6 +1053,9 @@ ul > .current {
         margin: 0!important;
         ;
     }
+    #slideshow-sections {
+    height: 330px !important;
+    }
 
     .slide-movil a.slidesjs-previous {
         display: flex;
@@ -1216,8 +1219,4 @@ ul > .current {
 .align-buttom-slide {
     position: absolute;
     top: 7%;
-}
-
-#slideshow-sections{
-    height: 300px;
 }
