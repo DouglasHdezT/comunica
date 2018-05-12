@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                             <div class="center-full-slide">
-                                <div class="align-buttom-slide">
+                                <div class="align-buttom">
                                     <h4 style="color:#fff">
                                         <?php the_title(); ?>
                                     </h4>
