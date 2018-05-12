@@ -19,9 +19,9 @@
               $flagged=1;
               }
         ?>
-                    <div class="col-sm-3" style="padding:0">
+                    <div class="col-sm-3">
                         <div class="container-post">
-                            <div class=" slider-container   material-container">
+                            <div class="slide-section-container  material-container">
                                 <div class="crop-image-slider">
                                     <?php
                                       if ( has_post_thumbnail() ) {
