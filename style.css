@@ -55,7 +55,7 @@ a:hover {
 }
 
 .dark-blue-nav {
-    background: linear-gradient(to right, #4563AC 40% , #B87A9D 60%);
+    background: linear-gradient(to right, #4563AC, #B87A9D);
     color: #21211F;
     font-family: Open-Sans;
     font-size: 1.1em;
@@ -226,13 +226,13 @@ ul.drak-ul-footer > li:hover {
 
 .link-darknav {
     text-decoration: none;
-    color: #fff;
+    color: #21211F;
     padding: 15px 15px;
     display: block;
 }
 
 .link-darknav:hover {
-    color: #fff;
+    color: #21211F;
     text-decoration: none;
 }
 
