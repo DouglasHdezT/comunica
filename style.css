@@ -1233,3 +1233,8 @@ a[title=Next]{
 a[title=Previous]{
     display: none;
 }
+
+.logo-header {
+    box-shadow: none; 
+    width:40%;
+}
