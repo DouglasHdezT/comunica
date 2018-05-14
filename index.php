@@ -180,8 +180,10 @@ if ( have_posts() ) {
             </div>
             <!--Area Secciones-->
             <div class="row">
+               <div class="col-md-12" style="background:#344d7f">
+                   <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
+               </div>
                 <div class="col-md-12 material-container">
-                    <h2 style="color:#fff;padding-top:25px;padding-bottom:20px;background:#344d7f">Secciones</h2>
                     <?php
                     include 'slide-sections.php';
                     ?>
@@ -250,14 +252,17 @@ if ( have_posts() ) {
             </div>
             <!--AREA RADIO Y FOTOGRAFIA-->
             <div class="row">
+               <div class="col-md-12" style="background:#7f6ea8;">
+                   <div class="col-md-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Radio Comunica</h2>
+                    </div>
+                   <div class="col-md-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Fotografía</h2>
+                   </div>
+               </div>
                 <div class="col-md-12 material-container">
                     <div class="col-md-6">
-                        <h2 style="color:#fff;padding-top:25px;padding-bottom:20px;background:#7f6ea8;">Radio Comunica</h2>
-
                         <?php dynamic_sidebar('podcast'); ?>
                     </div>
                     <div class="col-md-6">
-                        <h2 style="color:#fff;padding-top:25px;padding-bottom:20px;background:#7f6ea8;">Fotografía</h2>
                         <div class="row" style="margin-bottom:15px;max-height:416px">
                             <?php dynamic_sidebar('sidebar-1'); ?>
                         </div>
