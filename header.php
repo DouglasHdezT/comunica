@@ -84,7 +84,7 @@
            <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
-           <img class="" style="box-shadow: none" src="<?php echo get_header_image(); ?>">
+           <img class="" style="box-shadow: none; width:40%" src="<?php echo get_header_image(); ?>">
         </div>
         <div class="reset"></div>
     </nav>
