@@ -19,7 +19,7 @@
               $flagged=1;
               }
         ?>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
                             <div class="material-container">
                                 <div class="crop-image-slider-sections">
