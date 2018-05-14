@@ -57,7 +57,7 @@
                                                 }?>
                                             </div>
                                             <div class="col-md-8">
-                                                <?php the_title(); ?>
+                                                <h2><?php the_title(); ?></h2>
                                                 <?php the_excerpt(); ?>
                                                 <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                                                 
@@ -84,7 +84,7 @@
            <span id="menu-trigger" style="top:10px" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
-           <img style="box-shadow: none" src="<?php bloginfo('template_url') ?>/assets/images/navScroll.png">
+           <img style="box-shadow: none" src="<?php echo get_header_image(); ?>">
         </div>
         <div class="reset"></div>
     </nav>
