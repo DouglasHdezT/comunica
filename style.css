@@ -55,7 +55,7 @@ a:hover {
 }
 
 .dark-blue-nav {
-    background: linear-gradient(to right, #4563AC , #B87A9D);
+    background: linear-gradient(to right, #4563AC 40% , #B87A9D 60%);
     color: #21211F;
     font-family: Open-Sans;
     font-size: 1.1em;
