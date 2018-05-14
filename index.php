@@ -113,7 +113,7 @@ if ( have_posts() ) {
             </div>
             <br>
 
-            <div class="row material-container" style="background:#072844;">
+            <div class="row material-container" style="background:#7f6ae8;">
                 <div class="col-md-12">
                     <h2 style="padding:10px; color:#fff;padding-top:25px">ÚLTIMAS ENTRADAS</h2><br>
                     <!-- SLIDE MOVIL -->
@@ -240,7 +240,7 @@ if ( have_posts() ) {
                 </div>
             </div>
             <!--Area Secciones-->
-            <div class="row" style="background:#7f6ae8">
+            <div class="row" style="background:#7f6ea8">
                 <div class="col-md-12 material-container">
                     <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
                     <?php
