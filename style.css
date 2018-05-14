@@ -204,6 +204,17 @@ ul.drak-ul-footer > li:hover {
     background-size: 25%;
 }
 
+.button-gradient{
+    background-image: -webkit-linear-gradient(to right, #4563AC, #B87A9D);
+    background-image: -moz-linear-gradient(to right, #4563AC, #B87A9D);
+    background-image: -ms-linear-gradient(to right, #4563AC, #B87A9D);
+    background-image: -o-linear-gradient(to right, #4563AC, #B87A9D);
+    background-image: linear-gradient(to right, #4563AC, #B87A9D);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 /*BOTON DE DESPLAZAMIENTO*/
 
 .arrow-down {

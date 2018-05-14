@@ -81,10 +81,10 @@
     </div>
     <nav class="dark-blue-nav-scrolling">
        <div id="menu" class="buttom">
-           <span id="menu-trigger" style="top:10px" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+           <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
-           <img style="box-shadow: none" src="<?php echo get_header_image(); ?>">
+           <img class="" style="box-shadow: none" src="<?php echo get_header_image(); ?>">
         </div>
         <div class="reset"></div>
     </nav>
