@@ -183,7 +183,7 @@ if ( have_posts() ) {
                <div class="col-md-12" style="background:#344d7f">
                    <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
                </div>
-                <div class="col-md-12 material-container">
+                <div class="col-md-12 material-container" style="padding:0">
                     <?php
                     include 'slide-sections.php';
                     ?>
