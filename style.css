@@ -642,7 +642,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 
 
 .last-new {
-    background: #05192a;
+    background: rgba(127, 110, 168,0.7);
     color: white;
     padding: 15px;
     width: 100%;
