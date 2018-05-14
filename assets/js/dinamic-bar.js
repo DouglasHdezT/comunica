@@ -64,7 +64,6 @@ var $counter = true;
             $isDown = true;
 
             $('.'+$clase).slideDown('fast');
-            $('.'+$clase).parent('li').css('background','rgb(28, 66, 109)');
 
            }
         else if($isDown){
@@ -72,17 +71,14 @@ var $counter = true;
             if($clase == $claseAbierta){
 
                 $('.'+$clase).slideUp('fast');
-                $(this).parent('li').css('background','#072844');
                 $isDown =false;
 
             }
             else{
 
                 $('.'+$claseAbierta).slideUp('fast');
-                $('.'+$claseAbierta).parent('li').css('background','#072844');
 
                 $('.'+$clase).slideDown('fast');
-                $('.'+$clase).parent('li').css('background','rgb(28, 66, 109)');
 
                 $claseAbierta= $clase;
                 $isDown = true;

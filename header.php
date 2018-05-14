@@ -53,7 +53,7 @@
                                            <div class="col-md-4">
                                                 <?php
                                                     if ( has_post_thumbnail() ) {
-                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive material-container'));
+                                                    the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
                                                 }?>
                                             </div>
                                             <div class="col-md-8">
