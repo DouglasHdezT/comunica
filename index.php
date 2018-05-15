@@ -115,7 +115,7 @@ if ( have_posts() ) {
 
             <div class="row material-container" style="background:#4563ac;">
                 <div class="col-md-12">
-                    <h2 style="padding:10px; color:#fff;padding-top:25px">MÁS NOTICIAS</h2><br>
+                    <!--<h2 style="padding:10px; color:#fff;padding-top:25px">MÁS NOTICIAS</h2><br>-->
                     <!-- SLIDE MOVIL -->
 
                     <div class="slide-movil">
