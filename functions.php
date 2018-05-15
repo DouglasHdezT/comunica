@@ -22,6 +22,14 @@ $options = array(
     'header-text' => false
 );
 add_theme_support('custom-header',$options);
+/*HEADER BARRA DE NAVEGACION*/
+$options = array(
+    'default-image' => get_template_directory_uri().'/assets/images/default.png',
+    'width' => 330,
+    'height'=>75,
+    'header-text' => false
+);
+add_theme_support('logo-navbar',$options);
 
 /*añadir imagen destacada*/
 if ( function_exists( 'add_theme_support' ) ) {
