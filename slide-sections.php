@@ -5,6 +5,7 @@
         $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
+        $url = nameToUrl($category[$i]->title)
         $args = array(
             'cat' => $category->term_id,
             'post_type' => 'post',
@@ -31,13 +32,7 @@
                                 </div>
                             </div>
                             <div class="center-full-slide">
-                                <div class="align-buttom">
-                                    <h4 style="color:#fff">
-                                        <?php the_title(); ?>
-                                    </h4>
-                                    <?php the_excerpt(); ?>
-                                    <a href="<?php the_permalink(); ?>" style="font-weight:bold;color:#fff;font-size:1em">Leer Más</a>
-                                </div>
+                                <a href="<?php echo get_site_url().'/'.$url ?>">echo $url</a>
                             </div>
                         </div>
                     </div>
