@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                             <div class="center-full-slide">
-                                <h2 style="color:#fff;font-weight:bold"><a href="<?php echo get_site_url().'/'.$url; ?>"><?php echo $url; ?></a></h2>
+                                <a style="color:#fff;font-weight:bold;font-size:2em" href="<?php echo get_site_url().'/'.$url; ?>"><?php echo $url; ?></a>
                             </div>
                         </div>
                     </div>
