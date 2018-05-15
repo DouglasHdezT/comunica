@@ -5,21 +5,21 @@
         $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
-        $args = array(
-            'cat' => $category->term_id,
-            'post_type' => 'post',
-            'posts_per_page' => '1',
-        );
-        $query = new WP_Query( $args );
-        if ( $query->have_posts() ) {
-          while ( $query->have_posts() ) {
-            $query->the_post();
-            if($counter==1 && $flagged==0){
-              echo "<div class='slider'>";
-              $flagged=1;
-              }
-              $url = $category->title;
-        ?>
+            $url = $category->title;
+            $args = array(
+                'cat' => $category->term_id,
+                'post_type' => 'post',
+                'posts_per_page' => '1',
+            );
+            $query = new WP_Query( $args );
+            if ( $query->have_posts() ) {
+              while ( $query->have_posts() ) {
+                $query->the_post();
+                if($counter==1 && $flagged==0){
+                  echo "<div class='slider'>";
+                  $flagged=1;
+                  }
+            ?>
                        
                     <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
