@@ -997,7 +997,7 @@ ul > .current {
     }
     to {
         top: 40%;
-        right: 100%;
+        right: 90%;
         transform: rotate(720deg);
     }
 }
