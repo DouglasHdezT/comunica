@@ -5,7 +5,6 @@
         $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
-        $url = "SECCION";
         $args = array(
             'cat' => $category->term_id,
             'post_type' => 'post',
@@ -19,7 +18,9 @@
               echo "<div class='slider'>";
               $flagged=1;
               }
+              $url = $category->title;
         ?>
+                       
                     <div class="col-sm-3" style="padding:0">
                         <div class="container-post">
                             <div class="material-container">
