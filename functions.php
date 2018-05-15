@@ -22,14 +22,15 @@ $options = array(
     'header-text' => false
 );
 add_theme_support('custom-header',$options);
-/*HEADER BARRA DE NAVEGACION*/
-$options = array(
-    'default-image' => get_template_directory_uri().'/assets/images/default.png',
-    'width' => 330,
-    'height'=>75,
-    'header-text' => false
+
+/*LOGO DINAMICO HEADER*/
+$args = array(
+	'width'         => 330,
+	'height'        => 75,
+	'default-image' => get_template_directory_uri() . '/assets/images/default.png',
+	'uploads'       => true,
 );
-add_theme_support('logo-navbar',$options);
+add_theme_support( 'nav-bar', $args );
 
 /*añadir imagen destacada*/
 if ( function_exists( 'add_theme_support' ) ) {

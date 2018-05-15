@@ -16,7 +16,7 @@
     <?php wp_head(); ?> 
 </head>
 <body>
-    <div class="logo-container" style="background-image: url('<?php echo get_header_image('custom-header'); ?>')">
+    <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')">
     </div>
     
     <!-- Barra de dezplazamiento inicial 
@@ -84,7 +84,7 @@
            <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
        </div>
        <div class="logo-nav">
-           <img class="logo-header" src="<?php echo get_header_image('logo-navbar'); ?>">
+           <img class="logo-header" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png ?>">
         </div>
         <div class="reset"></div>
     </nav>
