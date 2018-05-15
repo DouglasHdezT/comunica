@@ -81,7 +81,7 @@ if ( have_posts() ) {
                         <a href="<?php the_permalink() ?>" style="color:#fff">
                             <div class="col-md-6 seconds-post">
                                 <div class="post-container">
-                                    <div class="crop-image-slider">
+                                    <div class="crop-image">
                                         <?php
                                                 if ( has_post_thumbnail() ) {
                                                     the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
