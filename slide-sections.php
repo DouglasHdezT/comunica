@@ -23,22 +23,22 @@
             ?>
                        
                     <div class="col-sm-3" style="padding:0">
-                        <div class="container-post">
-                            <div class="material-container">
-                                <div class="crop-image-slider-sections">
-                                   <a href="<?php echo get_site_url().'/'.$url; ?>">
-                                    <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
-                                      }
-                                    ?>
-                                    </a>
+                        <a href="<?php echo get_site_url().'/'.$url; ?>">
+                            <div class="container-post">
+                                <div class="material-container">
+                                    <div class="crop-image-slider-sections">
+                                        <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                                          }
+                                        ?>
+                                    </div>
+                                </div>
+                                <div class="center-full-slide">
+                                    <a style="color:#fff;font-weight:bold;font-size:2em" href="<?php echo get_site_url().'/'.$url; ?>"><?php echo $nameUrl; ?></a>
                                 </div>
                             </div>
-                            <div class="center-full-slide">
-                                <a style="color:#fff;font-weight:bold;font-size:2em" href="<?php echo get_site_url().'/'.$url; ?>"><?php echo $nameUrl; ?></a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                   <?php
 
