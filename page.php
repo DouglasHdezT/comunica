@@ -84,7 +84,6 @@
                                         ?>
                                       <div class="card-body text-dark">
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <p><span class="glyphicon glyphicon-eye-open" style="margin-right:6px" aria-hidden="true"></span>
                                         <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer más</a>
                                       </div>
                                       <div class="card-footer text-muted">
