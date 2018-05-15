@@ -7,7 +7,6 @@
         ?>
                    <div class="container-fluid">
                     <section class="content-main">
-                    <h3> <?php the_title(); ?></h3>
                     </section>
                     </div>
                     <?php the_content(); ?>
