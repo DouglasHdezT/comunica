@@ -1246,3 +1246,7 @@ a[title=Previous]{
 #slideshow-sections {
     height: 300px !important;
 }
+
+.page-image{
+    max-width: 70%; 
+}
