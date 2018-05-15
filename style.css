@@ -1248,5 +1248,6 @@ a[title=Previous]{
 }
 
 .page-image{
-    
+    max-height: 500px;
+    overflow: hidden;
 }
