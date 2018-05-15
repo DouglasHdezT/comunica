@@ -901,7 +901,8 @@ ul > .current {
     min-height: 100%;
     max-height: 400px;
     overflow: hidden;
-
+    vertical-align: middle;
+    align-content: center;
 }
 
 
