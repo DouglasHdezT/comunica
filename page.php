@@ -34,7 +34,7 @@
                                     <div class="container-post">
                                         <?php
                                         if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive crop-image'));
+                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive page-image'));
                                         }
                                         ?>
 
