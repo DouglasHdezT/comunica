@@ -966,7 +966,7 @@ ul > .current {
 
 .dot-2 {
     background: #39c;
-    animation: dot2 2.5s alternate infinite 0.5s;
+    animation: dot 2.5s alternate infinite 0.5s;
     left: 50%;
 }
 
@@ -979,26 +979,11 @@ ul > .current {
 @keyframes dot {
     from {
         top: 50%;
-        left: 0%;
         transform: rotate(0deg);
     }
     to {
         top: 40%;
-        left: 50%;
         transform: rotate(360deg);
-    }
-}
-
-@keyframes dot2 {
-    from {
-        top: 50%;
-        right: 50%;
-        transform: rotate(0deg);
-    }
-    to {
-        top: 40%;
-        right: 90%;
-        transform: rotate(720deg);
     }
 }
 
