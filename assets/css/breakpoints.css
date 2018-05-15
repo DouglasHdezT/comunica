@@ -36,10 +36,10 @@
     }
     
     .crop-image-first-post {
-    width: auto;
-    height: 100%;
-    max-width: none !important;
-}
+        width: auto;
+        height: 100%;
+        max-width: none !important;
+    }
 }
 @media screen and(min-width:1000px) and (max-width:1799px){
 /*

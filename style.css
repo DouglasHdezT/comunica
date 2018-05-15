@@ -923,6 +923,7 @@ ul > .current {
 
 .crop-image-first-post {
     width: 100%;
+    position: relative;
     height: auto;
     max-width: none !important;
 }
