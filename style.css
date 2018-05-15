@@ -747,7 +747,7 @@ ul > .current {
 
 #style-7::-webkit-scrollbar-thumb {
     border-radius: 0px;
-    background: #002D59;
+    background: rgba(0,0,0,0.03);
 }
 
 /*ESTILO DEL LA BARRA DE BUSQUEDA*/
