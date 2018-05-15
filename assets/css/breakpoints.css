@@ -39,7 +39,7 @@
         width: auto;
         height:70vh;
         margin-top: 50%;
-        -webkit-transform: translateY(50%)!important;
+        -webkit-transform: translateY(-70%)!important;
         max-width: none !important;
     }
 }
