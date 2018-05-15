@@ -13,7 +13,7 @@
                 'posts_per_page' => '1',
             );
             $query = new WP_Query( $args );
-            if ( $query->have_posts()) {
+            if ( $query->have_posts() && $category->name != "MULTIMEDIA" ) {
               while ( $query->have_posts() ) {
                 $query->the_post();
                 if($counter==1 && $flagged==0){
