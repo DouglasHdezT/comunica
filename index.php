@@ -168,16 +168,16 @@ if ( have_posts() ) {
 
                 </div>
             </div>
-            <div class="row " style="background:#344d7f;">
-                <div class="col-md-12 material-container" style="padding:0">
+            <!--<div class="row " style="background:#344d7f;">
+                <div class="col-md-12 material-container" style="padding:0">-->
 
                     <!-- SLIDE ESCRITORIO -->
 
                     <?php
-                    include 'slide-infinite.php';
+                    //include 'slide-infinite.php';
                     ?>
-                </div>
-            </div>
+        <!--    </div>
+            </div>-->
             <!--Area Secciones-->
             <div class="row">
                <div class="col-md-12" style="background:#344d7f">
