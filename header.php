@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
-    <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/icon.png">
+    <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
     
     <?php wp_head(); ?> 
 </head>
