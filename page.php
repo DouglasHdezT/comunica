@@ -84,7 +84,7 @@
                                             the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));
                                           }
                                         ?>
-                                      <div class="card-body text-dark">
+                                      <div class="card-body text-dark post-pages">
                                         <p class="card-text"><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer más</a>
                                       </div>

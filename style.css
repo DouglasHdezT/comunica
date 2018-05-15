@@ -1251,3 +1251,7 @@ a[title=Previous]{
     max-height: 500px;
     overflow: hidden;
 }
+.post-pages {
+    height: 300px;
+    overflow-y: scroll;
+}
