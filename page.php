@@ -32,11 +32,13 @@
                             ?>
                                 <div class="col-md-12">
                                     <div class="container-post">
-                                        <?php
-                                        if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive page-image'));
-                                        }
-                                        ?>
+                                       <div class="page-image">
+                                            <?php
+                                            if ( has_post_thumbnail() ) {
+                                                the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                                            }
+                                            ?>
+                                        </div>
 
                                           <div class="bottom-right">
                                             <h3 style="color:#fff"><?php the_title(); ?></h3>
@@ -84,7 +86,6 @@
                                         ?>
                                       <div class="card-body text-dark">
                                         <p class="card-text"><?php the_excerpt(); ?></p>
-                                        <p><span class="glyphicon glyphicon-eye-open" style="margin-right:6px" aria-hidden="true"></span>
                                         <a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer más</a>
                                       </div>
                                       <div class="card-footer text-muted">

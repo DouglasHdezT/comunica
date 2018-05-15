@@ -1263,5 +1263,8 @@ a[title=Previous]{
 }
 
 .page-image{
-    max-width: 70%; 
+    width: auto;
+    position: relative;
+    height: 500px;
+    max-width: none !important;
 }
