@@ -78,7 +78,7 @@
                             ?>
                                 <div class="col-md-4">
                                     <div class="card mb-3  slider-container">
-                                      <h3 class="card-header"><?php the_title();?></h3>
+                                      <h3 class="card-header title-page-post"><?php the_title();?></h3>
                                       <?php
                                           if ( has_post_thumbnail() ) {
                                             the_post_thumbnail('post-thumbnails',array('class'=>'slider-hght'));

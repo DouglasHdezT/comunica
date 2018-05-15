@@ -1252,6 +1252,11 @@ a[title=Previous]{
     overflow: hidden;
 }
 .post-pages {
-    height: 300px;
+    height: 275px;
+    overflow-y: scroll;
+}
+
+.title-page-post {
+    height: 50px;
     overflow-y: scroll;
 }
