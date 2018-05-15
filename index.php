@@ -80,7 +80,7 @@ if ( have_posts() ) {
                                 if($counter < 4){?>
                         <a href="<?php the_permalink() ?>" style="color:#fff">
                             <div class="col-md-6 seconds-post">
-                                <div class="post-container">
+                                <div class="post-container" style="background:linear-gradient(to right, #4563AC, #B87A9D);">
                                     <div class="crop-image">
                                         <?php
                                                 if ( has_post_thumbnail() ) {
