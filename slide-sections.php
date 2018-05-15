@@ -20,6 +20,7 @@
                   echo "<div class='slider'>";
                   $flagged=1;
                   }
+                  if( $category->name != "MULTIMEDIA" ){
             ?>
                        
                     <div class="col-sm-3" style="padding:0">
@@ -41,7 +42,7 @@
                         </a>
                     </div>
                   <?php
-
+              }
                   if($counter==4 && $flagged==1){
                     echo "</div>";
                     $counter=0;
