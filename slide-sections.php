@@ -20,7 +20,6 @@
                   echo "<div class='slider'>";
                   $flagged=1;
                   }
-                  if( $category->name != "MULTIMEDIA" ){
             ?>
                        
                     <div class="col-sm-3" style="padding:0">
@@ -42,6 +41,7 @@
                         </a>
                     </div>
                   <?php
+
                   if($counter==4 && $flagged==1){
                     echo "</div>";
                     $counter=0;
@@ -52,9 +52,7 @@
                 }
                     }
                     if($flagged==1){
-                      echo "</div>";
-                    }
-        }
+                      echo "</div>";}
                 ?>
     
     <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span>
