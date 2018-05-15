@@ -129,8 +129,8 @@ ul.sub-menu {
     position: absolute;
     /*    list-style: none;*/
     text-align: center;
-    width: 100%;
-    background: #072844;
+    width: 120%;
+    background: #7f6ea8;
     z-index: 1000;
 }
 
