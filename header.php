@@ -16,7 +16,7 @@
     <?php wp_head(); ?> 
 </head>
 <body>
-    <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')">
+    <div class="logo-container" style="background-image: url('<?php echo get_header_image('custom-header'); ?>')">
     </div>
     
     <!-- Barra de dezplazamiento inicial 
