@@ -5,7 +5,7 @@
         $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
-        $url = nameToUrl($category[$i]->title)
+        $url = nameToUrl($category[$i]->title);
         $args = array(
             'cat' => $category->term_id,
             'post_type' => 'post',
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="center-full-slide">
-                                <a href="<?php echo get_site_url().'/'.$url ?>">echo $url</a>
+                                <a href="<?php echo get_site_url().'/'.$url; ?>"><?php echo $url; ?></a>
                             </div>
                         </div>
                     </div>
