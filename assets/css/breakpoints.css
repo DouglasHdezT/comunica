@@ -29,11 +29,17 @@
 
 /*Break points de multimedia*/
 
-@media screen and (min-width: 769px) and (max-width: 1200px){
+@media screen and (min-width: 769px) and (max-width: 1250px){
     .img-media{
         width: auto!important;
         height: 100% !important;
     }
+    
+    .crop-image-first-post {
+    width: auto;
+    height: 100%;
+    max-width: none !important;
+}
 }
 @media screen and(min-width:1000px) and (max-width:1799px){
 /*
