@@ -32,12 +32,14 @@
                             ?>
                                 <div class="col-md-12">
                                     <div class="container-post">
+                                        <div class="page-image">
                                             <?php
                                             if ( has_post_thumbnail() ) {
                                                 the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
                                             }
                                             ?>
-
+                                        
+                                          </div>
                                           <div class="bottom-right">
                                             <h3 style="color:#fff"><?php the_title(); ?></h3>
                                             <?php the_excerpt(); ?>
