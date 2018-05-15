@@ -5,7 +5,7 @@
         $flagged=0;
         $categories = get_categories();
         foreach ( $categories as $category ) {
-            $url = $category->name;
+            $url = nameToUrl($category->name);
             $args = array(
                 'cat' => $category->term_id,
                 'post_type' => 'post',
