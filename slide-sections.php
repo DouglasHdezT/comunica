@@ -25,11 +25,13 @@
                         <div class="container-post">
                             <div class="material-container">
                                 <div class="crop-image-slider-sections">
+                                   <a href="<?php echo get_site_url().'/'.$url; ?>">
                                     <?php
                                       if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
                                       }
                                     ?>
+                                    </a>
                                 </div>
                             </div>
                             <div class="center-full-slide">
