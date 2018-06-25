@@ -76,7 +76,7 @@ if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post();
                          $post_views = get_post_views(get_the_ID());
-                            if($post->ID != $idFirst){
+                            if($post->ID != $idFirst && $post_views => $total_views[3]){
                                 if($counter < 4){?>
                         <a href="<?php the_permalink() ?>" style="color:#fff">
                             <div class="col-md-6 seconds-post">
