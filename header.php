@@ -27,7 +27,7 @@
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }
                 echo "</div>";
-                echo "<div class='filter-banner'></div>"
+                echo "<div class='filter-banner'></div>";
                 $flag = false;
             }
         } // end while
