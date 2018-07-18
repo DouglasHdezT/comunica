@@ -27,7 +27,7 @@
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }
                 echo "<div class='filter-banner'></div>";
-                echo '<div id="skip-banner" class="down-slide"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>';
+                echo '<div id="skip-banner" class="down-slide"><span style="padding:20px;font-size:2em" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>';
                 echo "</div>";
                 $flag = false;
             }
