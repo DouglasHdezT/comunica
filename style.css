@@ -912,6 +912,7 @@ ul > .current {
     height: 100vh;
     position: fixed;
     top: 0;
+    border-radius: 100%;
     z-index: 100000000000000000;
     background: #FFF;
 }
@@ -959,19 +960,19 @@ ul > .current {
 }
 
 .dot-1 {
-    background: #333399;
+    background: #4563AC;
     animation: dot 2s alternate infinite;
     left: 40%;
 }
 
 .dot-2 {
-    background: #39c;
+    background: rgb(146, 72, 175);
     animation: dot 2.5s alternate infinite 0.5s;
     left: 50%;
 }
 
 .dot-3 {
-    background: #3c9;
+    background: #B87A9D;
     animation: dot 2.7s alternate infinite 0.7s;
     left: 60%;
 }
