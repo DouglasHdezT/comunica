@@ -103,7 +103,7 @@ function main(){
 
     $('#skip-banner').click(function(){
         $('html,body').animate({
-            scrollTop: $('.logo-container').top
+            scrollTop: $('.logo-container').offset().top
         },1000);
     });
 
