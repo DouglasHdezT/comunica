@@ -1269,3 +1269,6 @@ a[title=Previous]{
     position: absolute;
     background: #ff000000;
 }
+.initial-banner-container{
+    position: static;
+}
