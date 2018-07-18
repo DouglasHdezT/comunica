@@ -1265,6 +1265,7 @@ a[title=Previous]{
     width: 100%;
     position: absolute;
 }
-.initial-banner-container{
-    position: relative;
+.filter-banner{
+    position: absolute;
+    background: #ff000000;
 }
