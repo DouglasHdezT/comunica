@@ -1263,8 +1263,8 @@ a[title=Previous]{
 .initial-banner{
     height: 100vh;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 .initial-banner-container{
-    position: absolute;
+    position: relative;
 }
