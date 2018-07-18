@@ -100,6 +100,13 @@ function main(){
            scrollTop:homeP 
         }, 'slow');
     });
+
+    $('#skip-banner').click(function(){
+        $('html,body').animate({
+            scrollTop: $('.logo-container')
+        },1000);
+    });
+
     
     
     
