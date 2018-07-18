@@ -982,7 +982,7 @@ ul > .current {
         transform: scale(1);
     }
     to {
-        top: 0%;
+        opacity: 0%;
         transform: scale(1.1);
     }
 }
