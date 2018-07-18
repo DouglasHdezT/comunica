@@ -1283,4 +1283,6 @@ a[title=Previous]{
     color: #fff;
     bottom: 0px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
