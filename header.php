@@ -16,6 +16,20 @@
     <?php wp_head(); ?> 
 </head>
 <body>
+<?php
+    $flag = true;
+    if ( have_posts() ) {
+        while ( have_posts() ) {
+            the_post();
+            if($flag){ 
+                if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
+                }
+                $flag = false;
+            }
+        } // end while
+    } // end if
+    ?>
     <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')">
     </div>
     
