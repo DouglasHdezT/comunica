@@ -1260,3 +1260,11 @@ a[title=Previous]{
     height: 50px;
     overflow-y: scroll;
 }
+.initial-banner{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.initial-banner-container{
+    position: absolute;
+}

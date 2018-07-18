@@ -22,9 +22,11 @@
         while ( have_posts() ) {
             the_post();
             if($flag){ 
+                echo "<div class='initial-banner-container'>"
                 if ( has_post_thumbnail() ) {
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }
+                echo "</div>"
                 $flag = false;
             }
         } // end while
