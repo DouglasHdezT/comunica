@@ -27,7 +27,7 @@
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }
                 echo "<div class='filter-banner'></div>";
-                echo '<div id="skip-banner" class="down-slide"><img src="'.get_header_image().'" width="40%"/><span style="padding:20px;font-size:2em" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>';
+                echo '<div id="skip-banner" class="down-slide"><img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" width="40%"/><span style="padding:20px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>';
                 echo "</div>";
                 $flag = false;
             }
