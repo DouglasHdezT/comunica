@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
     <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
-    
-    <?php wp_head(); ?> 
+    <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/style.css">
+
+    <?php wp_head(); ?>
 </head>
 <body>
 <?php
@@ -21,7 +22,7 @@
     if ( have_posts() ) {
         while ( have_posts() ) {
             the_post();
-            if($flag){ 
+            if($flag){
                 echo "<div class='initial-banner-container'>";
                 if ( has_post_thumbnail() ) {
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
@@ -35,13 +36,13 @@
     } // end if
     ?>
     <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')">
+
     </div>
-    
-    <!-- Barra de dezplazamiento inicial 
+
+    <!-- Barra de dezplazamiento inicial
     <a class="prevent"><h1 class="arrow-down"><span class=" glyphicon glyphicon-chevron-down" aria-hidden="true"></span></h1></a>
     Barra de barra de navegación principal-->
     <nav class="dark-blue-nav" id="first-nav">
-        
         <?php
         wp_nav_menu(array(
             'theme_location'=>'secciones',
@@ -78,9 +79,9 @@
                                                 <h2><?php the_title(); ?></h2>
                                                 <?php the_excerpt(); ?>
                                                 <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                                                
+
                                                 <a href="<?php echo get_site_url().'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                                                
+
                                             </div>
                                         </div>
                                         <?php $flag = false; ?>
@@ -130,4 +131,3 @@
             </div>
         </div>
     </div>
-
