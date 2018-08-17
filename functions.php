@@ -17,7 +17,15 @@ function style_menu($atts,$item,$args){
     $atts['class'] = $class;
     return $atts;
 }
+/*FUNCION PARA SELECCIONAR UN CSS EN ESPECIFICO */
+function add_style_to_single()
+{
+    if (is_single()) {
+        wp_enqueue_style('single-restrictions', 'assets/css/single-restrictions.css');
+    }
+}
 
+add_action('wp_print_styles', 'add_style_to_single');
 /*IMAGEN DINAMICA DE HEADER*/
 $options = array(
     'default-image' => get_template_directory_uri().'/assets/images/default.png',
