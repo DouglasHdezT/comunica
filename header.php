@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
     <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
     <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/style.css">
-
+    <?php if (is_single()) { ?>
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/assets/css/single-restrictions.css" />
+    <?php } ?>
     <?php wp_head(); ?>
 </head>
 <body>
