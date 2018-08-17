@@ -1,3 +1,3 @@
 .filter-banner{
-    display: none;
+    display: none !important;
 }
