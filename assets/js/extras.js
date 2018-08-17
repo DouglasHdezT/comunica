@@ -29,7 +29,7 @@ function main(){
     },function(){
         $(this).children(".center-full-slide").fadeOut();
     });
-    for(i=0;i<2;i++){
+    for(i=0;i<=1;i++){
         $('#play-'+i).on('click', function(ev) {
             console.log(i+"");
             if($("#text-"+i).is(':visible')){
