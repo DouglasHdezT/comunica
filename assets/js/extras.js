@@ -31,6 +31,7 @@ function main(){
     });
     for(i=0;i<2;i++){
         $('#play-'+i).on('click', function(ev) {
+            console.log(i+"");
             if($("#text-"+i).is(':visible')){
                $("#video-"+i)[0].src += "&autoplay=1";
                $("#video-"+i).removeClass("filter-off");
