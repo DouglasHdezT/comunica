@@ -21,7 +21,7 @@ function style_menu($atts,$item,$args){
 function add_style_to_single()
 {
     if (is_single()) {
-        wp_enqueue_style('single-restrictions', 'assets/css/single-restrictions.css');
+        wp_enqueue_style('wp_enqueue_scripts', 'assets/css/single-restrictions.css');
     }
 }
 
