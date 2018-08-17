@@ -16,6 +16,9 @@
     <?php if (is_single()) { ?>
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/assets/css/single-restrictions.css" />
     <?php } ?>
+    <?php if (is_page()) { ?>
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/assets/css/page-restrictions.css" />
+    <?php } ?>
     <?php wp_head(); ?>
 </head>
 <body>
