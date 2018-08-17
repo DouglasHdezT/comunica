@@ -73,7 +73,6 @@ function main(){
            $('#play-1 > span').addClass("glyphicon-stop");
         }else{
            $('#video-1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
-           $('#video-1').stopVideo();
            $("#text-1").fadeIn();
            $("#video-1").addClass("filter-off");
            $('#play-1').animate({
