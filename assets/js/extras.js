@@ -29,33 +29,35 @@ function main(){
     },function(){
         $(this).children(".center-full-slide").fadeOut();
     });
-     $('#play-0').on('click', function(ev) {
-         if($("#text-0").is(':visible')){
-            $("#video-0")[0].src += "&autoplay=1";
-            $("#video-0").removeClass("filter-off");
-            $("#text-0").fadeOut(); 
-            ev.preventDefault();
-
-            $('#play-0').animate({
-               bottom:"+=30%",
-               opacity:".5"    
-            });
-
-            $('#play-0 > span').removeClass("glyphicon-play");
-            $('#play-0 > span').addClass("glyphicon-stop");
-         }else{
-            $('#video-0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
-            $("#text-0").fadeIn();
-            $("#video-0").addClass("filter-off");
-            $('#play-0').animate({
-               bottom:"-=30%",
-               opacity:"1"    
-            });
-            $('#play-0 > span').addClass("glyphicon-play");
-            $('#play-0 > span').removeClass("glyphicon-stop");
-         }
-        
-      });
+    for(i=0;i<2;i++){
+        $('#play-'+i).on('click', function(ev) {
+            if($("#text-"+i).is(':visible')){
+               $("#video-"+i)[0].src += "&autoplay=1";
+               $("#video-"+i).removeClass("filter-off");
+               $("#text-"+i).fadeOut(); 
+               ev.preventDefault();
+   
+               $('#play-'+i).animate({
+                  bottom:"+=30%",
+                  opacity:".5"    
+               });
+   
+               $('#play-'+i+' > span').removeClass("glyphicon-play");
+               $('#play-'+i+' > span').addClass("glyphicon-stop");
+            }else{
+               $('#video-'+i)[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+               $("#text-"+i).fadeIn();
+               $("#video-"+i).addClass("filter-off");
+               $('#play-'+i).animate({
+                  bottom:"-=30%",
+                  opacity:"1"    
+               });
+               $('#play-'+i+' > span').addClass("glyphicon-play");
+               $('#play-'+i+' > span').removeClass("glyphicon-stop");
+            }
+           
+         });
+    }
     
     
     
