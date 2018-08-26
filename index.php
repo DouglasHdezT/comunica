@@ -181,7 +181,7 @@ if ( have_posts() ) {
             <!--Area Secciones-->
             <div class="row">
                <div class="col-md-12" style="background:#344d7f">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="margin-rigth:30px">
                         <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
                     </div>
                </div>
@@ -195,7 +195,7 @@ if ( have_posts() ) {
 
             <div class="row " style="background:#7f6ea8">
                 <div class="col-md-12 material-container" style="padding:0">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="margin-rigth:30px">
                         <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
                     </div>
                     <?php
@@ -275,7 +275,7 @@ if ( have_posts() ) {
             </div>
             <!--AREA SLIDER MEDIOS JESUITAS-->
             <div class="row" style="background:#fff">
-                <div class="col-md-12">
+                <div class="col-md-12" style="margin-rigth:30px">
                     <h2 style="padding:20px 0px">Medios Jesuitas en C.A.</h2>
                 </div>
                 <div class="col-md-12">
