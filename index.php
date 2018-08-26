@@ -275,8 +275,10 @@ if ( have_posts() ) {
             </div>
             <!--AREA SLIDER MEDIOS JESUITAS-->
             <div class="row" style="background:#fff">
-                <div class="col-md-12" style="margin-rigth:45px">
-                    <h2 style="padding:20px 0px">Medios Jesuitas en C.A.</h2>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h2 style="padding:20px 0px">Medios Jesuitas en C.A.</h2>
+                    </div>
                 </div>
                 <div class="col-md-12">
                     <div class="slide-medios">
