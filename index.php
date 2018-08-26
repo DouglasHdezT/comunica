@@ -181,7 +181,9 @@ if ( have_posts() ) {
             <!--Area Secciones-->
             <div class="row">
                <div class="col-md-12" style="background:#344d7f">
-                   <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
+                    <div class="col-md-12">
+                        <h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
+                    </div>
                </div>
                 <div class="col-md-12 material-container" style="padding:0">
                     <?php
@@ -193,7 +195,9 @@ if ( have_posts() ) {
 
             <div class="row " style="background:#7f6ea8">
                 <div class="col-md-12 material-container" style="padding:0">
-                    <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
+                    <div class="col-md-12">
+                        <h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
+                    </div>
                     <?php
                     rewind_posts();
                     $postCounter =0;

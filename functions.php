@@ -147,7 +147,7 @@ function nameToUrl($name){
     $url = str_replace(array('á','é','í','ó','ú'),array('a','e','i','o','u'),$name);
     $url = str_replace(array('Á','É','Í','Ó','Ú'),array('A','E','I','O','U'),$url);
     $min = strtolower($url);
-    $wospace = str_replace(' ','',$min);
+    $wospace = str_replace(' ','-',$min);
     
     return $wospace;
 }
