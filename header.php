@@ -25,19 +25,23 @@
 <?php
     $flag = true;
     if ( have_posts() ) {
-        while ( have_posts() ) {
+        do {
             the_post();
             if($flag){
-                echo "<div class='initial-banner-container'>";
+              ?>
+                <div class='initial-banner-container'>
+                  <?php
                 if ( has_post_thumbnail() ) {
                     the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
-                }
-                echo "<div class='filter-banner'></div>";
-                echo '<div id="skip-banner" class="down-slide"><div style="padding:20px"><img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" width="15%"/><span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>';
-                echo "</div>";
+                }?>
+                <div class='filter-banner'></div>
+                <div id="skip-banner" class="down-slide"><div style="padding:20px"><img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" width="15%"/>
+                  <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
+                </div>
+                <?php
                 $flag = false;
             }
-        } // end while
+        } while ( have_posts() );
     } // end if
     ?>
     <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')">

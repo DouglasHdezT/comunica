@@ -1,7 +1,7 @@
 <?php get_header();?>
-       <?php 
+       <?php
         if ( have_posts() ) {
-            while ( have_posts() ) {
+            do  {
                 the_post();
             //echo wpautop( $post->post_content );
         ?>
@@ -10,10 +10,10 @@
                     </section>
                     </div>
                     <?php the_content(); ?>
-                     
-            <?php } // end while
+
+            <?php } ( have_posts() );// end while
         } // end if
         ?>
-    
+
 
 <?php get_footer();?>
