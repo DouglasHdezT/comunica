@@ -2,7 +2,7 @@
   <section id="slideshow">
     <?php
     if ( have_posts() ) {
-      while ( have_posts() ) {
+      do {
         the_post();?>
         <div class="slide">
           <div class="container-slide">
@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-      <?php } // end while
+      <?php } while ( have_posts() );
     } // end if
     ?>
   </section>
