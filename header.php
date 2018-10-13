@@ -73,7 +73,7 @@
         $items = wp_get_nav_menu_items($menu_name);
         query_posts('');
         echo count($items);
-        for($i=0;$i<count($items);$i++){
+        //for($i=0;$i<count($items);$i++){
           $flag = true;
           if ( have_posts() ) {
             while ( have_posts() && $flag ){
@@ -114,7 +114,7 @@
             }
              // end while
           } // end if
-        }
+        //}
         ?>
         <!--fin menus desplegables-->
       </div>
