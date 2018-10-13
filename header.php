@@ -77,10 +77,10 @@
           if ( have_posts() ) {
             do {
               the_post();
-              echo "<div style='background:#dff9fb'";
+              echo "<div style='background:#dff9fb;border:1px solid #000'";
               the_title();
               the_category();
-              echo "</div>";
+              echo "</div><br>";
               //the_category();
               if(in_category($items[$i]->title)){
                 echo "entre";
