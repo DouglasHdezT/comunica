@@ -78,6 +78,7 @@
             while ( have_posts() && $flag ){
               the_post();
               echo "<div style='background:#dff9fb;border:1px solid #000'";
+              echo $i;
               the_title();
               the_category();
               echo "</div><br>";
