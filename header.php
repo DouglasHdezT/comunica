@@ -70,15 +70,15 @@
         $theme_locations = get_nav_menu_locations();
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
-        $items = wp_get_nav_menu_items($menu_name);
-        print_r ($items);
         query_posts('');
         for($i=0;$i<count($items);$i++){
           $flag = true;
           if ( have_posts() ) {
             do {
               the_post();
+              echo "Categoria del post".the_category(); 
               if(in_category($items[$i]->title)){
+                echo $items[$i]->title." entre";
                 if($flag){
                   $url = nameToUrl($items[$i]->title);?>
                   <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
