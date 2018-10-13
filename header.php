@@ -78,9 +78,12 @@
           if($allPost){
             foreach($allPost as $post){
               setup_postdata($post);
-              the_title();?>
+              if(in_category($items[$i]->title)){
+                echo "Encontre";
+                break;?>
                       
-            <?php
+              <?php
+              }
             }
           }
         //}
