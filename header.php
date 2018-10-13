@@ -46,7 +46,7 @@
     } // end if
     ?>
     <div class="logo-container">
-      <a href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt=""></a>
+      <a style="text-align:center" href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt="" width="50%"></a>
     </div>
     <!-- Barra de dezplazamiento inicial
     <a class="prevent"><h1 class="arrow-down"><span class=" glyphicon glyphicon-chevron-down" aria-hidden="true"></span></h1></a>
