@@ -67,6 +67,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     color: #fff;
+    overflow: hidden;
 }
 
 .drak-ul {
@@ -195,11 +196,8 @@ ul.drak-ul-footer > li:hover {
 }
 
 .logo-container {
-    height: 100px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    background-size: 25%;
+    display: flex;
+    justify-content: center;
 }
 
 .button-gradient{

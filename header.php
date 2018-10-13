@@ -45,7 +45,9 @@
       } while ( have_posts() );
     } // end if
     ?>
-    <div class="logo-container" style="background-image: url('<?php echo get_header_image(); ?>')"></div>
+    <div class="logo-container">
+      <a href="<?php.home_url().?>"><img src="<?php echo get_header_image(); ?>" alt=""></a>
+    </div>
     <!-- Barra de dezplazamiento inicial
     <a class="prevent"><h1 class="arrow-down"><span class=" glyphicon glyphicon-chevron-down" aria-hidden="true"></span></h1></a>
     Barra de barra de navegación principal-->
@@ -55,7 +57,7 @@
         'theme_location'=>'secciones',
         'container'=>'div',
         'container_class'=>'section-containers',
-        'items_wrap'=>'<ul class="drak-ul" id="home"> <li class="home-link"><a href="'.home_url().'">INICIO</a></li>%3$s</ul>'
+        'items_wrap'=>'<ul class="drak-ul" id="home">%3$s</ul>'
       ));
       ?>
     </nav>
