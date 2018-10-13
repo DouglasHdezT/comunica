@@ -63,6 +63,7 @@
       ));
       ?>
     </nav>
+    <!--menus desplegables-->
     <div class="container-fluid">
       <div class="row">
         <?php
@@ -70,6 +71,7 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
+        echo $items;
         query_posts('');
         for($i=0;$i<count($items);$i++){
           $flag = true;
@@ -104,6 +106,7 @@
         }
         wp_reset_query();
         ?>
+        <!--fin menus desplegables-->
       </div>
     </div>
     <nav class="dark-blue-nav-scrolling">
