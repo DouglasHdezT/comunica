@@ -3,7 +3,7 @@ $(function(){
 
   $("#slideshow").slidesjs({
     height: $('#slideshow').height(),
-    navigation: false,
+    navigation: true,
     effect: {
       slide: {
         // Slide effect settings.
@@ -58,7 +58,7 @@ $(function(){
 $(function(){
   $("#slideshow-medios").slidesjs({
     height: $('#slideshow-medios').height(),
-    navegation: false,
+    navegation: true,
     effect: {
       slide: {
         // Slide effect settings.
@@ -85,7 +85,7 @@ $(function(){
 $(function(){
   $("#slideshow-sections").slidesjs({
     height: $('#slideshow-sections').height(),
-    navegation: false,
+    navegation: true,
     effect: {
       slide: {
         // Slide effect settings.
