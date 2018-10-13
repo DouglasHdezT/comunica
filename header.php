@@ -75,10 +75,12 @@
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
         for($i=0;$i<count($items);$i++){
-          echo "<b>".$items[$i]->title."</b><br>";
+          echo $items[$i]->title."<br>";
           if($allPost){
             foreach($allPost as $post){
               setup_postdata($post);
+              the_categoy();
+              echo $items[$i]->title."<br>";
               if(in_category($items[$i]->title)){
                 echo "Encontre";
                 echo " ".$items[$i]->title."<br> ";
