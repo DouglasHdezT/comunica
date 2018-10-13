@@ -68,7 +68,7 @@
       <div class="row">
         <?php
         $allPost = get_posts(array(
-          'post_per_page'=>-1
+          'numberposts'=>-1
         ));
         print_r($allPost);
         ?>
