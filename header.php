@@ -70,7 +70,7 @@
         $allPost = get_posts(array(
           'numberposts'=>-1
         ));
-        $allPost[0]->post_title;
+        echo $allPost[0]->post_title;
         ?>
       </div>
     </div>
