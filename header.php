@@ -80,7 +80,7 @@
               setup_postdata($post);
               if(in_category($items[$i]->title)){
                 echo "Encontre";
-                the_category();
+                echo " ".$items[$i]->title." ";
                 break;?>
                       
               <?php
