@@ -57,7 +57,7 @@
         'theme_location'=>'secciones',
         'container'=>'div',
         'container_class'=>'section-containers',
-        'items_wrap'=>'<ul class="drak-ul" id="home"> %3$s</ul>'
+        'items_wrap'=>'<ul class="drak-ul" id="style-7"> %3$s</ul>'
       ));
       ?>
     </nav>
