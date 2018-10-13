@@ -75,6 +75,7 @@
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
         for($i=0;$i<count($items);$i++){
+          echo $items[$i]->title."<br>";
           if($allPost){
             foreach($allPost as $post){
               setup_postdata($post);
