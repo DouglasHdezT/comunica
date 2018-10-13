@@ -80,7 +80,7 @@
               //the_category();
               if(in_category($items[$i]->title)){
                 echo "entre";
-                echo $items[$i]->title;
+                echo $items[$i]->title." ".;
                 if($flag){
                   $url = nameToUrl($items[$i]->title);?>
                   <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
