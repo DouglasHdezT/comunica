@@ -89,7 +89,6 @@
                 echo "entre";
                 echo $items[$i]->title;
                 echo " ";
-                if($flag){
                   $url = nameToUrl($items[$i]->title);?>
                   <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
                     <div class="col-md-4">
@@ -107,7 +106,6 @@
                     </div>
                   </div>
                 <?php 
-                }
                 wp_reset_query();
                 //
               }// Post Content here
