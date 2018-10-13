@@ -72,6 +72,7 @@
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
         query_posts('');
+        echo count($items);
         for($i=0;$i<count($items);$i++){
           $flag = true;
           if ( have_posts() ) {
@@ -84,7 +85,6 @@
               echo "</p>";
               the_category();
               echo "</div><br>";
-              //the_category();
               if(in_category($items[$i]->title)){
                 echo "entre";
                 echo $items[$i]->title;
