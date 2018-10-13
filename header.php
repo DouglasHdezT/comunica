@@ -76,7 +76,7 @@
           if ( have_posts() ) {
             do {
               the_post();
-              echo the_category(); 
+              the_category(); 
               if(in_category($items[$i]->title)){
                 echo $items[$i]->title;
                 if($flag){
