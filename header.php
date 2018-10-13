@@ -79,12 +79,24 @@
           if($allPost){
             foreach($allPost as $post){
               setup_postdata($post);
-              if(in_category($items[$i]->title)){
-                echo "Encontre";
-                echo " ".$items[$i]->title."<br> ";
-                break;?>
-                      
+              if(in_category($items[$i]->title)){ ?>
+                $url = nameToUrl($items[$i]->title);?>
+                <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
+                  <div class="col-md-4">
+                    <?php
+                    if ( has_post_thumbnail() ) {
+                      the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                    }?>
+                  </div>
+                  <div class="col-md-8">
+                    <h2><?php the_title(); ?></h2>
+                    <?php the_excerpt(); ?>
+                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                    <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                  </div>
+                </div> 
               <?php
+                break;
               }
             }
           }
