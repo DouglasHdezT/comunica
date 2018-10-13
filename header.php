@@ -75,7 +75,7 @@
         for($i=0;$i<count($items);$i++){
           $flag = true;
           if ( have_posts() ) {
-            do {
+            while ( have_posts() && $flag ){
               the_post();
               echo "<div style='background:#dff9fb;border:1px solid #000'";
               the_title();
@@ -103,12 +103,12 @@
 
                     </div>
                   </div>
-                  <?php $flag = false; ?>
                 <?php }
                 //
               }// Post Content here
               //
-            }while ( have_posts() && $flag ); // end while
+            }
+            $flag = false; // end while
           } // end if
         }
         wp_reset_query();
