@@ -23,6 +23,8 @@ var $counter = true;
         }
     });
 
+    
+
     $('.menu-scrolling > li').hover(function(){
         var text = $(this).children().text();
         var sec = text.split(" ");
