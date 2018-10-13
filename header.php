@@ -27,7 +27,7 @@
 <body>
   <?php
   $flag = true;
-  if ( have_posts() ) {
+  if ( have_posts() && $flag ) {
     do {
       the_post();
       if($flag){
@@ -106,7 +106,7 @@
                     </div>
                   </div>
                 <?php 
-                wp_reset_query();
+                //wp_reset_query();
                 //
               }// Post Content here
               //
