@@ -67,57 +67,13 @@
     <div class="container-fluid">
       <div class="row">
         <?php
-        $theme_locations = get_nav_menu_locations();
-        $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
-        $menu_name = $menu_obj->name;
-        $items = wp_get_nav_menu_items($menu_name);
-        //query_posts('');
-        //for($i=0;$i<count($items);$i++){
-          $flag = true;
-          if ( have_posts() ) {
-            while ( have_posts() && $flag ){
-              the_post();
-              echo "<div style='background:#dff9fb;border:1px solid #000'";
-              echo "<p>".$i." ".$items[$i]->title."</p>";
-              echo "<p>";
-              the_title();
-              echo "</p>";
-              the_category();
-              echo "</div><br>";
-              if(in_category($items[$i]->title)){
-                echo "entre";
-                echo $items[$i]->title;
-                echo " ";
-                  $url = nameToUrl($items[$i]->title);?>
-                  <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
-                    <div class="col-md-4">
-                      <?php
-                      if ( has_post_thumbnail() ) {
-                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
-                      }?>
-                    </div>
-                    <div class="col-md-8">
-                      <h2><?php the_title(); ?></h2>
-                      <?php the_excerpt(); ?>
-                      <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                      <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-
-                    </div>
-                  </div>
-                <?php 
-                //wp_reset_query();
-                //
-              }// Post Content here
-              //
-              //$flag = false;
-            }
-             // end while
-          } // end if
-        //}
+        $allPost = get_posts(array('post_per_page'));
+        print_r($allPost);
         ?>
-        <!--fin menus desplegables-->
       </div>
     </div>
+    <!--fin menus desplegables-->
+
     <nav class="dark-blue-nav-scrolling">
       <div id="menu" class="buttom">
         <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
