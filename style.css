@@ -125,9 +125,7 @@ ul.drak-ul li a {
 ul.drak-ul li:hover ul.sub-menu {
     display: block;
 }
-ul.drak-ul li:hover ul.drak-ul {
-    overflow: unset;
-}
+
 ul.sub-menu {
     display: none;
     position: absolute;
