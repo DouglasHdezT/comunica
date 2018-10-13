@@ -108,7 +108,7 @@
                 //
               }// Post Content here
               //
-            }while ( have_posts() ); // end while
+            }while ( have_posts() && $flag ); // end while
           } // end if
         }
         wp_reset_query();
