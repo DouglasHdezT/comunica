@@ -71,8 +71,7 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
-        query_posts('');
-        echo count($items);
+        //query_posts('');
         //for($i=0;$i<count($items);$i++){
           $flag = true;
           if ( have_posts() ) {
