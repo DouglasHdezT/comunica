@@ -22,7 +22,7 @@
           }
           ?>
 
-          <div class="col-md-3" style="padding:0">
+          <div class="col-sm-3" style="padding:0">
             <a href="<?php echo $siteurl.'/'.$url; ?>">
               <div class="container-post">
                 <div class="material-container">
