@@ -64,14 +64,15 @@ a:hover {
 
 .section-containers {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
     color: #fff;
-    overflow: hidden;
 }
 
 .drak-ul {
     margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-y: scroll;
 }
 
 .home-link a {
