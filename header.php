@@ -77,7 +77,7 @@
           if ( have_posts() ) {
             do {
               the_post();
-              the_categoty();
+              the_category();
               if(in_category($items[$i]->title)){
                 echo "entre";
                 echo $items[$i]->title;
