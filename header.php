@@ -106,7 +106,9 @@
 
                     </div>
                   </div>
-                <?php }
+                <?php 
+                }
+                wp_reset_query();
                 //
               }// Post Content here
               //
@@ -115,7 +117,6 @@
              // end while
           } // end if
         }
-        wp_reset_query();
         ?>
         <!--fin menus desplegables-->
       </div>
