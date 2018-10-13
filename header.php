@@ -67,7 +67,9 @@
     <div class="container-fluid">
       <div class="row">
         <?php
-        $allPost = get_posts(array('post_per_page'));
+        $allPost = get_posts(array(
+          'post_per_page'=>-1
+        ));
         print_r($allPost);
         ?>
       </div>
