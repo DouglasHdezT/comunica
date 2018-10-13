@@ -79,7 +79,7 @@
             while ( have_posts() && $flag ){
               the_post();
               echo "<div style='background:#dff9fb;border:1px solid #000'";
-              echo "<p>".$i." ".$items[$i]->title"</p>";
+              echo "<p>".$i." ".$items[$i]->title."</p>";
               echo "<p>";
               the_title();
               echo "</p>";
