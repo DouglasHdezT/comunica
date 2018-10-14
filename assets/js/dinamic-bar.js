@@ -85,6 +85,8 @@ var $counter = true;
         }
     }
     $("#first-nav > div > ul > li > .link-darknav").click(showLastNew);
+    $("ul.sub-menu > li > .link-darknav").click(showLastNew);
+
 
     $("#first-nav > div > ul > li > ul > li > .link-darknav").click(function(event) {
       event.preventDefault();
