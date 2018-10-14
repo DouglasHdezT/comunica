@@ -58,6 +58,7 @@ var $counter = true;
     });
     function showLastNew(){
         $clase = $(this).text().split(" ").join("_");
+        console.log($clase+" presionada");
         if(!$isDown){
             $claseAbierta = $clase;
             $isDown = true;
