@@ -58,7 +58,6 @@ var $counter = true;
     });
     function showLastNew(){
         $clase = $(this).text().split(" ").join("_");
-        console.log($clase+" presionada");
         if(!$isDown){
             $claseAbierta = $clase;
             $isDown = true;
@@ -85,8 +84,7 @@ var $counter = true;
             }
         }
     }
-    $("#first-nav > div > ul > li > .link-darknav").click(showLastNew);
-    $("ul.sub-menu > li > .link-darknav").click(showLastNew);
+    $(".link-darknav").click(showLastNew);
 
 
     $("#first-nav > div > ul > li > ul > li > .link-darknav").click(function(event) {
