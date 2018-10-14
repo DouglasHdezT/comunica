@@ -6,8 +6,6 @@ $claseAbierta=null;
 function main(){
 var $counter = true;
 
-
-
     $(window).scroll(function(){
        var positionNav = $('.dark-blue-nav').offset().top + $('.dark-blue-nav').outerHeight();
        var position = window.scrollY;
@@ -58,8 +56,7 @@ var $counter = true;
     $("#first-nav > div > ul > li > .link-darknav").click(function(event) {
       event.preventDefault();
     });
-
-    $("#first-nav > div > ul > li > .link-darknav").click(function(){
+    function showLastNew(){
         $clase = $(this).text().split(" ").join("_");
         if(!$isDown){
             $claseAbierta = $clase;
@@ -86,7 +83,8 @@ var $counter = true;
                 $isDown = true;
             }
         }
-    });
+    }
+    $("#first-nav > div > ul > li > .link-darknav").click(showLastNew);
 
     $("#first-nav > div > ul > li > ul > li > .link-darknav").click(function(event) {
       event.preventDefault();
