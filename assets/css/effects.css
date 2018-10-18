@@ -1,106 +1,16 @@
-/*CLASES PARA PLANTILLAS DE ELEMENTOR*/
-.sombra-material {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/*EFECTO PARALLAX SCROLLING*/
-
-/*Contenedor con imagen para efecto parallax*/
-.fondo-parallax{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.movimiento-arriba{
-    position: fixed;
-}
-.movimiento-abajo{
-    position: fixed;
-}
-
-.sin-magenes{
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-/*EFECTO PARALLAX 3D 404 ERROR*/
-.cd-background-wrapper {
-  background-color: #001426;
-  position: relative;
-  overflow: hidden;
-  -webkit-perspective: 4000px;
-  perspective: 4000px;
-}
-
-.cd-floating-background {
-  position: relative;
-  top: 0;
-  left: 0;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-}
-.cd-floating-background.is-absolute {
-  position: absolute;
-}
-.cd-floating-background img {
-  display: block;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  /* fixes a Firefox bug - images not correctly rendered*/
-  background-color: rgba(255, 255, 255, 0.01);
-}
-.cd-floating-background h1 {
-  display: block;
-    position: absolute;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  /* fixes a Firefox bug - images not correctly rendered*/
-  /*background-color: rgba(255, 255, 255, 0.01);*/
-}
-.cd-floating-background img:not(:first-child) {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.cd-floating-background img:first-child {
-  -webkit-transform: translateZ(50px);
-  -ms-transform: translateZ(50px);
-  transform: translateZ(50px);
-    width: 100%;
-    height: 80vh;
-}
-.cd-floating-background img:nth-child(2) {
-  -webkit-transform: translateZ(290px);
-  -ms-transform: translateZ(290px);
-  transform: translateZ(290px);
-    width: 40%;
-    top: 50%;
-    left: 30%;
-}
-.cd-floating-background h1:nth-child(2) {
-  -webkit-transform: translateZ(290px);
-  -ms-transform: translateZ(290px);
-  transform: translateZ(290px);
-    top: 50%;
-    left: 25%;
-    font-size: 40px;
-    font-weight: bold;
-    color: #fff;
-}
-.cd-floating-background img:nth-child(3) {
-  -webkit-transform: translateZ(400px);
-  -ms-transform: translateZ(400px);
-  transform: translateZ(400px);
-    width: 10%;
-    top: 20%;
-    left: 40%;
-}
-.no-preserve-3d .cd-floating-background {
-  /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
-  position: relative;
-}	
+.sombra-material{box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.fondo-parallax{background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;}
+.movimiento-arriba{position:fixed;}
+.movimiento-abajo{position:fixed;}
+.sin-magenes{margin:0 !important;padding:0 !important;}
+.cd-background-wrapper{background-color:#001426;position:relative;overflow:hidden;-webkit-perspective:4000px;perspective:4000px;}
+.cd-floating-background{position:relative;top:0;left:0;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);}
+.cd-floating-background.is-absolute{position:absolute;}
+.cd-floating-background img{display:block;width:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:rgba(255, 255, 255, 0.01);}
+.cd-floating-background h1{display:block;position:absolute;width:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
+.cd-floating-background img:not(:first-child){position:absolute;top:0;left:0;}
+.cd-floating-background img:first-child{-webkit-transform:translateZ(50px);-ms-transform:translateZ(50px);transform:translateZ(50px);width:100%;height:80vh;}
+.cd-floating-background img:nth-child(2){-webkit-transform:translateZ(290px);-ms-transform:translateZ(290px);transform:translateZ(290px);width:40%;top:50%;left:30%;}
+.cd-floating-background h1:nth-child(2){-webkit-transform:translateZ(290px);-ms-transform:translateZ(290px);transform:translateZ(290px);top:50%;left:25%;font-size:40px;font-weight:bold;color:#fff;}
+.cd-floating-background img:nth-child(3){-webkit-transform:translateZ(400px);-ms-transform:translateZ(400px);transform:translateZ(400px);width:10%;top:20%;left:40%;}
+.no-preserve-3d .cd-floating-background{position:relative;}

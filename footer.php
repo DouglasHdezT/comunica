@@ -48,7 +48,7 @@ if(is_front_page()){ ?>
     <script src="<?php bloginfo('template_url') ?>/assets/js/jquery-2.1.1.js"></script>
 <?php } ?>
 
-
+<script src="<?php bloginfo('template_url') ?>/assets/js/lazysizes.min.js" async=""></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/dinamic-bar.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/extras.js"></script>
