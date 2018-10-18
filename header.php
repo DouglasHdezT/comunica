@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
   <!-- Editados personales-->
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/style.css">
+
   <!-- Imrpimir el script -->
   <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="small.css"/>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
   </noscript>
   <script>
       var loadDeferredStyles = function() {
