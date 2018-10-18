@@ -29,7 +29,7 @@
                   <div class="crop-image-slider-sections">
                     <?php
                     if ( has_post_thumbnail() ) {
-                      the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+                      the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
                     }
                     ?>
                   </div>
