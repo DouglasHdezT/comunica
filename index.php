@@ -248,10 +248,10 @@ if ( have_posts() ) {
 					</div>
 				</div>
 				<div class="col-md-12 material-container">
-					<div class="col-md-6">
+					<div class="col-md-6 lazyload">
 						<?php dynamic_sidebar('podcast'); ?>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 lazyload">
 						<div class="row" style="margin-bottom:15px;max-height:416px;overflow: hidden;">
 							<?php dynamic_sidebar('sidebar-1'); ?>
 						</div>
@@ -266,7 +266,7 @@ if ( have_posts() ) {
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="slide-medios">
+					<div class="slide-medios lazyload">
 						<section id="slideshow-medios">
 							<?php dynamic_sidebar('sidebar-2'); ?>
 						</section>
