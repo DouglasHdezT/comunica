@@ -82,7 +82,7 @@ if ( have_posts() ) {
 												<div class="crop-image">
 													<?php
 													if ( has_post_thumbnail() ) {
-														the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+														the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
 													}
 													?>
 												</div>
@@ -130,7 +130,7 @@ if ( have_posts() ) {
 												<div class="crop-image-slider">
 													<?php
 													if ( has_post_thumbnail() ) {
-														the_post_thumbnail('post-thumbnails',array('class'=>'img-media'));
+														the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
 													}
 													?>
 												</div>
@@ -199,7 +199,7 @@ if ( have_posts() ) {
 										<div class="container-post">
 											<div class="img-media-container">
 												<?php if ( has_post_thumbnail() ) {
-													the_post_thumbnail('post-thumbnails',array('class'=>'img-media filter-off'));
+													the_post_thumbnail('post-thumbnails',array('class'=>'img-media filter-off lazyload'));
 												} ?>
 											</div>
 											<div class="center-full">

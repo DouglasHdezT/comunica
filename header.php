@@ -6,14 +6,33 @@
   <meta name="viewport" content="height=device-height, user-scalable=no, initial-scale=1.0">
   <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 
+  <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
+
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/effects.css">
-  <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
+  <!-- Editados personales-->
+  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/style.css">
+  <!-- Imrpimir el script -->
+  <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="small.css"/>
+  </noscript>
+  <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+  </script>
   <?php if (is_single()) { ?>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/assets/css/single-restrictions.css" />
   <?php } ?>
@@ -38,7 +57,8 @@
             the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
           }?>
           <div class='filter-banner'></div>
-          <div id="skip-banner" class="down-slide"><div style="padding:20px"><img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" width="15%"/>
+          <div id="skip-banner" class="down-slide"><div style="padding:20px">
+            <img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" data-src="image.jpg" width="15%"/>
             <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
           </div>
           <?php
@@ -84,7 +104,7 @@
                   <div class="col-md-4">
                     <?php
                     if ( has_post_thumbnail() ) {
-                      the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive'));
+                      the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive lazyload'));
                     }?>
                   </div>
                   <div class="col-md-8">
@@ -93,7 +113,7 @@
                     <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                     <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                   </div>
-                </div> 
+                </div>
               <?php
                 break;
               }
