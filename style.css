@@ -687,7 +687,9 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 
 .buttom {
     padding: 20px;
-    color: linear-gradient(to right, #4563AC, #B87A9D);
+}
+.buttom span{
+    background-image: linear-gradient(to right, #4563AC, #B87A9D);
 }
 
 
