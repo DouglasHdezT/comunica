@@ -197,10 +197,10 @@ if ( have_posts() ) {
 			</div>
 			<div class="row">
 				<div class="col-md-12 material-container">
-					<div class="col-md-6 lazyload">
+					<div class="col-sm-6 col-lg-6 lazyload">
 						<?php dynamic_sidebar('podcast'); ?>
 					</div>
-					<div class="col-md-6 lazyload">
+					<div class="col-sm-6 col-lg-6 lazyload">
 						<div class="row galery">
 							<?php dynamic_sidebar('sidebar-1'); ?>
 						</div>
