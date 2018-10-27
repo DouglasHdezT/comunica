@@ -109,10 +109,10 @@ function pageimage(){
 function createMenuScroll(){
     var nav = document.createElement("nav");
     nav.className ="dark-blue-nav-scrolling";
-    var div_menu = createElement("div");
+    var div_menu = document.createElement("div");
     div_menu.className = "buttom";
     div_menu.id = "menu";
-    var icon = createElement("span");
+    var icon = document.createElement("span");
     icon.id ="menu-trigger";
     icon.style.top = "10px";
     icon.className = "button-gradient glyphicon glyphicon-menu-hamburger";
