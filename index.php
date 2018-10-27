@@ -119,7 +119,7 @@ if ( have_posts() ) {
 			<div class="col-md-12 material-container" style="padding:0">
 				<?php
 				include 'slide-sections.php';
-				include 'slide-movil.php';
+				include 'slider-movil.php';
 				?>
 			</div>
 			<!--Slider movil-->
