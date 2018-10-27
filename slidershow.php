@@ -4,11 +4,11 @@
     $contSlider = 0;
     if ( have_posts() ) {
       do {
-        the_post();
         ?>
         <div class="slide">
           <?php
-          for($i=0;$i<=2;$i++){?>
+          for($i=0;$i<=2;$i++){
+            the_post();?>
             <div class="container-slide">
               <a href="<?php the_permalink(); ?>">
                 <?php
