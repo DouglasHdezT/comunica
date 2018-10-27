@@ -11,6 +11,6 @@ $(function() {
 });
 
 $(document).ready(()=>{
-    var fisrtHeight = $('.down-slide').height;
-    $('.main-slider').height = window.height - fisrtHeight;
+    var fisrtHeight = $('.down-slide').height();
+    $('.main-slider').height(window.height() - fisrtHeight);
 });
