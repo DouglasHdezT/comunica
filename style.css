@@ -227,6 +227,12 @@ ul.drak-ul-footer > li:hover {
     transition: all 500ms ease;
 }
 
+.galery{
+    margin-bottom:15px;
+    max-height:416px;
+    overflow: hidden;
+}
+
 .arrow-down:hover {
     background: #072844;
 }
@@ -1147,6 +1153,9 @@ ul > .current {
     }
     #slideshow-medios > .slidesjs-pagination {
         top: 105px !important;
+    }
+    .galery{
+        max-height:unset;
     }
 
 }
