@@ -58,9 +58,7 @@
           }?>
           <div class='filter-banner'></div>
           <div class="main-slide">
-            <?php
-              require 'slide-selections.php';
-            ?>
+            
           </div>
           <div id="skip-banner" class="down-slide"><div style="padding:20px">
             <img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" data-src="image.jpg" width="15%"/>
