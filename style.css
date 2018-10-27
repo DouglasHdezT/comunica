@@ -1168,6 +1168,10 @@ ul > .current {
         color: #fff;
         font-size: 1.2em;
     }
+    div.ft-search{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 

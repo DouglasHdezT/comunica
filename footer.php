@@ -10,7 +10,7 @@
     ));
     ?>
 </nav>
-<div class="row dark-footer" style="width:100%">
+<div class="row dark-footer">
    <div class="col-lg-4 ">
        <a class="" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="box-shadow: none " src="<?php echo get_header_image();?>"/></a>
    </div>
@@ -24,14 +24,14 @@
             ));
         ?>
         <!--FORMULARIO DE BUSQUEDA-->
-        <div class="ft-search" style="width:100%">
+        <div class="ft-search">
 
            <?php get_search_form(); ?>
-
+           <div class="ScrollUp btn btn-secondary">
+                <span style="color:#000" class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            </div>
         </div>
-        <div class="ScrollUp btn btn-secondary">
-            <span style="color:#000" class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-        </div>
+        
 
    </div>
 </div>
