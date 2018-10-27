@@ -1068,7 +1068,7 @@ ul > .current {
     }
     #slideshow-movil,
     .slidesjs-container {
-        height: 340px !important;
+        height: 300px !important;
         margin: 0!important;
         ;
     }
@@ -1077,12 +1077,12 @@ ul > .current {
     }
 
     .slide-movil a.slidesjs-previous {
-        display: flex;
+        display: none;
         float: left;
     }
 
     .slide-movil a.slidesjs-next {
-        display: flex;
+        display: none;
         float: right;
     }
 
