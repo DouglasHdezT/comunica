@@ -690,10 +690,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
     color: linear-gradient(to right, #4563AC, #B87A9D);
 }
 
-.logo-nav {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+.logo-nav img{
+    transform: scale(0.5);
 }
 
 .reset {
