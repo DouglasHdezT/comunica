@@ -1015,6 +1015,11 @@ ul > .current {
         height: auto;
         margin-top: 0
     }
+    .crop-image{
+        width: auto;
+        height: 400px;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 768px) {
