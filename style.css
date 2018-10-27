@@ -195,8 +195,11 @@ ul.drak-ul-footer > li:hover {
 }
 
 .logo-container {
+    position: sticky;
     display: flex;
     justify-content: center;
+    top: -1px;
+    z-index: 100;
 }
 
 .button-gradient{
@@ -683,13 +686,11 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .buttom {
-    float: left;
     width: 40%;
 }
 
 .logo-nav {
-    float: left;
-    width: 50%;
+    
 }
 
 .reset {
@@ -1037,7 +1038,7 @@ ul > .current {
         height: auto !important;
     }
     .logo-container {
-        background-position: 15% 25%;
+        position: sticky;
     }
     .secondary-post {
         max-width: 100% !important;
