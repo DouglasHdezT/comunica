@@ -140,7 +140,7 @@
     <!--fin menus desplegables-->
         
     <nav class="dark-blue-nav-movil">
-      <div id="menu-movil" class="buttom" style="width:37%;margin-top:10px">
+      <div id="menu-movil" class="buttom">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
       </div>
       <div class="logo-nav">
