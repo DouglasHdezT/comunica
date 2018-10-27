@@ -59,7 +59,9 @@
           <div class='filter-banner'></div>
 
           <div class="main-slider">
-            
+            <?php
+              include 'slidershow.php';
+            ?>            
           </div>
 
           <div id="skip-banner" class="down-slide"><div style="padding:20px">
