@@ -686,7 +686,8 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .buttom {
-    width: 40%;
+    padding: 20px;
+    color: linear-gradient(to right, #4563AC, #B87A9D);
 }
 
 .logo-nav {
@@ -1030,7 +1031,7 @@ ul > .current {
         display: none !important;
     }
     .dark-blue-nav-movil {
-        display: block;
+        display: flex;
     }
     .section-containers {
         display: none;
