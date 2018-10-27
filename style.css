@@ -1158,10 +1158,11 @@ ul > .current {
         max-height:unset;
     }
     footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
         background: #2f3640;
-    }
-    footer{
-        display: block;
     }
     ul.ul-social > li > a > i {
         color: #fff;
