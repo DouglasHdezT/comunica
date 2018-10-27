@@ -48,9 +48,9 @@ if ( have_posts() ) {
 
 										<div class="center-full-slide-second-posts">
 											<div class="center">
-												<h3 style="color:#fff">
+												<h2 style="color:#fff">
 													<?php the_title(); ?>
-												</h3>
+												</h2>
 												<br>
 												<?php the_excerpt(); ?>
 											</div>
