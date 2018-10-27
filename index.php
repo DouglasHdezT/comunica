@@ -46,7 +46,7 @@ if ( have_posts() ) {
 										}
 										?>
 
-										<div class="center-full-slide-second-posts">
+										<div class="center-full-slide">
 											<div class="center">
 												<h3 style="color:#fff">
 													<?php the_title(); ?>
