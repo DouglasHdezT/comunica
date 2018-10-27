@@ -72,6 +72,7 @@ a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .home-link a {
@@ -997,6 +998,17 @@ ul > .current {
     .slidesjs-pagination {
         position: absolute;
         top: 550px
+    }
+    ul.dark-ul{
+        justify-content: flex-start;
+    }
+    .first-section{
+        max-height: unset;
+    }
+    .first-section img{
+        transform: unset;
+        height: auto;
+        margin-top: 0%;
     }
 }
 
