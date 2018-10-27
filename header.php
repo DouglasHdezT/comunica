@@ -57,8 +57,10 @@
             the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
           }?>
           <div class='filter-banner'></div>
-          <div class="main-slide">
-            
+          <div class="main-slider">
+            <?php
+              include 'slidershow.php';
+            ?>
           </div>
           <div id="skip-banner" class="down-slide"><div style="padding:20px">
             <img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" data-src="image.jpg" width="15%"/>
