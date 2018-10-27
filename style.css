@@ -1157,6 +1157,13 @@ ul > .current {
     .galery{
         max-height:unset;
     }
+    .dark-blue-nav.footer{
+        background: #2f3640;
+    }
+    ul.ul-social > li > a > i {
+        color: #fff;
+        font-size: 1.2em;
+    }
 
 }
 
