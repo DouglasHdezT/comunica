@@ -256,13 +256,9 @@ ul.drak-ul-footer > li:hover {
     color: linear-gradient(to right, #4563AC, #B87A9D);
     background: #fff;
     padding: 18px;
-    position: fixed;
-    top: 0;
     width: 100%;
     box-sizing: border-box;
-    z-index: 100000000;
     transition: all 500ms ease;
-
 }
 
 .section-container-scrolling {
