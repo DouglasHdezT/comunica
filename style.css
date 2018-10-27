@@ -1305,6 +1305,7 @@ a[title=Previous]{
 .logo-header {
     display: block;
     box-shadow: none; 
+    width: 40%;
 }
 #slideshow-sections {
     height: 300px !important;
