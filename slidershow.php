@@ -8,6 +8,7 @@
         <div class="slide">
           <?php
           for($i=0;$i<=2;$i++){
+            if(have_posts()){
             the_post();?>
             <div class="container-slide">
               <a href="<?php the_permalink(); ?>">
@@ -22,13 +23,12 @@
                 <p><?php the_excerpt(); ?></p>
               </div>
             </div>
-          <?php}?>
+          <?php}}?>
         </div>
-      <?php $contSlider++;} while (have_posts() && $contSlider <=5);// end while
+      <?php $contSlider++;} while (have_posts());// end while
     } // end if
     ?>
-    <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span>
-    </a>
+    <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
     <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
   </section>
 </div>
