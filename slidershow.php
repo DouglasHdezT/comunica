@@ -10,7 +10,6 @@
           for($i=0;$i<=2;$i++){
             if(have_posts()){
               the_post();
-              echo "NEl";
               ?>
               <div class="container-slide">
                 <a href="<?php the_permalink(); ?>">
