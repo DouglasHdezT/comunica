@@ -121,7 +121,7 @@ function createMenuScroll(){
     div_logo_nav.className="logo-nav";
     var logo = document.createElement("img");
     logo.className = "logo-header";
-    logo.setAttribute("assets/images/logo-navbar.png");
+    logo.setAttribute("src","assets/images/logo-navbar.png");
 
     nav.appendChild(div_menu);
     nav.appendChild(div_logo_nav);
