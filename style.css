@@ -1360,3 +1360,10 @@ a[title=Previous]{
 .main-slider>div{
     width: 70%;
 }
+
+div.dark-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
