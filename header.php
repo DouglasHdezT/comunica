@@ -134,7 +134,7 @@
       </div>
       <div class="reset"></div>
     </nav>-->
-        
+    <img id="magic-logo" class="logo-header" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png ?>">
     <nav class="dark-blue-nav-movil">
       <div id="menu-movil" class="buttom" style="width:37%;margin-top:10px">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>

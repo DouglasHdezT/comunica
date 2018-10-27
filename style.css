@@ -1234,6 +1234,7 @@ a[title=Previous]{
 }
 
 .logo-header {
+    display: none;
     box-shadow: none; 
     width:40%;
 }
