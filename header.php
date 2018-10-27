@@ -57,10 +57,15 @@
             the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
           }?>
           <div class='filter-banner'></div>
+
+          <div class="main-slider">
+            
+          </div>
+
           <div id="skip-banner" class="down-slide"><div style="padding:20px">
             <img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" data-src="image.jpg" width="15%"/>
             <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
-          </div>
+          </div> <!-- /div  initial-banner-container-->
           <?php
           $flag = false;
         }

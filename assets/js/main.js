@@ -82,6 +82,7 @@ jQuery(document).ready(function($){
 	}
 });
 
+
 /* 	Detect "transform-style: preserve-3d" support, or update csstransforms3d for IE10 ? #762
 	https://github.com/Modernizr/Modernizr/issues/762 */
 (function getPerspective(){
