@@ -1010,6 +1010,9 @@ ul > .current {
         height: auto;
         margin-top: 0
     }
+    .center-full-slide-second-posts{
+        
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1176,14 +1179,16 @@ ul > .current {
 
 
 .center-full-slide {
-    display: flex;
+    display: none;
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
+    padding: 15px;
+    padding-top: 25px;
     background: rgba(0, 0, 0, 0.3);
+    text-align: left;
     color: #fff;
 }
 
