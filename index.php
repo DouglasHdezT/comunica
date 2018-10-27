@@ -190,7 +190,7 @@ if ( have_posts() ) {
 			</div>
 			<!--AREA RADIO Y FOTOGRAFIA-->
 			<div class="row">
-				<div class="col-md-12" style="background:#7f6ea8;">
+				<div class="row" style="background:#7f6ea8;">
 					<div class="col-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Radio Comunica</h2>
 					</div>
 					<div class="col-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Fotografía</h2>
