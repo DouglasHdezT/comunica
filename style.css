@@ -1286,8 +1286,7 @@ a[title=Previous]{
 }
 
 .main-slider{
-    width: auto;
-
+    width: 100%;
     position: absolute;
     top: 0;
 }
