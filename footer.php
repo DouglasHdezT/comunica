@@ -56,3 +56,4 @@ if(is_front_page()){ ?>
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.slides.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/main.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/slide.js"></script>
+
