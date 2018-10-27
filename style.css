@@ -1286,3 +1286,7 @@ a[title=Previous]{
     position: absolute;
     bottom: 0;
 }
+
+.main-slider{
+    width: auto;
+}
