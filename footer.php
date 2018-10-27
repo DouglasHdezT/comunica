@@ -10,7 +10,7 @@
     ));
     ?>
 </nav>
-<div class="row div.dark-footer">
+<div class="row dark-footer">
    <div class="col-lg-4 ">
        <a class="" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="box-shadow: none " src="<?php echo get_header_image();?>"/></a>
    </div>
