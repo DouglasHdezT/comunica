@@ -25,7 +25,7 @@
             </div>
           <?php}}?>
         </div>
-      <?php $contSlider++;} while (have_posts());// end while
+      <?php $contSlider+=1;} while (have_posts());// end while
     } // end if
     ?>
     <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
