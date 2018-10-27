@@ -1290,4 +1290,7 @@ a[title=Previous]{
 
 .main-slider{
     width: auto;
+
+    position: absolute;
+    top: 0;
 }
