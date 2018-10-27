@@ -1157,7 +1157,7 @@ ul > .current {
     .galery{
         max-height:unset;
     }
-    footer{
+    footer.dark-footer{
         display: flex;
         flex-direction: column;
         justify-content: center;

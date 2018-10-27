@@ -1,4 +1,4 @@
-<footer>
+<footer class="dark-footer">
 <nav class="dark-blue-nav footer">
     <?php
     wp_nav_menu(array(
