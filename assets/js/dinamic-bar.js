@@ -12,11 +12,12 @@ var $counter = true;
 
         if(position > positionNav ){
             $('.logo-container a').css('display','none');
-            $('.logo-container').append(createMenuScroll());
+            $('dark-blue-nav-scrolling').css('display','block');
             /*Diseño de los li en menu desplegable*/
             $('ul.menu-scrolling > li').addClass('items-slide');
         }else{
-            $('.dark-blue-nav-scrolling').remove();
+            $('dark-blue-nav-scrolling').css('display','none');
+            $('.logo-container a').css('display','block');
             $('.section-container-scrolling').slideUp('fast');
             $counter = true;
         }
@@ -106,28 +107,5 @@ function pageimage(){
 
 }
 
-function createMenuScroll(){
-    var nav = document.createElement("nav");
-    nav.className ="dark-blue-nav-scrolling";
-    var div_menu = document.createElement("div");
-    div_menu.className = "buttom";
-    div_menu.id = "menu";
-    var icon = document.createElement("span");
-    icon.id ="menu-trigger";
-    icon.style.top = "10px";
-    icon.className = "button-gradient glyphicon glyphicon-menu-hamburger";
-    icon.setAttribute("aria-hidden","true");
-    var div_logo_nav = document.createElement("div");
-    div_logo_nav.className="logo-nav";
-    var logo = document.getElementById("magic-logo");
-    
-    nav.appendChild(div_menu);
-    nav.appendChild(div_logo_nav);
-
-    div_menu.appendChild(icon);
-    div_logo_nav.appendChild(logo);
-
-    return nav;
-}
 
 
