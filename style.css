@@ -198,6 +198,8 @@ ul.drak-ul-footer > li:hover {
     position: sticky;
     display: flex;
     justify-content: center;
+    top: -1px;
+    z-index: 100;
 }
 
 .button-gradient{
