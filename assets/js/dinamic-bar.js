@@ -12,11 +12,11 @@ var $counter = true;
 
         if(position > positionNav ){
             $('.logo-container a').css('display','none');
-            $('dark-blue-nav-scrolling').css('display','block');
+            $('.dark-blue-nav-scrolling').css('display','block');
             /*Diseño de los li en menu desplegable*/
             $('ul.menu-scrolling > li').addClass('items-slide');
         }else{
-            $('dark-blue-nav-scrolling').css('display','none');
+            $('.dark-blue-nav-scrolling').css('display','none');
             $('.logo-container a').css('display','block');
             $('.section-container-scrolling').slideUp('fast');
             $counter = true;
