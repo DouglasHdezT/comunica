@@ -88,7 +88,7 @@ if ( have_posts() ) {
 												</div>
 												<div id="style-7" class="center-full-slide-second-posts">
 													<div class="align-buttom">
-														<h3 style="color:#fff">
+														<h3 style="color:#fff">`
 															<?php the_title() ?>
 														</h3>
 														<?php echo '<p>'.substr(get_the_excerpt($post->post),0,100).'...</p>'; ?>

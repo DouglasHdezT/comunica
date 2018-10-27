@@ -1097,6 +1097,12 @@ ul > .current {
         justify-content: center;
         align-items: center;
     }
+    div.align-buttom{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
