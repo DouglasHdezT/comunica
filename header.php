@@ -141,7 +141,7 @@
         
     <nav class="dark-blue-nav-movil">
       <div id="menu-movil" class="buttom">
-        <span class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:25px"></span>
+        <span class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
       </div>
     </nav>
     <div class="section-container-scrolling">

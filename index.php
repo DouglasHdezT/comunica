@@ -122,6 +122,7 @@ if ( have_posts() ) {
 				include 'slider-movil.php';
 				?>
 			</div>
+		</div>
 			<!--Slider movil-->
 			
 			<!-- AREA MULTIMEDIA -->
