@@ -1107,6 +1107,9 @@ ul > .current {
         height: 100%;
         text-align: center;
     }
+    div.seconds-post{
+        max-height: unset;
+    }
 }
 
 @media screen and (max-width: 576px) {
