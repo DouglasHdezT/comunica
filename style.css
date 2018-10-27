@@ -1299,7 +1299,14 @@ a[title=Previous]{
 }
 
 .main-slider{
+    display: flex;
     width: 100%;
     position: absolute;
     top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-slider>div{
+    width: 70%;
 }
