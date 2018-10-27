@@ -119,10 +119,8 @@ function createMenuScroll(){
     icon.setAttribute("aria-hidden","true");
     var div_logo_nav = document.createElement("div");
     div_logo_nav.className="logo-nav";
-    var logo = document.createElement("img");
-    logo.className = "logo-header";
-    logo.setAttribute("src","assets/images/logo-navbar.png");
-
+    var logo = document.getElementById("magic-logo");
+    
     nav.appendChild(div_menu);
     nav.appendChild(div_logo_nav);
 
