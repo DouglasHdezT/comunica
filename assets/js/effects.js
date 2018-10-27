@@ -12,5 +12,6 @@ $(function() {
 
 $(document).ready(()=>{
     var fisrtHeight = $('.down-slide').height();
+    console.log(fisrtHeight);
     $('.main-slider').height(window.height() - fisrtHeight);
 });
