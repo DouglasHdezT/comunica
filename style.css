@@ -267,6 +267,8 @@ ul.drak-ul-footer > li:hover {
     width: 100%;
     box-sizing: border-box;
     transition: all 500ms ease;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .section-container-scrolling {
