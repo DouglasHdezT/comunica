@@ -109,73 +109,21 @@ if ( have_posts() ) {
 			</div>
 		</div>
 		<br>
-		<div class="row material-container" style="background:#4563ac;">
-			<div class="col-md-12">
-				<!-- SLIDE MOVIL -->
-
-				<div class="slide-movil">
-					<section id="slideshow-movil">
-						<?php
-						$nslide=0;
-						if ( have_posts() ) {
-							do {
-								the_post();
-								if($nslide< 10){?>
-									<div class="slide">
-										<div class="col">
-											<h3 style="padding: 5px 7px">
-												<?php the_category(',');?>
-											</h3>
-											<div class="card mb-3  slider-container">
-												<div class="crop-image-slider">
-													<?php
-													if ( has_post_thumbnail() ) {
-														the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
-													}
-													?>
-												</div>
-												<div class="card-body text-dark w-sr" id="style-7">
-													<h2>
-														<?php the_title() ?> </h2>
-														<p class="card-text">
-															<?php the_excerpt(); ?>
-														</p>
-														<a href="<?php the_permalink();?>" class="btn btn-outline-primary">Leer Más</a>
-													</div>
-													<div class="card-footer text-muted">
-														<small class="text-muted"><?php echo get_the_date(); ?> - <?php the_time();?> / <?php the_author() ?></small>
-													</div>
-												</div>
-											</div>
-											<hr>
-											<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
-											<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>
-										</div>
-										<?php $nslide++; ?>
-										<?php
-									}
-								}  while ( have_posts() );
-							} // end while
-							?>
-
-						</section>
-					</div>
-
+		<!--Area Secciones-->
+		<div class="row">
+			<div class="col-md-12" style="background:#344d7f">
+				<div class="col-md-12" style="margin-rigth:30px">
+					<h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
 				</div>
 			</div>
-			<!--Area Secciones-->
-			<div class="row">
-				<div class="col-md-12" style="background:#344d7f">
-					<div class="col-md-12" style="margin-rigth:30px">
-						<h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
-					</div>
-				</div>
-				<div class="col-md-12 material-container" style="padding:0">
-					<?php
-					include 'slide-sections.php';
-					?>
-				</div>
+			<div class="col-md-12 material-container" style="padding:0">
+				<?php
+				include 'slide-sections.php';
+				include 'slide-movil.php';
+				?>
 			</div>
+			<!--Slider movil-->
+			
 			<!-- AREA MULTIMEDIA -->
 
 			<div class="row " style="background:#7f6ea8">
