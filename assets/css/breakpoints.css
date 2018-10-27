@@ -40,7 +40,7 @@
         height:70vh;
         margin-top: 50%;
         -webkit-transform: translateY(-70%);
-        max-width: none !important;
+        max-width: none ;
     }
 }
 @media screen and(min-width:1000px) and (max-width:1799px){
