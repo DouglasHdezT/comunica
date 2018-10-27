@@ -142,9 +142,7 @@
     <nav class="dark-blue-nav-movil">
       <div id="menu-movil" class="buttom">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
-      </div>
-      <div class="logo-nav">
-        <img style="box-shadow: none" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
+        <img id="logo-nav" style="box-shadow: none" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
       </div>
     </nav>
     <div class="section-container-scrolling">
