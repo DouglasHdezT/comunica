@@ -1,4 +1,4 @@
-<footer class="dark-footer">
+<footer>
 <nav class="dark-blue-nav footer">
     <?php
     wp_nav_menu(array(
@@ -10,7 +10,7 @@
     ));
     ?>
 </nav>
-<div class="row justify-content-between" style="width:100%">
+<div class="row dark-footer" style="width:100%">
    <div class="col-lg-4 ">
        <a class="" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="box-shadow: none " src="<?php echo get_header_image();?>"/></a>
    </div>
@@ -29,11 +29,11 @@
            <?php get_search_form(); ?>
 
         </div>
+        <div class="ScrollUp btn btn-secondary">
+            <span style="color:#000" class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+        </div>
 
    </div>
-</div>
-<div class="ScrollUp btn btn-secondary">
-    <span style="color:#000" class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
 </div>
 </footer>
 <?php wp_footer();?>
