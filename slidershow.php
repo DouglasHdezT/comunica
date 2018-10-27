@@ -1,4 +1,4 @@
-<div class="no-slide">
+<div class="no-slide" id="mainS">
   <section id="slideshow">
     <?php
     $contSlider = 0;
