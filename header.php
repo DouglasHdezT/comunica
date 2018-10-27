@@ -144,7 +144,7 @@
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>
       </div>
       <div class="logo-nav">
-        <img style="box-shadow: none" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
+        <img style="box-shadow: none" width+="30%" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
       </div>
     </nav>
     <div class="section-container-scrolling">
