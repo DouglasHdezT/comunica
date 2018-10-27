@@ -12,7 +12,7 @@ var $counter = true;
 
         if(position > positionNav ){
             $('.logo-container a').css('display','none');
-            $('.logo-container a').createMenuScroll();
+            $('.logo-container').append(createMenuScroll());
             /*Diseño de los li en menu desplegable*/
             $('ul.menu-scrolling > li').addClass('items-slide');
         }else{
