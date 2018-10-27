@@ -1010,12 +1010,6 @@ ul > .current {
         height: auto;
         margin-top: 0
     }
-    .center-full-slide-second-posts{
-        display: flex;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1096,6 +1090,12 @@ ul > .current {
     }
     .logo-container {
         display: none;
+    }
+    div.center-full-slide-second-posts{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
     }
 }
 
