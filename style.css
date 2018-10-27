@@ -1160,6 +1160,9 @@ ul > .current {
     footer{
         background: #2f3640;
     }
+    footer{
+        display: block;
+    }
     ul.ul-social > li > a > i {
         color: #fff;
         font-size: 1.2em;
