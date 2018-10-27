@@ -79,7 +79,7 @@
           <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
         </div>
         <div class="logo-nav">
-          <img class="logo-header" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png ?>">
+          <img class="logo-header" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
         </div>
         <div class="reset"></div>
       </nav>
