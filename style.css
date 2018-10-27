@@ -200,6 +200,7 @@ ul.drak-ul-footer > li:hover {
     justify-content: center;
     top: -1px;
     z-index: 100;
+    background: #fff;
 }
 
 .button-gradient{
