@@ -523,7 +523,7 @@ ul.menu-scrolling > li > a:hover {
 
 
 #mainS .container-slide:hover .img-slide{
-    filter: brightness(50%);
+    filter: brightness(35%);
 }
 
 .container-slide:hover > .display-slide {
