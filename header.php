@@ -65,7 +65,6 @@
             ?>
           </div>
           <div id="skip-banner" class="down-slide"><div style="padding:20px">
-            <img src="http://comunicasv.com/wp-content/themes/comunica/assets/images/logo-navbar.png" data-src="image.jpg" width="15%"/>
             <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
           </div>
           <?php
@@ -76,7 +75,7 @@
     ?>
     <div class="logo-container">
       <div id="menu" class="buttom">
-        <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        <span id="menu-trigger" style="top:2px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
       </div>
       <a class="link-logo" href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt=""></a>
     </div>
