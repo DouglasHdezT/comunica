@@ -11,7 +11,7 @@ if ( have_posts() ) {
     </div>
     <?php the_content(); ?>
 
-  <?php } ( have_posts() );// end while
+  <?php } while( have_posts() );// end while
 } // end if
 ?>
 <?php get_footer();?>

@@ -274,7 +274,7 @@ ul.drak-ul-footer > li:hover {
 .section-container-scrolling {
     display: none;
     width: 100%;
-    background: rgba(33, 33, 33,0.8);
+    background: rgba(33, 33, 33,0.9);
     height: calc(100vh - 50px);
     position: fixed;
     top: 50px;
