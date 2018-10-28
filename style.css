@@ -693,7 +693,10 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .buttom {
+    width: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
