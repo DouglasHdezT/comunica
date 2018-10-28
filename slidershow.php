@@ -28,11 +28,9 @@
               </div>
             </div>
         <?php 
-        if($contSlider == 0){
-          echo '</div>';
-        }
         $contSlider+=1;
         if($contSlider>=2){
+          echo '</div>';
           $contSlider = 0;
         }
       }
