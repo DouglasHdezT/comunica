@@ -14,14 +14,14 @@
         }?>
           <div class="col-sm-6">
               <div class="container-slide">
+                <a href="<?php the_permalink(); ?>">
+                  <?php
+                  if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('post-thumbnails',array('class'=>'img-slide lazyload'));
+                  }
+                  ?>
+                </a>
                 <div class="slide-fliter">
-                  <a href="<?php the_permalink(); ?>">
-                    <?php
-                    if ( has_post_thumbnail() ) {
-                      the_post_thumbnail('post-thumbnails',array('class'=>'img-slide lazyload'));
-                    }
-                    ?>
-                  </a>
                 </div>
                 <div class="display-slide">
                   <h3><?php the_title(); ?></h3>
