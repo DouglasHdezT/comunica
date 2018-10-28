@@ -76,16 +76,6 @@
     ?>
     <div class="logo-container">
       <a style="text-align:center" href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt="" width="30%"></a>
-      <nav class="dark-blue-nav-scrolling">
-        <div id="menu" class="buttom">
-          <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-        </div>
-        <!--
-        <div class="logo-nav">
-          <img class="logo-header" src="<?php bloginfo('template_url') ?>/assets/images/logo-navbar.png">
-        </div>
-        -->
-      </nav>
     </div>
     <!-- Barra de dezplazamiento inicial
     <a class="prevent"><h1 class="arrow-down"><span class=" glyphicon glyphicon-chevron-down" aria-hidden="true"></span></h1></a>
