@@ -902,12 +902,12 @@ ul > .current {
 }
 
 #slideshow>.slidesjs-next{
-    left: right;
+    right: 0;
     bottom: auto;
     margin: 1.5em 3em;
 }
 
-.slidesjs-next:active, .slidesjs-previous:active{
+#slideshow>.slidesjs-next:active, #slideshow>.slidesjs-previous:active{
     color: #fff;
 }
 
