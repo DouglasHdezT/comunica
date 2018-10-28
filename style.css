@@ -694,13 +694,20 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 
 .buttom {
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     display: flex;
     justify-content: flex-start;
 }
 
-
-
+.link-logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: center;
+}
+.link-logo img{
+    margin-left: -20px;
+}
 .reset {
     width: 100%;
     clear: both;
