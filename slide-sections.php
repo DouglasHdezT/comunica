@@ -23,22 +23,22 @@
           ?>
 
           <div class="col-sm-3" style="padding:0">
-            <a href="<?php echo $siteurl.'/'.$url; ?>">
               <div class="container-post">
                 <div class="material-container">
-                  <div class="crop-image-slider-sections">
-                    <?php
-                    if ( has_post_thumbnail() ) {
-                      the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
-                    }
-                    ?>
-                  </div>
+                  <a href="<?php echo $siteurl.'/'.$url; ?>">
+                    <div class="crop-image-slider-sections">
+                      <?php
+                      if ( has_post_thumbnail() ) {
+                        the_post_thumbnail('post-thumbnails',array('class'=>'img-media lazyload'));
+                      }
+                      ?>
+                    </div>
+                  </a>
                 </div>
                 <div class="center-full-slide">
                   <a style="color:#fff;font-weight:bold;font-size:2rem" href="<?php echo $siteurl.'/'.$url; ?>"><?php echo $nameUrl; ?></a>
                 </div>
               </div>
-            </a>
           </div>
           <?php
 
