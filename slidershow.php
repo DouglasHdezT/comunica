@@ -35,7 +35,9 @@
         }
       }
     }?>
-    <a href="#" class="slidesjs-previous slidesjs-navigation" style="bottom:auto; left:auto; margin: 1.5em 0;"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
-    <a href="#" class="slidesjs-next slidesjs-navigation" style="bottom:auto; right:auto; margin: 1.5em 0;"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
+    <section style="widht: 100%; display: flex; justify-content: space-between;">
+      <a href="#" class="slidesjs-previous slidesjs-navigation" style="display: inline-block; position: relative;"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation" style="display: inline-block; position: relative;"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
+    </section>
   </section>
 </div>
