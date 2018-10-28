@@ -1301,7 +1301,9 @@ a[title=Next]{
 a[title=Previous]{
     display: none;
 }
-
+#menu-trigger{
+    display: none;
+}
 .logo-header {
     display: block;
     box-shadow: none; 
