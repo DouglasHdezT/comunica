@@ -274,10 +274,10 @@ ul.drak-ul-footer > li:hover {
 .section-container-scrolling {
     display: none;
     width: 100%;
-    background: #c1c1c1;
-    height: calc(100vh - 81px);
+    background: rgba(33, 33, 33,0.9);
+    height: calc(100vh - 50px);
     position: fixed;
-    top: 81px;
+    top: 50px;
     color: #fff;
     z-index: 11;
 
@@ -693,11 +693,23 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .buttom {
-    padding: 10px;
+    width: 100%;
+    padding: 20px 25px 20px 25px;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 
-
-
+.link-logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 155%;
+    text-align: center;
+}
+.link-logo img{
+    height: 100%;
+    width: 30%;
+}
 .reset {
     width: 100%;
     clear: both;
@@ -1301,7 +1313,9 @@ a[title=Next]{
 a[title=Previous]{
     display: none;
 }
-
+#menu-trigger{
+    display: none;
+}
 .logo-header {
     display: block;
     box-shadow: none; 
