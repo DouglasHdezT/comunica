@@ -1,7 +1,7 @@
 <div class="no-slide" id="mainS">
   <section id="slideshow">
     <?php
-    $contSlider = 3;
+    $contSlider = 0;
     $allPost =  get_posts(array(
       'numberposts'=> 10
     ));
@@ -9,7 +9,7 @@
     if($allPost){
       foreach($allPost as $post){
         setup_postdata($post);
-        if($contSlider == 3){
+        if($contSlider == 0){
           echo '<div class="slide">';
         }?>
           <div class="col-sm-6">
@@ -17,7 +17,7 @@
                 <a href="<?php the_permalink(); ?>">
                   <?php
                   if ( has_post_thumbnail() ) {
-                    the_post_thumbnail('post-thumbnails',array('class'=>'img-slide'));
+                    the_post_thumbnail('post-thumbnails',array('class'=>'img-slide lazyload'));
                   }
                   ?>
                 </a>
@@ -28,14 +28,15 @@
               </div>
             </div>
         <?php 
-        if($contSlider == 3){
+        if($contSlider == 0){
           echo '</div>';
-          $contSlider = 0;
         }
         $contSlider++;
+        if($contSlider>=2){
+          $contSlider = 0;
+        }
       }
     }?>
-
     <a href="#" class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
     <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
   </section>
