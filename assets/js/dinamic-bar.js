@@ -11,13 +11,11 @@ var $counter = true;
        var position = window.scrollY;
 
         if(position > positionNav ){
-            $('.logo-container a').css('display','none');
-            $('.dark-blue-nav-scrolling').css('display','flex');
             /*Diseño de los li en menu desplegable*/
+            $('#menu-trigger').slideDown();
             $('ul.menu-scrolling > li').addClass('items-slide');
         }else{
-            $('.dark-blue-nav-scrolling').css('display','flex');
-            $('.logo-container a').css('display','block');
+            $('#menu-trigger').slideUp();
             $('.section-container-scrolling').slideUp('fast');
             $counter = true;
         }

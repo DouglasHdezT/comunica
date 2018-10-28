@@ -75,6 +75,9 @@
     } // end if
     ?>
     <div class="logo-container">
+      <div id="menu" class="buttom">
+        <span id="menu-trigger" style="top:10px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+      </div>
       <a style="text-align:center" href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt="" width="30%"></a>
     </div>
     <!-- Barra de dezplazamiento inicial
