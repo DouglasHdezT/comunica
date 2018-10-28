@@ -907,7 +907,7 @@ ul > .current {
     margin: 1.5em 4em;
 }
 
-#slideshow>.slidesjs-next:visited, #slideshow>.slidesjs-previous:visited{
+#slideshow>.slidesjs-next:focus, #slideshow>.slidesjs-previous:focus{
     color: #fff;
 }
 
