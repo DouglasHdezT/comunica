@@ -1,7 +1,7 @@
 <div class="no-slide" id="mainS">
   <section id="slideshow">
     <?php
-    $contSlider = 2;
+    $contSlider = 3;
     $allPost =  get_posts(array(
       'numberposts'=> 10
     ));
@@ -9,7 +9,7 @@
     if($allPost){
       foreach($allPost as $post){
         setup_postdata($post);
-        if($contSlider == 2){
+        if($contSlider == 3){
           echo '<div class="slide">';
         }?>
           <div class="col-sm-6">
@@ -28,7 +28,7 @@
               </div>
             </div>
         <?php 
-        if($contSlider == 2){
+        if($contSlider == 3){
           echo '</div>';
           $contSlider = 0;
         }
