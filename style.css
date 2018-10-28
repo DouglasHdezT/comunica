@@ -702,12 +702,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 .link-logo{
     display: flex;
     justify-content: flex-start;
-    width: 140%;
+    width: 155%;
     text-align: center;
 }
 .link-logo img{
     height: 100%;
-    width: 40%;
+    width: 30%;
 }
 .reset {
     width: 100%;
