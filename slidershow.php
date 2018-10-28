@@ -31,7 +31,7 @@
         if($contSlider == 0){
           echo '</div>';
         }
-        $contSlider++;
+        $contSlider+=1;
         if($contSlider>=2){
           $contSlider = 0;
         }
