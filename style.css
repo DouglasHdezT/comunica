@@ -558,7 +558,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item a {
 
 a.slidesjs-previous {
     position: absolute;
-    color: #212121;
+    color: #fff;
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -580,7 +580,7 @@ a.slidesjs-next:hover {
 
 a.slidesjs-next {
     position: absolute;
-    color: rgb(33, 33, 33);
+    color:#fff;
     bottom: 0;
     right: 0;
     z-index: 10;
@@ -893,6 +893,22 @@ ul > .current {
 #slideshow,
 .slidesjs-container {
     height: 330px !important;
+}
+
+#slideshow>.slidesjs-previous{
+    left: auto;
+    bottom: auto;
+    margin: 1.5em 0;
+}
+
+#slideshow>.slidesjs-next{
+    left: right;
+    bottom: auto;
+    margin: 1.5em 3em;
+}
+
+.slidesjs-next:active, .slidesjs-previous:active{
+    color: #fff;
 }
 
 .slidesjs-pagination {
