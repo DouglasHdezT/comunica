@@ -506,6 +506,7 @@ ul.menu-scrolling > li > a:hover {
 }
 
 .display-slide {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -527,7 +528,7 @@ ul.menu-scrolling > li > a:hover {
 }
 
 .container-slide:hover > .display-slide {
-    display: none;
+    display: block;
 }
 
 ul.slidesjs-pagination > .slidesjs-pagination-item {
