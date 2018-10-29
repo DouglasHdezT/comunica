@@ -1060,6 +1060,9 @@ ul > .current {
         justify-content: center;
 
     }
+    .footer-logo{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1170,9 +1173,7 @@ ul > .current {
     nav.dark-blue-nav-movil{
         display: flex;
     }
-    .footer-logo{
-        width: 50%;
-    }
+
 }
 
 @media screen and (max-width: 576px) {
