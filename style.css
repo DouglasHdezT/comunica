@@ -624,7 +624,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .slider-hght {
-    height: 230px !important;
+    height: 230px;
     width: 100%;
 }
 
