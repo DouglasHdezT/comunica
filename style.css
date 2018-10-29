@@ -936,10 +936,9 @@ ul > .current {
 
 .first-section {
     min-height: 100%;
-    max-height: 400px;
+    max-height: 425px;
     overflow: hidden;
     vertical-align: middle;
-    align-content: center;
 }
 
 
