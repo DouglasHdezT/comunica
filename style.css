@@ -1063,7 +1063,7 @@ ul > .current {
     .footer-logo{
         width: 50%;
     }
-    a .footer-logo{
+    a img.footer-logo{
         text-align:center;
     }
 }
