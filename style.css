@@ -155,7 +155,7 @@ ul.sub-menu li a {
 }
 
 .footer-logo {
-    width: 100%;
+    width:75%;
     box-shadow: none !important;
 }
 
@@ -1163,7 +1163,7 @@ ul > .current {
     nav.dark-blue-nav-movil{
         display: flex;
     }
-    div.row.dark-footer .col-lg-4 {
+    .section-footer{
         display: flex;
         flex-direction: column;
         align-items: center;
