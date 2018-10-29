@@ -64,9 +64,9 @@ get_header();
                 <div class="none_results">
                   <h1>No se encontraron resultados para: <span class="inside"><?php the_search_query() ?></span></h1>
                 </div>
-              <?php }/*END IF*/ ?>
-          }
-      }
+              <?php }/*END IF*/ 
+              }
+              ?>
           </main><!-- #main -->
         </section><!-- #primary -->
       </div>
