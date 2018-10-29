@@ -17,6 +17,9 @@
         </a>
    </div>
    <div class="col-lg-4 section-footer">
+       
+   </div>
+   <div class="col-lg-4 section-footer">
         <?php
             wp_nav_menu(array(
            'theme_location'=>'social-network',

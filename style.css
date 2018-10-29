@@ -155,7 +155,7 @@ ul.sub-menu li a {
 }
 
 .footer-logo {
-    width:75%;
+    width:70%;
     box-shadow: none !important;
 }
 
@@ -766,6 +766,12 @@ ul > .current {
 
 /*ESTILO DEL LA BARRA DE BUSQUEDA*/
 
+.ft-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .ft-search span {
     display: none;
 }
@@ -975,6 +981,10 @@ ul > .current {
         transform: scale(1);
         filter: none;
     }
+}
+
+div.section-footer{
+    width: 100%;
 }
 
 .loader {
@@ -1420,7 +1430,7 @@ a[title=Previous]{
 div.dark-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 
