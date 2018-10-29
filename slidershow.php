@@ -23,7 +23,6 @@
                 </a>
                 <div class="display-slide">
                   <h3 style = "color:white;"><?php the_title(); ?></h3>
-                  <p><?php the_excerpt(); ?></p>
                 </div>
               </div>
             </div>

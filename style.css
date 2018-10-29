@@ -524,7 +524,7 @@ ul.menu-scrolling > li > a:hover {
 
 
 #mainS .container-slide:hover .img-slide{
-    filter: brightness(50%);
+    filter: brightness(35%);
 }
 
 .container-slide:hover > .display-slide {
@@ -559,7 +559,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item a {
 
 a.slidesjs-previous {
     position: absolute;
-    color: #212121;
+    color: #fff;
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -581,7 +581,7 @@ a.slidesjs-next:hover {
 
 a.slidesjs-next {
     position: absolute;
-    color: rgb(33, 33, 33);
+    color:#fff;
     bottom: 0;
     right: 0;
     z-index: 10;
@@ -894,6 +894,22 @@ ul > .current {
 #slideshow,
 .slidesjs-container {
     height: 330px !important;
+}
+
+#slideshow>.slidesjs-previous{
+    left: auto;
+    bottom: auto;
+    margin: 1.5em 0;
+}
+
+#slideshow>.slidesjs-next{
+    right: auto;
+    bottom: auto;
+    margin: 1.5em 4em;
+}
+
+#slideshow>.slidesjs-next:focus, #slideshow>.slidesjs-previous:focus{
+    color: #fff;
 }
 
 .slidesjs-pagination {
