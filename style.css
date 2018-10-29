@@ -485,7 +485,7 @@ ul.menu-scrolling > li > a:hover {
     bottom: 0px;
     left: 0px;
     text-align: left;
-    padding: 10px 0px 0px 10px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: white !important;
@@ -1075,6 +1075,12 @@ div.section-footer{
     .link-home-footer{
         text-align:center;
     }
+    img.slider-hght {
+        height: auto;
+    }
+    div.post-pages{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1123,9 +1129,7 @@ div.section-footer{
         display: block;
         overflow: hidden;
     }
-    .slider-hght {
-        height: auto;
-    }
+    
     .no-slide {
         display: none;
     }
@@ -1377,7 +1381,7 @@ a[title=Previous]{
 }
 .post-pages {
     height: 275px;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .title-page-post {
