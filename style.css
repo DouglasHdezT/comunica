@@ -706,12 +706,12 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 .link-logo{
     display: flex;
     justify-content: flex-start;
-    width: 155%;
+    width: 140%;
     text-align: center;
 }
 .link-logo img{
     height: 100%;
-    width: 30%;
+    width: 320%;
 }
 .reset {
     width: 100%;
