@@ -21,7 +21,7 @@ function style_menu($atts,$item,$args){
 $options = array(
     'default-image' => get_template_directory_uri().'/assets/images/default.png',
     'width' => 800,
-    'height'=>200,
+    'height'=>300,
     'header-text' => false
 );
 add_theme_support('custom-header',$options);

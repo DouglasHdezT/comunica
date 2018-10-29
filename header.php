@@ -77,7 +77,7 @@
       <div id="menu" class="buttom">
         <span id="menu-trigger" style="top:2px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
       </div>
-      <a class="link-logo" href="<?php home_url() ?>"><img src="<?php echo get_header_image(); ?>" alt=""></a>
+      <a class="link-logo" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_header_image(); ?>" alt=""></a>
     </div>
     <!-- Barra de dezplazamiento inicial
     <a class="prevent"><h1 class="arrow-down"><span class=" glyphicon glyphicon-chevron-down" aria-hidden="true"></span></h1></a>
