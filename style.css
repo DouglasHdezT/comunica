@@ -1163,7 +1163,7 @@ ul > .current {
     nav.dark-blue-nav-movil{
         display: flex;
     }
-    div.dark-blue-footer .col-lg-4 {
+    .row.dark-footer .col-lg-4 {
         display: flex;
         flex-direction: column;
         align-items: center;
