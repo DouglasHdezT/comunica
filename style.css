@@ -92,8 +92,10 @@ a:hover {
     float: left;
     height: 100vh;
     text-align: center;
-    margin-top: 5%;
-    overflow-y: scrollñ
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul.drak-ul > li {
