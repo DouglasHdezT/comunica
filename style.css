@@ -1423,3 +1423,7 @@ div.dark-footer{
     justify-content: space-between;
     align-content: center;
 }
+
+.logo-skip{
+    width: 10%;
+}
