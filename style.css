@@ -1063,6 +1063,9 @@ ul > .current {
     .footer-logo{
         width: 50%;
     }
+    a .footer-logo{
+        text-align:center;
+    }
 }
 
 @media screen and (max-width: 768px) {
