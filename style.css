@@ -1053,7 +1053,7 @@ ul > .current {
         height: 400px;
         overflow: hidden;
     }
-    .section-footer{
+    div.col-lg-6.section-footer{
         display: flex;
         flex-direction: column;
         align-items: center;
