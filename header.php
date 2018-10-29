@@ -145,7 +145,7 @@
         'theme_location'=>'secciones-scrolling',
         'container'=>'div',
         'container_class'=>'menu-scrolling-bar',
-        'items_wrap'=>'<ul class="menu-scrolling">%3$s</ul>'
+        'items_wrap'=>'<ul id="style-7" class="menu-scrolling">%3$s</ul>'
 
       ));
       ?>
