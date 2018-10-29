@@ -140,7 +140,7 @@ if ( have_posts() ) {
 							the_post();
 							if(in_category('MULTIMEDIA') && $postCounter < 2 ){
 								?>
-								<div class="col-sm-6 col-md-6" style="padding:0">
+								<div class="col-sm-6 col-xs-6" style="padding:0">
 									<?php
 									$youtube = getYTurl();
 									$full = 'https://www.youtube.com/embed/'.$youtube.'?version=3&controls=0&rel=0&showinfo=0&autohide=1';
@@ -197,10 +197,10 @@ if ( have_posts() ) {
 			</div>
 			<div class="row">
 				<div class="col-md-12 material-container">
-					<div class="col-sm-6 col-md-6 col-lg-6 lazyload">
+					<div class="col-sm-6 col-xs-6 lazyload">
 						<?php dynamic_sidebar('podcast'); ?>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-6 lazyload">
+					<div class="col-sm-6 col-xs-6 lazyload">
 						<div class="row galery">
 							<?php dynamic_sidebar('sidebar-1'); ?>
 						</div>
