@@ -12,7 +12,7 @@
 </nav>
 <div class="row dark-footer">
    <div class="col-lg-4 ">
-       <a class="" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="box-shadow: none " src="<?php echo get_header_image();?>"/></a>
+       <a class="" href="<?php echo esc_url(home_url());?>"><img class="footer-logo" style="width:75%;box-shadow: none " src="<?php echo get_header_image();?>"/></a>
    </div>
    <div class="col-lg-4">
         <?php
