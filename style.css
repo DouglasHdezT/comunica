@@ -390,7 +390,10 @@ ul.menu-scrolling > li > a:hover {
 .box:hover::before {
     -webkit-transform: scale(1);
 }
-
+.card-footer{
+    background-color: unset; 
+    border-top: unset; 
+}
 /*MUltimedia*/
 
 .media-container {
@@ -1081,6 +1084,10 @@ div.section-footer{
     div.post-pages{
         height: auto;
     }
+    .content-main{
+        margin: 35px 0px 0px 35px;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
