@@ -390,7 +390,7 @@ ul.menu-scrolling > li > a:hover {
 .box:hover::before {
     -webkit-transform: scale(1);
 }
-.card-footer{
+div.card-footer.text-muted{
     background-color: unset; 
     border-top: unset; 
 }
