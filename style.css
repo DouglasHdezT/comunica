@@ -50,9 +50,6 @@ a:hover {
     text-decoration: none !important;
 }
 
-.content-main {
-}
-
 .dark-blue-nav {
     background: linear-gradient(to right, #4563AC, #B87A9D);
     color: #21211F;
@@ -1441,6 +1438,7 @@ div.dark-footer{
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    max-width: 100%;
 }
 
 .logo-skip{
