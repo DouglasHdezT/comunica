@@ -101,9 +101,7 @@ function add_widget_area(){
     register_sidebar(array(
         'name'=>'ComunicaAds',
         'id'=>'comunica_ads',
-        'description'=>'Añade tu publicidad aquí',
-        'before_widget'=>'<div class="comunica-ads">',
-        'after_widget'=>'</div>' 
+        'description'=>'Añade tu publicidad aquí', 
     ));
     
 }
