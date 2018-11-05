@@ -25,6 +25,8 @@ if ( have_posts() ) {
 	</div>
 </div>
 
+<?php dynamic_sidebar('comunica_ads'); ?>
+
 <div class="container-fluid ">
 	<section class="content-main">
 		<div class="row first-section">
