@@ -22,7 +22,6 @@
           }
           ?>
           <div class="col-sm-3" style="padding:0">
-          <a href="<?php echo $siteurl.'/'.$url; ?>">
               <div class="container-post">
                 <div class="material-container">
                     <div class="crop-image-slider-sections">
@@ -32,13 +31,13 @@
                       }
                       ?>
                     </div>
-                  
                 </div>
-                <div class="center-full-slide">
-                  <a style="color:#fff;font-weight:bold;font-size:2rem; padding:1em; background:#00000088;" href="<?php echo $siteurl.'/'.$url; ?>"><?php echo $nameUrl; ?></a>
-                </div>
+                <a href="<?php echo $siteurl.'/'.$url; ?>">
+                  <div class="center-full-slide">
+                    <a style="color:#fff;font-weight:bold;font-size:2rem; padding:1em; background:#00000088;" href="<?php echo $siteurl.'/'.$url; ?>"><?php echo $nameUrl; ?></a>
+                  </div>
+                </a>
               </div>
-                    </a>
           </div>
           <?php
 
@@ -51,8 +50,6 @@
         }
       }
     }
-    if($flagged==1){
-      echo "</div>";}
       ?>
       <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span>
       </a>
