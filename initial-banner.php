@@ -15,7 +15,7 @@ if($query->have_posts()){
         $query->the_post();
 
         $query_time = time() - get_the_time('U');
-        if($query_time>=0 && $query_time < (60*60)){ //(60*60*24*7*2) Dos semanas
+        if($query_time>=0 && $query_time < (60*60*2)){ //(60*60*24*7*2) Dos semanas
             ?>
             <div class='initial-banner-container'>
                 <?php
