@@ -17,10 +17,7 @@ if ( have_posts() ) {
 	} while ( have_posts() ); // end while
 } // end if
 ?>
-<div class="comunica-ads">
-	<span id="delete-add" class="glyphicon glyphicon-star" aria-hidden="true"></span>
-	<?php dynamic_sidebar('comunica_ads'); ?>
-</div>	
+<?php dynamic_sidebar('comunica_ads'); ?>
 
 <div id="preloader" class="padre">
 	<div class="dots-container hijo">
