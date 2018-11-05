@@ -134,6 +134,9 @@ function main(){
             scrollTop: $('.logo-container').offset().top
         },1000);
     });
+    $('#delete-add').click(()=>{
+        $(".comunica-ads")[0].remove();
+    });
 
     
     

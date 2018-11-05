@@ -961,6 +961,7 @@ ul > .current {
     justify-content: flex-end;
     font-size: xx-large;
     color: #fff;
+    cursor: pointer;
 }
 .comunica-ads{
     position: fixed;
