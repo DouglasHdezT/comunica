@@ -142,7 +142,7 @@ if ( have_posts() ) {
 					$postCounter =0;
 					if ( $allPost ) {
 						foreach($allPost as $post){
-							setup_postdata($post)
+							setup_postdata($post);
 							if(in_category('MULTIMEDIA')){
 								echo $postCounter;
 								?>
