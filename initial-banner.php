@@ -24,7 +24,11 @@ if($query->have_posts()){
                 }?>
                 <div class='filter-banner'></div>
                 <div class="main-slider">
-                    
+                    <div class="spc-title">
+                        <h1>
+                            ESPECIAL COMUNICA: <?php the_title();?>
+                        </h1>
+                    </div>
                 </div>
                 <div id="skip-banner" class="down-slide"><div style="padding:20px">
                 <img class="img-fluid logo-skip" src="<?php bloginfo('template_url');?>/assets/images/logo-pp.png" alt="LOGO">
