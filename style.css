@@ -1464,13 +1464,19 @@ a[title=Previous]{
 .main-slider>div{
     width: auto;
     margin: 3em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.281);
 }
 
 .main-slider h1{
-    padding: 1em;
-    background: rgba(0, 0, 0, 0.281);
     color: white;
     font-size: 3em;
+}
+
+.main-slider .button-spc{
+    color: white;
+    background: #072844;
+    padding: 1em;
 }
 
 div.dark-footer{
