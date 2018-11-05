@@ -960,6 +960,9 @@ ul > .current {
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #preloader {
