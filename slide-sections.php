@@ -31,11 +31,12 @@
                       }
                       ?>
                     </div>
+                  
                 </div>
                 <a href="<?php echo $siteurl.'/'.$url; ?>">
-                  <div class="center-full-slide">
-                    <a style="color:#fff;font-weight:bold;font-size:2rem; padding:1em; background:#00000088;" href="<?php echo $siteurl.'/'.$url; ?>"><?php echo $nameUrl; ?></a>
-                  </div>
+                <div class="center-full-slide">
+                  <span style="color:#fff;font-weight:bold;font-size:2rem; padding:0.3em; background:#00000088;"?>"><?php echo $nameUrl; ?></span>
+                </div>
                 </a>
               </div>
           </div>
@@ -43,16 +44,15 @@
 
           if($counter==4 && $flagged==1){
             echo "</div>";
-            $counter=0;
+            $counter=1;
             $flagged=0;
           }
           $counter++;
         }
       }
     }
-      ?>
-      <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span>
-      </a>
-      <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
-    </section>
-  </div>
+    ?>
+    <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
+  <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
+  </section>
+</div>
