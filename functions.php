@@ -102,7 +102,7 @@ function add_widget_area(){
         'name'=>'ComunicaAds',
         'id'=>'comunica_ads',
         'description'=>'Añade tu publicidad aquí',
-        'before_widget'=>'<div class="comunica-ads">',
+        'before_widget'=>'<div">',
         'after_widget'=>'</div>' 
     ));
     
