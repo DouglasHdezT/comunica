@@ -145,6 +145,7 @@ if ( have_posts() ) {
 						do {
 							the_post();
 							if(in_category('MULTIMEDIA') && $postCounter < 2 ){
+								echo $postCounter;
 								?>
 								<div class="col-sm-6 col-xs-6" style="padding:0">
 									<?php
