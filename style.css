@@ -952,7 +952,12 @@ ul > .current {
     overflow: hidden;
     vertical-align: middle;
 }
-
+.comunica_ads{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5)
+}
 
 #preloader {
     width: 100%;
