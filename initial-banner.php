@@ -23,16 +23,13 @@ if($query->have_posts()){
                 the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }?>
                 <div class='filter-banner'></div>
-                <div class="main-slider">
+                <a href="<?php the_permalink(); ?>"><div class="main-slider">
                     <div class="spc-title">
                         <h1>
                             ESPECIAL COMUNICA: <?php the_title();?>
                         </h1>
-                        <a href="<?php the_permalink();?>"><span class="button-spc">
-                            LEER MAS
-                        </span></a>
                     </div>
-                </div>
+                </div></a>
                 <div id="skip-banner" class="down-slide"><div style="padding:20px">
                 <img class="img-fluid logo-skip" src="<?php bloginfo('template_url');?>/assets/images/logo-pp.png" alt="LOGO">
                 <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
