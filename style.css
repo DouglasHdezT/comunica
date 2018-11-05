@@ -1451,16 +1451,21 @@ a[title=Previous]{
 }
 
 .main-slider{
-    display: flex;
     width: 100%;
     position: absolute;
     top: 0;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-slider>div{
-    width: 70%;
+    width: auto;
+    margin: 3em;
+}
+
+.main-slider h1{
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.281);
+    color: white;
+    font-size: 3em;
 }
 
 div.dark-footer{
