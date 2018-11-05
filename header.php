@@ -44,6 +44,9 @@
 
 </head>
 <body>
+  <?php
+    include 'initial-banner.php';
+  ?>
     <div class="logo-container">
       <div id="menu" class="buttom">
         <span id="menu-trigger" style="top:2px" class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
