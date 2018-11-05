@@ -28,6 +28,11 @@ if ( have_posts() ) {
 <div class="container-fluid ">
 	<section class="content-main">
 		<div class="row first-section">
+			<div class="col-lg-12">
+				<h2>
+					Últimas Noticias
+				</h2>
+			</div>
 			<div class="col-lg-6">
 				<?php
 				$count_views=0;

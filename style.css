@@ -50,10 +50,6 @@ a:hover {
     text-decoration: none !important;
 }
 
-.content-main {
-    margin: 35px 0px 0px 0px;
-}
-
 .dark-blue-nav {
     background: linear-gradient(to right, #4563AC, #B87A9D);
     color: #21211F;
@@ -155,7 +151,7 @@ ul.sub-menu li a {
 }
 
 .footer-logo {
-    width:75%;
+    width:60%;
     box-shadow: none !important;
 }
 
@@ -390,7 +386,10 @@ ul.menu-scrolling > li > a:hover {
 .box:hover::before {
     -webkit-transform: scale(1);
 }
-
+div.card-footer.text-muted{
+    background-color: unset; 
+    border-top: unset; 
+}
 /*MUltimedia*/
 
 .media-container {
@@ -485,7 +484,7 @@ ul.menu-scrolling > li > a:hover {
     bottom: 0px;
     left: 0px;
     text-align: left;
-    padding: 10px 0px 0px 10px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: white !important;
@@ -624,7 +623,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
 }
 
 .slider-hght {
-    height: 230px !important;
+    height: 230px;
     width: 100%;
 }
 
@@ -765,6 +764,12 @@ ul > .current {
 }
 
 /*ESTILO DEL LA BARRA DE BUSQUEDA*/
+
+.ft-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .ft-search span {
     display: none;
@@ -930,10 +935,9 @@ ul > .current {
 
 .first-section {
     min-height: 100%;
-    max-height: 400px;
+    max-height: 425px;
     overflow: hidden;
     vertical-align: middle;
-    align-content: center;
 }
 
 
@@ -975,6 +979,10 @@ ul > .current {
         transform: scale(1);
         filter: none;
     }
+}
+
+div.section-footer{
+    width: 100%;
 }
 
 .loader {
@@ -1066,6 +1074,16 @@ ul > .current {
     .link-home-footer{
         text-align:center;
     }
+    img.slider-hght {
+        height: auto;
+    }
+    div.post-pages{
+        height: auto;
+    }
+    .content-main{
+        margin: 35px 0px 0px 35px;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -1114,9 +1132,7 @@ ul > .current {
         display: block;
         overflow: hidden;
     }
-    .slider-hght {
-        height: auto;
-    }
+    
     .no-slide {
         display: none;
     }
@@ -1368,7 +1384,7 @@ a[title=Previous]{
 }
 .post-pages {
     height: 275px;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .title-page-post {
@@ -1420,8 +1436,9 @@ a[title=Previous]{
 div.dark-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
+    max-width: 100%;
 }
 
 .logo-skip{
