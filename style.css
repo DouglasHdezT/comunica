@@ -1460,7 +1460,7 @@ div.dark-footer{
         transform: translateY(-12px);
     }
 }
-.glyphicon .glyphicon-menu-down{
+.glyphicon-menu-down{
     animation: bounce 2s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
