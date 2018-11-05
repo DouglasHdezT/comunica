@@ -8,9 +8,9 @@ function main(){
     });
     
     $(".slider-container").hover(function(){
-        $(this).children(".center-full-slide").fadeIn();
+        $(this).children("a").children(".center-full-slide").fadeIn();
     },function(){
-         $(this).children(".center-full-slide").fadeOut();
+         $(this).children("a").children(".center-full-slide").fadeOut();
     });
     
     $(".seconds-post").hover(function(){
