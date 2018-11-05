@@ -131,10 +131,10 @@ if ( have_posts() ) {
 			</div>
 		</div>
 			<!--Slider movil-->
-			
+
 			<!-- AREA MULTIMEDIA -->
 
-			<div class="row " style="background:#7f6ea8">
+			<div class="row sub-menu-main">
 				<div class="col-md-12 material-container" style="padding:0">
 					<div class="col-md-12" style="margin-rigth:30px">
 						<h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
@@ -196,7 +196,7 @@ if ( have_posts() ) {
 				</div>
 			</div>
 			<!--AREA RADIO Y FOTOGRAFIA-->
-			<div class="row" style="background:#7f6ea8">
+			<div class="row sub-menu-main">
 				<div class="col-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Radio Comunica</h2>
 				</div>
 				<div class="col-6"><h2 style="color:#fff;padding-top:25px;padding-bottom:20px;">Fotografía</h2>
