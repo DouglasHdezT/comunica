@@ -35,7 +35,7 @@
                 </div>
                 <a href="<?php echo $siteurl.'/'.$url; ?>">
                 <div class="center-full-slide">
-                  <span style="color:#fff;font-weight:bold;font-size:2rem; padding:0.3em; background:#00000088;"?>"><?php echo $nameUrl; ?></span>
+                  <span style="color:#fff;font-weight:bold;font-size:2rem; padding:0.3em; background:#00000088;"><?php echo $nameUrl; ?></span>
                 </div>
                 </a>
               </div>
