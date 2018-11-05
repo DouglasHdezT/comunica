@@ -140,6 +140,9 @@ if ( have_posts() ) {
 					</div>
 					<?php
 					$postCounter =0;
+					$allPost = get_posts(array(
+						'numberposts'=>-1
+					));
 					if ( $allPost ) {
 						foreach($allPost as $post){
 							setup_postdata($post);
