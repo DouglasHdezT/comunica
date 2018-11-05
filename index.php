@@ -1,6 +1,9 @@
 <?php
 get_header();
 $hoy = getdate();
+$allPost = get_posts(array(
+	'numberposts'=>-1
+));
 /*Obtener el post con mayor numero de visitas*/
 if ( have_posts() ) {
 	do  {
@@ -144,7 +147,6 @@ if ( have_posts() ) {
 						foreach($allPost as $post){
 							setup_postdata($post);
 							if(in_category('MULTIMEDIA')){
-								echo $postCounter;
 								?>
 								<div class="col-sm-6 col-xs-6" style="padding:0">
 									<?php
