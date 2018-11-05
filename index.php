@@ -139,11 +139,10 @@ if ( have_posts() ) {
 						<h2 style="padding:10px; color:#fff;padding-top:25px">MULTIMEDIA</h2><br>
 					</div>
 					<?php
-					//	rewind_posts();
 					$postCounter =0;
-					if ( have_posts() ) {
-						do {
-							the_post();
+					if ( $allPost ) {
+						foreach($allPost as $post){
+							setup_postdata($post)
 							if(in_category('MULTIMEDIA')){
 								echo $postCounter;
 								?>
@@ -189,8 +188,8 @@ if ( have_posts() ) {
 								</div>
 								<?php $postCounter++ ?>
 
-							<?php           }
-						} while ( have_posts() && $postCounter < 2 );
+							<?php }
+						}
 					}
 					?>
 				</div>
