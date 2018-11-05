@@ -1462,8 +1462,10 @@ a[title=Previous]{
 }
 
 .main-slider h1{
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.281);
     color: white;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 div.dark-footer{
