@@ -29,7 +29,7 @@ if ( have_posts() ) {
 <div class="container-fluid ">
 	<section class="content-main">
 		<div class="row first-section">
-			<div class="col-lg-12">
+			<div class="col-lg-12" style="padding:20px 5px 20px 0px ">
 				<h2>
 					Últimas Noticias
 				</h2>
