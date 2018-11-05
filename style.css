@@ -387,8 +387,8 @@ ul.menu-scrolling > li > a:hover {
     -webkit-transform: scale(1);
 }
 div.card-footer.text-muted{
-    background-color: unset; 
-    border-top: unset; 
+    background-color: unset;
+    border-top: unset;
 }
 /*MUltimedia*/
 
@@ -594,7 +594,7 @@ a.slidesjs-next {
     width: 100%;
     height: 100%;
     display:table-cell;
-    vertical-align:middle; 
+    vertical-align:middle;
 }
 
 ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
@@ -699,7 +699,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
     padding: 20px 25px 20px 25px;
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
 .link-logo{
@@ -1083,7 +1083,7 @@ div.section-footer{
     .content-main{
         margin: 35px 0px 0px 35px;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1132,7 +1132,7 @@ div.section-footer{
         display: block;
         overflow: hidden;
     }
-    
+
     .no-slide {
         display: none;
     }
@@ -1367,7 +1367,7 @@ a[title=Previous]{
 }
 .logo-header {
     display: block;
-    box-shadow: none; 
+    box-shadow: none;
     width: 40%;
 }
 #slideshow-sections {
@@ -1443,4 +1443,25 @@ div.dark-footer{
 
 .logo-skip{
     width: 10%;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
+}
+.glyphicon .glyphicon-menu-down{
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
 }
