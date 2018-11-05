@@ -18,6 +18,7 @@ if ( have_posts() ) {
 } // end if
 ?>
 <div class="comunica-ads">
+	<span id="delete-add" class="glyphicon glyphicon-star" aria-hidden="true"></span>
 	<?php dynamic_sidebar('comunica_ads'); ?>
 </div>	
 

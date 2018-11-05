@@ -952,6 +952,12 @@ ul > .current {
     overflow: hidden;
     vertical-align: middle;
 }
+#delete-add{
+    position: absolute;
+    top: 0;
+    right: 90%;
+    padding: 10px;
+}
 .comunica-ads{
     position: fixed;
     top: 0;
