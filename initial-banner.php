@@ -13,9 +13,12 @@ $query= new WP_Query($args_spc);
 if($query->have_posts()){
     while($query->have_posts()){
         $query->the_post();
-        $query_time = current_time('timestamp', true) - get_post_time('U', true);
+
+        $query_time = time() - get_the_time('U');
+        echo time();
+        echo get_the_time('U');
         echo $query_time/(60);
-        if($query_time < (60*60)){ //(60*60*24*7*2) Dos semanas
+        if($query_time>=0 && $query_time < (60*60)){ //(60*60*24*7*2) Dos semanas
             ?>
             <div class='initial-banner-container'>
                 <?php
