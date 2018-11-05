@@ -28,6 +28,9 @@ if($query->have_posts()){
                         <h1>
                             ESPECIAL COMUNICA: <?php the_title();?>
                         </h1>
+                        <a href="<?php the_permalink();?>"><span class="button-spc">
+                            LEER MAS
+                        </span></a>
                     </div>
                 </div>
                 <div id="skip-banner" class="down-slide"><div style="padding:20px">
