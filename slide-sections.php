@@ -21,8 +21,8 @@
             $flagged=1;
           }
           ?>
-          <a href="<?php echo $siteurl.'/'.$url; ?>">
           <div class="col-sm-3" style="padding:0">
+          <a href="<?php echo $siteurl.'/'.$url; ?>">
               <div class="container-post">
                 <div class="material-container">
                     <div class="crop-image-slider-sections">
@@ -38,8 +38,8 @@
                   <a style="color:#fff;font-weight:bold;font-size:2rem; padding:1em; background:#00000088;" href="<?php echo $siteurl.'/'.$url; ?>"><?php echo $nameUrl; ?></a>
                 </div>
               </div>
+                    </a>
           </div>
-          </a>
           <?php
 
           if($counter==4 && $flagged==1){
