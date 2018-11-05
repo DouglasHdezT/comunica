@@ -17,6 +17,7 @@ if ( have_posts() ) {
 	} while ( have_posts() ); // end while
 } // end if
 ?>
+<?php dynamic_sidebar('comunica_ads'); ?>
 <div id="preloader" class="padre">
 	<div class="dots-container hijo">
 		<div class="loader dot-1"></div>
@@ -24,9 +25,6 @@ if ( have_posts() ) {
 		<div class="loader dot-2"></div>
 	</div>
 </div>
-
-<?php dynamic_sidebar('comunica_ads'); ?>
-
 <div class="container-fluid ">
 	<section class="content-main">
 		<div class="row first-section">
