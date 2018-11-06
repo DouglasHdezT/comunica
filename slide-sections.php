@@ -41,13 +41,12 @@
               </div>
           </div>
           <?php
-
-          if($counter==4 && $flagged==1){
+          $counter++;
+          if($counter>4 && $flagged==1){
             echo "</div>";
             $counter=1;
             $flagged=0;
           }
-          $counter++;
         }
       }
     }
