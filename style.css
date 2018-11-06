@@ -901,7 +901,7 @@ div.child-box{
     padding: 0;
     
 }
-.child-box div{
+.child-box a{
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
