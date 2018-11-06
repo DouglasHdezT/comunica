@@ -77,7 +77,7 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
-        print_r($items);
+        //print_r($items);
         for($i=0;$i<count($items);$i++){
           if($allPost){
             foreach($allPost as $post){
@@ -98,9 +98,21 @@
                     <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                     <?php
                      // codigo de childens
-                    print_r(getChildrenSubMenu($items[$i]->ID));
-
+                    $children = getChildrenSubMenu($items[$i]->ID);
+                    if($children){
                     ?>
+                      <div class="child-section">
+                      <?php
+                        foreach($children as $child){
+                        ?>
+                          <div class="child-box">
+                            <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
+                          </div>
+                        <?php  
+                        }
+                      }
+                      ?>
+                      </div>
                   </div>
                 </div>
               <?php

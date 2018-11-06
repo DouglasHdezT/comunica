@@ -877,6 +877,19 @@ ul > .current {
 .none_results span {
     text-transform: uppercase;
 }
+.child-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child-box{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
 
 /*Si hay resultados*/
 
