@@ -2,6 +2,7 @@
   <section id="slideshow-sections">
     <?php
     $counter=1;
+    $flagged = 0;
     $categories = get_categories();
     foreach($categories as $category){
       $nameUrl = $category->name;
@@ -17,8 +18,9 @@
         while($query->have_posts()){
           $query->the_post();
           
-          if($counter==1){
+          if($counter==1 && $flagged == 0){
             echo "<div class='slider'>";
+            $flagged = 1;
           }?>
 
           <div class="col-sm-3" style="padding:0">
@@ -41,12 +43,16 @@
           </div>
           <?php
           $counter++;
-          if($counter>4){
+          if($counter>4 && $flagged == 1){
             echo "</div>";
             $counter=1;
+            $flagged = 0;
           }
         }
       }
+    }
+    if($flagged == 1){
+      echo '</div>';
     }
     ?>
     <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
