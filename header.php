@@ -84,36 +84,37 @@
               setup_postdata($post);
               if(in_category($items[$i]->title)){
                 $url = nameToUrl($items[$i]->title);?>
-                <div class="row last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
-                  <div class="col-md-4">
-                    <?php
-                    if ( has_post_thumbnail() ) {
-                      the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive lazyload'));
-                    }?>
-                  </div>
-                  <div class="col-md-8">
-                    <h2><?php the_title(); ?></h2>
-                    <?php the_excerpt(); ?>
-                    <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                    <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                    <?php
-                     // codigo de childens
-                    $children = getChildrenSubMenu($items[$i]->ID);
-                    if($children){
-                    ?>
-                    <div class="child-section">
+                <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
+                  <div class="row">
+                    <div class="col-md-4">
                       <?php
-                        foreach($children as $child){
-                        ?>
-                          <div class="child-box">
-                            <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
-                          </div>
-                        <?php  
-                        }
-                      }
-                      ?>
+                      if ( has_post_thumbnail() ) {
+                        the_post_thumbnail('post-thumbnails',array('class'=>'img-responsive lazyload'));
+                      }?>
                     </div>
-                      
+                    <div class="col-md-8">
+                      <h2><?php the_title(); ?></h2>
+                      <?php the_excerpt(); ?>
+                      <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                      <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                      <?php
+                      // codigo de childens
+                      $children = getChildrenSubMenu($items[$i]->ID);
+                      if($children){
+                      ?>
+                      <div class="child-section">
+                        <?php
+                          foreach($children as $child){
+                          ?>
+                            <div class="child-box">
+                              <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
+                            </div>
+                          <?php  
+                          }
+                        }
+                        ?>
+                      </div>
+                    </div>  
                   </div>
                 </div>
               <?php
