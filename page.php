@@ -6,11 +6,13 @@
       while ( have_posts() ) {
         the_post();
         ?>
-        <div class="col-md-12" style="background:#344d7f">
+        <div class="row">
+          <div class="col-md-12" style="background:#344d7f">
           <div class="col-md-12" style="margin-rigth:30px">
-            <h3 style="color:#fff;padding-top:25px;padding-bottom:20px"><?php the_title(); ?></h3>
+          <h3 style="color:#fff;padding-top:25px;padding-bottom:20px"><?php the_title(); ?></h3>
           </div>
-			  </div>
+          </div>
+        </div>
         <?php the_content();
         $name_category = get_the_title();
         ?>
