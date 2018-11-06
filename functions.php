@@ -206,7 +206,7 @@ function getThumbnailPostByCategory($category){
         'category' => $category
     ));
     foreach($notices as $notice){
-        get_the_post_thumbnail_url($notice);
+        return get_the_post_thumbnail_url($notice);
     }
 }
 
