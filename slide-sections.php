@@ -1,5 +1,5 @@
 <div class="no-slide">
-  <section id="slideshow">
+  <section id="slideshow-sections">
     <?php
     $counter=1;
     $categories = get_categories();
