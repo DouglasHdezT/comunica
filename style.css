@@ -897,12 +897,14 @@ ul > .current {
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
-    height: 200px;
+    height: 250px;
     
 }
 .child-box a{
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
+    width: 100%;
+    height: 100%;
     font-weight: bold;
 }
 
