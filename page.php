@@ -27,6 +27,7 @@
     foreach($allPosts as $post){
       setup_postdata($post);
       if($cont_page == 0){
+        $cont_page++;
         ?>
         <div class="row">
           <div class="col-md-12">
