@@ -909,6 +909,9 @@ div.child-box{
     justify-content: center;
     align-content: center;
     cursor: pointer;
+    color: #fff; 
+    font-size: 1.1em;
+    
 }
 
 /*Si hay resultados*/
