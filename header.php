@@ -77,7 +77,7 @@
         $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
         $menu_name = $menu_obj->name;
         $items = wp_get_nav_menu_items($menu_name);
-        //print_r($items);
+        print_r($items);
         for($i=0;$i<count($items);$i++){
           if($allPost){
             foreach($allPost as $post){
@@ -97,11 +97,13 @@
                     <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                     <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                     <?php
+                    echo $items[$i]->ID;
                     $childrens = wp_get_nav_menu_items($items[$i]->ID);
                     if($childrens){
                       print_r($childrens);
+                    }else{
+                      echo "no sirve esta m..."; 
                     }
-                    echo "no sirve esta m..."; 
                     ?>
                   </div>
                 </div>
