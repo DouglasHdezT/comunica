@@ -25,9 +25,9 @@ function main(){
         $(this).children(".container-post").children(".center-full-slide-second-posts").fadeOut();
     });
     $(".container-post").hover(function(){
-        $(this).children("a").children(".center-full-slide").fadeIn();
+        $(this).children(".a").children(".center-full-slide").fadeIn();
     },function(){
-        $(this).children("a").children(".center-full-slide").fadeOut();
+        $(this).children(".a").children(".center-full-slide").fadeOut();
     });
      $('#play-0').on('click', function(ev) {
          if($("#text-0").is(':visible')){
