@@ -106,7 +106,7 @@
                         <?php
                           foreach($children as $child){
                           ?>
-                            <div class="child-box" style="background-imgae:url('<?php echo echo getThumbnailPostByCategory($child->title); ?>')">
+                            <div class="child-box" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
                               <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
                             </div>
                           <?php  
