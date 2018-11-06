@@ -31,10 +31,10 @@ if($query->have_posts()){
                         </h1>
                     </div>
                 </div></a>
-                <div id="skip-banner" class="down-slide"><div style="padding:20px">
-                <img class="img-fluid logo-skip" src="<?php bloginfo('template_url');?>/assets/images/logo-pp.png" alt="LOGO">
-                <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
-            </div>
+                <div id="skip-banner" class="down-slide"><div style="padding:20px; cursor:pointer; ">
+                    <img class="img-fluid logo-skip" src="<?php bloginfo('template_url');?>/assets/images/logo-pp.png" alt="LOGO">
+                    <span style="padding:5px;font-size:2em;display:block" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></div>
+                </div>
             <?php
         }
     }
