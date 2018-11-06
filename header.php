@@ -108,8 +108,8 @@
                         <?php
                           foreach($children as $child){
                           ?>
-                          <a href="<?php echo $child->url ?>">
-                            <div class="child-box col-sm-3" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
+                          <a class="col-sm-3" href="<?php echo $child->url ?>">
+                            <div class="child-box" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
                               <div class="filter-child"></div>
                                   <span><?php echo $child->title ?></span>
                               </div>
