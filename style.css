@@ -897,7 +897,8 @@ ul > .current {
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
-    height: 250px;
+    height: 200px;
+    padding: 0;
     
 }
 .child-box a{
@@ -906,6 +907,9 @@ ul > .current {
     width: 100%;
     height: 100%;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 /*Si hay resultados*/
