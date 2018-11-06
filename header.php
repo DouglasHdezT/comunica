@@ -101,7 +101,7 @@
                     $children = getChildrenSubMenu($items[$i]->ID);
                     if($children){
                     ?>
-                      <div class="child-section">
+                    <div class="child-section">
                       <?php
                         foreach($children as $child){
                         ?>
@@ -112,7 +112,8 @@
                         }
                       }
                       ?>
-                      </div>
+                    </div>
+                      
                   </div>
                 </div>
               <?php
