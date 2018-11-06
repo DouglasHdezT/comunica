@@ -110,7 +110,7 @@
                           ?>
                             <div class="child-box col-sm-3" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
                               <a href="<?php echo $child->url ?>">
-                                  <?php echo $child->title ?>
+                                  <span><?php echo $child->title ?></span>
                               </a>
                             </div>
                           <?php  
