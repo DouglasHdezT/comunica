@@ -42,7 +42,7 @@
           <?php
           $counter++;
           if($counter>4){
-            echo "</div>";
+            echo "</div></div>";
             $counter=1;
           }
         }
