@@ -896,7 +896,7 @@ ul > .current {
     justify-content: center;
     align-items: center;    
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     
 }
