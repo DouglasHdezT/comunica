@@ -1,5 +1,5 @@
 <div class="no-slide">
-  <section id="slideshow-sections">
+  <section id="slideshow">
     <?php
     $counter=1;
     $categories = get_categories();
@@ -49,7 +49,7 @@
       }
     }
     ?>
-  </section>
-  <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
+    <a href="#"  class="slidesjs-previous slidesjs-navigation"><span class="glyphicon glyphicon-menu-left navegation" aria-hidden="true" style="font-size:3em"></span></a>
     <a href="#" class="slidesjs-next slidesjs-navigation"><span class="glyphicon glyphicon-menu-right navegation" aria-hidden="true" style="font-size:3em"></span></a>
+  </section>
 </div>
