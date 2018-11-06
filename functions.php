@@ -182,6 +182,22 @@ function wpdocs_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 
+function getChildrenSubMenu($ID_submenu){
+    $children = array();
+    $theme_locations = get_nav_menu_locations();
+    $menu_obj = get_term( $theme_locations['secciones'], 'nav_menu' );
+    $menu_name = $menu_obj->name;
+    $items = wp_get_nav_menu_items($menu_name);
+    foreach($items as $item){
+        if($item->menu_item_parent == $ID_submenu){
+            array_push($children,$item);
+        }
+    }
+    if(count($children)==0){
+        return false;
+    }
+    return $children;
+}
 ?>
 
 
