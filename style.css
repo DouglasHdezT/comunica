@@ -917,6 +917,10 @@ div.child-box{
     z-index: 100;
 
 }
+.child-box a:hover{
+    color:#fff;
+
+}
 
 /*Si hay resultados*/
 
