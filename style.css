@@ -79,6 +79,7 @@ a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .home-link a {
