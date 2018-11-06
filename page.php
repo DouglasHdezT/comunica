@@ -55,7 +55,7 @@
         continue;
       }
       ?>
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-top:1.5em;">
         <div class="card mb-3  slider-container">
           <h3 id="style-7" class="card-header title-page-post"><?php the_title();?></h3>
           <?php
