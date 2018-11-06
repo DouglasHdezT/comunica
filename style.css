@@ -889,7 +889,7 @@ ul > .current {
     flex-direction: column;
     justify-content: space-between;
 }
-div.child-box{
+button.child-box{
     margin: 3px;
     display: flex;
     justify-content: center;
