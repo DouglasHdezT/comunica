@@ -908,7 +908,7 @@ div.child-box{
     padding: 0;
     
 }
-.child-section a{
+div.child-section a{
     cursor: pointer;
     color: #fff; 
     font-size: 1.1em;
