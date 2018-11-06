@@ -16,11 +16,11 @@ if($query->have_posts()){
         $query->the_post();
 
         $query_time = time() - get_the_time('U');
-        if($query_time>=0 && $query_time < ){ //(60*60*24*7*2) Dos semanas
+        if($query_time>=0 && $query_time < $timeSpc){ //(60*60*24*7*2) Dos semanas
             ?>
             <div class='initial-banner-container'>
                 <?php
-                if ( has_post_thumbnail() $timeSpc) {
+                if ( has_post_thumbnail()) {
                 the_post_thumbnail('post-thumbnails',array('class'=>'initial-banner'));
                 }?>
                 <div class='filter-banner'></div>
