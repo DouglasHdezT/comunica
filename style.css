@@ -79,6 +79,7 @@ a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .home-link a {
@@ -679,6 +680,7 @@ ul.slidesjs-pagination > .slidesjs-pagination-item:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: none;
+    margin: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
@@ -876,6 +878,19 @@ ul > .current {
 
 .none_results span {
     text-transform: uppercase;
+}
+.child-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child-box{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
 }
 
 /*Si hay resultados*/
