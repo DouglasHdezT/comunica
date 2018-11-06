@@ -886,11 +886,6 @@ ul > .current {
 .none_results span {
     text-transform: uppercase;
 }
-.child-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .last-new .col-md-8{
     display: flex;
     flex-direction: column;
@@ -921,6 +916,9 @@ div.child-section a{
 .child-box a:hover{
     color:#fff;
 
+}
+.filter-child span{
+    z-index: 100;
 }
 
 /*Si hay resultados*/
