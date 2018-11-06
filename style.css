@@ -359,7 +359,14 @@ ul.menu-scrolling > li > a:hover {
     -webkit-transform-origin: 50% 50%;
 }
 
-
+.filter-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
 .box {
     position: relative;
     vertical-align: middle;
@@ -879,11 +886,6 @@ ul > .current {
 .none_results span {
     text-transform: uppercase;
 }
-.child-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .last-new .col-md-8{
     display: flex;
     flex-direction: column;
@@ -901,14 +903,22 @@ div.child-box{
     padding: 0;
     
 }
-.child-box a{
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+div.child-section a{
     cursor: pointer;
+    color: #fff; 
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 100;
+    width: 100%
+
+}
+.child-box a:hover{
+    color:#fff;
+
+}
+div.child-box span{
+    z-index: 100;
 }
 
 /*Si hay resultados*/
