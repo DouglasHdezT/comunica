@@ -38,7 +38,7 @@
     .crop-image-first-post {
         width: auto;
         height:70vh;
-        margin-top: 50%;
+        margin-top: 55%;
         -webkit-transform: translateY(-70%);
         max-width: none ;
     }
