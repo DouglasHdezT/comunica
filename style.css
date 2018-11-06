@@ -1508,3 +1508,10 @@ div.dark-footer{
     animation-iteration-count: infinite;
     animation-delay: 2s;
 }
+
+/* ARREGLO DE LOS BOTONES DEL SLIDE DE SECCIONES */
+
+#slideshow-sections>.slidesjs-previous, #slideshow-sections>.slidesjs-next{
+    background: rgba(0, 0, 0, 0.445);
+    padding: 0.3em;
+}
