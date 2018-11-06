@@ -908,13 +908,14 @@ div.child-box{
     padding: 0;
     
 }
-.child-box a{
+.child-section a{
     cursor: pointer;
     color: #fff; 
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
     z-index: 100;
+    width: 100%
 
 }
 .child-box a:hover{
