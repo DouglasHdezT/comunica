@@ -1515,3 +1515,11 @@ div.dark-footer{
     background: rgba(0, 0, 0, 0.445);
     padding: 0.3em;
 }
+
+#slideshow-sections>.slidesjs-previous:focus, #slideshow-sections>.slidesjs-next:focus{
+    color:white;
+}
+
+#slideshow{
+    background: #000;
+}
