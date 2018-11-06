@@ -108,13 +108,13 @@
                         <?php
                           foreach($children as $child){
                           ?>
-                            <div class="child-box col-sm-3" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
-                              <a href="<?php echo $child->url ?>">
-                                <div>
-                                <?php echo $child->title ?></a>
-                                </div>
-                              </a>
-                            </div>
+                            <a href="<?php echo $child->url ?>">
+                              <div class="child-box col-sm-3" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
+                                  <div>
+                                    <?php echo $child->title ?></a>
+                                  </div>
+                              </div>
+                            </a>
                           <?php  
                           }
                         }
