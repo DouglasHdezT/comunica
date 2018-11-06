@@ -889,7 +889,7 @@ ul > .current {
     flex-direction: column;
     justify-content: space-between;
 }
-.child-box{
+div.child-box{
     margin: 3px;
     display: flex;
     justify-content: center;
@@ -897,11 +897,11 @@ ul > .current {
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
-    height: 200px;
+    height: 120px;
     padding: 0;
     
 }
-.child-box a{
+.child-box div{
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     width: 100%;
