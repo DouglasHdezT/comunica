@@ -96,6 +96,10 @@
                     <?php the_excerpt(); ?>
                     <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
                     <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                    <?php
+                    $childrens = wp_get_nav_menu_items($items[$i]->ID);
+                    print_r($childrens); 
+                    ?>
                   </div>
                 </div>
               <?php
