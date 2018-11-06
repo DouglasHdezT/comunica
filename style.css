@@ -883,8 +883,6 @@ ul > .current {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: #fff;
-    font-weight: bold;
 }
 .last-new .col-md-8{
     display: flex;
@@ -901,6 +899,10 @@ ul > .current {
     background-size: cover;
     background-position: center;
     
+}
+.child-box a{
+    color: #fff;
+    font-weight: bold;
 }
 
 /*Si hay resultados*/
