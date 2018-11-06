@@ -84,7 +84,7 @@
               setup_postdata($post);
               if(in_category($items[$i]->title)){
                 $url = nameToUrl($items[$i]->title);?>
-                <div class="last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
+                <div class="row last-new <?php $s = str_replace(' ','_',$items[$i]->title); echo $s ?>">
                   <div class="col-md-4">
                     <?php
                     if ( has_post_thumbnail() ) {
