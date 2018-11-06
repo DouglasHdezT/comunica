@@ -198,6 +198,18 @@ function getChildrenSubMenu($ID_submenu){
     }
     return $children;
 }
+
+function getThumbnailPostByCategory($category){
+    
+    $notices = get_posts(array(
+        'numberposts' => 1,
+        'category' => $category
+    ));
+    foreach($notices as $notice){
+        get_the_post_thumbnail_url($notice);
+    }
+}
+
 ?>
 
 

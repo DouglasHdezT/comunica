@@ -108,6 +108,7 @@
                           ?>
                             <div class="child-box">
                               <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
+                              <?php echo getThumbnailPostByCategory($child->title); ?>
                             </div>
                           <?php  
                           }
