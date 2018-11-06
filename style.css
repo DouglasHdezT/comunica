@@ -914,6 +914,7 @@ div.child-box{
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
+    z-index: 100;
 
 }
 
