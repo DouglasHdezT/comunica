@@ -7,10 +7,8 @@
         the_post();
         ?>
         <div class="row">
-          <div class="col-md-12" style="background:#344d7f">
-          <div class="col-md-12" style="margin-rigth:30px">
-          <h3 style="color:#fff;padding-top:25px;padding-bottom:20px"><?php the_title(); ?></h3>
-          </div>
+          <div class="col-md-12">
+            <h3 style="text-indent:1.5em;background:#344d7f;color:#fff;padding-top:1.5em;padding-bottom:1.5em"><?php the_title(); ?></h3>
           </div>
         </div>
         <?php the_content();
