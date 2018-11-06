@@ -73,7 +73,7 @@
       <?php
       $allPosts = get_posts(array(
         'numberposts'=>-1,
-        'category'=>$name_category
+        'category_name'=>$name_category
       )); //Reinicio de querys para obtener todos los post
 
       foreach($allPosts as $post){
@@ -100,7 +100,7 @@
           </div>
         <?php
       }
-      
+
       wp_reset_query(); //Volver a la query original.
       ?>
     </div>
