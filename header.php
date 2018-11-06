@@ -93,10 +93,12 @@
                       }?>
                     </div>
                     <div class="col-md-8">
-                      <h2><?php the_title(); ?></h2>
-                      <?php the_excerpt(); ?>
-                      <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
-                      <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                      <div class="detail">
+                        <h2><?php the_title(); ?></h2>
+                        <?php the_excerpt(); ?>
+                        <a href="<?php the_permalink();?>" class="btn btn-secondary">Leer Más <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                        <a href="<?php echo $siteurl.'/'.$url ?>" class="btn btn-secondary"><?php echo 'Ir a '.$items[$i]->title; ?> <span class="glyphicon glyphicon-chevron-right" style="font-weight: 100" aria-hidden="true"></span></a>
+                      </div>
                       <?php
                       // codigo de childens
                       $children = getChildrenSubMenu($items[$i]->ID);
@@ -106,7 +108,7 @@
                         <?php
                           foreach($children as $child){
                           ?>
-                            <div class="child-box" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
+                            <div class="child-box col-sm-3" style="background-image:url('<?php echo getThumbnailPostByCategory($child->title); ?>')">
                               <a href="<?php echo $child->url ?>"><?php echo $child->title ?></a>
                             </div>
                           <?php  
