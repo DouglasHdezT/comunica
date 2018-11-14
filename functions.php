@@ -218,8 +218,12 @@ function getThumbnailPostByCategory($category){
 }
 // Customize colors
 function customize_default_colors_theme($wp_customize){
-    $wp_customize->add_setting('primary_color',array(
-        'default'=>'#007BB4',
+    $wp_customize->add_setting('primary_degraded',array(
+        'default'=>'#38A4DD',
+        'transport' => 'refresh'
+    ));
+    $wp_customize->add_setting('secondary_degraded',array(
+        'default'=>'#40b3ed',
         'transport' => 'refresh'
     ));
 
@@ -230,7 +234,12 @@ function customize_default_colors_theme($wp_customize){
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'primary_color_control',array(
         'label'=> __('Primary Color','Comunica'),
         'section'=> 'comunica_theme_colors',
-        'settings'=> 'primary_color'
+        'settings'=> 'primary_degraded'
+    )));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'secondary_color_control',array(
+        'label'=> __('Secondary Color','Comunica'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'secondary_degraded'
     )));
 }
 add_action('customize_register','customize_default_colors_theme');
@@ -240,7 +249,8 @@ add_action('customize_register','customize_default_colors_theme');
 function customize_css_theme(){ ?>
     <style type="text/css">
         :root{
-            --colorp: <?php echo get_theme_mod('primary_color'); ?> ;
+            --colord1: <?php echo get_theme_mod('primary_degraded'); ?> ;
+            --colord2: <?php echo get_theme_mod('secondary_degraded') ?>
         }
     </style>
 <?php }
