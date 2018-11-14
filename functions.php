@@ -234,6 +234,17 @@ function customize_default_colors_theme($wp_customize){
     )));
 }
 add_action('customize_register','customize_default_colors_theme');
+
+// Output customize css
+
+function customize_css_theme(){ ?>
+    <style type="text/css">
+        :root{
+            --colorp: <?php echo get_theme_mod('primary_color'); ?> ;
+        }
+    </style>
+<?php }
+add_action('wp_head','customize_css_theme')
 ?>
 
 
