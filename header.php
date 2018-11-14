@@ -45,7 +45,9 @@
 </head>
 <body>
   <?php
-    include 'initial-banner.php';
+    if(is_home()){
+      include 'initial-banner.php';
+    }
   ?>
     <div class="logo-container">
       <div id="menu" class="buttom">
