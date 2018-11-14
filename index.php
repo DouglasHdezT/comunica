@@ -119,8 +119,8 @@ if ( have_posts() ) {
 		</div>
 		<br>
 		<!--Area Secciones-->
-		<div class="row">
-			<div class="col-md-12" style="background:#344d7f">
+		<div class="row sub-menu-main">
+			<div class="col-md-12">
 				<div class="col-md-12" style="margin-rigth:30px">
 					<h2 style="color:#fff;padding-top:25px;padding-bottom:20px">Secciones</h2>
 				</div>

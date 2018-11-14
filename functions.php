@@ -105,6 +105,13 @@ function add_widget_area(){
         'before_widget'=>'<div class="comunica-ads"><span id="delete-add" class="glyphicon glyphicon-remove" aria-hidden="true"></span>',
         'after_widget'=>'</div>' 
     ));
+    register_sidebar(array(
+        'name'=>'Patrocinadores',
+        'id'=>'partner',
+        'description'=>'Logo de tus patrocinadores aquí',
+        'before_widget'=>'<div class="col-sm-3">',
+        'after_widget'=>'</div>' 
+    ));
     
 }
 add_action('widgets_init','add_widget_area');
@@ -209,7 +216,24 @@ function getThumbnailPostByCategory($category){
         return get_the_post_thumbnail_url($notice);
     }
 }
+// Customize colors
+function customize_default_colors_theme($wp_customize){
+    $wp_customize->add_setting('primary_color',array(
+        'default'=>'#007BB4',
+        'transport' => 'refresh'
+    ));
 
+    $wp_customize->add_section('comunica_theme_colors',array(
+        'title'=> __('Comunica Colors','Comunica'),
+        'priority'=>30
+    ));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'primary_color_control',array(
+        'label'=> __('Primary Color','Comunica'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'primary_color'
+    )));
+}
+add_action('customize_register','customize_default_colors_theme');
 ?>
 
 
