@@ -6,7 +6,7 @@
   <meta name="viewport" content="height=device-height, user-scalable=no, initial-scale=1.0">
   <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 
-  <link rel="icon" href="<?php bloginfo('template_url')?>/assets/images/favicon-1.ico">
+  <link rel="icon" type="image/png" href="<?php bloginfo('template_url')?>/assets/images/logo-navbar.png" sizes="32x32" />
 
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
