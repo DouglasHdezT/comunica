@@ -227,11 +227,6 @@ function customize_default_colors_theme($wp_customize){
         'transport' => 'refresh'
     ));
 
-    $wp_customize->add_setting('link_navbar',array(
-        'default'=>'#fff',
-        'transport' => 'refresh'
-    ));
-
     $wp_customize->add_setting('section_color',array(
         'default'=>'#007BB4',
         'transport' => 'refresh'
@@ -255,11 +250,7 @@ function customize_default_colors_theme($wp_customize){
         'section'=> 'comunica_theme_colors',
         'settings'=> 'secondary_degraded'
     )));
-    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'link_navbar_control',array(
-        'label'=> __('Link NavBar','Comunica'),
-        'section'=> 'comunica_theme_colors',
-        'settings'=> 'link_navbar'
-    )));
+
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'section_color_control',array(
         'label'=> __('Section Color','Comunica'),
         'section'=> 'comunica_theme_colors',
