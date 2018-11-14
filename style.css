@@ -1327,7 +1327,7 @@ div.section-footer{
     .container-fluid{
         margin-top: 7%;
     }
-    div.dark-footer{
+    div.row.dark-footer{
         max-width: unset;
     }
 
