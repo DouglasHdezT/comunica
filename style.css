@@ -1074,7 +1074,7 @@ div.section-footer{
 }
 
 .dot-1 {
-    background: var(--colorp);
+    background: var(--navmovil);
     animation: dot 2s alternate infinite;
     left: 40%;
 }

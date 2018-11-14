@@ -227,6 +227,20 @@ function customize_default_colors_theme($wp_customize){
         'transport' => 'refresh'
     ));
 
+    $wp_customize->add_setting('link_navbar',array(
+        'default'=>'#fff',
+        'transport' => 'refresh'
+    ));
+
+    $wp_customize->add_setting('section_color',array(
+        'default'=>'#007BB4',
+        'transport' => 'refresh'
+    ));
+    $wp_customize->add_setting('navbar_movil_color',array(
+        'default'=>'#4663ac',
+        'transport' => 'refresh'
+    ));
+
     $wp_customize->add_section('comunica_theme_colors',array(
         'title'=> __('Comunica Colors','Comunica'),
         'priority'=>30
@@ -241,6 +255,21 @@ function customize_default_colors_theme($wp_customize){
         'section'=> 'comunica_theme_colors',
         'settings'=> 'secondary_degraded'
     )));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'link_navbar_control',array(
+        'label'=> __('Link NavBar','Comunica'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'link_navbar'
+    )));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'section_color_control',array(
+        'label'=> __('Section Color','Comunica'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'section_color'
+    )));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'navbar_movil_control',array(
+        'label'=> __('Navegation Bar Color (Movil)','Comunica'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'navbar_movil_color'
+    )));
 }
 add_action('customize_register','customize_default_colors_theme');
 
@@ -250,8 +279,13 @@ function customize_css_theme(){ ?>
     <style type="text/css">
         :root{
             --colord1: <?php echo get_theme_mod('primary_degraded'); ?> ;
-            --colord2: <?php echo get_theme_mod('secondary_degraded') ?>
+            --colord2: <?php echo get_theme_mod('secondary_degraded') ?>;
+            --navmovil: <?php echo get_theme_mod('navbar_movil_color') ?>
         }
+        .link-darknav {
+            color: <?php echo get_theme_mod('link_navbar') ?>;
+        }
+
     </style>
 <?php }
 add_action('wp_head','customize_css_theme')
