@@ -1,6 +1,6 @@
 <?php
 //Categoria ESPECIAL requerida peara el buen funcionamiento de esta seccion
-$timeSpc = 60*60*24*2;
+$timeSpc = 60*60*24*7*2;
 $cat_spc_id = get_cat_ID('ESPECIAL');
 
 $args_spc = array(
