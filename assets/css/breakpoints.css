@@ -69,9 +69,18 @@
         width: 100%!important;
         height: auto !important;
     }
+    .crop-image{
+        height: 400px;
+    }
     .crop-image-slider .img-media{
         width: 100% !important;
         height: auto!important;
+    }
+    .side-menu{
+        height: 500px;
+    }
+    .row .first-section{
+        max-height: 500px;
     }
     img-media{
         width: 100%;
