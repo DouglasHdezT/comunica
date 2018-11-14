@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url')?>/assets/images/logo-navbar.png" sizes="32x32" />
 
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>/css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
@@ -116,12 +116,12 @@
                                   <span><?php echo $child->title ?></span>
                             </div>
                           </a>
-                          <?php  
+                          <?php
                           }
                         }
                         ?>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
               <?php
@@ -134,7 +134,7 @@
       </div>
     </div>
     <!--fin menus desplegables-->
-        
+
     <nav class="dark-blue-nav-movil">
       <div id="menu-movil" class="buttom">
         <span class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>

@@ -76,7 +76,7 @@ if ( have_posts() ) {
 			</div>
 			<hr class="space">
 			<div class="col-lg-6">
-				<div class="row .side-menu" >
+				<div class="row side-menu" >
 					<?php
 					$counter = 0;
 					if ( have_posts() ) {
