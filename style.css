@@ -1571,5 +1571,5 @@ div.dark-footer{
     background: #000;
 }
 .side-menu{
-   background: linear-gradient(to right, var(--colord1), var(--colord2));
+   background-image: linear-gradient(to right, var(--colord1), var(--colord2));
 }
