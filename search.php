@@ -2,7 +2,7 @@
 get_header();
 ?>
 <div class="search-container">
-  <div class="container">
+  <div class="container" style="margin-bottom: 1.5em;">
     <section id="primary" class="content-area">
       <main id="main" class="site-main" role="main">
 
