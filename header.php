@@ -5,27 +5,10 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
   <meta name="viewport" content="height=device-height, user-scalable=no, initial-scale=1.0">
   <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
-  <noscript id="deferred-styles">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
-  </noscript>
-  <!-- Imrpimir el script -->
-
-  <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-  </script>
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url')?>/assets/images/logo-navbar.png" sizes="32x32" />
 
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" media="screen" type="text/css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/Lux.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/bootstrap-grid.min.css">
