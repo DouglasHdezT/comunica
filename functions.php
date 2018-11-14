@@ -233,7 +233,7 @@ function customize_default_colors_theme($wp_customize){
         'settings'=> 'primary_color'
     )));
 }
-add_action('customize_colors_theme','customize_default_colors_theme');
+add_action('customize_register','customize_default_colors_theme');
 ?>
 
 
