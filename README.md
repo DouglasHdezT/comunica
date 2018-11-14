@@ -1,1 +1,1 @@
-# comunica
+# Comunica theme
