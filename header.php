@@ -16,23 +16,7 @@
   <!-- Editados personales-->
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
 
-  <!-- Imrpimir el script -->
-  <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="style.css"/>
-  </noscript>
-  <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-  </script>
+
   <?php if (is_single()) { ?>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/assets/css/single-restrictions.css" />
   <?php } ?>
@@ -116,12 +100,12 @@
                                   <span><?php echo $child->title ?></span>
                             </div>
                           </a>
-                          <?php  
+                          <?php
                           }
                         }
                         ?>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
               <?php
@@ -134,7 +118,7 @@
       </div>
     </div>
     <!--fin menus desplegables-->
-        
+
     <nav class="dark-blue-nav-movil">
       <div id="menu-movil" class="buttom">
         <span class="button-gradient glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size:20px"></span>

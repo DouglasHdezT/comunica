@@ -76,7 +76,7 @@ if ( have_posts() ) {
 			</div>
 			<hr class="space">
 			<div class="col-lg-6">
-				<div class="row" style="position:relative; background:linear-gradient(to right, #4563AC, #B87A9D);">
+				<div class="row side-menu" >
 					<?php
 					$counter = 0;
 					if ( have_posts() ) {

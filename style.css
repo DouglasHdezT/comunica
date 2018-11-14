@@ -8,6 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
+position:relative; background:linear-gradient(to right, #4563AC, #B87A9D);
 */
 
 :root{
@@ -30,7 +31,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-family: Open-Sans;
     src: url(assets/fonts/open/OpenSans-Regular.ttf)
 }
-
+.side-menu{
+  position:relative;
+  background:linear-gradient(to right, var(--colorp);var(--colord1));
+}
 .tamBurn {
     height: 323px!important;
 }
@@ -1565,4 +1569,7 @@ div.dark-footer{
 
 #slideshow-sections{
     background: #000;
+}
+.side-menu{
+   background-image: linear-gradient(to right, var(--colord1), var(--colord2));
 }
