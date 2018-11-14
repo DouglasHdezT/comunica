@@ -1074,13 +1074,13 @@ div.section-footer{
 }
 
 .dot-1 {
-    background: var(--colord1);
+    background: var(--colorp);
     animation: dot 2s alternate infinite;
     left: 40%;
 }
 
 .dot-2 {
-    background: rgb(146, 72, 175);
+    background: var(--colord1);
     animation: dot 2.5s alternate infinite 0.5s;
     left: 50%;
 }
