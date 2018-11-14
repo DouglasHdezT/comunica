@@ -279,12 +279,12 @@ function customize_css_theme(){ ?>
     <style type="text/css">
         :root{
             --colord1: <?php echo get_theme_mod('primary_degraded'); ?> ;
-            --colord2: <?php echo get_theme_mod('secondary_degraded') ?>;
-            --navmovil: <?php echo get_theme_mod('navbar_movil_color') ?>;
-            --submenuc: <?php echo get_theme_mod('section_color') ?>
+            --colord2: <?php echo get_theme_mod('secondary_degraded'); ?>;
+            --navmovil: <?php echo get_theme_mod('navbar_movil_color'); ?>;
+            --submenuc: <?php echo get_theme_mod('section_color'); ?>
         }
         .link-darknav {
-            color: <?php echo get_theme_mod('link_navbar') ?>;
+            color: <?php echo get_theme_mod('link_navbar'); ?>;
         }
 
     </style>
