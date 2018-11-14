@@ -224,11 +224,11 @@ function customize_default_colors_theme($wp_customize){
     ));
 
     $wp_customize->add_section('comunica_theme_colors',array(
-        'title'=> __('Comunica Colors','ComunicaTheme'),
+        'title'=> __('Comunica Colors','Comunica'),
         'priority'=>30
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'primary_color_control',array(
-        'label'=> __('Primary Color','ComunicaTheme'),
+        'label'=> __('Primary Color','Comunica'),
         'section'=> 'comunica_theme_colors',
         'settings'=> 'primary_color'
     )));
