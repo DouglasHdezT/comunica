@@ -23,14 +23,15 @@
       'numberposts'=>-1,
       'category_name'=>$name_category
     )); //Reinicio de querys para obtener todos los post
-    $cont_page = 0;
+    $cont_page = 0;?>
+    <div class="row">
+    <?php
     foreach($allPosts as $post){
       setup_postdata($post);
-      if($cont_page == 0){
+      if($cont_page <= 1){
         $cont_page++;
         ?>
-        <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div class="container-post">
               <div class="page-image">
                 <a href="<?php the_permalink(); ?>">
@@ -50,7 +51,6 @@
               </div>
             </div>
           </div>
-        </div>
         <?php
         continue;
       }
