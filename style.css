@@ -1188,9 +1188,9 @@ div.section-footer{
     }
     .section-container-scrolling {
         background: rgba(189, 195, 199);
-        top: 95px;
-        height: calc(100vh - 95px);
-    }
+        top: 60px;
+        height: calc(100vh - 60px);
+    }    
     .view {
         border-left: 1px #898989 solid;
     }
@@ -1271,6 +1271,9 @@ div.section-footer{
     nav.dark-blue-nav-movil{
         display: flex;
     }
+    .menu-scrolling{
+        display: unset;
+    }
 
 }
 
@@ -1321,6 +1324,10 @@ div.section-footer{
         display: flex;
         justify-content: center;
     }
+    .container-fluid{
+        margin-top: 7%;
+    }
+
 
 }
 
