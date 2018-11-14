@@ -17,7 +17,9 @@
         </a>
    </div>
    <div class="col-lg-4 section-footer">
-       
+        <div class="row">
+            <?php dynamic_sidebar('partner'); ?>
+        </div>
    </div>
    <div class="col-lg-4 section-footer">
         <?php

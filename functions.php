@@ -105,6 +105,13 @@ function add_widget_area(){
         'before_widget'=>'<div class="comunica-ads"><span id="delete-add" class="glyphicon glyphicon-remove" aria-hidden="true"></span>',
         'after_widget'=>'</div>' 
     ));
+    register_sidebar(array(
+        'name'=>'Patrocinadores',
+        'id'=>'partner',
+        'description'=>'Logo de tus patrocinadores aquí',
+        'before_widget'=>'<div class="col-sm-3">',
+        'after_widget'=>'</div>' 
+    ));
     
 }
 add_action('widgets_init','add_widget_area');
