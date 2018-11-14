@@ -216,7 +216,23 @@ function getThumbnailPostByCategory($category){
         return get_the_post_thumbnail_url($notice);
     }
 }
+// Customize colors
+function customize_default_colors_theme($wp_customize){
+    $wp_customize->add_setting('primary_color',array(
+        'default'=>'#007BB4',
+        'transport' => 'refresh'
+    ));
 
+    $wp_customize->add_section('comunica_theme_colors',array(
+        'title'=> __('Comunica Colors','ComunicaTheme'),
+        'priority'=>30
+    ));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'primary_color_control',array(
+        'label'=> __('Primary Color','ComunicaTheme'),
+        'section'=> 'comunica_theme_colors',
+        'settings'=> 'primary_color'
+    )));
+}
 ?>
 
 
