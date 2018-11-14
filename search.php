@@ -11,6 +11,7 @@ get_header();
         </div>
 
         <?php
+        $post_printed = 0;
         if(have_posts()){
           $result_cont=0;
           $pages_cont= 0;
