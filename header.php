@@ -17,9 +17,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/assets/css/breakpoints.css">
 
   <!-- Imrpimir el script -->
-  <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="style.css"/>
-  </noscript>
+
   <script>
       var loadDeferredStyles = function() {
         var addStylesNode = document.getElementById("deferred-styles");
