@@ -33,7 +33,7 @@ if ( have_posts() ) {
 	<section class="content-main">
 		<div class="row first-section">
 			<div class="col-lg-12">
-				<div class="col-lg-12" style="padding:1.5em 0">
+				<div class="col-lg-12" style="padding:1.5em 0; margin-left: 15px">
 					<h2>
 						Últimas Noticias
 					</h2>
