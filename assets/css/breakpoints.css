@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: 1800px) and (max-width:2000px){
+@media screen and (min-width: 1800px) and (max-width:3000px){
     .crop-image .img-media{
         width: 100%!important;
         height: auto !important;
@@ -77,7 +77,9 @@
         width: 100%;
     }
     .first-section{
-        min-height:400px;max-height:550px;overflow:hidden
+        min-height:400px;
+        max-height:550px;
+        overflow:hidden
     }
     .seconds-post{
         max-height: 50%;
